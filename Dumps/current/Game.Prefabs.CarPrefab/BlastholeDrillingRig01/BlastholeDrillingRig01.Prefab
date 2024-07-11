@@ -1,0 +1,300 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CarPrefab, Game",
+    "name": "BlastholeDrillingRig01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.WorkVehicle, Game",
+                "name": "WorkVehicle",
+                "active": true,
+                "m_WorkType": 1,
+                "m_MapFeature": 4,
+                "m_Resources": {
+                    "$id": 3,
+                    "$type": "3|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MaxWorkAmount": 30000
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 5,
+                    "$type": "5|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 7,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:c89e5436adde2d64ca7775db85ee8d6d",
+                            "m_PositionOffset": {
+                                "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "8|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:1a4c93c0bf4c1fa438702f35ad299923",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": -2.34375,
+                                "y": 3.421875,
+                                "z": 5.6015625
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": -0.173390046,
+                                    "y": 0.0536862649,
+                                    "z": -0.00946634449,
+                                    "w": -0.9833433
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:1a4c93c0bf4c1fa438702f35ad299923",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": -1.3359375,
+                                "y": 3.421875,
+                                "z": 5.6015625
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0.173390061,
+                                    "y": 0.0536863022,
+                                    "z": -0.009466346,
+                                    "w": 0.9833433
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:d6d8e4518a3412243a0b43580130cf4d",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": -1.171875,
+                                "y": 3.703125,
+                                "z": 5.53125
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0.165149748,
+                                    "y": 0.304322273,
+                                    "z": -0.0536603034,
+                                    "w": 0.9366078
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:d6d8e4518a3412243a0b43580130cf4d",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": -2.53125,
+                                "y": 3.703125,
+                                "z": 5.53125
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": -0.165149674,
+                                    "y": 0.304322362,
+                                    "z": -0.0536604859,
+                                    "w": -0.9366077
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:ef56aa2b14f72404683cc3c8ac0d0ecc",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": 0.7734375,
+                                "y": 3.609375,
+                                "z": -3.09375
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0.707106769,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": 0
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 6,
+                            "m_Effect": $fstrref:"UnityGUID:ef56aa2b14f72404683cc3c8ac0d0ecc",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": -0.1640625,
+                                "y": 17.109375,
+                                "z": 4.03125
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0.707106769,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": 0
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 13,
+                    "$type": "10|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 14,
+        "$type": "11|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 15,
+                "$type": "12|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:b15e08ed11d2af54f81e86b4664ad363",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 8,
+                    "value": {
+                        "$type": 9,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_SizeClass": 2,
+    "m_EnergyType": 1,
+    "m_MaxSpeed": 10,
+    "m_Acceleration": 1,
+    "m_Braking": 1,
+    "m_Turning": {
+        "$type": "13|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 90,
+        "y": 15
+    },
+    "m_Stiffness": 100
+}

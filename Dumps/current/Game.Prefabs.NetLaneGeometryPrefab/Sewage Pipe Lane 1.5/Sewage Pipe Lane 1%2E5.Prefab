@@ -1,0 +1,47 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Sewage Pipe Lane 1.5",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 2,
+                "m_LocalConnectionLane": $fstrref:"UnityGUID:440c5639925ac944f9dead878e7af2fd",
+                "m_LocalConnectionLane2": $fstrref:"UnityGUID:dcb3fb9cf1bbb304c98adc0f90d7a2d2",
+                "m_NodeObject": $fstrref:"UnityGUID:96d5f5795733a54458522d36bcfef736",
+                "m_Width": 0,
+                "m_VisualCapacity": 15,
+                "m_Hanging": 0,
+                "m_Underground": true
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:4c9ee7e21c8bad445b79d28859f58bce",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

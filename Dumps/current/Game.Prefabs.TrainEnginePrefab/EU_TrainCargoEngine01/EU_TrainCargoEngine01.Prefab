@@ -1,0 +1,187 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TrainEnginePrefab, Game",
+    "name": "EU_TrainCargoEngine01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:d6e2522914878754b9f205a05a80ca14",
+                            "m_PositionOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Effect": $fstrref:"UnityGUID:de32f8ad166d2d944b6f069e25675da1",
+                            "m_PositionOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 4.13875,
+                                "z": 7.4875
+                            },
+                            "m_Rotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0.195625231,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.980678737
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.VehicleSideEffects, Game",
+                "name": "VehicleSideEffects",
+                "active": true,
+                "m_RoadWear": {
+                    "$type": "10|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 2,
+                    "y": 4
+                },
+                "m_NoisePollution": {
+                    "$type": 10,
+                    "x": 1,
+                    "y": 40
+                },
+                "m_AirPollution": {
+                    "$type": 10,
+                    "x": 1,
+                    "y": 2
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "11|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Cargotrain.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 9,
+                "$type": "12|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:846c60044f7ead04d9b11f0d749ea5f2"
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 10,
+        "$type": "13|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": "14|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:c4d499379e7382f4db89cf8daf3f7876",
+                "m_Position": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 6,
+                    "value": {
+                        "$type": 7,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_TrackType": 1,
+    "m_EnergyType": 1,
+    "m_MaxSpeed": 240,
+    "m_Acceleration": 4,
+    "m_Braking": 8,
+    "m_Turning": {
+        "$type": 10,
+        "x": 90,
+        "y": 10
+    },
+    "m_BogieOffset": {
+        "$type": 10,
+        "x": 0,
+        "y": 0
+    },
+    "m_AttachOffset": {
+        "$type": 10,
+        "x": 0.06911365,
+        "y": 0.06911365
+    },
+    "m_MinEngineCount": 2,
+    "m_MaxEngineCount": 2,
+    "m_MinCarriagesPerEngine": 6,
+    "m_MaxCarriagesPerEngine": 6,
+    "m_Tender": null
+}

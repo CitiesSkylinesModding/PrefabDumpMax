@@ -1,0 +1,47 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Water Pipe Lane 1",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 1,
+                "m_LocalConnectionLane": $fstrref:"UnityGUID:ac3ea04df245a374f9e98457e7df1788",
+                "m_LocalConnectionLane2": $fstrref:"UnityGUID:88cee7ff3dd7a444a83b6ee1295dad35",
+                "m_NodeObject": $fstrref:"UnityGUID:ac1b9a17e7a3dfe41a0684fc93f5045f",
+                "m_Width": 0,
+                "m_VisualCapacity": 15,
+                "m_Hanging": 0,
+                "m_Underground": true
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:3f60b6c7685dc4540a4340eadd969238",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

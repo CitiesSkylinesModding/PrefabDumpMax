@@ -1,0 +1,534 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "NA_TrainPassengerEngine01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 4,
+                    "$type": "4|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 2,
+                            "color": {
+                                "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                0.7411765,
+                                0.7411765,
+                                0.7411765,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.34920621,
+                            "luminance": 0.741176546,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 5
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 5,
+                            "purpose": 3,
+                            "color": {
+                                "$type": 6,
+                                0.8980392,
+                                0.8980392,
+                                0.8980392,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.113537,
+                            "luminance": 0.898039341,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 10
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 5,
+                            "purpose": 6,
+                            "color": {
+                                "$type": 6,
+                                0.482352942,
+                                0.09019608,
+                                0.09019608,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 5.76046038,
+                            "luminance": 0.173597232,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 15
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 5,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 6,
+                                0.7019608,
+                                0.670588255,
+                                0.5647059,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.49338794,
+                            "luminance": 0.669618368,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 120
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 9,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 10,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 11,
+                "$type": "9|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 12,
+                    "$type": "10|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "11|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "NA_TrainPassengerEngine01_RootBone",
+                            "position": {
+                                "$type": "12|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "13|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "14|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 11,
+                            "name": "NA_TrainPassengerEngine01_BogieRear",
+                            "position": {
+                                "$type": 12,
+                                0,
+                                0.9949335,
+                                -6.028119
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.9949335,
+                                "m23": 6.028119,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 15,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 11,
+                            "name": "NA_TrainPassengerEngine01_BogieFront",
+                            "position": {
+                                "$type": 12,
+                                0,
+                                0.9949335,
+                                6.028119
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.9949335,
+                                "m23": -6.028119,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 15,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 11,
+                            "name": "NA_TrainPassengerEngine01_Fan",
+                            "position": {
+                                "$type": 12,
+                                0,
+                                4.318955,
+                                -5.94518948
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -4.318955,
+                                "m23": 5.945189,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.8,
+                            "m_Acceleration": 0.05,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 11,
+                            "name": "NA_TrainPassengerEngine01_WalkwayRear",
+                            "position": {
+                                "$type": 12,
+                                0,
+                                1.9146446,
+                                -9.200106
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -1.9146446,
+                                "m23": 9.200106,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 14,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 18,
+                "$type": "15|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 19,
+                    "$type": "16|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:055e9b2bfd7a8e446996f1347fc0177a",
+                        $fstrref:"UnityGUID:bb27b87d1b3555d47a760d097c9fe560"
+                    ]
+                }
+            },
+            {
+                "$id": 20,
+                "$type": "17|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 21,
+                    "$type": "18|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 22,
+                            "$type": "19|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 23,
+                                "$type": "20|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.234,
+                                        0.234,
+                                        0.234,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.75,
+                                        0.75,
+                                        0.75,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.26,
+                                        0.26,
+                                        0.26,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 24,
+                    "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 25,
+                            "$type": "22|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": true
+                        },
+                        {
+                            "$id": 26,
+                            "$type": 22,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 27,
+                            "$type": 22,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 28,
+                    "$type": "23|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "24|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 24,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:ff3fd3044337d9996fc1870a9c55d740",
+    "m_SurfaceAssets": {
+        "$id": 29,
+        "$type": "25|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:d36e808040a60883219320e1cffa1164"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "26|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "27|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.570781,
+            "y": -9.536743E-07,
+            "z": -9.200106
+        },
+        "max": {
+            "$type": 27,
+            "x": 1.570781,
+            "y": 4.550243,
+            "z": 9.607061
+        }
+    },
+    "m_SurfaceArea": 344.300262,
+    "m_IndexCount": 40818,
+    "m_VertexCount": 13456,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

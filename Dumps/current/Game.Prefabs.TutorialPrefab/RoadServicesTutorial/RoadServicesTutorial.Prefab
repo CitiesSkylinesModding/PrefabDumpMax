@@ -1,0 +1,71 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "RoadServicesTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:7284210a233d52947afe9dd82d4402bd",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:061e7e4a8f596cc409fcc43c7551d909",
+                "m_Priority": 2,
+                "m_Icon": "Media/Game/Icons/RoadsServices.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:90afa43694746d6479315e4be5eb6f9a"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            $fstrref:"UnityGUID:b8357788e81e6c74fb283560826f34b1",
+            $fstrref:"UnityGUID:6909d1da4ce6f0742b007e6e6d7f702c",
+            $fstrref:"UnityGUID:5c3dd02cea56c3a44b383c6cb1a51a27",
+            $fstrref:"UnityGUID:1083253798df75541b543ae86d18b7ad",
+            $fstrref:"UnityGUID:f83d34954cf51c64bb5a99494cb06950",
+            $fstrref:"UnityGUID:306abcfc809f52c4fa44d85858364919",
+            $fstrref:"UnityGUID:f8d52ef1ea4bab04b87c1ca63e365a45"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

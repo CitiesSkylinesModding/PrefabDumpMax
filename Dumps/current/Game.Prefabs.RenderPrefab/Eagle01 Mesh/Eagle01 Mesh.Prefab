@@ -1,0 +1,172 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Eagle01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.AnimationProperties, Game",
+                "name": "AnimationProperties",
+                "active": true,
+                "m_Clips": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.AnimationProperties+BakedAnimationClip[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.AnimationProperties+BakedAnimationClip, Game",
+                            "name": "Idle",
+                            "pixelStart": 627,
+                            "pixelEnd": 979,
+                            "animationLength": 5.833335,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:346c04fb29ff483dbbc80ddbd987f786",
+                            "m_Type": 1,
+                            "m_Activity": 1,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "Flying",
+                            "pixelStart": 1,
+                            "pixelEnd": 502,
+                            "animationLength": 8.333333,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:346c04fb29ff483dbbc80ddbd987f786",
+                            "m_Type": 2,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "Landing",
+                            "pixelStart": 504,
+                            "pixelEnd": 624,
+                            "animationLength": 2,
+                            "looping": false,
+                            "animationTexture": $fstrref:"UnityObjectsMap:346c04fb29ff483dbbc80ddbd987f786",
+                            "m_Type": 4,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "TakeOff",
+                            "pixelStart": 981,
+                            "pixelEnd": 1082,
+                            "animationLength": 1.66666794,
+                            "looping": false,
+                            "animationTexture": $fstrref:"UnityObjectsMap:346c04fb29ff483dbbc80ddbd987f786",
+                            "m_Type": 3,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:41f367c0d5cb5e3c32ec39780707bc64",
+    "m_SurfaceAssets": {
+        "$id": 8,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:fae7432a38b70c35187142983bb6e1f9"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 5,
+            "x": -1.04807246,
+            "y": -0.013803333,
+            "z": -0.521059632
+        },
+        "max": {
+            "$type": 5,
+            "x": 1.04807246,
+            "y": 0.275087833,
+            "z": 0.407371163
+        }
+    },
+    "m_SurfaceArea": 1.79623258,
+    "m_IndexCount": 7839,
+    "m_VertexCount": 1870,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

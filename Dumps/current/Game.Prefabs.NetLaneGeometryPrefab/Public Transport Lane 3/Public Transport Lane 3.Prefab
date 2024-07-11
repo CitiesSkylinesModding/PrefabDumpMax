@@ -1,0 +1,68 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Public Transport Lane 3",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": $fstrref:"UnityGUID:5fde9ed03c6b36048b88f054661a100a",
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LaneDeterioration, Game",
+                "name": "LaneDeterioration",
+                "active": true,
+                "m_TrafficDeterioration": 0.01,
+                "m_TimeDeterioration": 0.5
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:9939c1fcb8b39154889951a0beeb250c",
+    "m_Meshes": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:67699edd23939e1439c30f1183c288ce",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            },
+            {
+                "$id": 6,
+                "$type": 5,
+                "m_Mesh": $fstrref:"UnityGUID:9a94e7a089754584cafa28ef7014121c",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

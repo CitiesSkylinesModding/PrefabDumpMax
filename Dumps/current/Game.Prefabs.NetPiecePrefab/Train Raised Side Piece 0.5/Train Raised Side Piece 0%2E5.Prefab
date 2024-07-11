@@ -1,0 +1,86 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Train Raised Side Piece 0.5",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.MovePieceVertices, Game",
+                "name": "MovePieceVertices",
+                "active": true,
+                "m_LowerBottomToTerrain": true,
+                "m_RaiseTopToTerrain": false,
+                "m_SmoothTopNormal": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.AsymmetricPieceMesh, Game",
+                "name": "AsymmetricPieceMesh",
+                "active": true,
+                "m_Sideways": true,
+                "m_Lengthwise": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.PlaceableNetPiece, Game",
+                "name": "PlaceableNetPiece",
+                "active": true,
+                "m_ConstructionCost": 10,
+                "m_ElevationCost": 0,
+                "m_UpkeepCost": 1.5
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:fabe80a82ee8485af200fddaa7bac449",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:be0288a9a49c5205fb9d0b0ab76a3065"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.316782,
+            "y": -10,
+            "z": -32
+        },
+        "max": {
+            "$type": 7,
+            "x": 0.25,
+            "y": 1.16355515,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 858.992249,
+    "m_IndexCount": 4326,
+    "m_VertexCount": 1450,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 3,
+    "m_Width": 0.5,
+    "m_Length": 64,
+    "m_HeightRange": {
+        "$type": "8|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": -0.7,
+        "max": 0.5
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 0
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.ZonePrefab, Game",
+    "name": "EU Residential Mixed",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 9,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ZonePollution, Game",
+                "name": "ZonePollution",
+                "active": true,
+                "m_GroundPollution": 0,
+                "m_AirPollution": 0,
+                "m_NoisePollution": 8
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.CrimeAccumulation, Game",
+                "name": "CrimeAccumulation",
+                "active": true,
+                "m_CrimeRate": 9
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.MailAccumulation, Game",
+                "name": "MailAccumulation",
+                "active": true,
+                "m_RequireCollect": true,
+                "m_SendingRate": 0.005,
+                "m_ReceivingRate": 0.01
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ZoneServiceConsumption, Game",
+                "name": "ZoneServiceConsumption",
+                "active": true,
+                "m_Upkeep": 337,
+                "m_ElectricityConsumption": 6,
+                "m_WaterConsumption": 0.75,
+                "m_GarbageAccumulation": 30,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:846c60044f7ead04d9b11f0d749ea5f2"
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.ZoneProperties, Game",
+                "name": "ZoneProperties",
+                "active": true,
+                "m_ScaleResidentials": true,
+                "m_ResidentialProperties": 2,
+                "m_SpaceMultiplier": 2.5,
+                "m_AllowedSold": {
+                    "$id": 8,
+                    "$type": "8|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 14,
+                    "$rcontent": [
+                        3,
+                        4,
+                        6,
+                        9,
+                        10,
+                        11,
+                        19,
+                        21,
+                        31,
+                        32,
+                        33,
+                        34,
+                        38,
+                        39
+                    ]
+                },
+                "m_AllowedManufactured": {
+                    "$id": 9,
+                    "$type": 8,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AllowedStored": {
+                    "$id": 10,
+                    "$type": 8,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_FireHazardModifier": 0
+            },
+            {
+                "$id": 11,
+                "$type": "9|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:9580a6e183ba7174a85992b8c1827d3c",
+                "m_Priority": 20,
+                "m_Icon": "Media/Game/Icons/ZoneResidentialMixed.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 12,
+                "$type": "10|Game.Prefabs.GroupAmbience, Game",
+                "name": "GroupAmbience",
+                "active": true,
+                "m_AmbienceType": 12
+            },
+            {
+                "$id": 13,
+                "$type": "11|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 14,
+                    "$type": "12|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5894436a674693a4297a69cb4e5cae75",
+                        $fstrref:"UnityGUID:7dba39510f4e7d143b3dc2289b201617",
+                        $fstrref:"UnityGUID:5c6cbf5168762c84993f0ee6b8953323"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 15,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_AreaType": 1,
+    "m_Color": {
+        "$type": "13|UnityEngine.Color, UnityEngine.CoreModule",
+        0,
+        1,
+        0.718471766,
+        0.7137255
+    },
+    "m_Edge": {
+        "$type": 13,
+        0,
+        0.792540669,
+        0.8396226,
+        0.5647059
+    },
+    "m_Office": false
+}

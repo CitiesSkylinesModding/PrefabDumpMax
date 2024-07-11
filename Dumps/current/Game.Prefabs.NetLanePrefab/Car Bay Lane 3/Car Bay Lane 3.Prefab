@@ -1,0 +1,37 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLanePrefab, Game",
+    "name": "Car Bay Lane 3",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": null,
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": true,
+                "m_EndingLane": true,
+                "m_Twoway": false,
+                "m_BusLane": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LaneDeterioration, Game",
+                "name": "LaneDeterioration",
+                "active": true,
+                "m_TrafficDeterioration": 0.01,
+                "m_TimeDeterioration": 0.5
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:94d4b43ca2769024788c4563269dd700"
+}

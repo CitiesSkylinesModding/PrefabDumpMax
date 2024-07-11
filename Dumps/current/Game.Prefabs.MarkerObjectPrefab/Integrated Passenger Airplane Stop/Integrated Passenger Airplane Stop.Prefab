@@ -1,0 +1,57 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MarkerObjectPrefab, Game",
+    "name": "Integrated Passenger Airplane Stop",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportStop, Game",
+                "name": "TransportStop",
+                "active": true,
+                "m_TransportType": 7,
+                "m_AccessConnectionType": 2,
+                "m_RouteConnectionType": 1,
+                "m_AccessTrackType": 0,
+                "m_RouteTrackType": 0,
+                "m_AccessRoadType": 0,
+                "m_RouteRoadType": 8,
+                "m_EnterDistance": 0,
+                "m_ExitDistance": 0,
+                "m_AccessDistance": 0,
+                "m_BoardingTime": 0.1,
+                "m_ComfortFactor": 0,
+                "m_LoadingFactor": 0,
+                "m_PassengerTransport": true,
+                "m_CargoTransport": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnLocation, Game",
+                "name": "SpawnLocation",
+                "active": true,
+                "m_ConnectionType": 2,
+                "m_TrackTypes": 0,
+                "m_RoadTypes": 0,
+                "m_RequireAuthorization": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Airplane Stop.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Mesh": $fstrref:"UnityGUID:c1186e14ada324247a6497f5fcb10554",
+    "m_Circular": true
+}

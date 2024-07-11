@@ -1,0 +1,201 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Seagull01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.AnimationProperties, Game",
+                "name": "AnimationProperties",
+                "active": true,
+                "m_Clips": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.AnimationProperties+BakedAnimationClip[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.AnimationProperties+BakedAnimationClip, Game",
+                            "name": "Idle",
+                            "pixelStart": 519,
+                            "pixelEnd": 970,
+                            "animationLength": 7.5,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:b958a0645130456bba04f810ac206496",
+                            "m_Type": 1,
+                            "m_Activity": 1,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "Walking",
+                            "pixelStart": 972,
+                            "pixelEnd": 1014,
+                            "animationLength": 0.666667938,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:b958a0645130456bba04f810ac206496",
+                            "m_Type": 2,
+                            "m_Activity": 2,
+                            "m_MovementSpeed": 0.3,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "Flying",
+                            "pixelStart": 1,
+                            "pixelEnd": 393,
+                            "animationLength": 6.50000048,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:b958a0645130456bba04f810ac206496",
+                            "m_Type": 2,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "Landing",
+                            "pixelStart": 395,
+                            "pixelEnd": 516,
+                            "animationLength": 2.00000048,
+                            "looping": false,
+                            "animationTexture": $fstrref:"UnityObjectsMap:b958a0645130456bba04f810ac206496",
+                            "m_Type": 4,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 4,
+                            "name": "TakeOff",
+                            "pixelStart": 1016,
+                            "pixelEnd": 1087,
+                            "animationLength": 1.16666794,
+                            "looping": false,
+                            "animationTexture": $fstrref:"UnityObjectsMap:b958a0645130456bba04f810ac206496",
+                            "m_Type": 3,
+                            "m_Activity": 9,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:57fe8defe4885165d88c0a0fec2b298f",
+    "m_SurfaceAssets": {
+        "$id": 9,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:4cf8f75f03b7c6d51afd38295c8ac8e5"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 5,
+            "x": -0.5722433,
+            "y": -1.49011612E-08,
+            "z": -0.215657085
+        },
+        "max": {
+            "$type": 5,
+            "x": 0.5722433,
+            "y": 0.249404252,
+            "z": 0.2511874
+        }
+    },
+    "m_SurfaceArea": 0.487314641,
+    "m_IndexCount": 7512,
+    "m_VertexCount": 1756,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

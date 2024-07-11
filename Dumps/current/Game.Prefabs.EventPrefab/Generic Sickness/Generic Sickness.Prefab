@@ -1,0 +1,55 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EventPrefab, Game",
+    "name": "Generic Sickness",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.HealthEvent, Game",
+                "name": "HealthEvent",
+                "active": true,
+                "m_RandomTargetType": 4,
+                "m_HealthEventType": 0,
+                "m_OccurenceProbability": {
+                    "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 0,
+                    "max": 70
+                },
+                "m_TransportProbability": {
+                    "$type": 3,
+                    "min": 0,
+                    "max": 100
+                },
+                "m_RequireTracking": false
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:915b2bb1052ec7149bf527f9c3a93dcb"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_ConcurrentLimit": 0
+}

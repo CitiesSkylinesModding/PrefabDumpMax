@@ -1,0 +1,65 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "NaturalResourcesTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:18db5904724a09c4ea2213caad4920bb",
+                "m_Priority": 6,
+                "m_Icon": "Media/Game/Icons/NaturalResources.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialInfoviewActivation, Game",
+                "name": "TutorialInfoviewActivation",
+                "active": true,
+                "m_Infoview": $fstrref:"UnityGUID:fb12d57de2d85e84a840f72f37a01043"
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fb12d57de2d85e84a840f72f37a01043"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"UnityGUID:4107be35440cc3544968c95e60247b0b",
+            $fstrref:"UnityGUID:1569743dd30ce3c49aa0ff32c17f20d7"
+        ]
+    },
+    "m_Priority": 70,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

@@ -1,0 +1,120 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EconomyPrefab, Game",
+    "name": "EconomyParameters",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_ExtractorCompanyExportMultiplier": 0.85,
+    "m_Wage0": 1500,
+    "m_Wage1": 1800,
+    "m_Wage2": 2100,
+    "m_Wage3": 2400,
+    "m_Wage4": 2700,
+    "m_CommuterWageMultiplier": 1.1,
+    "m_CityServiceWageAdjustment": 1,
+    "m_CompanyBankruptcyLimit": -50000,
+    "m_ResidentialMinimumEarnings": 1400,
+    "m_UnemploymentBenefit": 800,
+    "m_Pension": 1200,
+    "m_FamilyAllowance": 400,
+    "m_ResourceConsumptionMultiplier": {
+        "$type": "2|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 0.3,
+        "y": 5
+    },
+    "m_ResourceConsumptionPerCitizen": 1,
+    "m_TouristConsumptionMultiplier": 2,
+    "m_WorkDayStart": 0.35,
+    "m_WorkDayEnd": 0.6833333,
+    "m_IndustrialEfficiency": 2,
+    "m_CommercialEfficiency": 1,
+    "m_ExtractorEfficiency": 8,
+    "m_TrafficReduction": 0.0005,
+    "m_MaxCitySpecializationBonus": 0.15,
+    "m_ResourceProductionCoefficient": 10000000,
+    "m_MixedBuildingCompanyRentPercentage": 0.3,
+    "m_LandValueModifier": {
+        "$type": "3|Unity.Mathematics.float3, Unity.Mathematics",
+        "x": 0.35,
+        "y": 0.7,
+        "z": 0.5
+    },
+    "m_RentPriceBuildingZoneTypeBase": {
+        "$type": 3,
+        "x": 0.5,
+        "y": 3,
+        "z": 0.8
+    },
+    "m_ResidentialUpkeepLevelExponent": 1.05,
+    "m_CommercialUpkeepLevelExponent": 2.1,
+    "m_IndustrialUpkeepLevelExponent": 2,
+    "m_PerOfficeResourceNeededForIndustrial": 2000,
+    "m_UnemploymentAllowanceMaxDays": 10,
+    "m_ShopPossibilityIncreaseDivider": 1000,
+    "m_PlayerStartMoney": 1000000,
+    "m_BuildRefundPercentage": {
+        "$type": 3,
+        "x": 0.25,
+        "y": 0.1,
+        "z": 0.05
+    },
+    "m_BuildRefundTimeRange": {
+        "$type": 3,
+        "x": 0.04,
+        "y": 0.5,
+        "z": 1
+    },
+    "m_RoadRefundPercentage": {
+        "$type": 3,
+        "x": 0.25,
+        "y": 0.1,
+        "z": 0.05
+    },
+    "m_RoadRefundTimeRange": {
+        "$type": 3,
+        "x": 0.04,
+        "y": 0.5,
+        "z": 1
+    },
+    "m_MapTileUpkeepCostMultiplier": {
+        "$id": 2,
+        "$type": "4|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        {
+            "$id": 3,
+            "$type": "5|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+            "$rlength": 2,
+            "$rcontent": [
+                {
+                    "$type": "6|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 5,
+                    "m_InTangent": -1.732356E-05,
+                    "m_OutTangent": -1.732356E-05,
+                    "m_WeightedMode": 2,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.547104
+                },
+                {
+                    "$type": 6,
+                    "ver": 1,
+                    "m_Time": 550,
+                    "m_Value": 25,
+                    "m_InTangent": 0.02155988,
+                    "m_OutTangent": 0.02155988,
+                    "m_WeightedMode": 1,
+                    "m_InWeight": 0.273883164,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    }
+}

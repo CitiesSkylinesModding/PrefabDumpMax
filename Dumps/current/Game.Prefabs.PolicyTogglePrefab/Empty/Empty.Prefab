@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PolicyTogglePrefab, Game",
+    "name": "Empty",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.BuildingOptions, Game",
+                "name": "BuildingOptions",
+                "active": true,
+                "m_Options": {
+                    "$id": 3,
+                    "$type": "3|Game.Buildings.BuildingOption[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        2
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Policies/OutOfService.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Visibility": 1,
+    "m_Category": 5
+}

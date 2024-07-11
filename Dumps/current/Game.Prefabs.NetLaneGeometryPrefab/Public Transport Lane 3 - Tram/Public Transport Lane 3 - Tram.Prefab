@@ -1,0 +1,197 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Public Transport Lane 3 - Tram",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": $fstrref:"UnityGUID:7d5f3e12548b68745b4d5ba8200b8dd1",
+                "m_NotBusLane": $fstrref:"UnityGUID:d0706502c6fc26e43ae89d928379ae08",
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TrackLane, Game",
+                "name": "TrackLane",
+                "active": true,
+                "m_FallbackLane": $fstrref:"UnityGUID:fc7dc99afc6e322409787b5072d1246a",
+                "m_EndObject": null,
+                "m_TrackType": 2,
+                "m_Width": 3,
+                "m_MaxCurviness": 10,
+                "m_Twoway": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.LaneDeterioration, Game",
+                "name": "LaneDeterioration",
+                "active": true,
+                "m_TrafficDeterioration": 0.01,
+                "m_TimeDeterioration": 0.5
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.AuxiliaryLanes, Game",
+                "name": "AuxiliaryLanes",
+                "active": true,
+                "m_AuxiliaryLanes": {
+                    "$id": 6,
+                    "$type": "6|Game.Prefabs.AuxiliaryLaneInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "7|Game.Prefabs.AuxiliaryLaneInfo, Game",
+                            "m_Lane": $fstrref:"UnityGUID:c2ae4c8dba1feed43b5101f2552e1392",
+                            "m_Position": {
+                                "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 5,
+                                "z": 2
+                            },
+                            "m_RequireAll": {
+                                "$id": 8,
+                                "$type": "9|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 9,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 10,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_Spacing": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 0,
+                                "z": 40
+                            },
+                            "m_EvenSpacing": true,
+                            "m_FindAnchor": false
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 7,
+                            "m_Lane": $fstrref:"UnityGUID:b33cf4e54ea8ffa47a9bb1ed44e3eaa6",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 5,
+                                "z": 2
+                            },
+                            "m_RequireAll": {
+                                "$id": 12,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 13,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 14,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_Spacing": {
+                                "$type": 8,
+                                "x": 3,
+                                "y": 0,
+                                "z": 40
+                            },
+                            "m_EvenSpacing": true,
+                            "m_FindAnchor": true
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:09bb3a9225dc7ad41a6aef1b278170dd",
+    "m_Meshes": {
+        "$id": 15,
+        "$type": "10|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 16,
+                "$type": "11|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:67699edd23939e1439c30f1183c288ce",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            },
+            {
+                "$id": 17,
+                "$type": 11,
+                "m_Mesh": $fstrref:"UnityGUID:4315c23ebd350474580885c637cec7f7",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            },
+            {
+                "$id": 18,
+                "$type": 11,
+                "m_Mesh": $fstrref:"UnityGUID:9a94e7a089754584cafa28ef7014121c",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            },
+            {
+                "$id": 19,
+                "$type": 11,
+                "m_Mesh": $fstrref:"UnityGUID:fe499c330c0eb1d4abccc1fd5eba29b7",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

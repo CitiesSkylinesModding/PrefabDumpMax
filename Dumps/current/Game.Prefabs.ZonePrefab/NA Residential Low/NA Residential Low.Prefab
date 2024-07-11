@@ -1,0 +1,134 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.ZonePrefab, Game",
+    "name": "NA Residential Low",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 8,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CrimeAccumulation, Game",
+                "name": "CrimeAccumulation",
+                "active": true,
+                "m_CrimeRate": 8
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.MailAccumulation, Game",
+                "name": "MailAccumulation",
+                "active": true,
+                "m_RequireCollect": false,
+                "m_SendingRate": 0.00625,
+                "m_ReceivingRate": 0.0125
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ZoneServiceConsumption, Game",
+                "name": "ZoneServiceConsumption",
+                "active": true,
+                "m_Upkeep": 6,
+                "m_ElectricityConsumption": 3.5,
+                "m_WaterConsumption": 0.5,
+                "m_GarbageAccumulation": 30,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:6f24f89d231e81043b538ce3fb2b54ae"
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ZoneProperties, Game",
+                "name": "ZoneProperties",
+                "active": true,
+                "m_ScaleResidentials": false,
+                "m_ResidentialProperties": 1,
+                "m_SpaceMultiplier": 1,
+                "m_AllowedSold": {
+                    "$id": 7,
+                    "$type": "7|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AllowedManufactured": {
+                    "$id": 8,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AllowedStored": {
+                    "$id": 9,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_FireHazardModifier": 0
+            },
+            {
+                "$id": 10,
+                "$type": "8|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:9580a6e183ba7174a85992b8c1827d3c",
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/ZoneNAResidentialLow.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 11,
+                "$type": "9|Game.Prefabs.GroupAmbience, Game",
+                "name": "GroupAmbience",
+                "active": true,
+                "m_AmbienceType": 1
+            },
+            {
+                "$id": 12,
+                "$type": "10|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 13,
+                    "$type": "11|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5894436a674693a4297a69cb4e5cae75"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 14,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_AreaType": 1,
+    "m_Color": {
+        "$type": "12|UnityEngine.Color, UnityEngine.CoreModule",
+        0.197697774,
+        0.9245283,
+        0.197697774,
+        0.7294118
+    },
+    "m_Edge": {
+        "$type": 12,
+        0.1490196,
+        0.179052919,
+        0.5568628,
+        1
+    },
+    "m_Office": false
+}

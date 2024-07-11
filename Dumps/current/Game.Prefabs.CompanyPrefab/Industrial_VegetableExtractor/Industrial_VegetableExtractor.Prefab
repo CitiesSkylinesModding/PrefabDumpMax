@@ -1,0 +1,64 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CompanyPrefab, Game",
+    "name": "Industrial_VegetableExtractor",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ExtractorCompany, Game",
+                "name": "ExtractorCompany",
+                "active": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ProcessingCompany, Game",
+                "name": "ProcessingCompany",
+                "active": true,
+                "process": {
+                    "$type": "4|Game.Prefabs.IndustrialProcess, Game",
+                    "m_Input1": {
+                        "$type": "5|Game.Prefabs.ResourceStackInEditor, Game",
+                        "m_Resource": 0,
+                        "m_Amount": 0
+                    },
+                    "m_Input2": {
+                        "$type": 5,
+                        "m_Resource": 0,
+                        "m_Amount": 0
+                    },
+                    "m_Output": {
+                        "$type": 5,
+                        "m_Resource": 5,
+                        "m_Amount": 15
+                    },
+                    "m_MaxWorkersPerCell": 0.04
+                },
+                "transports": 3
+            },
+            {
+                "$id": 4,
+                "$type": "6|Game.Prefabs.StorageLimit, Game",
+                "name": "StorageLimit",
+                "active": true,
+                "storageLimit": 60000
+            },
+            {
+                "$id": 5,
+                "$type": "7|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 10,
+                "m_Complexity": 0,
+                "m_EveningShiftProbability": 0.2,
+                "m_NightShiftProbability": 0
+            }
+        ]
+    },
+    "zone": 3,
+    "profitability": 30
+}

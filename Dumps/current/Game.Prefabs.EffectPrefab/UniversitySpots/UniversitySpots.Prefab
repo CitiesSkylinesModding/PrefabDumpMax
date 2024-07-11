@@ -1,0 +1,38 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "UniversitySpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:dbe3d3d82f12ce949906a2bcf83aab7b",
+                        $fstrref:"UnityGUID:774f1d9587900414dbd26df7d3cf83da",
+                        $fstrref:"UnityGUID:6933c3d8f1f92e54fa3b7d18555317c9"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 50
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 8192,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

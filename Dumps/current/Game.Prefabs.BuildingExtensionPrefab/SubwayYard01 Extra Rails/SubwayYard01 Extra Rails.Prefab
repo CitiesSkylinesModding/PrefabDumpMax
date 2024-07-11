@@ -1,0 +1,2495 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingExtensionPrefab, Game",
+    "name": "SubwayYard01 Extra Rails",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 12,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportDepot, Game",
+                "name": "TransportDepot",
+                "active": true,
+                "m_TransportType": 18446744073709551615,
+                "m_EnergyTypes": 0,
+                "m_VehicleCapacity": 5,
+                "m_ProductionDuration": 0,
+                "m_MaintenanceDuration": 0,
+                "m_DispatchCenter": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ServiceUpgrade, Game",
+                "name": "ServiceUpgrade",
+                "active": true,
+                "m_Buildings": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.BuildingPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:448b7db9b65aa7a47978a71c436779d9"
+                    ]
+                },
+                "m_UpgradeCost": 75000,
+                "m_XPReward": 100,
+                "m_MaxPlacementOffset": -1,
+                "m_MaxPlacementDistance": 0
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 6,
+                    "$type": "6|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "7|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Subway_Yard_01 Extra Rails",
+                            "m_Type": "BuildingExtensionPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.ServiceConsumption, Game",
+                "name": "ServiceConsumption",
+                "active": true,
+                "m_Upkeep": 8000,
+                "m_ElectricityConsumption": 2000,
+                "m_WaterConsumption": 0,
+                "m_GarbageAccumulation": 1,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 9,
+                "$type": "9|Game.Prefabs.Pollution, Game",
+                "name": "Pollution",
+                "active": true,
+                "m_GroundPollution": 0,
+                "m_AirPollution": 0,
+                "m_NoisePollution": 7500,
+                "m_ScaleWithRenters": true
+            },
+            {
+                "$id": 10,
+                "$type": "10|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 12,
+                    "$type": "12|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 66,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "13|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:e3526bd33bbe0314c83140caa7ee26a8",
+                            "m_Position": {
+                                "$type": "14|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": -57.90088,
+                                "y": -0.197418213,
+                                "z": -67.4626
+                            },
+                            "m_Rotation": {
+                                "$type": "15|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "16|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0.0133981491,
+                                    "y": 3.248748E-08,
+                                    "z": -4.35311259E-10,
+                                    "w": 0.9999103
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:e3526bd33bbe0314c83140caa7ee26a8",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -51.3403778,
+                                "y": -0.196990967,
+                                "z": -67.47429
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0.0133981491,
+                                    "y": 2.62238391E-08,
+                                    "z": -3.51382451E-10,
+                                    "w": 0.9999103
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:8a2d20d7c10e6cc419f0b189ecf9f092",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -173.311539,
+                                "y": 0,
+                                "z": -41.022934
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0.7071069,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -78.75582,
+                                "y": 0.239624023,
+                                "z": -68.92438
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.7071067
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -76.75325,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -70.7669144,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -68.7694244,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -74.75469,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:be840032de69e5d4f96996697b839886",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -72.76083,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:bf1002f40961b6b44922f6e0a36c1d0a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -67.27002,
+                                "y": 0.239624023,
+                                "z": -68.9239
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.7071067
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 23,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:6c1664bd46ed00441a052b8060eb6611",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -65.26947,
+                                "y": 0.239624023,
+                                "z": -68.924
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.7071067
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 24,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:8ae7131e487d12f42a718f4af06d5df0",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -63.317955,
+                                "y": 0.239624023,
+                                "z": -68.92903
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 1.49011612E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 25,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:bb73c2f9c685b134eaad03d913d6986b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -89.28331,
+                                "y": -0.183746338,
+                                "z": -66.34993
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 26,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:bb73c2f9c685b134eaad03d913d6986b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 23.7099838,
+                                "y": -0.250030518,
+                                "z": -56.9499359
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 27,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:bb73c2f9c685b134eaad03d913d6986b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -34.9234467,
+                                "y": -0.250030518,
+                                "z": -56.9500122
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 28,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:bb73c2f9c685b134eaad03d913d6986b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 80.92707,
+                                "y": -0.250030518,
+                                "z": -56.3200226
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": 7.748604E-07
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 29,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 169.134735,
+                                "y": -0.199523926,
+                                "z": -55.49854
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 6.97169453E-05,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 30,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 170.954681,
+                                "y": -0.199584961,
+                                "z": -55.49878
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 6.97653741E-05,
+                                    "z": 0,
+                                    "w": 1.00000012
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 31,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 38.803257,
+                                "y": -0.16809082,
+                                "z": -55.37075
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1.52792782E-05,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 32,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -38.54515,
+                                "y": -0.199890137,
+                                "z": -72.49938
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -7.079914E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 33,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -78.7988052,
+                                "y": 0.239624023,
+                                "z": -69.3384552
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 34,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -73.39481,
+                                "y": 0.239624023,
+                                "z": -69.34537
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 35,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -69.78453,
+                                "y": 0.239624023,
+                                "z": -69.35387
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 36,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -75.19571,
+                                "y": 0.239624023,
+                                "z": -69.34125
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 37,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -77.00024,
+                                "y": 0.239624023,
+                                "z": -69.33804
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 38,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -71.5863647,
+                                "y": 0.239624023,
+                                "z": -69.35205
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 39,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -64.3550339,
+                                "y": 0.239624023,
+                                "z": -69.36023
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 40,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -66.16679,
+                                "y": 0.239624023,
+                                "z": -69.35773
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 41,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:ded28167391a8c644b97933ef8fb059a",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -67.96799,
+                                "y": 0.239624023,
+                                "z": -69.35532
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.24262476E-06,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 42,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -63.6320343,
+                                "y": 0.239624023,
+                                "z": -55.15798
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 1.1920929E-07,
+                                    "z": 0,
+                                    "w": 0.99999994
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 43,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.605286,
+                                "y": -0.2053833,
+                                "z": -69.46667
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.001345152,
+                                    "z": 0,
+                                    "w": 0.999999046
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 44,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -80.71149,
+                                "y": 0.239624023,
+                                "z": -66.90465
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.000481E-06,
+                                    "z": 0,
+                                    "w": 0.99999994
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 45,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -63.05,
+                                "y": 0.239624023,
+                                "z": -68.1793747
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.008911252,
+                                    "z": 0,
+                                    "w": 0.9999603
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 46,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.605286,
+                                "y": -0.2053833,
+                                "z": -69.46667
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.00134463422,
+                                    "z": 0,
+                                    "w": 0.9999991
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 47,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 55.19397,
+                                "y": -0.199890137,
+                                "z": -72.49815
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -6.712973E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 48,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:adb8f5879fe0ae64b886341f8dedd97d",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -82.08574,
+                                "y": 0.239624023,
+                                "z": -66.905
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.000481E-06,
+                                    "z": 0,
+                                    "w": 0.99999994
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 49,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:aecdab70637b3bb40ab53772984876e1",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 59.16783,
+                                "y": -0.190948486,
+                                "z": -67.70407
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0.0178442579,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.9998408
+                                }
+                            },
+                            "m_ParentMesh": -2001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 50,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:2303c5df8eb6753438930d67acbd8c3b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -83.59906,
+                                "y": 0.239624023,
+                                "z": -67.4129
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1.81794167E-06,
+                                    "z": 0,
+                                    "w": 0.9999999
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 51,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:38bf11de060df0a4795577c0f7c62b05",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -63.8062172,
+                                "y": 0.239624023,
+                                "z": -56.0264969
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 52,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:2303c5df8eb6753438930d67acbd8c3b",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 59.44708,
+                                "y": -0.145751953,
+                                "z": -68.10869
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": -4.371139E-08
+                                }
+                            },
+                            "m_ParentMesh": -1001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 53,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.2499,
+                                "y": 0,
+                                "z": -37.0851135
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071065,
+                                    "z": 0,
+                                    "w": 0.707107067
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 54,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.175018,
+                                "y": -0.108184814,
+                                "z": -54.5458069
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": -0.006313627,
+                                    "y": -0.7070785,
+                                    "z": 0.00631362852,
+                                    "w": 0.707078636
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 55,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.308655,
+                                "y": 0,
+                                "z": -41.2526436
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 56,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.203323,
+                                "y": -0.07180786,
+                                "z": -52.50888
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": -0.0100868922,
+                                    "y": -0.7070349,
+                                    "z": 0.009027862,
+                                    "w": 0.7070491
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 57,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.226227,
+                                "y": 0,
+                                "z": -48.07401
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 58,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.270035,
+                                "y": 0,
+                                "z": -39.0748367
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071067,
+                                    "z": 0,
+                                    "w": 0.7071068
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 59,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.281876,
+                                "y": 0,
+                                "z": -43.5472641
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 60,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.1463,
+                                "y": -0.161834717,
+                                "z": -56.519455
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": -0.01831448,
+                                    "y": -0.7068695,
+                                    "z": 0.0183144864,
+                                    "w": 0.7068697
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 61,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.198715,
+                                "y": -0.0343322754,
+                                "z": -50.410202
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0.00631362852,
+                                    "y": 0.707078636,
+                                    "z": -0.00631362759,
+                                    "w": -0.7070786
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 62,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -175.254242,
+                                "y": 0,
+                                "z": -45.8763733
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 63,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -65.5337143,
+                                "y": 0.24,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 64,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -76.3608246,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 65,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -68.29242,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 66,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -73.75026,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 67,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -79.09274,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 68,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -62.6699333,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 69,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:11f0bcffb9f582d4e85a0b5868f74dbd",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -71.03968,
+                                "y": 0.239624023,
+                                "z": -59.1
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -2.47359276E-06
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 70,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:03fc002225a77cb4a99dcfcbb0b316d3",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.506577,
+                                "y": -0.05999756,
+                                "z": -51.848053
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": -0.00721094245,
+                                    "y": -0.707069933,
+                                    "z": 0.00680747768,
+                                    "w": 0.707074046
+                                }
+                            },
+                            "m_ParentMesh": -1001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 71,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:03fc002225a77cb4a99dcfcbb0b316d3",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.537735,
+                                "y": -0.121520996,
+                                "z": -54.8253479
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": -0.007740469,
+                                    "y": -0.7070643,
+                                    "z": 0.007740473,
+                                    "w": 0.707064569
+                                }
+                            },
+                            "m_ParentMesh": -1001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 72,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:03fc002225a77cb4a99dcfcbb0b316d3",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.434311,
+                                "y": 0,
+                                "z": -45.7575378
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 73,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:03fc002225a77cb4a99dcfcbb0b316d3",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -171.468933,
+                                "y": -0.0133972168,
+                                "z": -48.7696381
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071069
+                                }
+                            },
+                            "m_ParentMesh": -1001,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 74,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:03fc002225a77cb4a99dcfcbb0b316d3",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": -84.41732,
+                                "y": 0.239624023,
+                                "z": -56.14144
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 75,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:b801ae27b201f9244b148d8319fbc23f",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 0,
+                                "y": 0,
+                                "z": -75.91335
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -2.67475843E-06,
+                                    "z": 0,
+                                    "w": 0.99999994
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 76,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:b801ae27b201f9244b148d8319fbc23f",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 0,
+                                "y": -0.250030518,
+                                "z": -48.01001
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -1.49961561E-05
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 77,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:b801ae27b201f9244b148d8319fbc23f",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 0,
+                                "y": 0,
+                                "z": -52.0409851
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 9.23872E-07,
+                                    "z": 0,
+                                    "w": 0.99999994
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 78,
+                            "$type": 13,
+                            "m_Object": $fstrref:"UnityGUID:b801ae27b201f9244b148d8319fbc23f",
+                            "m_Position": {
+                                "$type": 14,
+                                "x": 0,
+                                "y": 0,
+                                "z": -61.7330246
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": 1.95205212E-06,
+                                    "z": 0,
+                                    "w": 0.9999999
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 79,
+                "$type": "17|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 5,
+                "m_Complexity": 1,
+                "m_EveningShiftProbability": 0,
+                "m_NightShiftProbability": 0
+            },
+            {
+                "$id": 80,
+                "$type": "18|Game.Prefabs.BuildingTerraformOverride, Game",
+                "name": "BuildingTerraformOverride",
+                "active": true,
+                "m_LevelMinOffset": {
+                    "$type": "19|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0.28,
+                    "y": 0.28
+                },
+                "m_LevelMaxOffset": {
+                    "$type": 19,
+                    "x": -0.28,
+                    "y": -0.28
+                },
+                "m_LevelFrontLeft": {
+                    "$type": 19,
+                    "x": 1,
+                    "y": 1
+                },
+                "m_LevelFrontRight": {
+                    "$type": 19,
+                    "x": 1,
+                    "y": 1
+                },
+                "m_LevelBackLeft": {
+                    "$type": 19,
+                    "x": 1,
+                    "y": 1
+                },
+                "m_LevelBackRight": {
+                    "$type": 19,
+                    "x": 1,
+                    "y": 1
+                },
+                "m_SmoothMinOffset": {
+                    "$type": 19,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_SmoothMaxOffset": {
+                    "$type": 19,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_HeightOffset": 0,
+                "m_AdditionalSmoothAreas": {
+                    "$id": 81,
+                    "$type": "20|Game.Prefabs.BuildingTerraformOverride+SubLot[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_DontRaise": false,
+                "m_DontLower": false
+            },
+            {
+                "$id": 82,
+                "$type": "21|Game.Prefabs.ObjectSubNets, Game",
+                "name": "ObjectSubNets",
+                "active": true,
+                "m_InvertWhen": 0,
+                "m_SubNets": {
+                    "$id": 83,
+                    "$type": "22|Game.Prefabs.ObjectSubNetInfo[], Game",
+                    "$rlength": 10,
+                    "$rcontent": [
+                        {
+                            "$id": 84,
+                            "$type": "23|Game.Prefabs.ObjectSubNetInfo, Game",
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": "24|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": 14,
+                                    "x": -84.36539,
+                                    "y": 0,
+                                    "z": -76.00006
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": -36.2436371,
+                                    "y": -3.05175781E-05,
+                                    "z": -75.99931
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": 11.8782959,
+                                    "y": 9.15527344E-05,
+                                    "z": -75.99864
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 59.9999123,
+                                    "y": 0,
+                                    "z": -75.99808
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "25|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 85,
+                                "$type": "26|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 86,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": 59.9998932,
+                                    "y": 0,
+                                    "z": -75.99805
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": 93.48431,
+                                    "y": 0.000213623047,
+                                    "z": -75.99765
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": 126.4543,
+                                    "y": -9.15527344E-05,
+                                    "z": -67.75601
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 156.000015,
+                                    "y": 0,
+                                    "z": -51.99997
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 1,
+                                "y": 2
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 87,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 88,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": 156.006073,
+                                    "y": 0,
+                                    "z": -51.99669
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": 164.004089,
+                                    "y": 0,
+                                    "z": -51.9977875
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": 172.002121,
+                                    "y": 0,
+                                    "z": -51.99884
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 180.000153,
+                                    "y": 0,
+                                    "z": -52.00006
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 2,
+                                "y": 3
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 89,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 90,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": 59.9999542,
+                                    "y": 0,
+                                    "z": -61.8248749
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": 80.30481,
+                                    "y": 0.000335693359,
+                                    "z": -61.8246155
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": 100.473045,
+                                    "y": -0.000152587891,
+                                    "z": -58.50319
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 119.705566,
+                                    "y": 0,
+                                    "z": -51.99179
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 4,
+                                "y": 5
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 91,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 92,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": 119.705582,
+                                    "y": 0,
+                                    "z": -51.99176
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": 132.2709,
+                                    "y": 0.000396728516,
+                                    "z": -51.9934845
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": 144.836212,
+                                    "y": -0.000396728516,
+                                    "z": -51.99524
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 157.40152,
+                                    "y": 0,
+                                    "z": -51.9969635
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 5,
+                                "y": 2
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 93,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 94,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": -136.057281,
+                                    "y": 0,
+                                    "z": -61.82785
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": -120.278351,
+                                    "y": 0.000335693359,
+                                    "z": -71.10739
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": -102.305374,
+                                    "y": -0.000152587891,
+                                    "z": -76.0002
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": -83.99988,
+                                    "y": 0,
+                                    "z": -76.00003
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 6,
+                                "y": 0
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 95,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 96,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": -131.23642,
+                                    "y": 0,
+                                    "z": -61.82773
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": -67.49242,
+                                    "y": -3.05175781E-05,
+                                    "z": -61.82773
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": -3.746048,
+                                    "y": 9.15527344E-05,
+                                    "z": -61.82666
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": 59.9999237,
+                                    "y": 0,
+                                    "z": -61.8258057
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 6,
+                                "y": 4
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 97,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 98,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:1cedb4c18eb4c674ba5b634c6efb533f",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": -91.59021,
+                                    "y": 0,
+                                    "z": -49.1586
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": -104.344849,
+                                    "y": 0.0005187988,
+                                    "z": -49.1537323
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": -117.349472,
+                                    "y": -0.000305175781,
+                                    "z": -51.7604675
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": -127.228806,
+                                    "y": 0,
+                                    "z": -59.82773
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 7,
+                                "y": 6
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 99,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 100,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:1cedb4c18eb4c674ba5b634c6efb533f",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": 128.000031,
+                                    "y": 0,
+                                    "z": -49.1836548
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": 54.5608521,
+                                    "y": 0.000457763672,
+                                    "z": -49.1734467
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": -18.1593323,
+                                    "y": -0.000183105469,
+                                    "z": -49.1585541
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": -91.59021,
+                                    "y": 0,
+                                    "z": -49.1586
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 5,
+                                "y": 7
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 101,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 102,
+                            "$type": 23,
+                            "m_NetPrefab": $fstrref:"UnityGUID:a88c392cecd93774fb6dd05770327ea8",
+                            "m_BezierCurve": {
+                                "$type": 24,
+                                "a": {
+                                    "$type": 14,
+                                    "x": -119.999939,
+                                    "y": 0,
+                                    "z": -61.82782
+                                },
+                                "b": {
+                                    "$type": 14,
+                                    "x": -139.999954,
+                                    "y": 0.000610351563,
+                                    "z": -61.8275146
+                                },
+                                "c": {
+                                    "$type": 14,
+                                    "x": -159.999954,
+                                    "y": 0,
+                                    "z": -61.8275452
+                                },
+                                "d": {
+                                    "$type": 14,
+                                    "x": -179.999969,
+                                    "y": 0,
+                                    "z": -61.82724
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 25,
+                                "x": 6,
+                                "y": 8
+                            },
+                            "m_ParentMesh": {
+                                "$type": 25,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 103,
+                                "$type": 26,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 104,
+                "$type": "27|Game.Prefabs.ObjectSubAreas, Game",
+                "name": "ObjectSubAreas",
+                "active": true,
+                "m_SubAreas": {
+                    "$id": 105,
+                    "$type": "28|Game.Prefabs.ObjectSubAreaInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 106,
+                            "$type": "29|Game.Prefabs.ObjectSubAreaInfo, Game",
+                            "m_AreaPrefab": $fstrref:"UnityGUID:eb0c6cfabb61428468ef54336829d021",
+                            "m_NodePositions": {
+                                "$id": 107,
+                                "$type": "30|Unity.Mathematics.float3[], Unity.Mathematics",
+                                "$rlength": 6,
+                                "$rcontent": [
+                                    {
+                                        "$type": 14,
+                                        "x": -23.9999466,
+                                        "y": -0.250030518,
+                                        "z": -65.78847
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 47.99998,
+                                        "y": -0.250030518,
+                                        "z": -65.78906
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 56.00001,
+                                        "y": -0.15322876,
+                                        "z": -68.69983
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 59.7678452,
+                                        "y": -0.15322876,
+                                        "z": -68.69986
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 59.76787,
+                                        "y": -0.214691162,
+                                        "z": -72.00003
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": -24.0000076,
+                                        "y": -0.2147522,
+                                        "z": -72.00186
+                                    }
+                                ]
+                            },
+                            "m_ParentMeshes": {
+                                "$id": 108,
+                                "$type": "31|System.Int32[], mscorlib",
+                                "$plength": 0,
+                                "$pcontent": [
+                                ]
+                            }
+                        },
+                        {
+                            "$id": 109,
+                            "$type": 29,
+                            "m_AreaPrefab": $fstrref:"UnityGUID:866b31c2c60012b46a62efcdd4128d03",
+                            "m_NodePositions": {
+                                "$id": 110,
+                                "$type": 30,
+                                "$rlength": 9,
+                                "$rcontent": [
+                                    {
+                                        "$type": 14,
+                                        "x": -175.999908,
+                                        "y": 6.10351563E-05,
+                                        "z": -36.00432
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 23.9999084,
+                                        "y": -0.0269775391,
+                                        "z": -35.99881
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 48,
+                                        "y": -0.135742188,
+                                        "z": -39.9999847
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 103.999985,
+                                        "y": -0.250030518,
+                                        "z": -41.7285767
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 176.000809,
+                                        "y": -0.132507324,
+                                        "z": -41.73149
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 175.999954,
+                                        "y": -0.231811523,
+                                        "z": -55.99948
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 157.826126,
+                                        "y": 0.00268554688,
+                                        "z": -79.9999542
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": 87.99989,
+                                        "y": -0.181793213,
+                                        "z": -79.9999542
+                                    },
+                                    {
+                                        "$type": 14,
+                                        "x": -175.9991,
+                                        "y": -0.000610351563,
+                                        "z": -79.99189
+                                    }
+                                ]
+                            },
+                            "m_ParentMeshes": {
+                                "$id": 111,
+                                "$type": 31,
+                                "$plength": 0,
+                                "$pcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 112,
+                "$type": "32|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 113,
+                    "$type": "33|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 114,
+                            "$type": "34|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:3d37303779fc8e94f9e366a39e10ed6a",
+                            "m_PositionOffset": {
+                                "$type": 14,
+                                "x": -86.57432,
+                                "y": 3.130249,
+                                "z": -67.32252
+                            },
+                            "m_Rotation": {
+                                "$type": 15,
+                                "value": {
+                                    "$type": 16,
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 0,
+                                    "w": -0.000225543045
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 14,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 1000,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 115,
+                    "$type": "35|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 116,
+        "$type": "36|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 117,
+                "$type": "37|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:a4c6cb6fb833fc74eba7d4f30f455eb6",
+                "m_Position": {
+                    "$type": 14,
+                    "x": 0,
+                    "y": 0,
+                    "z": 16
+                },
+                "m_Rotation": {
+                    "$type": 15,
+                    "value": {
+                        "$type": 16,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_ExternalLot": false,
+    "m_Position": {
+        "$type": 14,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "m_OverrideLotSize": {
+        "$type": 25,
+        "x": 0,
+        "y": 0
+    },
+    "m_OverrideHeight": 0
+}

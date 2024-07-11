@@ -1,0 +1,114 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Cow02 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.AnimationProperties, Game",
+                "name": "AnimationProperties",
+                "active": true,
+                "m_Clips": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.AnimationProperties+BakedAnimationClip[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.AnimationProperties+BakedAnimationClip, Game",
+                            "name": "Idle",
+                            "pixelStart": 105,
+                            "pixelEnd": 987,
+                            "animationLength": 14.6666679,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:edf3286187d3418197fffa9b713df4e1",
+                            "m_Type": 1,
+                            "m_Activity": 1,
+                            "m_MovementSpeed": 0,
+                            "m_RootOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "Walk",
+                            "pixelStart": 1,
+                            "pixelEnd": 103,
+                            "animationLength": 1.66666675,
+                            "looping": true,
+                            "animationTexture": $fstrref:"UnityObjectsMap:edf3286187d3418197fffa9b713df4e1",
+                            "m_Type": 2,
+                            "m_Activity": 2,
+                            "m_MovementSpeed": 0.95,
+                            "m_RootOffset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_RootRotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:c6f5c0fe89b9e5ea2b2296e6d5e63e06",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:b9182b70ebf55bc529053c49f4f9f2ce"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 5,
+            "x": -0.3427188,
+            "y": 0,
+            "z": -1.19535959
+        },
+        "max": {
+            "$type": 5,
+            "x": 0.3427188,
+            "y": 1.554102,
+            "z": 1.42916119
+        }
+    },
+    "m_SurfaceArea": 6.86308336,
+    "m_IndexCount": 8628,
+    "m_VertexCount": 1689,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

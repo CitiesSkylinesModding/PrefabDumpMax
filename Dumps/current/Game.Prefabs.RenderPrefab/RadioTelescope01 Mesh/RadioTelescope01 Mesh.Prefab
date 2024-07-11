@@ -1,0 +1,341 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "RadioTelescope01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:9e53312ce6ac8764f8e5784acbd5611a",
+                        $fstrref:"UnityGUID:734347ed16d982d45a7b769669aa7e96"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "root_01",
+                            "position": {
+                                "$type": "7|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "8|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "9|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 6,
+                            "name": "Rot_Hor_01",
+                            "position": {
+                                "$type": 7,
+                                0,
+                                5.464279,
+                                3.345906E-16
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -5.464279,
+                                "m23": -3.345906E-16,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 6,
+                            "name": "Rot_Ver_01",
+                            "position": {
+                                "$type": 7,
+                                0,
+                                12.7864351,
+                                7.82943364E-16
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                0.387232542,
+                                0,
+                                0,
+                                0.92198205
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1.00000012,
+                                1.00000012
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -18.2507153,
+                                "m23": -1.117534E-15,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 9,
+                "$type": "10|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 10,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 11,
+                            "$type": "12|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 12,
+                                "$type": "13|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "14|UnityEngine.Color, UnityEngine.CoreModule",
+                                        0.7264151,
+                                        0.7264151,
+                                        0.7264151,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        0.415094316,
+                                        0.415094316,
+                                        0.415094316,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 12,
+                            "m_Colors": {
+                                "$id": 14,
+                                "$type": 13,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 14,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        0.9339623,
+                                        0.9339623,
+                                        0.9339623,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 15,
+                    "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 16,
+                            "$type": "16|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 16,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 16,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 19,
+                    "$type": "17|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "18|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 5,
+                    "y": 5,
+                    "z": 5
+                },
+                "m_AlphaRanges": {
+                    "$type": 18,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:964d690138d14b5518ea4286c74410b1",
+    "m_SurfaceAssets": {
+        "$id": 20,
+        "$type": "19|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:e48ad1c9dc88c5bf5c7b68097aca4249"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "20|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "21|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -16.8335419,
+            "y": -7.62939453E-06,
+            "z": -16.8335419
+        },
+        "max": {
+            "$type": 21,
+            "x": 16.8335419,
+            "y": 41.3833275,
+            "z": 16.8335419
+        }
+    },
+    "m_SurfaceArea": 8181.388,
+    "m_IndexCount": 519432,
+    "m_VertexCount": 167481,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

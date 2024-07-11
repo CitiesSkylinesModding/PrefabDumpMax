@@ -1,0 +1,128 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "BusStop02 Placeholder",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportStop, Game",
+                "name": "TransportStop",
+                "active": true,
+                "m_TransportType": 0,
+                "m_AccessConnectionType": 2,
+                "m_RouteConnectionType": 1,
+                "m_AccessTrackType": 0,
+                "m_RouteTrackType": 0,
+                "m_AccessRoadType": 0,
+                "m_RouteRoadType": 1,
+                "m_EnterDistance": 10,
+                "m_ExitDistance": 7,
+                "m_AccessDistance": 6,
+                "m_BoardingTime": 1,
+                "m_ComfortFactor": 0.4,
+                "m_LoadingFactor": 0,
+                "m_PassengerTransport": true,
+                "m_CargoTransport": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.NetObject, Game",
+                "name": "NetObject",
+                "active": true,
+                "m_SetCompositionState": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.NetPieceRequirements[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        4
+                    ]
+                },
+                "m_RequireRoad": 0,
+                "m_TrackPassThrough": 0
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753"
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 3.8,
+                    "y": 2.5,
+                    "z": 1.7
+                },
+                "m_CircularLeg": false
+            },
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.PlaceholderObject, Game",
+                "name": "PlaceholderObject",
+                "active": true,
+                "m_RandomizeGroupIndex": false
+            },
+            {
+                "$id": 8,
+                "$type": "9|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 9,
+                    "$type": "10|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Road Decorations"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 10,
+                    "$type": 10,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 11,
+        "$type": "11|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 12,
+                "$type": "12|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:bfdec30ca1db1da47a5214a74c936bd5",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "13|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "14|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

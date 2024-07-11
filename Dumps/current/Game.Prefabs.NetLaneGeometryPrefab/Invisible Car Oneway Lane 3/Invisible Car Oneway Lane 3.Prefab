@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Invisible Car Oneway Lane 3",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": null,
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Invisible Car Oneway Lane 3",
+                            "m_Type": "NetLanePrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:a5f2de33859b11345b094a9894d1c4ff",
+    "m_Meshes": {
+        "$id": 6,
+        "$type": "6|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:372858002ea45844e829785efd50d058",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": true,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

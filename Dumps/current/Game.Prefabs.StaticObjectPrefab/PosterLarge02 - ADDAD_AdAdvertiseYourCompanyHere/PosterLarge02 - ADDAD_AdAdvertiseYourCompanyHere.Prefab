@@ -1,0 +1,82 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "PosterLarge02 - ADDAD_AdAdvertiseYourCompanyHere",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 60,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:02c99a63f6fdd5e4993a7e48ca365ae7"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.BrandObject, Game",
+                "name": "BrandObject",
+                "active": true,
+                "m_Brand": $fstrref:"UnityGUID:71abacdf23ee87f4dbb438b872ba9f8a"
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.AttachedObject, Game",
+                "name": "AttachedObject",
+                "active": true,
+                "m_AttachType": 1,
+                "m_AttachOffset": 0
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 7,
+        "$type": "7|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:e16f9243a209d0d42bf44880dbb0d540",
+                "m_Position": {
+                    "$type": "9|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "10|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "11|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

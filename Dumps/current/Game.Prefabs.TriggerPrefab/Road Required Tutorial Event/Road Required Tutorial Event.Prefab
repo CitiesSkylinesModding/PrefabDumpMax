@@ -1,0 +1,37 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Road Required Tutorial Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialActivationEvent, Game",
+                "name": "TutorialActivationEvent",
+                "active": true,
+                "m_Tutorials": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.TutorialPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fc3ddb472e9811b4eb37ccc9c2f1e3a5"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 0,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.PrefabBase[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:bef27adb5aea7e04aad027e9498f6920"
+        ]
+    },
+    "m_TargetTypes": 16
+}

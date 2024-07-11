@@ -1,0 +1,82 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "Traffic Spawner",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TrafficSpawner, Game",
+                "name": "TrafficSpawner",
+                "active": true,
+                "m_RoadType": 1,
+                "m_TrackType": 0,
+                "m_SpawnRate": 0.15,
+                "m_NoSlowVehicles": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ServiceConsumption, Game",
+                "name": "ServiceConsumption",
+                "active": true,
+                "m_Upkeep": 0,
+                "m_ElectricityConsumption": 0,
+                "m_WaterConsumption": 0,
+                "m_GarbageAccumulation": 0,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:d4d220e637b0a2743b798fced877190d"
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 0,
+                "m_XPReward": 0
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 6,
+        "$type": "6|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:31907f213980b4140a46599fa6bb1dda",
+                "m_Position": {
+                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_AccessType": 0,
+    "m_LotWidth": 3,
+    "m_LotDepth": 3
+}

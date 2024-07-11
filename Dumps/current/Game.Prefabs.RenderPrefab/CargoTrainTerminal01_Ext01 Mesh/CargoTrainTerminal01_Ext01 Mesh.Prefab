@@ -1,0 +1,405 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CargoTrainTerminal01_Ext01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fa2e5449c6054f249aafa61c67ed8eb4",
+                        $fstrref:"UnityGUID:0fcbae276db64d8479307c9e17b6692d"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "CargoTrainTerminal01_RootBone",
+                            "position": {
+                                "$type": "7|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "8|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "9|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 6,
+                            "name": "GantryCraneExt01",
+                            "position": {
+                                "$type": 7,
+                                26.43007,
+                                0,
+                                -48.08188
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": -26.43007,
+                                "m13": -48.0818748,
+                                "m23": -7.83353153E-06,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 6,
+                            "name": "GantryCraneExtTrolley01",
+                            "position": {
+                                "$type": 7,
+                                -0.5054004,
+                                -0.5372461,
+                                31.01618
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": -25.9246712,
+                                "m13": -47.54463,
+                                "m23": -31.0161858,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 6,
+                            "name": "GantryCraneExtWheel01",
+                            "position": {
+                                "$type": 7,
+                                7.957119,
+                                -12.03468,
+                                7.442484
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": -34.38719,
+                                "m13": -36.0472031,
+                                "m23": -7.442491,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 6,
+                            "name": "GantryCraneExtClaw01",
+                            "position": {
+                                "$type": 7,
+                                -0.003193359,
+                                0.03761719,
+                                -14.41484
+                            },
+                            "rotation": {
+                                "$type": 8,
+                                0.5,
+                                -0.5,
+                                -0.5,
+                                0.5
+                            },
+                            "scale": {
+                                "$type": 7,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 9,
+                                "m00": 6.123234E-17,
+                                "m10": 4.371139E-08,
+                                "m20": -1,
+                                "m30": 0,
+                                "m01": -1.62920671E-07,
+                                "m11": 1,
+                                "m21": -4.371139E-08,
+                                "m31": 0,
+                                "m02": 1,
+                                "m12": -1.62920671E-07,
+                                "m22": 7.182721E-15,
+                                "m32": 0,
+                                "m03": 47.5822525,
+                                "m13": -16.6013374,
+                                "m23": 25.9214764,
+                                "m33": 1
+                            },
+                            "parentId": 2,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 11,
+                "$type": "10|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 12,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "12|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 14,
+                                "$type": "13|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "14|UnityEngine.Color, UnityEngine.CoreModule",
+                                        0.5039605,
+                                        0.7075472,
+                                        0.52491796,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        1,
+                                        0.7874997,
+                                        0.184000015,
+                                        1
+                                    },
+                                    {
+                                        "$type": 14,
+                                        0.5188679,
+                                        0.5188679,
+                                        0.5188679,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 15,
+                    "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 16,
+                            "$type": "16|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 16,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 16,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 19,
+                    "$type": "17|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "18|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 18,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:8723c9644dd96ab589f57448ffb05208",
+    "m_SurfaceAssets": {
+        "$id": 20,
+        "$type": "19|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:4c09758479979c26e0aaad860b178e02",
+            $fstrref:"CID:b8b52d6f32b61d92051cac306076e2c3"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "20|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "21|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -110.503372,
+            "y": 0,
+            "z": -60.3766251
+        },
+        "max": {
+            "$type": 21,
+            "x": 85.32637,
+            "y": 33.0754471,
+            "z": -34.7965546
+        }
+    },
+    "m_SurfaceArea": 6973.616,
+    "m_IndexCount": 51924,
+    "m_VertexCount": 25110,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

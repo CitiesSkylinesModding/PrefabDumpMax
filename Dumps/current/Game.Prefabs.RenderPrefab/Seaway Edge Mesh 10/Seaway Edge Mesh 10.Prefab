@@ -1,0 +1,77 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Seaway Edge Mesh 10",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CurveProperties, Game",
+                "name": "CurveProperties",
+                "active": true,
+                "m_TilingCount": 8,
+                "m_OverrideLength": 0,
+                "m_SmoothingDistance": 0,
+                "m_GeometryTiling": false,
+                "m_StraightTiling": false,
+                "m_InvertCurve": false,
+                "m_SubFlow": false,
+                "m_HangingSwaying": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.OverlayProperties, Game",
+                "name": "OverlayProperties",
+                "active": true,
+                "m_IsWaterway": true,
+                "m_TextureArea": {
+                    "$type": "4|Colossal.Mathematics.Bounds2, Colossal.Mathematics",
+                    "min": {
+                        "$type": "5|Unity.Mathematics.float2, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0
+                    },
+                    "max": {
+                        "$type": 5,
+                        "x": 1,
+                        "y": 8
+                    }
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:9e8b24f05ef4ac2495bce8c9d4e65ee3",
+    "m_SurfaceAssets": {
+        "$id": 4,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:01d9d038b5eeb3c5a96a0d6390117306"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -5,
+            "y": 0,
+            "z": -80
+        },
+        "max": {
+            "$type": 8,
+            "x": 5,
+            "y": 6.158886E-09,
+            "z": 80
+        }
+    },
+    "m_SurfaceArea": 1600,
+    "m_IndexCount": 96,
+    "m_VertexCount": 34,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

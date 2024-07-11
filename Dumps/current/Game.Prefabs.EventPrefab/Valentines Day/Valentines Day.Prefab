@@ -1,0 +1,86 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EventPrefab, Game",
+    "name": "Valentines Day",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CalendarEvent, Game",
+                "name": "CalendarEvent",
+                "active": true,
+                "m_RandomTargetType": 6,
+                "m_AffectedProbability": {
+                    "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 10,
+                    "max": 10
+                },
+                "m_OccurenceProbability": {
+                    "$type": 3,
+                    "min": 100,
+                    "max": 100
+                },
+                "m_AllowedMonths": 2,
+                "m_AllowedTimes": 4,
+                "m_Duration": 1
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.HaveCoordinatedMeeting, Game",
+                "name": "HaveCoordinatedMeeting",
+                "active": true,
+                "m_Phases": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.CoordinatedMeetingPhase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.CoordinatedMeetingPhase, Game",
+                            "m_Purpose": {
+                                "$type": "7|Game.Citizens.TravelPurposeInEditor, Game",
+                                "m_Purpose": 1,
+                                "m_Data": 10,
+                                "m_Resource": 6
+                            },
+                            "m_Delay": {
+                                "$type": "8|Unity.Mathematics.uint2, Unity.Mathematics",
+                                "x": 3000,
+                                "y": 8000
+                            },
+                            "m_Notification": $fstrref:"UnityGUID:4c3ea2a929ac9334884a00453bdd0e7a"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "9|Game.Prefabs.JournalEventComponent, Game",
+                "name": "JournalEventComponent",
+                "active": true,
+                "m_Icon": "",
+                "m_TrackedData": {
+                    "$id": 6,
+                    "$type": "10|Game.Events.EventDataTrackingType[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        2
+                    ]
+                },
+                "m_TrackedCityEffects": {
+                    "$id": 7,
+                    "$type": "11|Game.Events.EventCityEffectTrackingType[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        1,
+                        2
+                    ]
+                }
+            }
+        ]
+    },
+    "m_ConcurrentLimit": 0
+}

@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "NotreDameRoofDecoration03 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:722df06ede563224092a43df4c2365ac",
+                        $fstrref:"UnityGUID:b9c12221ad9469845a7ded392b84f97f"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:c3724de73723f5b4ab589dd1fa756861"
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:3443c625058d55153adfe5a30887c0a2",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:d3a4aeae92c6188800dbc04b9878dfcc"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.8931632,
+            "y": -13.9818573,
+            "z": -0.171740115
+        },
+        "max": {
+            "$type": 7,
+            "x": -0.124882221,
+            "y": 10.4354362,
+            "z": 0.0537834
+        }
+    },
+    "m_SurfaceArea": 4.53962946,
+    "m_IndexCount": 11700,
+    "m_VertexCount": 4825,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

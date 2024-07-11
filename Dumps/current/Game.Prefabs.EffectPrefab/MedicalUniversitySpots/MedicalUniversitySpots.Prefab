@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "MedicalUniversitySpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:cf9efc084c39d9a4c957eabaeabf5906",
+                        $fstrref:"UnityGUID:0bae509a28edd0c4bae9a8216093fdee",
+                        $fstrref:"UnityGUID:aef8bbbd5296f6841b3e5b241d992f07",
+                        $fstrref:"UnityGUID:f80987de67ad3594a98059e4046db11b",
+                        $fstrref:"UnityGUID:14fbc32bbe5bd2948a094f9701c8beeb"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 50
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 8192,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

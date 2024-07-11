@@ -1,0 +1,34 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DevTreeNodePrefab, Game",
+    "name": "EarlyDisasterWarningSystemNode",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Service": $fstrref:"UnityGUID:bef7d1cafbf6b7344a0b8bc5643dbc1b",
+    "m_Requirements": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.DevTreeNodePrefab[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"UnityGUID:432fe2174ec06be40a77072846dc853b",
+            $fstrref:"UnityGUID:f40a49cd08f3f9044b614abf98099b8b"
+        ]
+    },
+    "m_Cost": 8,
+    "m_HorizontalPosition": 4,
+    "m_VerticalPosition": 1,
+    "m_IconPath": "",
+    "m_IconPrefab": $fstrref:"UnityGUID:10d3b893791b5de45b1a88760df6443a"
+}

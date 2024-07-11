@@ -1,0 +1,39 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MarkerObjectPrefab, Game",
+    "name": "Water Source Polluted",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.WaterSource, Game",
+                "name": "WaterSource",
+                "active": true,
+                "m_Radius": 40,
+                "m_Amount": 30,
+                "m_Polluted": 1
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 0,
+                "m_XPReward": 0
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:0d2247cf7abae1045b5cdb59042ff1b8"
+            }
+        ]
+    },
+    "m_Mesh": $fstrref:"UnityGUID:5f5b2861732032e4e8042fb3bfe1d94e",
+    "m_Circular": true
+}

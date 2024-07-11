@@ -1,0 +1,54 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "City Service Healthcare Import Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:c104ba5cc28d66e4eae291022da69966"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 2,
+                            "m_Value": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 73,
+    "m_TriggerPrefabs": {
+        "$id": 6,
+        "$type": 3,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_TargetTypes": 0
+}

@@ -1,0 +1,232 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MultipleUnitTrainCarPrefab, Game",
+    "name": "TramCar01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PublicTransport, Game",
+                "name": "PublicTransport",
+                "active": true,
+                "m_TransportType": 3,
+                "m_PassengerCapacity": 80,
+                "m_Purposes": 1,
+                "m_MaintenanceRange": 600
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.VehicleSideEffects, Game",
+                "name": "VehicleSideEffects",
+                "active": true,
+                "m_RoadWear": {
+                    "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0.5,
+                    "y": 1
+                },
+                "m_NoisePollution": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 5
+                },
+                "m_AirPollution": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 5,
+                    "$type": "6|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "7|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Tram Car",
+                            "m_Type": "MultipleUnitTrainCarPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 8,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "10|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:6dc917a76c6b67f4880baaee20072d46",
+                            "m_PositionOffset": {
+                                "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "12|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "13|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 10,
+                    "$type": "14|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 11,
+                "$type": "15|Game.Prefabs.ActivityLocation, Game",
+                "name": "ActivityLocation",
+                "active": true,
+                "m_Locations": {
+                    "$id": 12,
+                    "$type": "16|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "17|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 11,
+                                "x": 1.20107031,
+                                "y": 0.4192829,
+                                "z": -2.90668488
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0,
+                                    "y": -0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 11,
+                                "x": -1.24824667,
+                                "y": 0.418149948,
+                                "z": -2.863223
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        }
+                    ]
+                },
+                "m_InvertWhen": 0,
+                "m_AnimatedPropName": "",
+                "m_RequireAuthorization": false
+            },
+            {
+                "$id": 15,
+                "$type": "18|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Tram.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 16,
+        "$type": "19|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 17,
+                "$type": "20|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:269cd98a672df45459111d35267b8eea",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_TrackType": 2,
+    "m_EnergyType": 2,
+    "m_MaxSpeed": 150,
+    "m_Acceleration": 6,
+    "m_Braking": 12,
+    "m_Turning": {
+        "$type": 4,
+        "x": 100,
+        "y": 10
+    },
+    "m_BogieOffset": {
+        "$type": 4,
+        "x": 0,
+        "y": 0
+    },
+    "m_AttachOffset": {
+        "$type": 4,
+        "x": 0,
+        "y": 0
+    }
+}

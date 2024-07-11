@@ -1,0 +1,154 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "EU Highway Lane Line - Transport One",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SecondaryLane, Game",
+                "name": "SecondaryLane",
+                "active": true,
+                "m_LeftLanes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.SecondaryLaneInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.SecondaryLaneInfo, Game",
+                            "m_Lane": $fstrref:"UnityGUID:b1b19749811928a4f8903e7c17282e10",
+                            "m_RequireSafe": true,
+                            "m_RequireUnsafe": false,
+                            "m_RequireSingle": false,
+                            "m_RequireMultiple": false,
+                            "m_RequireAllowPassing": false,
+                            "m_RequireForbidPassing": false,
+                            "m_RequireMerge": false,
+                            "m_RequireContinue": true,
+                            "m_RequireSafeMaster": false
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Lane": $fstrref:"UnityGUID:131217aa24052ef41a78ef1b8166e7ce",
+                            "m_RequireSafe": true,
+                            "m_RequireUnsafe": false,
+                            "m_RequireSingle": false,
+                            "m_RequireMultiple": false,
+                            "m_RequireAllowPassing": false,
+                            "m_RequireForbidPassing": false,
+                            "m_RequireMerge": false,
+                            "m_RequireContinue": true,
+                            "m_RequireSafeMaster": false
+                        }
+                    ]
+                },
+                "m_RightLanes": {
+                    "$id": 6,
+                    "$type": 3,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "m_Lane": $fstrref:"UnityGUID:2c66003576e24c84ebff33808f75d701",
+                            "m_RequireSafe": true,
+                            "m_RequireUnsafe": false,
+                            "m_RequireSingle": false,
+                            "m_RequireMultiple": false,
+                            "m_RequireAllowPassing": false,
+                            "m_RequireForbidPassing": false,
+                            "m_RequireMerge": false,
+                            "m_RequireContinue": true,
+                            "m_RequireSafeMaster": false
+                        }
+                    ]
+                },
+                "m_CrossingLanes": {
+                    "$id": 8,
+                    "$type": "5|Game.Prefabs.SecondaryLaneInfo2[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_CanFlipSides": true,
+                "m_DuplicateSides": false,
+                "m_RequireParallel": true,
+                "m_RequireOpposite": false,
+                "m_SkipSafePedestrianOverlap": true,
+                "m_SkipSafeCarOverlap": false,
+                "m_SkipUnsafeCarOverlap": false,
+                "m_SkipTrackOverlap": false,
+                "m_SkipMergeOverlap": false,
+                "m_FitToParkingSpaces": false,
+                "m_EvenSpacing": false,
+                "m_PositionOffset": {
+                    "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_LengthOffset": {
+                    "$type": "7|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0
+                },
+                "m_CutMargin": 0,
+                "m_CutOffset": 0,
+                "m_CutOverlap": 0,
+                "m_Spacing": 0
+            },
+            {
+                "$id": 9,
+                "$type": "8|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:846c60044f7ead04d9b11f0d749ea5f2"
+            },
+            {
+                "$id": 10,
+                "$type": "9|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 11,
+                    "$type": "10|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 12,
+                            "$type": "11|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Highway Lane Line - Transport One",
+                            "m_Type": "NetLaneGeometryPrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 13,
+        "$type": "12|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 14,
+                "$type": "13|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:bde10818c41a474409c8a1226dcaedfc",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

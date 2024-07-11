@@ -1,0 +1,206 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "CampgroundTableset02",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Campground_Tableset_02",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ActivityLocation, Game",
+                "name": "ActivityLocation",
+                "active": true,
+                "m_Locations": {
+                    "$id": 6,
+                    "$type": "6|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "7|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 1.11947727,
+                                "y": 0,
+                                "z": -0.22464104
+                            },
+                            "m_Rotation": {
+                                "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0.572432,
+                                    "z": 0,
+                                    "w": -0.81995213
+                                }
+                            }
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 7,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 0.553447545,
+                                "y": 0,
+                                "z": 0.7145344
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0.9972635,
+                                    "z": 0,
+                                    "w": -0.07392962
+                                }
+                            }
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 7,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -0.3507433,
+                                "y": 0,
+                                "z": 0.6006993
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": -4.371139E-08
+                                }
+                            }
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 7,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -1.10821784,
+                                "y": 0,
+                                "z": -0.0341057777
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": -0.7382512,
+                                    "z": 0,
+                                    "w": -0.6745258
+                                }
+                            }
+                        }
+                    ]
+                },
+                "m_InvertWhen": 0,
+                "m_AnimatedPropName": "",
+                "m_RequireAuthorization": false
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 12,
+                "$type": "12|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 13,
+                    "$type": "13|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": $fstrref:"UnityGUID:f05d7d3a035afa84eb7110b7c89420df"
+            },
+            {
+                "$id": 14,
+                "$type": "14|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 15,
+                    "$type": "15|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Props/Park"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 16,
+                    "$type": 15,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 17,
+        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 18,
+                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:aea12d50e64b3244d93a809f92194c66",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

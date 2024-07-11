@@ -1,0 +1,79 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Tiled Transition Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.DecalProperties, Game",
+                "name": "DecalProperties",
+                "active": true,
+                "m_TextureArea": {
+                    "$type": "3|Colossal.Mathematics.Bounds2, Colossal.Mathematics",
+                    "min": {
+                        "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                        "x": 0.5416667,
+                        "y": 0
+                    },
+                    "max": {
+                        "$type": 4,
+                        "x": 0.7083333,
+                        "y": 1
+                    }
+                },
+                "m_RendererPriority": -16,
+                "m_LayerMask": 7,
+                "m_EnableInfoviewColor": false
+            },
+            {
+                "$id": 3,
+                "$type": "5|Game.Prefabs.CurveProperties, Game",
+                "name": "CurveProperties",
+                "active": true,
+                "m_TilingCount": 47,
+                "m_OverrideLength": 0,
+                "m_SmoothingDistance": 0.05,
+                "m_GeometryTiling": false,
+                "m_StraightTiling": false,
+                "m_InvertCurve": false,
+                "m_SubFlow": false,
+                "m_HangingSwaying": false
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:73d31fba73bbe1266efc723fffb54642",
+    "m_SurfaceAssets": {
+        "$id": 4,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:719b630d1c88bd65fb20b122aaf1f4fb"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.5,
+            "y": -0.5000001,
+            "z": -6
+        },
+        "max": {
+            "$type": 8,
+            "x": 0.500000238,
+            "y": 0.5000001,
+            "z": 6
+        }
+    },
+    "m_SurfaceArea": 50,
+    "m_IndexCount": 36,
+    "m_VertexCount": 24,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

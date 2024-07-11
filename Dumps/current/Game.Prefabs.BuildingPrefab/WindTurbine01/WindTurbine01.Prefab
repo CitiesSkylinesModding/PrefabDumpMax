@@ -1,0 +1,531 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "WindTurbine01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 17,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PowerPlant, Game",
+                "name": "PowerPlant",
+                "active": true,
+                "m_ElectricityProduction": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.WindPowered, Game",
+                "name": "WindPowered",
+                "active": true,
+                "m_MaximumWind": 0.4,
+                "m_Production": 50000
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObjectSubNets, Game",
+                "name": "ObjectSubNets",
+                "active": true,
+                "m_InvertWhen": 0,
+                "m_SubNets": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ObjectSubNetInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ObjectSubNetInfo, Game",
+                            "m_NetPrefab": $fstrref:"UnityGUID:ea4882e798a59e245a9c52a14f5bcd95",
+                            "m_BezierCurve": {
+                                "$type": "7|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "b": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "c": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "d": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "9|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_ParentMesh": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 7,
+                                "$type": "10|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "11|Game.Prefabs.ServiceConsumption, Game",
+                "name": "ServiceConsumption",
+                "active": true,
+                "m_Upkeep": 7500,
+                "m_ElectricityConsumption": 0,
+                "m_WaterConsumption": 0,
+                "m_GarbageAccumulation": 0,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 9,
+                "$type": "12|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:a534d6be94fb0cb4eb683f62412d0b1a"
+            },
+            {
+                "$id": 10,
+                "$type": "13|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 25000,
+                "m_XPReward": 50
+            },
+            {
+                "$id": 11,
+                "$type": "14|Game.Prefabs.CityServiceBuilding, Game",
+                "name": "CityServiceBuilding",
+                "active": true,
+                "m_Upkeeps": {
+                    "$id": 12,
+                    "$type": "15|Game.Prefabs.ServiceUpkeepItem[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "16|Game.Prefabs.Pollution, Game",
+                "name": "Pollution",
+                "active": true,
+                "m_GroundPollution": 0,
+                "m_AirPollution": 0,
+                "m_NoisePollution": 20000,
+                "m_ScaleWithRenters": true
+            },
+            {
+                "$id": 14,
+                "$type": "17|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 15,
+                    "$type": "18|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:c92b9810143a9ba4ca5e004fc709d92f",
+                        $fstrref:"UnityGUID:932c6d10944a77b4dbac82eb4d2b6b36"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 16,
+                    "$type": 18,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": true
+            },
+            {
+                "$id": 17,
+                "$type": "19|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:3e272309249a8204b8f2964c1fa13ebf",
+                "m_Priority": 110,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 18,
+                "$type": "20|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 19,
+                    "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 20,
+                            "$type": "22|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:a1d6ac1b766e324499dd1e12ecdb7bcb",
+                            "m_PositionOffset": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 96,
+                                "z": -3
+                            },
+                            "m_Rotation": {
+                                "$type": "23|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "24|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 22,
+                            "m_Effect": $fstrref:"UnityGUID:c7e9ad544521dd94d8b1df5d66f86d23",
+                            "m_PositionOffset": {
+                                "$type": 8,
+                                "x": 0.2,
+                                "y": 94.90735,
+                                "z": -9.405518
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 100,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 22,
+                            "m_Effect": $fstrref:"UnityGUID:53b1dba1b7b7d524988c542ab9cc3cda",
+                            "m_PositionOffset": {
+                                "$type": 8,
+                                "x": -2.39162445,
+                                "y": 96.11627,
+                                "z": 2.37302017
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 200,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 23,
+                    "$type": "25|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 24,
+                "$type": "26|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 25,
+                    "$type": "27|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 26,
+                            "$type": "28|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:f8be117685b9075418c9a20438b13c68",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -2.88011742,
+                                "y": 5.870413,
+                                "z": 0.0400900841
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071068
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 27,
+                            "$type": 28,
+                            "m_Object": $fstrref:"UnityGUID:d135c50f9b263464298d0b4f62e973ac",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -3.16902924,
+                                "y": 5.527413,
+                                "z": 0.03842163
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": 0,
+                                    "y": -0.7071068,
+                                    "z": 0,
+                                    "w": 0.7071068
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 28,
+                            "$type": 28,
+                            "m_Object": $fstrref:"UnityGUID:3c055779871a3d346bbd617f121b8dd6",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -1.38,
+                                "y": 89.7,
+                                "z": 0.128319979
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": 0.474458843,
+                                    "y": -0.52429837,
+                                    "z": 0.52429837,
+                                    "w": 0.474458843
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 29,
+                            "$type": 28,
+                            "m_Object": $fstrref:"UnityGUID:3c055779871a3d346bbd617f121b8dd6",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 1.38,
+                                "y": 89.7,
+                                "z": 0.128319979
+                            },
+                            "m_Rotation": {
+                                "$type": 23,
+                                "value": {
+                                    "$type": 24,
+                                    "x": -0.5,
+                                    "y": -0.4999999,
+                                    "z": -0.4999999,
+                                    "w": 0.5
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 30,
+                "$type": "29|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": 8,
+                    "x": 24,
+                    "y": 45,
+                    "z": 24
+                },
+                "m_CircularLeg": true
+            },
+            {
+                "$id": 31,
+                "$type": "30|Game.Prefabs.FloatingObject, Game",
+                "name": "FloatingObject",
+                "active": true,
+                "m_FloatingOffset": 1,
+                "m_FixedToBottom": true,
+                "m_AllowDryland": true
+            },
+            {
+                "$id": 32,
+                "$type": "31|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 33,
+                    "$type": "32|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 34,
+                            "$type": "33|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Wind_Turbine_01",
+                            "m_Type": "BuildingPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 35,
+                "$type": "34|Game.Prefabs.BuildingTerraformOverride, Game",
+                "name": "BuildingTerraformOverride",
+                "active": true,
+                "m_LevelMinOffset": {
+                    "$type": "35|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 7.5,
+                    "y": 7.5
+                },
+                "m_LevelMaxOffset": {
+                    "$type": 35,
+                    "x": -7.5,
+                    "y": -7.5
+                },
+                "m_LevelFrontLeft": {
+                    "$type": 35,
+                    "x": 2.5,
+                    "y": 2.5
+                },
+                "m_LevelFrontRight": {
+                    "$type": 35,
+                    "x": 2.5,
+                    "y": 2.5
+                },
+                "m_LevelBackLeft": {
+                    "$type": 35,
+                    "x": 2.5,
+                    "y": 2.5
+                },
+                "m_LevelBackRight": {
+                    "$type": 35,
+                    "x": 2.5,
+                    "y": 2.5
+                },
+                "m_SmoothMinOffset": {
+                    "$type": 35,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_SmoothMaxOffset": {
+                    "$type": 35,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_HeightOffset": 0,
+                "m_AdditionalSmoothAreas": {
+                    "$id": 36,
+                    "$type": "36|Game.Prefabs.BuildingTerraformOverride+SubLot[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_DontRaise": false,
+                "m_DontLower": false
+            },
+            {
+                "$id": 37,
+                "$type": "37|Game.Prefabs.DestructibleObject, Game",
+                "name": "DestructibleObject",
+                "active": true,
+                "m_FireHazard": 0,
+                "m_StructuralIntegrity": 15000
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 38,
+        "$type": "38|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 39,
+                "$type": "39|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:b841558017c692443ab42d504c3c3440",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 23,
+                    "value": {
+                        "$type": 24,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": true,
+    "m_AccessType": 0,
+    "m_LotWidth": 15,
+    "m_LotDepth": 15
+}

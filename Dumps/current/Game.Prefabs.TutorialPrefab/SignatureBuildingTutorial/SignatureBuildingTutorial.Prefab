@@ -1,0 +1,68 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "SignatureBuildingTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:fe713ed04161f9c4aaa8bd6afe3ee740",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:19834a192c20e2e45bd980927093d10b",
+                "m_Priority": 5,
+                "m_Icon": "Media/Game/Icons/ZoneSignature.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:faafe299cd48f574b92bc1c22b48a837"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"UnityGUID:6cdd58a649adb0c46afdc11b3a5a40c0",
+            $fstrref:"UnityGUID:24e96a0d6abf5234a9e8627cf9fce5b4",
+            $fstrref:"UnityGUID:41c2488f44ed5974ca8ce6c69f4243de",
+            $fstrref:"UnityGUID:3f0cc1042860c994bb4fc0260fc053b0"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

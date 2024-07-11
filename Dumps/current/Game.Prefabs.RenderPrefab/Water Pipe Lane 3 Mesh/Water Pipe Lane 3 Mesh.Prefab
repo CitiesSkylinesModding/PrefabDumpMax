@@ -1,0 +1,75 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Water Pipe Lane 3 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UndergroundMesh, Game",
+                "name": "UndergroundMesh",
+                "active": true,
+                "m_IsTunnel": false,
+                "m_IsPipeline": true,
+                "m_IsSubPipeline": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.DilationProperties, Game",
+                "name": "DilationProperties",
+                "active": true,
+                "m_MinSize": 0,
+                "m_InfoviewFactor": 3,
+                "m_InfoviewOnly": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.CurveProperties, Game",
+                "name": "CurveProperties",
+                "active": true,
+                "m_TilingCount": 0,
+                "m_OverrideLength": 0,
+                "m_SmoothingDistance": 0,
+                "m_GeometryTiling": false,
+                "m_StraightTiling": false,
+                "m_InvertCurve": false,
+                "m_SubFlow": true,
+                "m_HangingSwaying": false
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:99c590376cec6df3b855c828903cda5b",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:f65ea2f2cdaaace57828f0b5afb45953"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.01093686,
+            "y": -1.01094353,
+            "z": -32
+        },
+        "max": {
+            "$type": 7,
+            "x": 1.01093686,
+            "y": 1.01094067,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 403.914368,
+    "m_IndexCount": 1536,
+    "m_VertexCount": 289,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

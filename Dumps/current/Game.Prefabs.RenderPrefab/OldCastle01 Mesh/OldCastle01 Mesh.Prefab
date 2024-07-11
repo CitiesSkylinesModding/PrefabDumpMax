@@ -1,0 +1,77 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "OldCastle01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:3cd770ed24d4803469a7b64e69aac12e",
+                        $fstrref:"UnityGUID:fb786fd2c4247fa4088c4538a1a89dc5"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.BaseProperties, Game",
+                "name": "BaseProperties",
+                "active": true,
+                "m_BaseType": null,
+                "m_UseMinBounds": false
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:8e8e5bce147330542a1b89e4e96c2322"
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:e125ce5b3d0269958a09460257cc63bd",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"CID:6bb5620109690e2aeaf32e66b0d19cb6",
+            $fstrref:"CID:92eaa1c9ff6b696d0b21a1fbc34e976e",
+            $fstrref:"CID:b70a1edecc3c747df8f2d0aec0109aa5"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -66.70163,
+            "y": -1.1920929E-05,
+            "z": -69.91266
+        },
+        "max": {
+            "$type": 8,
+            "x": 67.82968,
+            "y": 36.78498,
+            "z": 79.89313
+        }
+    },
+    "m_SurfaceArea": 48621.6563,
+    "m_IndexCount": 530667,
+    "m_VertexCount": 251956,
+    "m_MeshCount": 3,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

@@ -1,0 +1,197 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Trees",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetDividerPiece, Game",
+                "name": "NetDividerPiece",
+                "active": true,
+                "m_PreserveShape": false,
+                "m_BlockTraffic": true,
+                "m_BlockCrosswalk": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.BuildableNetPiece, Game",
+                "name": "BuildableNetPiece",
+                "active": true,
+                "m_Position": {
+                    "$type": "4|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Width": 4,
+                "m_SnapPosition": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_SnapWidth": 3.5,
+                "m_AllowOnBridge": false
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.MatchPieceVertices, Game",
+                "name": "MatchPieceVertices",
+                "active": true,
+                "m_Offsets": {
+                    "$id": 5,
+                    "$type": "6|System.Single[], mscorlib",
+                    "$plength": 2,
+                    "$pcontent": [
+                        -2.1,
+                        2.1
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "7|Game.Prefabs.NetPieceObjects, Game",
+                "name": "NetPieceObjects",
+                "active": true,
+                "m_PieceObjects": {
+                    "$id": 7,
+                    "$type": "8|Game.Prefabs.NetPieceObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 8,
+                            "$type": "9|Game.Prefabs.NetPieceObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:464d07c36d1750c44bbc911da473529d",
+                            "m_Position": {
+                                "$type": 4,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Offset": {
+                                "$type": 4,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "10|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "11|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_RequireAll": {
+                                "$id": 9,
+                                "$type": "12|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 10,
+                                "$type": 12,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 11,
+                                "$type": 12,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    0
+                                ]
+                            },
+                            "m_Probability": 100,
+                            "m_MinLength": 0,
+                            "m_CurveOffsetRange": {
+                                "$type": "13|Unity.Mathematics.float2, Unity.Mathematics",
+                                "x": 0.5,
+                                "y": 0.5
+                            },
+                            "m_Spacing": {
+                                "$type": 4,
+                                "x": 0,
+                                "y": 0,
+                                "z": 20
+                            },
+                            "m_UseCurveRotation": {
+                                "$type": 13,
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_FlipWhenInverted": false,
+                            "m_EvenSpacing": false,
+                            "m_SpacingOverride": false
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 12,
+                "$type": "14|Game.Prefabs.PlaceableNetPiece, Game",
+                "name": "PlaceableNetPiece",
+                "active": true,
+                "m_ConstructionCost": 0,
+                "m_ElevationCost": 0,
+                "m_UpkeepCost": 0.6
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:f031c0d45bb2ff0203cb81ee27ba07e4",
+    "m_SurfaceAssets": {
+        "$id": 13,
+        "$type": "15|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:1d7dad9f64c9fe55a809f1080c39fb92"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "16|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 4,
+            "x": -2.5,
+            "y": -0.200028986,
+            "z": -32
+        },
+        "max": {
+            "$type": 4,
+            "x": 2.5,
+            "y": 5.10066748E-05,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 345.60907,
+    "m_IndexCount": 672,
+    "m_VertexCount": 252,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 0,
+    "m_Width": 5,
+    "m_Length": 64,
+    "m_HeightRange": {
+        "$type": "17|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 0,
+        "max": 3
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": 11,
+        "x": -0.2,
+        "y": 0,
+        "z": -0.2,
+        "w": 0
+    }
+}

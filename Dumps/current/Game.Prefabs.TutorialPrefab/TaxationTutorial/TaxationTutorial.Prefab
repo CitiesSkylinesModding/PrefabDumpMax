@@ -1,0 +1,68 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "TaxationTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:6cfcbbc2cc8089f45b0cbcf1fd94428e",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:498bb140b2187ad4793710590254f709",
+                "m_Priority": 2,
+                "m_Icon": "Media/Game/Icons/Economy.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:ed2fd36f7646aa5429df3830063cd686"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"UnityGUID:e1c42ee3dfdcc104585d8698a8ebf18a",
+            $fstrref:"UnityGUID:03045c6ba4d0e7f47a31a1e7ae604b73",
+            $fstrref:"UnityGUID:ce28fcc24a491be47bf33d76e00ed48d",
+            $fstrref:"UnityGUID:3e81293864b034b418f65a2abcf43e1b"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

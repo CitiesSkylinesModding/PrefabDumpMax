@@ -1,0 +1,35 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Tram Stop",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportStopMarker, Game",
+                "name": "TransportStopMarker",
+                "active": true,
+                "m_TransportType": 3,
+                "m_PassengerTransport": true,
+                "m_CargoTransport": false
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:2043f68592444a629bc82a7e0be010f6",
+    "m_Description": "Tram stop",
+    "m_TargetDescription": "",
+    "m_DisplaySize": {
+        "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 3,
+        "max": 3
+    },
+    "m_PulsateAmplitude": {
+        "$type": 3,
+        "min": 0.01,
+        "max": 0.01
+    }
+}

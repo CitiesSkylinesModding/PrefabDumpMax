@@ -1,0 +1,1035 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Car06 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "Car06_RootBone",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "Car06_TireFront_L",
+                            "position": {
+                                "$type": 5,
+                                -0.792045,
+                                0.315138,
+                                1.320017
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0.792045,
+                                "m13": -0.315138,
+                                "m23": -1.320017,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 5,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "Car06_TireFront_R",
+                            "position": {
+                                "$type": 5,
+                                0.792045,
+                                0.315138,
+                                1.320017
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -0.792045,
+                                "m13": -0.315138,
+                                "m23": -1.320017,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 5,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "Car06_TireRear_L",
+                            "position": {
+                                "$type": 5,
+                                -0.792045,
+                                0.315138,
+                                -1.320017
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0.792045,
+                                "m13": -0.315138,
+                                "m23": 1.320017,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 4,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 4,
+                            "name": "Car06_TireRear_R",
+                            "position": {
+                                "$type": 5,
+                                0.792045,
+                                0.315138,
+                                -1.320017
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -0.792045,
+                                "m13": -0.315138,
+                                "m23": 1.320017,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 4,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 9,
+                "$type": "8|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 10,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 11,
+                    "$type": "10|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 9,
+                    "$rcontent": [
+                        {
+                            "$id": 12,
+                            "$type": "11|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 1,
+                            "color": {
+                                "$type": "12|UnityEngine.Color, UnityEngine.CoreModule",
+                                0.7921569,
+                                0.7921569,
+                                0.7921569,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.26237607,
+                            "luminance": 0.792156935,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 10
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 11,
+                            "purpose": 2,
+                            "color": {
+                                "$type": 12,
+                                0.7529412,
+                                0.745098054,
+                                0.7137255,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.34318006,
+                            "luminance": 0.7445018,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 15
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 11,
+                            "purpose": 3,
+                            "color": {
+                                "$type": 12,
+                                0.68235296,
+                                0.670588255,
+                                0.5921569,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.49828541,
+                            "luminance": 0.667429566,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 20
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 11,
+                            "purpose": 4,
+                            "color": {
+                                "$type": 12,
+                                0.75686276,
+                                0.345098048,
+                                0.05882353,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 2.42714071,
+                            "luminance": 0.412007421,
+                            "responseTime": 0,
+                            "animationIndex": 0,
+                            "layerId": 25
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 11,
+                            "purpose": 5,
+                            "color": {
+                                "$type": 12,
+                                0.7529412,
+                                0.345098048,
+                                0.05882353,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 2.43206382,
+                            "luminance": 0.4111734,
+                            "responseTime": 0,
+                            "animationIndex": 0,
+                            "layerId": 30
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 11,
+                            "purpose": 6,
+                            "color": {
+                                "$type": 12,
+                                0.7137255,
+                                0.0470588244,
+                                0.05882353,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 5.27176237,
+                            "luminance": 0.18968989,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 35
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 11,
+                            "purpose": 7,
+                            "color": {
+                                "$type": 12,
+                                0.8156863,
+                                0.07058824,
+                                0.07058824,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 4.365851,
+                            "luminance": 0.229050413,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 40
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 11,
+                            "purpose": 8,
+                            "color": {
+                                "$type": 12,
+                                0.921568632,
+                                0.921568632,
+                                0.921568632,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.08510625,
+                            "luminance": 0.921568751,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 45
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 11,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 12,
+                                0.917647064,
+                                0.8156863,
+                                0.549019635,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.22230864,
+                            "luminance": 0.818124,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 120
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 21,
+                    "$type": "13|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 22,
+                            "$type": "14|Game.Prefabs.EmissiveProperties+AnimationProperties, Game",
+                            "m_Duration": 0.5,
+                            "m_Curve": {
+                                "$id": 23,
+                                "$type": "15|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+                                {
+                                    "$id": 24,
+                                    "$type": "16|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": "17|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 17,
+                                            "ver": 1,
+                                            "m_Time": 0.249,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 17,
+                                            "ver": 1,
+                                            "m_Time": 0.25,
+                                            "m_Value": 1,
+                                            "m_InTangent": 999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 17,
+                                            "ver": 1,
+                                            "m_Time": 0.749,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -1000.01288,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 17,
+                                            "ver": 1,
+                                            "m_Time": 0.75,
+                                            "m_Value": 0,
+                                            "m_InTangent": -1000.01288,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 17,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        }
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 25,
+                    "$type": "18|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 26,
+                "$type": "19|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 27,
+                    "$type": "20|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 10,
+                    "$rcontent": [
+                        {
+                            "$id": 28,
+                            "$type": "21|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 29,
+                                "$type": "22|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        0.5529412
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 30,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 31,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.6226415,
+                                        0.6226415,
+                                        0.6226415,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 32,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 33,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.2830189,
+                                        0.2830189,
+                                        0.2830189,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 34,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 35,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.5849056,
+                                        0.2179601,
+                                        0.2179601,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 36,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 37,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.6037736,
+                                        0.55530405,
+                                        0.487006068,
+                                        0.427450985
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 38,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 39,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.40850836,
+                                        0.5212508,
+                                        0.6415094,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 40,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 41,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.407974362,
+                                        0.4528302,
+                                        0.437228173,
+                                        0.5686275
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 42,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 43,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.821999967,
+                                        0.769952357,
+                                        0.658422,
+                                        0
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 44,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 45,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        0.8677609,
+                                        0.447000027,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 46,
+                            "$type": 21,
+                            "m_Colors": {
+                                "$id": 47,
+                                "$type": 22,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 12,
+                                        0.2267711,
+                                        0.4277916,
+                                        0.5283019,
+                                        0.78039217
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 48,
+                    "$type": "23|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 49,
+                            "$type": "24|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 50,
+                            "$type": 24,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 51,
+                            "$type": 24,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 52,
+                    "$type": "25|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "26|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 26,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 53,
+                "$type": "27|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 54,
+                    "$type": "28|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0f96f5680d66c384ea2fd721ef0803e6",
+                        $fstrref:"UnityGUID:4fe33ad0c4a1e5c40b65af2a0229a7ca"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:0cdc6deb59fb434555931da314fcbfa5",
+    "m_SurfaceAssets": {
+        "$id": 55,
+        "$type": "29|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:3dd908ec42aa24ab572578f3ef227f20"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "30|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "31|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.002345,
+            "y": 0,
+            "z": -2.276865
+        },
+        "max": {
+            "$type": 31,
+            "x": 1.002345,
+            "y": 1.480717,
+            "z": 2.20266628
+        }
+    },
+    "m_SurfaceArea": 30.10811,
+    "m_IndexCount": 5754,
+    "m_VertexCount": 1868,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

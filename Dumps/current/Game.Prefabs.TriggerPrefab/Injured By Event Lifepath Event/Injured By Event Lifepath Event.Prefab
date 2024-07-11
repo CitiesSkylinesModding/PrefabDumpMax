@@ -1,0 +1,41 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Injured By Event Lifepath Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LifePathEvent, Game",
+                "name": "LifePathEvent",
+                "active": true,
+                "m_EventType": 7,
+                "m_IsChirp": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "LifePath.CITIZEN_GOT_INJURED_BY_EVENT"
+            }
+        ]
+    },
+    "m_TriggerType": 17,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.PrefabBase[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"UnityGUID:0e5811af6656d6748bb05edd783fff9a",
+            $fstrref:"UnityGUID:77f0129b526431942a78a65aa765d223",
+            $fstrref:"UnityGUID:3008c03f05e9d514b8bb937c25aa7196",
+            $fstrref:"UnityGUID:73c0d18bfc7e55544a587c02407993af"
+        ]
+    },
+    "m_TargetTypes": 2
+}

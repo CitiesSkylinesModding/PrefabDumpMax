@@ -1,0 +1,38 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "CollegeSpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0a3d4c499401e4045a20198e7488c449",
+                        $fstrref:"UnityGUID:cc8f1b866b5b87645841ff2bd0eef88f",
+                        $fstrref:"UnityGUID:695ebafa4bdd1694e9ed4c3eeae68ff1"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 50
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 8192,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

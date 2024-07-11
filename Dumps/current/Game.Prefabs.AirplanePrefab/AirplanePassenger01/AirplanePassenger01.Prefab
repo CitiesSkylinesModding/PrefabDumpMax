@@ -1,0 +1,325 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AirplanePrefab, Game",
+    "name": "AirplanePassenger01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PublicTransport, Game",
+                "name": "PublicTransport",
+                "active": true,
+                "m_TransportType": 7,
+                "m_PassengerCapacity": 175,
+                "m_Purposes": 1,
+                "m_MaintenanceRange": 1000
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Passenger Airplane",
+                            "m_Type": "AirplanePrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.VehicleSideEffects, Game",
+                "name": "VehicleSideEffects",
+                "active": true,
+                "m_RoadWear": {
+                    "$type": "7|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0.5,
+                    "y": 1
+                },
+                "m_NoisePollution": {
+                    "$type": 7,
+                    "x": 0.25,
+                    "y": 10
+                },
+                "m_AirPollution": {
+                    "$type": 7,
+                    "x": 0.5,
+                    "y": 1
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 8,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "10|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:61c8cf8099e59904ab2f5a2cc11c0689",
+                            "m_PositionOffset": {
+                                "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "12|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "13|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 10,
+                            "m_Effect": $fstrref:"UnityGUID:d0a51d147366e494bb27785fe1d3f776",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 2.34375,
+                                "z": 20.76563
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0.156434476,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.987688363
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 10,
+                            "m_Effect": $fstrref:"UnityGUID:0132ae17474639b4aad79f75a97d5a01",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": -3.210938,
+                                "y": 4.5,
+                                "z": 7.101563
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": -0.195373088,
+                                    "y": 0.334546268,
+                                    "z": -0.07111,
+                                    "w": -0.9191581
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 10,
+                            "m_Effect": $fstrref:"UnityGUID:0132ae17474639b4aad79f75a97d5a01",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": 3.210938,
+                                "y": 4.5,
+                                "z": 7.101563
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0.195373133,
+                                    "y": 0.334546149,
+                                    "z": -0.07111,
+                                    "w": 0.919158041
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 10,
+                            "m_Effect": $fstrref:"UnityGUID:fac3d7e22954d8047aaa3485fc5d478d",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": 2.55475,
+                                "y": 4.5,
+                                "z": 10.66406
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": -0.0326491147,
+                                    "y": 0.9236557,
+                                    "z": -0.08080939,
+                                    "w": -0.373181134
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 10,
+                            "m_Effect": $fstrref:"UnityGUID:fac3d7e22954d8047aaa3485fc5d478d",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": -2.55475,
+                                "y": 4.5,
+                                "z": 10.66406
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0.03264911,
+                                    "y": 0.9236557,
+                                    "z": -0.08080937,
+                                    "w": 0.373181164
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 15,
+                    "$type": "14|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 16,
+                "$type": "15|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Airplane.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 17,
+        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 18,
+                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:6d3f2643941e014479b5a626895569be",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_SizeClass": 2,
+    "m_GroundMaxSpeed": 350,
+    "m_GroundAcceleration": 11,
+    "m_GroundBraking": 11,
+    "m_GroundTurning": {
+        "$type": 7,
+        "x": 45,
+        "y": 15
+    },
+    "m_FlyingSpeed": {
+        "$type": 7,
+        "x": 300,
+        "y": 1000
+    },
+    "m_FlyingAcceleration": 11,
+    "m_FlyingBraking": 11,
+    "m_FlyingTurning": 30,
+    "m_FlyingAngularAcceleration": 90,
+    "m_ClimbAngle": 20,
+    "m_SlowPitchAngle": 20,
+    "m_TurningRollFactor": 0.1
+}

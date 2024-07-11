@@ -1,0 +1,169 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "Ore Area Placeholder - Stone",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 7,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PlaceholderBuilding, Game",
+                "name": "PlaceholderBuilding",
+                "active": true,
+                "m_BuildingType": 32,
+                "m_ZoneType": $fstrref:"UnityGUID:07395dc6d06a0d544b50c5f7e4928f61"
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 0,
+                "m_XPReward": 0
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObjectSubAreas, Game",
+                "name": "ObjectSubAreas",
+                "active": true,
+                "m_SubAreas": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ObjectSubAreaInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ObjectSubAreaInfo, Game",
+                            "m_AreaPrefab": $fstrref:"UnityGUID:a156b56f34f594c46b950c88c4c5f325",
+                            "m_NodePositions": {
+                                "$id": 7,
+                                "$type": "7|Unity.Mathematics.float3[], Unity.Mathematics",
+                                "$rlength": 4,
+                                "$rcontent": [
+                                    {
+                                        "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                        "x": -24,
+                                        "y": 0,
+                                        "z": -40
+                                    },
+                                    {
+                                        "$type": 8,
+                                        "x": -24,
+                                        "y": 0,
+                                        "z": -56
+                                    },
+                                    {
+                                        "$type": 8,
+                                        "x": 24,
+                                        "y": 0,
+                                        "z": -56
+                                    },
+                                    {
+                                        "$type": 8,
+                                        "x": 24,
+                                        "y": 0,
+                                        "z": -40
+                                    }
+                                ]
+                            },
+                            "m_ParentMeshes": {
+                                "$id": 8,
+                                "$type": "9|System.Int32[], mscorlib",
+                                "$plength": 0,
+                                "$pcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 9,
+                "$type": "10|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 10,
+                    "$type": "11|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:9af2c85bf8f3400438a82523ed61b8a4"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 11,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 12,
+                "$type": "12|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:bf9d9a4d7e119a8469b068587e222a82",
+                "m_Priority": 30,
+                "m_Icon": "Media/Game/Resources/Stone.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 13,
+                "$type": "13|Game.Prefabs.BuildingProperties, Game",
+                "name": "BuildingProperties",
+                "active": true,
+                "m_ResidentialProperties": 0,
+                "m_AllowedSold": {
+                    "$id": 14,
+                    "$type": "14|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AllowedManufactured": {
+                    "$id": 15,
+                    "$type": 14,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        24
+                    ]
+                },
+                "m_AllowedStored": {
+                    "$id": 16,
+                    "$type": 14,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SpaceMultiplier": 0
+            },
+            {
+                "$id": 17,
+                "$type": "15|Game.Prefabs.Pollution, Game",
+                "name": "Pollution",
+                "active": true,
+                "m_GroundPollution": 20000,
+                "m_AirPollution": 20000,
+                "m_NoisePollution": 20000,
+                "m_ScaleWithRenters": true
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 18,
+        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Circular": false,
+    "m_AccessType": 0,
+    "m_LotWidth": 6,
+    "m_LotDepth": 10
+}

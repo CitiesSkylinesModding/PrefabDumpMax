@@ -1,0 +1,47 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PathfindPrefab, Game",
+    "name": "Platform Pathfind",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PedestrianPathfind, Game",
+                "name": "PedestrianPathfind",
+                "active": true,
+                "m_WalkingCost": {
+                    "$type": "3|Game.Prefabs.PathfindCostInfo, Game",
+                    "m_Time": 0,
+                    "m_Behaviour": 0,
+                    "m_Money": 0,
+                    "m_Comfort": 0.25
+                },
+                "m_CrosswalkCost": {
+                    "$type": 3,
+                    "m_Time": 0,
+                    "m_Behaviour": 0,
+                    "m_Money": 0,
+                    "m_Comfort": 5
+                },
+                "m_UnsafeCrosswalkCost": {
+                    "$type": 3,
+                    "m_Time": 0,
+                    "m_Behaviour": 100,
+                    "m_Money": 0,
+                    "m_Comfort": 5
+                },
+                "m_SpawnCost": {
+                    "$type": 3,
+                    "m_Time": 5,
+                    "m_Behaviour": 0,
+                    "m_Money": 0,
+                    "m_Comfort": 0
+                }
+            }
+        ]
+    }
+}

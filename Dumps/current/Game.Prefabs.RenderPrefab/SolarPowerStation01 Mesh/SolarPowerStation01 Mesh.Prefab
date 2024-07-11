@@ -1,0 +1,152 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "SolarPowerStation01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:6a00cc89a5a764c4194512b2aeda62f9",
+                        $fstrref:"UnityGUID:c1088a3b3351b924991f705969723639"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 5,
+                    "$type": "5|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 7,
+                                "$type": "7|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "8|UnityEngine.Color, UnityEngine.CoreModule",
+                                        0.607843161,
+                                        0.7607843,
+                                        0.894117653,
+                                        1
+                                    },
+                                    {
+                                        "$type": 8,
+                                        0.607843161,
+                                        0.7607843,
+                                        0.894117653,
+                                        1
+                                    },
+                                    {
+                                        "$type": 8,
+                                        0.490566015,
+                                        0.490566015,
+                                        0.490566015,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 8,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "10|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 10,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 10,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 12,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "12|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 12,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:2581476cc648a5354bd295a60eb23295",
+    "m_SurfaceAssets": {
+        "$id": 13,
+        "$type": "13|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:73b58fad4186538eaaf8df14a6226537",
+            $fstrref:"CID:1283cbf3112ed914c820bc0bdc850dd1"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "14|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "15|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -126.407227,
+            "y": 0,
+            "z": -274.299652
+        },
+        "max": {
+            "$type": 15,
+            "x": 133.784546,
+            "y": 22.7638321,
+            "z": 256.9716
+        }
+    },
+    "m_SurfaceArea": 101994.945,
+    "m_IndexCount": 447204,
+    "m_VertexCount": 279943,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

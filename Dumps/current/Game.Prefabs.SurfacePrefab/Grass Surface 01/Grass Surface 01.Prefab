@@ -1,0 +1,107 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.SurfacePrefab, Game",
+    "name": "Grass Surface 01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RenderedArea, Game",
+                "name": "RenderedArea",
+                "active": true,
+                "m_Material": $fstrref:"UnityObjectsMap:69dc74159b644912a657bea73e9f5f84",
+                "m_Roundness": 0.5,
+                "m_LodBias": 1,
+                "m_RendererPriority": -99,
+                "m_DecalLayerMask": 1
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnableArea, Game",
+                "name": "SpawnableArea",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.AreaPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5f0f0d1ec592ebb40be19471794fda32"
+                    ]
+                },
+                "m_Probability": 100
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:60c0e17c40a5f1b41bf9d2032670b81d",
+                "m_Priority": 2,
+                "m_Icon": "Media/Game/Icons/SurfaceGrass01.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:5930db6811522d34495a9e16c4fd4c18"
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 8,
+                    "$type": "8|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:3e47e765f44f210409edf4e6229fd0df"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 9,
+                    "$type": 8,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": "9|UnityEngine.Color, UnityEngine.CoreModule",
+        0.274509817,
+        0.623529434,
+        0.288469762,
+        0.196078435
+    },
+    "m_EdgeColor": {
+        "$type": 9,
+        0.274509817,
+        0.623529434,
+        0.2861751,
+        0.392156869
+    },
+    "m_SelectionColor": {
+        "$type": 9,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_SelectionEdgeColor": {
+        "$type": 9,
+        1,
+        1,
+        1,
+        1
+    }
+}

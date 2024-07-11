@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "LoanTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:c0698023e3cf4db4da3f2a1339d5611e",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:498bb140b2187ad4793710590254f709",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/Economy.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:a8b1aba033d6fe641a1af576e754117f"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:601de0eb88b975442b1e3ad602c89d8f",
+            $fstrref:"UnityGUID:8a565cff253703b488cfefec92a638e1",
+            $fstrref:"UnityGUID:cb0ea0ee948495442806b22a6830d39b"
+        ]
+    },
+    "m_Priority": 100,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

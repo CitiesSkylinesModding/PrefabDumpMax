@@ -1,0 +1,93 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EventPrefab, Game",
+    "name": "Forest Fire",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Fire, Game",
+                "name": "Fire",
+                "active": true,
+                "m_RandomTargetType": 1,
+                "m_StartProbability": 0.005,
+                "m_StartIntensity": 1,
+                "m_EscalationRate": 1.66666675,
+                "m_SpreadProbability": 1.5,
+                "m_SpreadRange": 30
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:a2192ceb6459e214aa1f34467e1c7bb2"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.JournalEventComponent, Game",
+                "name": "JournalEventComponent",
+                "active": true,
+                "m_Icon": "",
+                "m_TrackedData": {
+                    "$id": 7,
+                    "$type": "6|Game.Events.EventDataTrackingType[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        0,
+                        1
+                    ]
+                },
+                "m_TrackedCityEffects": {
+                    "$id": 8,
+                    "$type": "7|Game.Events.EventCityEffectTrackingType[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 9,
+                "$type": "8|Game.Prefabs.EventAchievementComponent, Game",
+                "name": "EventAchievementComponent",
+                "active": true,
+                "m_Achievements": {
+                    "$id": 10,
+                    "$type": "9|Game.Prefabs.EventAchievementComponent+EventAchievementSetup[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "10|Game.Prefabs.EventAchievementComponent+EventAchievementSetup, Game",
+                            "m_ID": {
+                                "$type": "11|Colossal.PSI.Common.AchievementId, Colossal.PSI.Common",
+                                "id": 9
+                            },
+                            "m_FrameDelay": 0,
+                            "m_BypassCounter": true
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_ConcurrentLimit": 0
+}

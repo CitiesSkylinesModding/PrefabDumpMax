@@ -1,0 +1,76 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Male_WinterBoots02 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CharacterProperties, Game",
+                "name": "CharacterProperties",
+                "active": true,
+                "m_BodyParts": 16,
+                "m_CorrectiveAnimationName": "",
+                "m_AnimatedPropName": "",
+                "m_Overlays": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.CharacterOverlay[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:30ddb370337cb734da9fdf9e7675c46b",
+                        $fstrref:"UnityGUID:1d69abb01e52d814ba9a1cbdfc7ac6a0"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:092b3d5c4a6abc1c4c0ec4ae01231d85",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:321778616f723df832370eacaed76f81"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.177915126,
+            "y": -0.0146743357,
+            "z": -0.138769835
+        },
+        "max": {
+            "$type": 8,
+            "x": 0.177574992,
+            "y": 0.2691013,
+            "z": 0.141522735
+        }
+    },
+    "m_SurfaceArea": 0.345216125,
+    "m_IndexCount": 6636,
+    "m_VertexCount": 1260,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

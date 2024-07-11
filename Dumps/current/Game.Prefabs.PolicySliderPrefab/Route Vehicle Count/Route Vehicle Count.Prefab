@@ -1,0 +1,58 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PolicySliderPrefab, Game",
+    "name": "Route Vehicle Count",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RouteModifiers, Game",
+                "name": "RouteModifiers",
+                "active": true,
+                "m_Modifiers": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RouteModifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.RouteModifierInfo, Game",
+                            "m_Type": 1,
+                            "m_Mode": 2,
+                            "m_Range": {
+                                "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                                "min": -0.5,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Policies/RouteVehicleCount.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Visibility": 1,
+    "m_Category": 3,
+    "m_SliderRange": {
+        "$type": 5,
+        "min": 50,
+        "max": 200
+    },
+    "m_SliderDefault": 100,
+    "m_SliderStep": 10,
+    "m_Unit": 1
+}

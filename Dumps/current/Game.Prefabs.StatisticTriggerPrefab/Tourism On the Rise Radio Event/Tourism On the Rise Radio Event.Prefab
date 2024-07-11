@@ -1,0 +1,45 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StatisticTriggerPrefab, Game",
+    "name": "Tourism On the Rise Radio Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RadioEvent, Game",
+                "name": "RadioEvent",
+                "active": true,
+                "m_SegmentType": 4
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "5|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 1,
+                            "m_Value": 0.2
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Type": 3,
+    "m_StatisticPrefab": $fstrref:"UnityGUID:793d979f15744544283124c3acbdd672",
+    "m_StatisticParameter": 0,
+    "m_NormalizeWithPrefab": null,
+    "m_NormalizeWithParameter": 0,
+    "m_TimeFrame": 2,
+    "m_MinSamples": 1
+}

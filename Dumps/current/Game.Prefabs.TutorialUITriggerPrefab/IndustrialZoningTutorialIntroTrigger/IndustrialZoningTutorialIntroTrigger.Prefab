@@ -1,0 +1,34 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialUITriggerPrefab, Game",
+    "name": "IndustrialZoningTutorialIntroTrigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_DisplayUI": false,
+    "m_UITriggers": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.TutorialUITriggerPrefab+UITriggerInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TutorialUITriggerPrefab+UITriggerInfo, Game",
+                "m_UITagProvider": $fstrref:"UnityGUID:4f800ee88525f4f4c97eb5000f5da28a",
+                "m_GoToPhase": null,
+                "m_DisableBlinking": false
+            }
+        ]
+    }
+}

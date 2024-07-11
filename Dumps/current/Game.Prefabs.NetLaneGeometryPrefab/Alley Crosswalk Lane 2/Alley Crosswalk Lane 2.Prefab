@@ -1,0 +1,66 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Alley Crosswalk Lane 2",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PedestrianLane, Game",
+                "name": "PedestrianLane",
+                "active": true,
+                "m_Width": 2,
+                "m_OnWater": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceholderLane, Game",
+                "name": "PlaceholderLane",
+                "active": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Alley Crosswalk Lane 2",
+                            "m_Type": "NetLanePrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:f4e42245382aea44ca7be75c48162da2",
+    "m_Meshes": {
+        "$id": 7,
+        "$type": "7|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:efb9094c8352d1444b52dab282929b55",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

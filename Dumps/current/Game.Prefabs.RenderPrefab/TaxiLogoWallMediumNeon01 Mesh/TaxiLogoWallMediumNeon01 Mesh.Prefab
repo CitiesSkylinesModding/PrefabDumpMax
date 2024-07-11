@@ -1,0 +1,101 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "TaxiLogoWallMediumNeon01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.EmissiveProperties+SingleLightMapping, Game",
+                            "purpose": 33,
+                            "color": {
+                                "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+                                1,
+                                1,
+                                1,
+                                0
+                            },
+                            "colorOff": {
+                                "$type": 5,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.6,
+                            "luminance": 0,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "materialId": 0
+                        }
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 5,
+                    "$type": "6|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 7,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:2595c52180d5e9ffb7177ce0eaaf9b3c",
+    "m_SurfaceAssets": {
+        "$id": 8,
+        "$type": "9|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:909e18d1c8c742757a2b6973fd625ea0"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "10|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.723197937,
+            "y": -0.968760967,
+            "z": 0
+        },
+        "max": {
+            "$type": 11,
+            "x": 0.723197937,
+            "y": 0.968760967,
+            "z": 0.17
+        }
+    },
+    "m_SurfaceArea": 6.25347233,
+    "m_IndexCount": 600,
+    "m_VertexCount": 348,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

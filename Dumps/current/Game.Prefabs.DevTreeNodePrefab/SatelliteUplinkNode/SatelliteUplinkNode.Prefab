@@ -1,0 +1,34 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DevTreeNodePrefab, Game",
+    "name": "SatelliteUplinkNode",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Service": $fstrref:"UnityGUID:f1e68be9e9035b9408973131096ac7a8",
+    "m_Requirements": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.DevTreeNodePrefab[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"UnityGUID:1b0d2d0a19d85c9469f6febe3dda15aa",
+            $fstrref:"UnityGUID:b96ce74680a717f499978fe78fca6850"
+        ]
+    },
+    "m_Cost": 8,
+    "m_HorizontalPosition": 4,
+    "m_VerticalPosition": 0.5,
+    "m_IconPath": "",
+    "m_IconPrefab": $fstrref:"UnityGUID:07182cfa3cbc041489c541db6ae65aa4"
+}

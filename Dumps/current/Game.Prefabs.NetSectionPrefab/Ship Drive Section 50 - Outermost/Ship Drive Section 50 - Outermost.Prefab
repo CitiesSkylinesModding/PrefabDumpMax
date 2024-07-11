@@ -1,0 +1,93 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetSectionPrefab, Game",
+    "name": "Ship Drive Section 50 - Outermost",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_SubSections": {
+        "$id": 2,
+        "$type": "2|Game.Prefabs.NetSubSectionInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Pieces": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.NetPieceInfo[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.NetPieceInfo, Game",
+                "m_Piece": $fstrref:"UnityGUID:866710dfe4082b646a57533327ac3b52",
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.NetPieceRequirements[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 7,
+                    "$type": 5,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        23
+                    ]
+                },
+                "m_Offset": {
+                    "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 8,
+                "$type": 4,
+                "m_Piece": $fstrref:"UnityGUID:3ec797e48d02cf44c86282d9224b7c5e",
+                "m_RequireAll": {
+                    "$id": 9,
+                    "$type": 5,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        23
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 10,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 11,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_Offset": {
+                    "$type": 6,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Sick By Event Lifepath Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LifePathEvent, Game",
+                "name": "LifePathEvent",
+                "active": true,
+                "m_EventType": 6,
+                "m_IsChirp": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "LifePath.CITIZEN_GOT_SICK_BY_EVENT"
+            }
+        ]
+    },
+    "m_TriggerType": 16,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.PrefabBase[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"UnityGUID:b6e46bf38e1592f41b2727c528745bce",
+            $fstrref:"UnityGUID:0a5176568abaef3498a6e808ab6ba9f4"
+        ]
+    },
+    "m_TargetTypes": 2
+}

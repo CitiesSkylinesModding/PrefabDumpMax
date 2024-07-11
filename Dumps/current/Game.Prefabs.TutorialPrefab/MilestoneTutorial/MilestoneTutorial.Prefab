@@ -1,0 +1,49 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "MilestoneTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:075d4535d1b6e7f479c555beaaf483fc",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:6977c988a8a065a478b78dfad4a8cd36",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/Trophy.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            $fstrref:"UnityGUID:0dc2133a0d75f53489376077894b8ed4",
+            $fstrref:"UnityGUID:a37453f3558e46d40899e9d659646bf7",
+            $fstrref:"UnityGUID:f72a76ed11719ee499a1b7d8bc10ed88",
+            $fstrref:"UnityGUID:6447d648712d86d4fbe65ef94d6b2934",
+            $fstrref:"UnityGUID:cc12fac9bf5189941b51616a73dc7c75",
+            $fstrref:"UnityGUID:bb566d9e455ea6040a8c3f5b495db73c",
+            $fstrref:"UnityGUID:3a840f36d1ff6784182eff129bc3d225"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

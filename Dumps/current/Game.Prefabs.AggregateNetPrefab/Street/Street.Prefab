@@ -1,0 +1,73 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AggregateNetPrefab, Game",
+    "name": "Street",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetLabel, Game",
+                "name": "NetLabel",
+                "active": true,
+                "m_NameMaterial": $fstrref:"UnityObjectsMap:cd545bf8ca05419991a58fa1f001cd79",
+                "m_NameColor": {
+                    "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+                    1,
+                    1,
+                    1,
+                    0.7529412
+                },
+                "m_SelectedNameColor": {
+                    "$type": 3,
+                    0.5,
+                    0.5019608,
+                    1,
+                    1
+                }
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "Assets.STREET_NAME"
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.NetArrow, Game",
+                "name": "NetArrow",
+                "active": true,
+                "m_ArrowMaterial": $fstrref:"UnityObjectsMap:b1a245659fad465b8ef53e3730c89d1d",
+                "m_RoadArrowColor": {
+                    "$type": 3,
+                    1,
+                    1,
+                    1,
+                    0.7529412
+                },
+                "m_TrackArrowColor": {
+                    "$type": 3,
+                    0.5311166,
+                    0.183962286,
+                    1,
+                    0.7529412
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/SmallRoads.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    }
+}

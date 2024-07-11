@@ -1,0 +1,65 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "GaragePylonRandom01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PlaceholderObject, Game",
+                "name": "PlaceholderObject",
+                "active": true,
+                "m_RandomizeGroupIndex": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:6a2dbb5b0d5ed814d975ec201667b644"
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:3d1ff508fa485a14887b1fd0420d6e4e",
+                "m_Position": {
+                    "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "8|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

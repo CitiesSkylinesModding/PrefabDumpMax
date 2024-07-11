@@ -1,0 +1,39 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "HighPitchTeenSad",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioRandomize, Game",
+                "name": "AudioRandomize",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:50340bf908b7cb44d971f8576ed493ee",
+                        $fstrref:"UnityGUID:ab4c7561261144a46a6e9ce14696b41d",
+                        $fstrref:"UnityGUID:dad3b9879ba385d49a1cc52b147d2e68",
+                        $fstrref:"UnityGUID:4be4d96b7a227074ba4999b2cbd3ecb7",
+                        $fstrref:"UnityGUID:2d9158121705e7b498da63312c16c19d",
+                        $fstrref:"UnityGUID:ae6e845b3b529c84b9b1a59708864b82"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

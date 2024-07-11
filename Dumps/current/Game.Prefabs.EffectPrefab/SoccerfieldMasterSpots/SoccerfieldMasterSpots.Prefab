@@ -1,0 +1,37 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "SoccerfieldMasterSpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:c7a881a4a18b064459e238ebf9b621b7",
+                        $fstrref:"UnityGUID:8122cabda7457ac42a6608211bdd8f18"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 60
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 8192,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

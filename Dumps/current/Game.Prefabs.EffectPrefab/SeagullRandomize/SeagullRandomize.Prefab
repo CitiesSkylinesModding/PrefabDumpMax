@@ -1,0 +1,37 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "SeagullRandomize",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioRandomize, Game",
+                "name": "AudioRandomize",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5d6629d07e1f83849b7c11278344efff",
+                        $fstrref:"UnityGUID:59d9a7ed370e4d64d984c3c29768833c",
+                        $fstrref:"UnityGUID:7120beeae4bc61b489bfaa4d7d0e29f4",
+                        $fstrref:"UnityGUID:10cfda8a60eb2e94f9ecfe86e0898211"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

@@ -1,0 +1,114 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "NA_TrafficLightLevelcrossingLeft01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:d5844314e7d9a8049b510ed4f20b8d5b"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TrafficLightObject, Game",
+                "name": "TrafficLightObject",
+                "active": true,
+                "m_VehicleLeft": true,
+                "m_VehicleRight": false,
+                "m_CrossingLeft": false,
+                "m_CrossingRight": false,
+                "m_AllowFlipped": false,
+                "m_ReachOffset": {
+                    "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": -4,
+                    "max": 5
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0.5,
+                    "y": 2,
+                    "z": 0.5
+                },
+                "m_CircularLeg": false
+            },
+            {
+                "$id": 6,
+                "$type": "8|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:6f24f89d231e81043b538ce3fb2b54ae"
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 8,
+                    "$type": "10|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "11|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "NA Traffic Light Levelcrossing Left",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 10,
+        "$type": "12|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": "13|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:3bb9ad747eca18244aa81c1ab8cd1ea0",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "14|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "15|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

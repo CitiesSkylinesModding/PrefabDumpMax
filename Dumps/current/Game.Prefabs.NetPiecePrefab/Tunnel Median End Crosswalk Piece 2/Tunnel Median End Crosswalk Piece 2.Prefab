@@ -1,0 +1,77 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Tunnel Median End Crosswalk Piece 2",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetDividerPiece, Game",
+                "name": "NetDividerPiece",
+                "active": true,
+                "m_PreserveShape": true,
+                "m_BlockTraffic": true,
+                "m_BlockCrosswalk": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.AsymmetricPieceMesh, Game",
+                "name": "AsymmetricPieceMesh",
+                "active": true,
+                "m_Sideways": false,
+                "m_Lengthwise": true
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:944b3f9caa91142cab697e8d545a5a7a",
+    "m_SurfaceAssets": {
+        "$id": 4,
+        "$type": "4|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:be0288a9a49c5205fb9d0b0ab76a3065"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "5|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.599998,
+            "y": -0.2000041,
+            "z": -1.40005684
+        },
+        "max": {
+            "$type": 6,
+            "x": 0.6,
+            "y": 5.000001,
+            "z": 1.500001
+        }
+    },
+    "m_SurfaceArea": 10.8982992,
+    "m_IndexCount": 171,
+    "m_VertexCount": 73,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 0,
+    "m_Width": 2,
+    "m_Length": 3,
+    "m_HeightRange": {
+        "$type": "7|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 0,
+        "max": 5
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": "8|Unity.Mathematics.float4, Unity.Mathematics",
+        "x": -0.2,
+        "y": 0,
+        "z": -0.2,
+        "w": 0
+    }
+}

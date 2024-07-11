@@ -1,0 +1,61 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "No Pedestrian Access",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ToolError, Game",
+                "name": "ToolError",
+                "active": true,
+                "m_Error": 7,
+                "m_TemporaryOnly": false,
+                "m_DisableInGame": false,
+                "m_DisableInEditor": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SimulationWarning, Game",
+                "name": "SimulationWarning",
+                "active": true,
+                "m_Categories": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.IconCategory[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        6
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "media/Game/Notifications/NoPedestrianAccess.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:1beaaa0ce793411d8ca05da4b1e62105",
+    "m_Description": "No pedestrian access",
+    "m_TargetDescription": "",
+    "m_DisplaySize": {
+        "$type": "6|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 2,
+        "max": 2
+    },
+    "m_PulsateAmplitude": {
+        "$type": 6,
+        "min": 0.01,
+        "max": 0.02
+    }
+}

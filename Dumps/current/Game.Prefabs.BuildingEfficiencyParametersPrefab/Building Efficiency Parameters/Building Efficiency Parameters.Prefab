@@ -1,0 +1,167 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingEfficiencyParametersPrefab, Game",
+    "name": "Building Efficiency Parameters",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_ServiceBudgetEfficiencyFactor": {
+        "$id": 2,
+        "$type": "2|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        {
+            "$id": 3,
+            "$type": "3|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": "4|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                    "ver": 1,
+                    "m_Time": 0.5,
+                    "m_Value": 0.25,
+                    "m_InTangent": 2.38328266,
+                    "m_OutTangent": 2.38328266,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.114925861
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1,
+                    "m_Value": 1,
+                    "m_InTangent": 0.9872534,
+                    "m_OutTangent": 0.9872534,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.165834427
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1.5,
+                    "m_Value": 1.25,
+                    "m_InTangent": 0.265013,
+                    "m_OutTangent": 0.265013,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.269993544,
+                    "m_OutWeight": 0.333333343
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_LowEfficiencyThreshold": 0.15,
+    "m_ElectricityPenalty": 0.5,
+    "m_ElectricityPenaltyDelay": 32,
+    "m_ElectricityFeeFactor": {
+        "$id": 4,
+        "$type": 2,
+        {
+            "$id": 5,
+            "$type": 3,
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 1.1,
+                    "m_InTangent": -0.100782774,
+                    "m_OutTangent": -0.100782774,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.9940714
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0.9968872,
+                    "m_Value": 1,
+                    "m_InTangent": 0.000880819047,
+                    "m_OutTangent": 0.000880819047,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.1435768,
+                    "m_OutWeight": 0.143284157
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 2,
+                    "m_Value": 0.8,
+                    "m_InTangent": -0.198849514,
+                    "m_OutTangent": -0.198849514,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 1,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_WaterPenalty": 0.5,
+    "m_WaterPenaltyDelay": 32,
+    "m_WaterPollutionPenalty": 0.5,
+    "m_SewagePenalty": 0.5,
+    "m_SewagePenaltyDelay": 32,
+    "m_WaterFeeFactor": {
+        "$id": 6,
+        "$type": 2,
+        {
+            "$id": 7,
+            "$type": 3,
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 1.1,
+                    "m_InTangent": -0.100782774,
+                    "m_OutTangent": -0.100782774,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.9940714
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0.9968872,
+                    "m_Value": 1,
+                    "m_InTangent": 0.000880819047,
+                    "m_OutTangent": 0.000880819047,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.1435768,
+                    "m_OutWeight": 0.143284157
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 2,
+                    "m_Value": 0.8,
+                    "m_InTangent": -0.226376668,
+                    "m_OutTangent": -0.226376668,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.114359245,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_GarbagePenalty": 0.5,
+    "m_NegligibleMail": 20,
+    "m_MailEfficiencyPenalty": 0.1,
+    "m_TelecomBaseline": 0.3,
+    "m_MissingEmployeesEfficiencyPenalty": 0.9,
+    "m_MissingEmployeesEfficiencyDelay": 16,
+    "m_ServiceBuildingEfficiencyGracePeriod": 16,
+    "m_SickEmployeesEfficiencyPenalty": 0.9
+}

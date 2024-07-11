@@ -1,0 +1,37 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "RoadRequiredTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:b61fec2bcf2771b4693408a7286f32e4",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/Roads.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:b01638ffc7f769e42a98d9f187db53c7",
+            $fstrref:"UnityGUID:32c12d5384d59d14bb1b39aae3f401fb",
+            $fstrref:"UnityGUID:69d6f27c0607d86419991dc1647e381f"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

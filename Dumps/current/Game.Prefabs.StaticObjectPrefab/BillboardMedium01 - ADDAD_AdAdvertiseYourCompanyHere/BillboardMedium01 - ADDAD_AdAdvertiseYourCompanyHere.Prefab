@@ -1,0 +1,155 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "BillboardMedium01 - ADDAD_AdAdvertiseYourCompanyHere",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:6a69fd7569362ac458e38dd5d96facb7",
+                            "m_PositionOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 1.1,
+                                "y": 1.1,
+                                "z": 0.9
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": -1.84732443E-08,
+                                    "y": -0.906307757,
+                                    "z": -0.42261833,
+                                    "w": 3.96159727E-08
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Effect": $fstrref:"UnityGUID:6a69fd7569362ac458e38dd5d96facb7",
+                            "m_PositionOffset": {
+                                "$type": 5,
+                                "x": -1.1,
+                                "y": 1.1,
+                                "z": 0.9
+                            },
+                            "m_Rotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": -1.847325E-08,
+                                    "y": -0.906307757,
+                                    "z": -0.42261833,
+                                    "w": 3.96159763E-08
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 60,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 8,
+                "$type": "10|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 9,
+                    "$type": "11|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:95fbcdf3298e3f649a274fd0cf3dc67e",
+                        $fstrref:"UnityGUID:d80b1360bce1579419c96bc8e0d67db3"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 10,
+                "$type": "12|Game.Prefabs.BrandObject, Game",
+                "name": "BrandObject",
+                "active": true,
+                "m_Brand": $fstrref:"UnityGUID:71abacdf23ee87f4dbb438b872ba9f8a"
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 11,
+        "$type": "13|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 12,
+                "$type": "14|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:d89675a48982299429eb1d5cfaffae8a",
+                "m_Position": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 6,
+                    "value": {
+                        "$type": 7,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

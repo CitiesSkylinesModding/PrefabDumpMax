@@ -1,0 +1,63 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialBalloonPrefab, Game",
+    "name": "WaterTutorialIntro",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ForceUIGroupUnlock, Game",
+                "name": "ForceUIGroupUnlock",
+                "active": true,
+                "m_Unlocks": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.UIGroupPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:d388b9dd5c3497845bf401589e6b2e0c"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Image": "",
+    "m_OverrideImagePS": "",
+    "m_OverrideImageXBox": "",
+    "m_Icon": "Media/Game/Icons/SmallWaterPipe.svg",
+    "m_TitleVisible": true,
+    "m_DescriptionVisible": true,
+    "m_CanDeactivate": false,
+    "m_Trigger": $fstrref:"UnityGUID:862d797762d8f314abd85b44b4a33b9c",
+    "m_OverrideCompletionDelay": -1,
+    "m_UITargets": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget, Game",
+                "m_UITagProvider": $fstrref:"UnityGUID:d388b9dd5c3497845bf401589e6b2e0c",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 7,
+                "$type": 6,
+                "m_UITagProvider": $fstrref:"UnityGUID:90d681e0503149646afc60c51cbff0e0",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            }
+        ]
+    }
+}

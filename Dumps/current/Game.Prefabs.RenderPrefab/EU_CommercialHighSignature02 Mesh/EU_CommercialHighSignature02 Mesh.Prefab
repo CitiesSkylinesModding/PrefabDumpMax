@@ -1,0 +1,212 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "EU_CommercialHighSignature02 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 5,
+                                "$type": "5|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                        1,
+                                        0.9292237,
+                                        0.837,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.56,
+                                        0.56,
+                                        0.56,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "8|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 8,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": true
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 10,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "10|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 12,
+                    "$type": "12|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:70164de4e27e99d418d7121479e1f93e",
+                        $fstrref:"UnityGUID:a0c27a9f96e232e48aa3744e1dc01cf2"
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "13|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 14,
+                    "$type": "14|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 15,
+                            "$type": "15|Game.Prefabs.EmissiveProperties+SingleLightMapping, Game",
+                            "purpose": 34,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.05,
+                            "luminance": 0,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "materialId": 0
+                        }
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 16,
+                    "$type": "16|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 17,
+                    "$type": "17|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 18,
+                    "$type": "18|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:b2c894ddc12041c5fafebdc84e78c4d1",
+    "m_SurfaceAssets": {
+        "$id": 19,
+        "$type": "19|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"CID:bcca7a39f3a6a587d5f03903b1130343",
+            $fstrref:"CID:8f443a8b12416ae8aefcdb800d00941b",
+            $fstrref:"CID:bf2c1c4742ed694a5a0504ae398fae56",
+            $fstrref:"CID:58efc2156df0a2392fc1bf980d5b32fc"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "20|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "21|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -26.8082218,
+            "y": -5.722046E-06,
+            "z": -32.11079
+        },
+        "max": {
+            "$type": 21,
+            "x": 31.0153522,
+            "y": 32.22232,
+            "z": 31.2401772
+        }
+    },
+    "m_SurfaceArea": 16820.375,
+    "m_IndexCount": 21330,
+    "m_VertexCount": 12247,
+    "m_MeshCount": 4,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

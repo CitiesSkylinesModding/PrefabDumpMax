@@ -1,0 +1,39 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "LowPitchTeenHappy",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioRandomize, Game",
+                "name": "AudioRandomize",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:e0683d13ac3725541ac1672549f1b7be",
+                        $fstrref:"UnityGUID:e18b9469e995c6349ba73af6628c9d48",
+                        $fstrref:"UnityGUID:3f91e7d41d1df6747997a2de57ce6b20",
+                        $fstrref:"UnityGUID:2cf6a0d127003b9439984705a2248f2f",
+                        $fstrref:"UnityGUID:4ce27524974b002469724aeb1151297c",
+                        $fstrref:"UnityGUID:166ecdeb04d746f479ec0cee46f1ae54"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

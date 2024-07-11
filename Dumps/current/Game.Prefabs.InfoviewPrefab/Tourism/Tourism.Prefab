@@ -1,0 +1,99 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.InfoviewPrefab, Game",
+    "name": "Tourism",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:2961ed6ee8060794aab41a8cc22efaf6"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 4,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Infomodes": {
+        "$id": 5,
+        "$type": "4|Game.Prefabs.InfomodeInfo[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.InfomodeInfo, Game",
+                "m_Mode": $fstrref:"UnityGUID:acfb23383583ce04182bb5d1b13cd96c",
+                "m_Priority": 0,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 7,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:18f9e2739d8f92e4b8122460bd2bcf1f",
+                "m_Priority": 10,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 8,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:3e4fab6a4c90d674bb3a0e8f6287e336",
+                "m_Priority": 20,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 9,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:17ff0fd7bf0363d49953e016bb0d614a",
+                "m_Priority": 30,
+                "m_Supplemental": false,
+                "m_Optional": false
+            }
+        ]
+    },
+    "m_DefaultColor": {
+        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+        0.7,
+        0.7,
+        0.7,
+        1
+    },
+    "m_SecondaryColor": {
+        "$type": 6,
+        0.6,
+        0.6,
+        0.6,
+        1
+    },
+    "m_IconPath": "Media/Game/Icons/Tourism.svg",
+    "m_Priority": 100,
+    "m_Group": 4,
+    "m_WarningCategories": {
+        "$id": 10,
+        "$type": "7|Game.Prefabs.IconCategory[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Editor": false
+}

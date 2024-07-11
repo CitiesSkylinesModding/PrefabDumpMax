@@ -1,0 +1,210 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.UITransportConfigurationPrefab, Game",
+    "name": "UI Transport Configuration",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_TransportInfoview": $fstrref:"UnityGUID:313d459e5fe26f34085b991568dbd72a",
+    "m_RoutesInfomode": $fstrref:"UnityGUID:84e0d4f0769c4774aa3f12480656360d",
+    "m_TicketPricePolicy": $fstrref:"UnityGUID:2b1216ce5d84a6042ae388f095103d89",
+    "m_OutOfServicePolicy": $fstrref:"UnityGUID:1cd829873ff6f124195ffad6fcc25277",
+    "m_VehicleCountPolicy": $fstrref:"UnityGUID:11a6f146951cded4a820f52c4604bae1",
+    "m_DayRoutePolicy": $fstrref:"UnityGUID:3af48920b6123e849b2553f9bd11ee6e",
+    "m_NightRoutePolicy": $fstrref:"UnityGUID:88eb6a49887a11b4eb2c2a15739c8054",
+    "m_PassengerSummaryItems": {
+        "$id": 2,
+        "$type": "2|Game.Prefabs.UITransportSummaryItem[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UITransportSummaryItem, Game",
+                "m_Unlockable": $fstrref:"UnityGUID:a4f8c6172e9786242a486807a37a45c4",
+                "m_Type": 2,
+                "m_Icon": "Media/Game/Icons/Taxi.svg",
+                "m_Statistic": 34,
+                "m_ShowLines": false
+            },
+            {
+                "$id": 4,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:e52107c8dbdae9046ae8ecaf9a15b5bf",
+                "m_Type": 0,
+                "m_Icon": "Media/Game/Icons/Bus.svg",
+                "m_Statistic": 30,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 5,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:8f85dbd26119fd9419c1aa358af57f67",
+                "m_Type": 1,
+                "m_Icon": "Media/Game/Icons/Train.svg",
+                "m_Statistic": 33,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 6,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:281b8b9bc7381e543969af74813e8e92",
+                "m_Type": 3,
+                "m_Icon": "Media/Game/Icons/Tram.svg",
+                "m_Statistic": 32,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 7,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:74ca56eea547afb45b2fda30e50a95d8",
+                "m_Type": 8,
+                "m_Icon": "Media/Game/Icons/Subway.svg",
+                "m_Statistic": 31,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 8,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:62f5fe33837845e48aac7bc71f912d75",
+                "m_Type": 4,
+                "m_Icon": "Media/Game/Icons/Ship.svg",
+                "m_Statistic": 36,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 9,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:4566bd229b4aa8d4f904a3ac9120cd48",
+                "m_Type": 7,
+                "m_Icon": "Media/Game/Icons/Airplane.svg",
+                "m_Statistic": 35,
+                "m_ShowLines": true
+            }
+        ]
+    },
+    "m_CargoSummaryItems": {
+        "$id": 10,
+        "$type": 2,
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:317077db9435b144eb601e60165bee5c",
+                "m_Type": 0,
+                "m_Icon": "Media/Game/Icons/CargoTruck.svg",
+                "m_Statistic": 48,
+                "m_ShowLines": false
+            },
+            {
+                "$id": 12,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:8f85dbd26119fd9419c1aa358af57f67",
+                "m_Type": 1,
+                "m_Icon": "Media/Game/Icons/CargoTrain.svg",
+                "m_Statistic": 49,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 13,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:62f5fe33837845e48aac7bc71f912d75",
+                "m_Type": 4,
+                "m_Icon": "Media/Game/Icons/CargoShip.svg",
+                "m_Statistic": 50,
+                "m_ShowLines": true
+            },
+            {
+                "$id": 14,
+                "$type": 3,
+                "m_Unlockable": $fstrref:"UnityGUID:4566bd229b4aa8d4f904a3ac9120cd48",
+                "m_Type": 7,
+                "m_Icon": "Media/Game/Icons/CargoAirplane.svg",
+                "m_Statistic": 51,
+                "m_ShowLines": true
+            }
+        ]
+    },
+    "m_PassengerLineTypes": {
+        "$id": 15,
+        "$type": "4|Game.Prefabs.UITransportItem[], Game",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 16,
+                "$type": "5|Game.Prefabs.UITransportItem, Game",
+                "m_Unlockable": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753",
+                "m_Type": 0,
+                "m_Icon": "Media/Game/Icons/Bus.svg"
+            },
+            {
+                "$id": 17,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:96a9bfd047a938f4f98eaa5339e41335",
+                "m_Type": 1,
+                "m_Icon": "Media/Game/Icons/Train.svg"
+            },
+            {
+                "$id": 18,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:9b6a0981f63501d48bc6be17208739dc",
+                "m_Type": 3,
+                "m_Icon": "Media/Game/Icons/Tram.svg"
+            },
+            {
+                "$id": 19,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:448b7db9b65aa7a47978a71c436779d9",
+                "m_Type": 8,
+                "m_Icon": "Media/Game/Icons/Subway.svg"
+            },
+            {
+                "$id": 20,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:7bf996984f006fa46be3e8a60bcdd769",
+                "m_Type": 4,
+                "m_Icon": "Media/Game/Icons/Ship.svg"
+            },
+            {
+                "$id": 21,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:a72f9642e6aa555448d5b42a661bed06",
+                "m_Type": 7,
+                "m_Icon": "Media/Game/Icons/Airplane.svg"
+            }
+        ]
+    },
+    "m_CargoLineTypes": {
+        "$id": 22,
+        "$type": 4,
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 23,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:8f85dbd26119fd9419c1aa358af57f67",
+                "m_Type": 1,
+                "m_Icon": "Media/Game/Icons/CargoTrain.svg"
+            },
+            {
+                "$id": 24,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:62f5fe33837845e48aac7bc71f912d75",
+                "m_Type": 4,
+                "m_Icon": "Media/Game/Icons/CargoShip.svg"
+            },
+            {
+                "$id": 25,
+                "$type": 5,
+                "m_Unlockable": $fstrref:"UnityGUID:4566bd229b4aa8d4f904a3ac9120cd48",
+                "m_Type": 7,
+                "m_Icon": "Media/Game/Icons/CargoAirplane.svg"
+            }
+        ]
+    }
+}

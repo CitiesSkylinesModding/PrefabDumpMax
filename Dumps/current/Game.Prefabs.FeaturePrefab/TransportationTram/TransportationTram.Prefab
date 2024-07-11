@@ -1,0 +1,36 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.FeaturePrefab, Game",
+    "name": "TransportationTram",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753",
+                        $fstrref:"UnityGUID:4eec7c43276bc01458e6ad491da9b101"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 4,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    }
+}

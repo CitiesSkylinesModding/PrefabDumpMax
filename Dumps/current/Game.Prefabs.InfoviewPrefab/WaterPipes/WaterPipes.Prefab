@@ -1,0 +1,133 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.InfoviewPrefab, Game",
+    "name": "WaterPipes",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0d2247cf7abae1045b5cdb59042ff1b8",
+                        $fstrref:"UnityGUID:f0cf8beef9aa2244c9b07824b0079210"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 4,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Infomodes": {
+        "$id": 5,
+        "$type": "4|Game.Prefabs.InfomodeInfo[], Game",
+        "$rlength": 8,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.InfomodeInfo, Game",
+                "m_Mode": $fstrref:"UnityGUID:8eba201b439cfe5459b48397d49ac36e",
+                "m_Priority": 0,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 7,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:b635075cdb24ac549bf9213db5b86b02",
+                "m_Priority": 5,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 8,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:5da8db33ff4e31b4aa48ac5e4b509f02",
+                "m_Priority": 10,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 9,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:3fc85011d8815494da5a15ce5fb86ccf",
+                "m_Priority": 10,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 10,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:7daba07fcc12c694d9d3df786a65eac5",
+                "m_Priority": 20,
+                "m_Supplemental": false,
+                "m_Optional": true
+            },
+            {
+                "$id": 11,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:95554ad48d2045a4185506e66dda2a54",
+                "m_Priority": 30,
+                "m_Supplemental": false,
+                "m_Optional": true
+            },
+            {
+                "$id": 12,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:e055ddeed3e54284fa8015c677cfa9e0",
+                "m_Priority": 40,
+                "m_Supplemental": false,
+                "m_Optional": true
+            },
+            {
+                "$id": 13,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:488675ca840ba9145967dac80f713277",
+                "m_Priority": 50,
+                "m_Supplemental": false,
+                "m_Optional": true
+            }
+        ]
+    },
+    "m_DefaultColor": {
+        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+        0.3490566,
+        0.3490566,
+        0.3490566,
+        1
+    },
+    "m_SecondaryColor": {
+        "$type": 6,
+        0.2991914,
+        0.2991914,
+        0.2991914,
+        1
+    },
+    "m_IconPath": "Media/Game/Icons/Water.svg",
+    "m_Priority": 300,
+    "m_Group": 0,
+    "m_WarningCategories": {
+        "$id": 14,
+        "$type": "7|Game.Prefabs.IconCategory[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            3
+        ]
+    },
+    "m_Editor": false
+}

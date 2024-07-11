@@ -1,0 +1,42 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MarkerObjectPrefab, Game",
+    "name": "Shark Spawner",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CreatureSpawner, Game",
+                "name": "CreatureSpawner",
+                "active": true,
+                "m_MaxGroupCount": 3
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.FloatingObject, Game",
+                "name": "FloatingObject",
+                "active": true,
+                "m_FloatingOffset": 0,
+                "m_FixedToBottom": false,
+                "m_AllowDryland": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 10000,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Mesh": $fstrref:"UnityGUID:0844c7af6e9c8574293b1e2115cf7833",
+    "m_Circular": true
+}

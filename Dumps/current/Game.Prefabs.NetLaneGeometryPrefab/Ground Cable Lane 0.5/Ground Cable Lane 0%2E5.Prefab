@@ -1,0 +1,47 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Ground Cable Lane 0.5",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 8,
+                "m_LocalConnectionLane": null,
+                "m_LocalConnectionLane2": null,
+                "m_NodeObject": $fstrref:"UnityGUID:5752e26d316391842af055c1c82c59be",
+                "m_Width": 0,
+                "m_VisualCapacity": 3,
+                "m_Hanging": 0,
+                "m_Underground": true
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:9837fa7661a12434ea997fa5ad7fa286",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Traffic Accident",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SimulationWarning, Game",
+                "name": "SimulationWarning",
+                "active": true,
+                "m_Categories": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.IconCategory[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        2,
+                        6,
+                        9
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "media/Game/Notifications/TrafficAccident.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:36a29fec309d4560980e05ca1a05e01a",
+    "m_Description": "Involved in a traffic accident",
+    "m_TargetDescription": "Cause",
+    "m_DisplaySize": {
+        "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 2,
+        "max": 2
+    },
+    "m_PulsateAmplitude": {
+        "$type": 5,
+        "min": 0.01,
+        "max": 0.1
+    }
+}

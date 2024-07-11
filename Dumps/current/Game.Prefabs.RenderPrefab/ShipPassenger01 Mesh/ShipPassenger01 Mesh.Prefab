@@ -1,0 +1,1003 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "ShipPassenger01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 4,
+                    "$type": "4|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 62,
+                            "color": {
+                                "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 5
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 5,
+                            "purpose": 60,
+                            "color": {
+                                "$type": 6,
+                                0.9882353,
+                                0.0156862754,
+                                0.0156862754,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 4.493956,
+                            "luminance": 0.2225211,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 10
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 5,
+                            "purpose": 61,
+                            "color": {
+                                "$type": 6,
+                                0.07058824,
+                                0.905882359,
+                                0.113725491,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.49017048,
+                            "luminance": 0.671064138,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 15
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 5,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                0.9607843,
+                                0.78039217,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.04591048,
+                            "luminance": 0.956104755,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 20
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 9,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 10,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 11,
+                "$type": "9|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 12,
+                    "$type": "10|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 12,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "11|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "ShipPassenger01_RootBone",
+                            "position": {
+                                "$type": "12|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "13|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                2.18556941E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "14|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 11,
+                            "name": "PropellerArmL01",
+                            "position": {
+                                "$type": 12,
+                                -1.79926538,
+                                -2.856167,
+                                -56.77162
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 1.79926538,
+                                "m13": 2.856167,
+                                "m23": 56.77162,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 20,
+                            "m_Speed": 1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 11,
+                            "name": "PropellerArmR01",
+                            "position": {
+                                "$type": 12,
+                                1.80073333,
+                                -2.856167,
+                                -56.77162
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -1.80073333,
+                                "m13": 2.856167,
+                                "m23": 56.77162,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 20,
+                            "m_Speed": 1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 11,
+                            "name": "PropellerArmL02",
+                            "position": {
+                                "$type": 12,
+                                -5.394893,
+                                -2.856167,
+                                -56.77162
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 5.394893,
+                                "m13": 2.856167,
+                                "m23": 56.77162,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 20,
+                            "m_Speed": 1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 11,
+                            "name": "Radar01",
+                            "position": {
+                                "$type": 12,
+                                9.312334E-16,
+                                31.4351978,
+                                1.533335
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -9.312334E-16,
+                                "m13": -31.4351978,
+                                "m23": -1.533335,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.35,
+                            "m_Acceleration": 0.15,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 11,
+                            "name": "Radar03",
+                            "position": {
+                                "$type": 12,
+                                0,
+                                27.18367,
+                                6.726378
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -27.18367,
+                                "m23": -6.726378,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.2,
+                            "m_Acceleration": 0.05,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 11,
+                            "name": "PropellerArmR02",
+                            "position": {
+                                "$type": 12,
+                                5.40596,
+                                -2.856167,
+                                -56.77162
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -5.40596,
+                                "m13": 2.856167,
+                                "m23": 56.77162,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 20,
+                            "m_Speed": 1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 11,
+                            "name": "Radar02",
+                            "position": {
+                                "$type": 12,
+                                -3.68704442E-16,
+                                29.2131,
+                                4.509304
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 6.617445E-24,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -6.617445E-24,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 3.68704442E-16,
+                                "m13": -29.2131,
+                                "m23": -4.509304,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.3,
+                            "m_Acceleration": 0.1,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 11,
+                            "name": "PropellerL02",
+                            "position": {
+                                "$type": 12,
+                                -0.00178955076,
+                                -2.177671,
+                                1.3490088
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920671E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920671E-07,
+                                "m32": 0,
+                                "m03": 5.39668274,
+                                "m13": -55.42261,
+                                "m23": 5.03382874,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 17,
+                            "m_Speed": 0.04,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 11,
+                            "name": "PropellerR02",
+                            "position": {
+                                "$type": 12,
+                                -0.00178955076,
+                                -2.177671,
+                                1.3490088
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920671E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920671E-07,
+                                "m32": 0,
+                                "m03": -5.40417051,
+                                "m13": -55.42261,
+                                "m23": 5.03382874,
+                                "m33": 1
+                            },
+                            "parentId": 6,
+                            "m_Type": 17,
+                            "m_Speed": 0.04,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 23,
+                            "$type": 11,
+                            "name": "PropellerL01",
+                            "position": {
+                                "$type": 12,
+                                -0.00178955076,
+                                -2.177671,
+                                -1.35619628
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920671E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920671E-07,
+                                "m32": 0,
+                                "m03": 1.801055,
+                                "m13": -58.12782,
+                                "m23": 5.03382826,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 17,
+                            "m_Speed": -0.04,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 24,
+                            "$type": 11,
+                            "name": "PropellerR01",
+                            "position": {
+                                "$type": 12,
+                                -0.00178955076,
+                                -2.177671,
+                                -1.35619628
+                            },
+                            "rotation": {
+                                "$type": 13,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 14,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920671E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920671E-07,
+                                "m32": 0,
+                                "m03": -1.79894376,
+                                "m13": -58.12782,
+                                "m23": 5.03382826,
+                                "m33": 1
+                            },
+                            "parentId": 2,
+                            "m_Type": 17,
+                            "m_Speed": -0.04,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 25,
+                "$type": "15|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 26,
+                    "$type": "16|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 27,
+                            "$type": "17|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 28,
+                                "$type": "18|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.709,
+                                        0.226171,
+                                        0.226171,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.7169812,
+                                        0.6446912,
+                                        0.52420795,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 29,
+                            "$type": 17,
+                            "m_Colors": {
+                                "$id": 30,
+                                "$type": 18,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.415094316,
+                                        0.415094316,
+                                        0.415094316,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.9056604,
+                                        0.7829162,
+                                        0.5938057,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.701999962,
+                                        0.701999962,
+                                        0.701999962,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 31,
+                            "$type": 17,
+                            "m_Colors": {
+                                "$id": 32,
+                                "$type": 18,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.227450967,
+                                        0.709803939,
+                                        0.620880663,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.6037736,
+                                        0.5276255,
+                                        0.407262385,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.735849,
+                                        0.735849,
+                                        0.735849,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 33,
+                            "$type": 17,
+                            "m_Colors": {
+                                "$id": 34,
+                                "$type": 18,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.227450967,
+                                        0.572654068,
+                                        0.709803939,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.9058824,
+                                        0.7843138,
+                                        0.5921569,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        },
+                        {
+                            "$id": 35,
+                            "$type": 17,
+                            "m_Colors": {
+                                "$id": 36,
+                                "$type": 18,
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": 6,
+                                        0.7924528,
+                                        0.7924528,
+                                        0.7924528,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.9811321,
+                                        0.9090282,
+                                        0.7913849,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 37,
+                    "$type": "19|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 38,
+                            "$type": "20|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": true
+                        },
+                        {
+                            "$id": 39,
+                            "$type": 20,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 40,
+                            "$type": 20,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 41,
+                    "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "22|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 22,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 42,
+                "$type": "23|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 43,
+                    "$type": "24|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:57679b8f26daa90459b0732cc0d7f08e",
+                        $fstrref:"UnityGUID:ddf879ca6ba4e894297d0cf614e0c433"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:f623fd54347129039354eb42728616cf",
+    "m_SurfaceAssets": {
+        "$id": 44,
+        "$type": "25|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:f4bff11e150d54bff9f94af002addb90",
+            $fstrref:"CID:018dc9d05714951569fd505ad0af4acf"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "26|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "27|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -12.74844,
+            "y": -8.526443,
+            "z": -67.82008
+        },
+        "max": {
+            "$type": 27,
+            "x": 12.74844,
+            "y": 36.2609825,
+            "z": 61.5754852
+        }
+    },
+    "m_SurfaceArea": 18147.2168,
+    "m_IndexCount": 49299,
+    "m_VertexCount": 20804,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

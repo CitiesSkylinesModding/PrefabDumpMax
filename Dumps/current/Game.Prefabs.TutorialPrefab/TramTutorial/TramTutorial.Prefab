@@ -1,0 +1,74 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "TramTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:dc58a28c88354264585314ddbeb21395",
+                "m_Priority": 3,
+                "m_Icon": "Media/Game/Icons/Tram.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:b5fa8b1864a369c40be0434310525a12",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:4eec7c43276bc01458e6ad491da9b101"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 10,
+        "$rcontent": [
+            $fstrref:"UnityGUID:d6f450c5cccde7f47806239c6cf71909",
+            $fstrref:"UnityGUID:3f059e1ed05f2584ab76b20b01009988",
+            $fstrref:"UnityGUID:9938f58fcf22f664ca69476d774c428e",
+            $fstrref:"UnityGUID:7496bad3342d7d14cb491753e2db65e3",
+            $fstrref:"UnityGUID:36a7924be46b0b84497fb66f68c17e3f",
+            $fstrref:"UnityGUID:288166afcaa6d024e93a50caf667b420",
+            $fstrref:"UnityGUID:d63b0025cbdbeed4e95b717d1751a18c",
+            $fstrref:"UnityGUID:d76506ae6f87e474390277b63bd4f7ed",
+            $fstrref:"UnityGUID:9aebc03c0cff31944864e80a4919a431",
+            $fstrref:"UnityGUID:ff28207981e209c44a4994e50942c61a"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

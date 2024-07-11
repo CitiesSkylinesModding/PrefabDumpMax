@@ -1,0 +1,200 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CarTrailerPrefab, Game",
+    "name": "CarTrailer01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PersonalCar, Game",
+                "name": "PersonalCar",
+                "active": true,
+                "m_PassengerCapacity": 0,
+                "m_BaggageCapacity": 5,
+                "m_CostToDrive": 8,
+                "m_Probability": 100
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.VehicleSideEffects, Game",
+                "name": "VehicleSideEffects",
+                "active": true,
+                "m_RoadWear": {
+                    "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0.5,
+                    "y": 1
+                },
+                "m_NoisePollution": {
+                    "$type": 4,
+                    "x": 0.25,
+                    "y": 10
+                },
+                "m_AirPollution": {
+                    "$type": 4,
+                    "x": 0.1,
+                    "y": 0.5
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 5,
+                    "$type": "6|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "7|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:da77916829a8fdf448723d1eafce10e7",
+                            "m_PositionOffset": {
+                                "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 7,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "12|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 9,
+                    "$type": "13|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 10,
+                            "$type": "14|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "CarTrailer01",
+                            "m_Type": "CarPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 11,
+                "$type": "15|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 12,
+                    "$type": "16|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "17|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:8489872bcfe674c42a473004444ef91f",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 0.485,
+                                "z": 0.08
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 70
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 14,
+        "$type": "18|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 15,
+                "$type": "19|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:ae99ef52043dc664d9b36419dac8b9d7",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_SizeClass": 0,
+    "m_EnergyType": 0,
+    "m_MaxSpeed": 250,
+    "m_Acceleration": 8,
+    "m_Braking": 15,
+    "m_Turning": {
+        "$type": 4,
+        "x": 140,
+        "y": 20
+    },
+    "m_Stiffness": 100,
+    "m_TrailerType": 1,
+    "m_MovementType": 0,
+    "m_AttachOffset": {
+        "$type": 8,
+        "x": 0,
+        "y": 0.5,
+        "z": 0
+    },
+    "m_FixedTractor": null
+}

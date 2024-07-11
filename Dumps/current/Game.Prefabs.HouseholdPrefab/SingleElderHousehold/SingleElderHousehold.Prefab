@@ -1,0 +1,34 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.HouseholdPrefab, Game",
+    "name": "SingleElderHousehold",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RandomGenderedLocalization, Game",
+                "name": "RandomGenderedLocalization",
+                "active": true,
+                "m_LocalizationID": "Assets.CITIZEN_SURNAME_HOUSEHOLD",
+                "m_MaleID": "Assets.CITIZEN_SURNAME_MALE",
+                "m_FemaleID": "Assets.CITIZEN_SURNAME_FEMALE"
+            }
+        ]
+    },
+    "m_ResourceConsumption": 4,
+    "m_InitialWealthRange": 1000,
+    "m_InitialWealthOffset": 1000,
+    "m_InitialCarProbability": 80,
+    "m_ChildCount": 0,
+    "m_AdultCount": 0,
+    "m_ElderlyCount": 1,
+    "m_StudentCount": 0,
+    "m_FirstPetProbability": 20,
+    "m_NextPetProbability": 10,
+    "m_DynamicHousehold": false,
+    "m_Weight": 1
+}

@@ -1,0 +1,166 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CarTrailerPrefab, Game",
+    "name": "ForestForwarderTrailer01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.WorkVehicle, Game",
+                "name": "WorkVehicle",
+                "active": true,
+                "m_WorkType": 2,
+                "m_MapFeature": 3,
+                "m_Resources": {
+                    "$id": 3,
+                    "$type": "3|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MaxWorkAmount": 30000
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:3679c4728f428a24186fb83af0eb9fe8",
+                            "m_Position": {
+                                "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 2.24,
+                                "z": -1.25
+                            },
+                            "m_Rotation": {
+                                "$type": "8|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "10|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 8,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "12|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:3db6bca77ef6a1e4092c0dc067b119c5",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 10,
+                    "$type": "13|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 11,
+        "$type": "14|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 12,
+                "$type": "15|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:6f6e46db318945b4d86b7c94865883b2",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 8,
+                    "value": {
+                        "$type": 9,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_SizeClass": 2,
+    "m_EnergyType": 1,
+    "m_MaxSpeed": 10,
+    "m_Acceleration": 1,
+    "m_Braking": 1,
+    "m_Turning": {
+        "$type": "16|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 90,
+        "y": 15
+    },
+    "m_Stiffness": 100,
+    "m_TrailerType": 3,
+    "m_MovementType": 0,
+    "m_AttachOffset": {
+        "$type": 7,
+        "x": 0,
+        "y": 0.7,
+        "z": 0.05
+    },
+    "m_FixedTractor": $fstrref:"UnityGUID:5f4b7fae7d51f4e4ca1c47f6b2e2f0c5"
+}

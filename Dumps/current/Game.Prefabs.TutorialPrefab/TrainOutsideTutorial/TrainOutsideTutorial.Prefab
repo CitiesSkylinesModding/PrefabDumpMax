@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "TrainOutsideTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:bcfef9ee53a364f41b20fabaeebec01f",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:335b12b616bdd67469d776577b323338"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:81673effb36bba342a6a509f8eae7a6e",
+                "m_Priority": 2,
+                "m_Icon": "Media/Game/Icons/MarkerOutsideConnectionTrain.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:773221c5b7c064d48a69c1ce7d731db3",
+            $fstrref:"UnityGUID:c13295e362ac93b429dcc6f187192455",
+            $fstrref:"UnityGUID:ce49c414669cdac4f9f3cd0d55a8278f"
+        ]
+    },
+    "m_Priority": 50,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

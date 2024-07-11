@@ -1,0 +1,55 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "College Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:c8276ae23c969904e95903e7faa46233"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 0,
+                            "m_Value": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 36,
+    "m_TriggerPrefabs": {
+        "$id": 6,
+        "$type": 3,
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:d379d85e0290c1643aea42ffd2e299d3"
+        ]
+    },
+    "m_TargetTypes": 1
+}

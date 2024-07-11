@@ -1,0 +1,79 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "DistrictTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialObjectSelectionActivation, Game",
+                "name": "TutorialObjectSelectionActivation",
+                "active": true,
+                "m_Prefabs": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:bc6c2ee8f376fd64bba847a84b786abe"
+                    ]
+                },
+                "m_AllowTool": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:ad66850e27daa904088824f236b20dcc",
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Districts.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 6,
+                    "$type": 3,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:b834c8046fee8464087d82f201542c4c"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 7,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 8,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 8,
+        "$rcontent": [
+            $fstrref:"UnityGUID:fe21571077824324c9b223ccb26e5d3a",
+            $fstrref:"UnityGUID:5a0991139ee131f4fb1c8774fd6262e6",
+            $fstrref:"UnityGUID:be01eed064581b549b624e5fffb1258f",
+            $fstrref:"UnityGUID:5bdb5902ce163914d9c11983ce682b19",
+            $fstrref:"UnityGUID:f7512da429d44034386149829f052062",
+            $fstrref:"UnityGUID:b91aae53388396d4981d2563f2243c7f",
+            $fstrref:"UnityGUID:463e7ac4e32292547b5b1269df78f0dd",
+            $fstrref:"UnityGUID:982a502753f2bd04b92cc113b6df8684"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

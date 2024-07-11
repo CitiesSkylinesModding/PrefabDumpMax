@@ -1,0 +1,153 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "IndustrialManufacturingSignature04 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 5,
+                                "$type": "5|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                        0.4056604,
+                                        0.374853164,
+                                        0.361650079,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.701999962,
+                                        0.701999962,
+                                        0.701999962,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.261436433,
+                                        0.4433962,
+                                        0.2978284,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "8|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 8,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": true
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 10,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "10|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 12,
+                    "$type": "12|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:dbfe40844d9442a45b62eb7d896278c5",
+                        $fstrref:"UnityGUID:92a7a93b5917eaa4a900337d80d4c011"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:9cd6555f4fade5a548e2413eb048b84d",
+    "m_SurfaceAssets": {
+        "$id": 13,
+        "$type": "13|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"CID:35843891dfb647516628584b3822bc9e",
+            $fstrref:"CID:eac073d24ca0d8d94cd9841f18e52dd5",
+            $fstrref:"CID:cc40d8bfcddee8ab6a20a087021b2eaf"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "14|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "15|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -132.334625,
+            "y": -0.6000023,
+            "z": -107.601074
+        },
+        "max": {
+            "$type": 15,
+            "x": 132.355011,
+            "y": 96.09999,
+            "z": 103.626389
+        }
+    },
+    "m_SurfaceArea": 129165.172,
+    "m_IndexCount": 440142,
+    "m_VertexCount": 252509,
+    "m_MeshCount": 3,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

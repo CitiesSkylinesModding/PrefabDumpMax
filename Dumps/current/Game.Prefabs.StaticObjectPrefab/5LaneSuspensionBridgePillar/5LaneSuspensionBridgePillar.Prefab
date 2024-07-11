@@ -1,0 +1,116 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "5LaneSuspensionBridgePillar",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:10b7dda705ecff648b28b0b37762ea4f"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.PillarObject, Game",
+                "name": "PillarObject",
+                "active": true,
+                "m_Type": 2,
+                "m_AnchorOffset": 0,
+                "m_VerticalPillarOffsetRange": {
+                    "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": -1,
+                    "max": 1
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 5,
+        "$type": "6|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "7|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:fe749d227bc1fd6419a09c2cdfbf23ac",
+                "m_Position": {
+                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 7,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:4e1867f6fcae0154abbc486f10f5839d",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 8,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:3efa7374250f7a04fad6f64fb842afc0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

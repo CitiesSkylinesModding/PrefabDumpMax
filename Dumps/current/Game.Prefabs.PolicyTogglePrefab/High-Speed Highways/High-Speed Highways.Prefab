@@ -1,0 +1,86 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PolicyTogglePrefab, Game",
+    "name": "High-Speed Highways",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CityOptions, Game",
+                "name": "CityOptions",
+                "active": true,
+                "m_Options": {
+                    "$id": 3,
+                    "$type": "3|Game.City.CityOption[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        0
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.CityModifiers, Game",
+                "name": "CityModifiers",
+                "active": true,
+                "m_Modifiers": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.CityModifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.CityModifierInfo, Game",
+                            "m_Type": 21,
+                            "m_Mode": 0,
+                            "m_Range": {
+                                "$type": "7|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                                "min": -0.1,
+                                "max": -0.1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Policies/HighSpeedHighways.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 8,
+                "$type": "9|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 9,
+                    "$type": "10|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:ab06d3e8b3116b04bb698fb96d79a6ee"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 10,
+                    "$type": 10,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Visibility": 0,
+    "m_Category": 3
+}

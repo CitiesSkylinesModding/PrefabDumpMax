@@ -1,0 +1,50 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "KeyboardCameraTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialControlSchemeActivation, Game",
+                "name": "TutorialControlSchemeActivation",
+                "active": true,
+                "m_ControlScheme": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:cc38232bfe339f240b53d4f40f098bc1",
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/CameraControls.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:e492b2d18bd14c14e83bd3e431d70220",
+            $fstrref:"UnityGUID:09c4876af1f97634da390e97d04d315f",
+            $fstrref:"UnityGUID:52a8f58fd6856c54b892f978e8f0a5b7"
+        ]
+    },
+    "m_Priority": -2,
+    "m_ReplaceActive": true,
+    "m_Mandatory": true
+}

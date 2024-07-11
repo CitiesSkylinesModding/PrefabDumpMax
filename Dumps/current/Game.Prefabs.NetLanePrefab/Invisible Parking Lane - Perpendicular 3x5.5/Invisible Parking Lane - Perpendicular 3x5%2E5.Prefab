@@ -1,0 +1,45 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLanePrefab, Game",
+    "name": "Invisible Parking Lane - Perpendicular 3x5.5",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ParkingLane, Game",
+                "name": "ParkingLane",
+                "active": true,
+                "m_SlotSize": {
+                    "$type": "3|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 3,
+                    "y": 5.5
+                },
+                "m_SlotAngle": 90
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "6|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Invisible Parking Lane 5.5",
+                            "m_Type": "NetLanePrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:a5f2de33859b11345b094a9894d1c4ff"
+}

@@ -1,0 +1,56 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialBalloonPrefab, Game",
+    "name": "RoadsTutorialToolOptions",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Image": "",
+    "m_OverrideImagePS": "",
+    "m_OverrideImageXBox": "",
+    "m_Icon": "Media/Game/Icons/Roads.svg",
+    "m_TitleVisible": true,
+    "m_DescriptionVisible": true,
+    "m_CanDeactivate": false,
+    "m_Trigger": null,
+    "m_OverrideCompletionDelay": -1,
+    "m_UITargets": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget, Game",
+                "m_UITagProvider": $fstrref:"UnityGUID:c47886d3c80ad0a4991bf74cf4bce6b7",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 5,
+                "$type": 4,
+                "m_UITagProvider": $fstrref:"UnityGUID:d7ba218ad57ccb741b21620a5f7ee4d3",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 6,
+                "$type": 4,
+                "m_UITagProvider": $fstrref:"UnityGUID:52dc601ec18335943bd570353370a60f",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            }
+        ]
+    }
+}

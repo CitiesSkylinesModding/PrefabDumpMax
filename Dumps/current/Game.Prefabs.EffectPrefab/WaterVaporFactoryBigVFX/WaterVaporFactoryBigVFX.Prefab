@@ -1,0 +1,28 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "WaterVaporFactoryBigVFX",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.VFX, Game",
+                "name": "VFX",
+                "active": true,
+                "m_Effect": $fstrref:"UnityObjectsMap:5a91f61fab5045d7be73d22d7f56a065",
+                "m_MaxCount": 128
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "3|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

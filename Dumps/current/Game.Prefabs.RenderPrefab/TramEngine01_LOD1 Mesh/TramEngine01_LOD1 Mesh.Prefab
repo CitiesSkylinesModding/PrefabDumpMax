@@ -1,0 +1,344 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "TramEngine01_LOD1 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "TramEngine01_RootBone",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                5.364418E-07
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "TramEngine01_WalkwayRear",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                1.71075,
+                                -3.774998
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -1.71075,
+                                "m23": 3.774998,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 14,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "TramEngine01_Bogie",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                0.428886,
+                                -1.013279E-06
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.428886,
+                                "m23": 1.013279E-06,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 15,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "Pantograph0",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                3.436122,
+                                -1.37410188
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                8.17979142E-08,
+                                -0.9999998,
+                                0.000145017708,
+                                0.0005640546
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": -0.999999344,
+                                "m10": 3.271916E-07,
+                                "m20": -0.001128109,
+                                "m30": 0,
+                                "m01": 1.22464659E-16,
+                                "m11": 0.99999994,
+                                "m21": -0.000290035445,
+                                "m31": 0,
+                                "m02": 0.001128109,
+                                "m12": -0.00029003527,
+                                "m22": -0.999999344,
+                                "m32": 0,
+                                "m03": 0.00155013683,
+                                "m13": -3.43652034,
+                                "m23": -1.37310445,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 21,
+                            "m_Speed": 0.1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 4,
+                            "name": "Pantograph1",
+                            "position": {
+                                "$type": 5,
+                                -0.00166714494,
+                                4.440892E-16,
+                                1.61319077
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                -0.00020525798,
+                                -0.9999368,
+                                -0.0112241916,
+                                -0.0005253962
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 0.9999999,
+                                "m10": 0.00042434546,
+                                "m20": 7.248375E-05,
+                                "m30": 0,
+                                "m01": -0.000422587735,
+                                "m11": 0.9997414,
+                                "m21": 0.02273674,
+                                "m31": 0,
+                                "m02": -8.211324E-05,
+                                "m12": -0.0227367058,
+                                "m22": 0.9997415,
+                                "m32": 0,
+                                "m03": -0.00154445041,
+                                "m13": -3.50268674,
+                                "m23": 2.90840578,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 21,
+                            "m_Speed": 0.1,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 4,
+                            "name": "Pantograph2",
+                            "position": {
+                                "$type": 5,
+                                2.03566669E-05,
+                                4.440892E-16,
+                                1.59346318
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0.0192222372,
+                                -9.04553962E-17,
+                                1.607723E-17,
+                                0.9998152
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 0.9999999,
+                                "m10": 0.0004212458,
+                                "m20": 8.874091E-05,
+                                "m30": 0,
+                                "m01": -0.000422587735,
+                                "m11": 0.999876559,
+                                "m21": -0.0157074966,
+                                "m31": 0,
+                                "m02": -8.211324E-05,
+                                "m12": 0.0157075319,
+                                "m22": 0.9998766,
+                                "m32": 0,
+                                "m03": -0.001564807,
+                                "m13": -3.4495554,
+                                "m23": 1.4486047,
+                                "m33": 1
+                            },
+                            "parentId": 4,
+                            "m_Type": 11,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:d814822c5e3ea803949e9f5fa22b1935",
+    "m_SurfaceAssets": {
+        "$id": 10,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:3faca913f00d68c665a04e1b541b5d39"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "10|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.367651,
+            "y": 0,
+            "z": -3.77499938
+        },
+        "max": {
+            "$type": 10,
+            "x": 1.367651,
+            "y": 3.675454,
+            "z": 5.565421
+        }
+    },
+    "m_SurfaceArea": 161.646179,
+    "m_IndexCount": 4371,
+    "m_VertexCount": 2204,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

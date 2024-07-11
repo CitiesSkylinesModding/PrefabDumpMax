@@ -1,0 +1,100 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "StreetLightSource",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.LightEffect, Game",
+                "name": "LightEffect",
+                "active": true,
+                "m_Type": 0,
+                "m_SpotShape": 0,
+                "m_AreaShape": 0,
+                "m_Range": 18,
+                "m_Intensity": 9.9,
+                "m_LuxAtDistance": 12.5,
+                "m_LightUnit": 2,
+                "m_EnableSpotReflector": true,
+                "m_SpotAngle": 145,
+                "m_InnerSpotPercentage": 78,
+                "m_ShapeRadius": 0.025,
+                "m_AspectRatio": 1,
+                "m_ShapeWidth": 0.5,
+                "m_ShapeHeight": 0.5,
+                "m_UseColorTemperature": true,
+                "m_Color": {
+                    "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+                    0.990566,
+                    0.82676667,
+                    0.5856176,
+                    1
+                },
+                "m_ColorTemperature": 6570,
+                "m_Cookie": $fstrref:"UnityObjectsMap:3a740ecde791455195d19c5a4e4915da",
+                "m_AffectDiffuse": true,
+                "m_AffectSpecular": true,
+                "m_ApplyRangeAttenuation": true,
+                "m_LightDimmer": 1,
+                "m_LodBias": -1,
+                "m_BarnDoorAngle": 0,
+                "m_BarnDoorLength": 0,
+                "m_UseVolumetric": true,
+                "m_VolumetricDimmer": 1,
+                "m_VolumetricFadeDistance": 10000
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.Effects.RandomTransform, Game",
+                "name": "RandomTransform",
+                "active": true,
+                "m_MinAngle": {
+                    "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_MaxAngle": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 360
+                },
+                "m_MinPosition": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_MaxPosition": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "6|Game.Prefabs.Effects.EffectColor, Game",
+                "name": "EffectColor",
+                "active": true,
+                "m_Source": 0,
+                "m_HueRandomness": 1,
+                "m_SaturationRandomness": 5,
+                "m_BrightnessRandomness": 10
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "7|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 32768,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": true
+}

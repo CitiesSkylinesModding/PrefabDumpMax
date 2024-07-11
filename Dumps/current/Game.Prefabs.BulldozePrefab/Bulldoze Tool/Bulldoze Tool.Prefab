@@ -1,0 +1,48 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BulldozePrefab, Game",
+    "name": "Bulldoze Tool",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:9cc65c58f1801784694374eb31e109d6",
+                "m_Priority": 10,
+                "m_Icon": "Media/Game/Icons/Bulldozer.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:819139db5a9f61940929ae6fdf652ebb"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:121f8b4e26a2fa04db9a17936c3e4899",
+                        $fstrref:"UnityGUID:37872dd67aa90304194b4482ef5e7a5e"
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    }
+}

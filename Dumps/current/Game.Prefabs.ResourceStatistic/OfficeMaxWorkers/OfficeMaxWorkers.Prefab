@@ -1,0 +1,70 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.ResourceStatistic, Game",
+    "name": "OfficeMaxWorkers",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:f254de6ae0a7c204e81795ddfb94ad8a",
+                "m_Priority": 400,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:29455edf655e35c4fb6ba49adc0bf3ae"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Category": $fstrref:"UnityGUID:f9bd9ebbbf2cc6d4eba447955400a7d7",
+    "m_Group": $fstrref:"UnityGUID:f254de6ae0a7c204e81795ddfb94ad8a",
+    "m_StatisticsType": 43,
+    "m_CollectionType": 1,
+    "m_UnitType": 0,
+    "m_Color": {
+        "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+        0.9098039,
+        0.626199543,
+        0.6117647,
+        1
+    },
+    "m_Stacked": true,
+    "m_Resources": {
+        "$id": 6,
+        "$type": "6|Game.Prefabs.ResourcePrefab[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"UnityGUID:43c5e4a8fcbbdd34a8ec2489024200e2",
+            $fstrref:"UnityGUID:cf2cae3be71903f44af9330913f60045",
+            $fstrref:"UnityGUID:085167db536af8f4b9654b7643fc9e4c",
+            $fstrref:"UnityGUID:35c78fa59ca263b4c9783db84584225a"
+        ]
+    }
+}

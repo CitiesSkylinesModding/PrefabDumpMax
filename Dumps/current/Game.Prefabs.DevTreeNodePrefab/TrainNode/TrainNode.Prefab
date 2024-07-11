@@ -1,0 +1,33 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DevTreeNodePrefab, Game",
+    "name": "TrainNode",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753",
+    "m_Requirements": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.DevTreeNodePrefab[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:14e2772d519ac07408692c8ce807af2b"
+        ]
+    },
+    "m_Cost": 1,
+    "m_HorizontalPosition": 1,
+    "m_VerticalPosition": 0,
+    "m_IconPath": "Media/Game/Icons/Train.svg",
+    "m_IconPrefab": null
+}

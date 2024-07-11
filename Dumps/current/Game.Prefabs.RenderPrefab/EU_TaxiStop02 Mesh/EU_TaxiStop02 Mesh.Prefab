@@ -1,0 +1,119 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "EU_TaxiStop02 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.EmissiveProperties+SingleLightMapping, Game",
+                            "purpose": 34,
+                            "color": {
+                                "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 5,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.05,
+                            "luminance": 0,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "materialId": 0
+                        }
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 5,
+                    "$type": "6|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 7,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "9|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 9,
+                    "$type": "10|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5ddd829c173d015429821e88f2450791",
+                        $fstrref:"UnityGUID:d47719b5d63b6554f93c5ffc6aaf4e39"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:8981fc820ed399820e3d257148aca96c",
+    "m_SurfaceAssets": {
+        "$id": 10,
+        "$type": "11|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:c5f42a0d266db212a045377194eba7c8",
+            $fstrref:"CID:2e1fcc300e979595a6b9e76047a66f15"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "12|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.93065,
+            "y": -0.00112497807,
+            "z": -0.740029
+        },
+        "max": {
+            "$type": 13,
+            "x": 1.88705087,
+            "y": 2.89595127,
+            "z": 0.7516291
+        }
+    },
+    "m_SurfaceArea": 42.3462753,
+    "m_IndexCount": 2502,
+    "m_VertexCount": 1048,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

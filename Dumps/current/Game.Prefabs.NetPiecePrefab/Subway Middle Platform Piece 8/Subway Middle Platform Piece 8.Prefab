@@ -1,0 +1,106 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Subway Middle Platform Piece 8",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetPieceLanes, Game",
+                "name": "NetPieceLanes",
+                "active": true,
+                "m_Lanes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.NetLaneInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.NetLaneInfo, Game",
+                            "m_Lane": $fstrref:"UnityGUID:85b6b3f39aa336a47857351614e03588",
+                            "m_Position": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "m_FindAnchor": false
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.BuildableNetPiece, Game",
+                "name": "BuildableNetPiece",
+                "active": true,
+                "m_Position": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                },
+                "m_Width": 6,
+                "m_SnapPosition": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                },
+                "m_SnapWidth": 6,
+                "m_AllowOnBridge": false
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:bae07be2619d644568e95451aecf3291",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "7|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:be0288a9a49c5205fb9d0b0ab76a3065"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "8|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 5,
+            "x": -4.000008,
+            "y": -0.199999958,
+            "z": -32
+        },
+        "max": {
+            "$type": 5,
+            "x": 4.000008,
+            "y": 1.00005,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 716.807861,
+    "m_IndexCount": 1152,
+    "m_VertexCount": 432,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 0,
+    "m_Width": 8,
+    "m_Length": 64,
+    "m_HeightRange": {
+        "$type": "9|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 0,
+        "max": 3
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+        "x": -0.2,
+        "y": 1,
+        "z": -0.2,
+        "w": 1
+    }
+}

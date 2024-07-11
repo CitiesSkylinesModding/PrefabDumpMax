@@ -1,0 +1,76 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Female_MotorcycleBoots01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CharacterProperties, Game",
+                "name": "CharacterProperties",
+                "active": true,
+                "m_BodyParts": 16,
+                "m_CorrectiveAnimationName": "",
+                "m_AnimatedPropName": "",
+                "m_Overlays": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.CharacterOverlay[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:bd139c5f41ffcff4bbe66ca945a80576",
+                        $fstrref:"UnityGUID:e8723d0450c900746b2eea82857705e1"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:092af948fcea5243a279a3a4ded72777",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:125d4fe08379d38562f833887c8ed234"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.169684872,
+            "y": -0.009611294,
+            "z": -0.127944931
+        },
+        "max": {
+            "$type": 8,
+            "x": 0.169622138,
+            "y": 0.261512339,
+            "z": 0.123371288
+        }
+    },
+    "m_SurfaceArea": 0.307581931,
+    "m_IndexCount": 6024,
+    "m_VertexCount": 1190,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

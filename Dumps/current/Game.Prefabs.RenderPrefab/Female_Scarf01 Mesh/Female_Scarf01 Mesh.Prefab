@@ -1,0 +1,76 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Female_Scarf01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CharacterProperties, Game",
+                "name": "CharacterProperties",
+                "active": true,
+                "m_BodyParts": 64,
+                "m_CorrectiveAnimationName": "",
+                "m_AnimatedPropName": "",
+                "m_Overlays": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.CharacterOverlay[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:b50211e0e857ec049a1ba2a7bf91ff8f",
+                        $fstrref:"UnityGUID:f6c3f29bfe6366544893715cedf95e05"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:586c1a58a070396877386b89099362ea",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:9abd9d34f840108b54d29a900f3516ae"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.0821819454,
+            "y": 1.30870843,
+            "z": -0.09911184
+        },
+        "max": {
+            "$type": 8,
+            "x": 0.109716609,
+            "y": 1.48895478,
+            "z": 0.07929082
+        }
+    },
+    "m_SurfaceArea": 0.0695722848,
+    "m_IndexCount": 1068,
+    "m_VertexCount": 240,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

@@ -1,0 +1,102 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Gravel Pavement Transition",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SecondaryLane, Game",
+                "name": "SecondaryLane",
+                "active": true,
+                "m_LeftLanes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.SecondaryLaneInfo[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RightLanes": {
+                    "$id": 4,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_CrossingLanes": {
+                    "$id": 5,
+                    "$type": "4|Game.Prefabs.SecondaryLaneInfo2[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "5|Game.Prefabs.SecondaryLaneInfo2, Game",
+                            "m_Lane": $fstrref:"UnityGUID:4e8032cf0cb71444fa24173c746d58c4",
+                            "m_RequireStop": false,
+                            "m_RequireYield": false,
+                            "m_RequirePavement": true
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 5,
+                            "m_Lane": $fstrref:"UnityGUID:db143cb43e0c43b49b1dbad9e0ebc8de",
+                            "m_RequireStop": false,
+                            "m_RequireYield": false,
+                            "m_RequirePavement": true
+                        }
+                    ]
+                },
+                "m_CanFlipSides": false,
+                "m_DuplicateSides": false,
+                "m_RequireParallel": false,
+                "m_RequireOpposite": false,
+                "m_SkipSafePedestrianOverlap": false,
+                "m_SkipSafeCarOverlap": false,
+                "m_SkipUnsafeCarOverlap": false,
+                "m_SkipTrackOverlap": false,
+                "m_SkipMergeOverlap": false,
+                "m_FitToParkingSpaces": false,
+                "m_EvenSpacing": false,
+                "m_PositionOffset": {
+                    "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_LengthOffset": {
+                    "$type": "7|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0
+                },
+                "m_CutMargin": 0,
+                "m_CutOffset": 0,
+                "m_CutOverlap": 0,
+                "m_Spacing": 0
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 8,
+        "$type": "8|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 9,
+                "$type": "9|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:f83eda4395f35564d8f13ee0f01200b8",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

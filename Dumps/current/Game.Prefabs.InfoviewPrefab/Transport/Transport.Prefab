@@ -1,0 +1,110 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.InfoviewPrefab, Game",
+    "name": "Transport",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:e52107c8dbdae9046ae8ecaf9a15b5bf"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 4,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Infomodes": {
+        "$id": 5,
+        "$type": "4|Game.Prefabs.InfomodeInfo[], Game",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.InfomodeInfo, Game",
+                "m_Mode": $fstrref:"UnityGUID:23eb2eeb49b64bb42bb88cf8e6fa8688",
+                "m_Priority": 0,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 7,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:f5d6d1b8d6c7c414cabc12299335c2cd",
+                "m_Priority": 10,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 8,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:84e0d4f0769c4774aa3f12480656360d",
+                "m_Priority": 30,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 9,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:9dddd25d487de914bb8b3d3ef4a7e899",
+                "m_Priority": 40,
+                "m_Supplemental": false,
+                "m_Optional": false
+            },
+            {
+                "$id": 10,
+                "$type": 5,
+                "m_Mode": $fstrref:"UnityGUID:4734745914cd59d41b3d92e0cd6d36db",
+                "m_Priority": 20,
+                "m_Supplemental": false,
+                "m_Optional": false
+            }
+        ]
+    },
+    "m_DefaultColor": {
+        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+        0.7,
+        0.7,
+        0.7,
+        1
+    },
+    "m_SecondaryColor": {
+        "$type": 6,
+        0.6,
+        0.6,
+        0.6,
+        1
+    },
+    "m_IconPath": "Media/Game/Icons/Transportation.svg",
+    "m_Priority": 0,
+    "m_Group": 3,
+    "m_WarningCategories": {
+        "$id": 11,
+        "$type": "7|Game.Prefabs.IconCategory[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            6,
+            7,
+            8
+        ]
+    },
+    "m_Editor": false
+}

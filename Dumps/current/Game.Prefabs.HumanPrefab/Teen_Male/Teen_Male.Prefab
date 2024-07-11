@@ -1,0 +1,113 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.HumanPrefab, Game",
+    "name": "Teen_Male",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Resident, Game",
+                "name": "Resident",
+                "active": true,
+                "m_Age": 2
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Adult_Male0_Autumn",
+                            "m_Type": "HumanPrefab"
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 5,
+                            "m_Name": "Teen_Cold_Male",
+                            "m_Type": "HumanPrefab"
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 5,
+                            "m_Name": "Adult_Male0_Summer",
+                            "m_Type": "HumanPrefab"
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 5,
+                            "m_Name": "Teen_Warm_Male",
+                            "m_Type": "HumanPrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 9,
+        "$type": "6|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 10,
+                "$type": "7|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:740926ca536f1e74c9331eba0cd504a7",
+                "m_Position": {
+                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 15
+            },
+            {
+                "$id": 11,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:006c9f476c0da4c4f82635fbc9aefdd6",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 16
+            }
+        ]
+    },
+    "m_Circular": true,
+    "m_Gender": 2,
+    "m_WalkSpeed": 6,
+    "m_RunSpeed": 18,
+    "m_Acceleration": 8
+}

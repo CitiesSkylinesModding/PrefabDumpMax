@@ -1,0 +1,56 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Small Coal Power Plant Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:1cd16fc14929b414b971141ae3a86669",
+                        $fstrref:"UnityGUID:2e0ff31437ac48548abb298211f07838"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 0,
+                            "m_Value": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 36,
+    "m_TriggerPrefabs": {
+        "$id": 6,
+        "$type": 3,
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:a8cf732b7e281cd4f8831d505580f92b"
+        ]
+    },
+    "m_TargetTypes": 1
+}

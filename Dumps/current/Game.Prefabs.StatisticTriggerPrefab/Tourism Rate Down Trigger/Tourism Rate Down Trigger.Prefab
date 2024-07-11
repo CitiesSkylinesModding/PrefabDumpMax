@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StatisticTriggerPrefab, Game",
+    "name": "Tourism Rate Down Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:ea76ae9e1490aa34c8a09c0c0fcfee7a"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 2,
+                            "m_Value": -0.2
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Type": 3,
+    "m_StatisticPrefab": $fstrref:"UnityGUID:793d979f15744544283124c3acbdd672",
+    "m_StatisticParameter": 0,
+    "m_NormalizeWithPrefab": null,
+    "m_NormalizeWithParameter": 0,
+    "m_TimeFrame": 2,
+    "m_MinSamples": 1
+}

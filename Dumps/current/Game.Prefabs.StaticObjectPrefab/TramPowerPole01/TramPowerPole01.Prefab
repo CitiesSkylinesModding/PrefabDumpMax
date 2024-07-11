@@ -1,0 +1,145 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "TramPowerPole01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityObject, Game",
+                "name": "UtilityObject",
+                "active": true,
+                "m_UtilityType": 32,
+                "m_UtilityPosition": {
+                    "$type": "3|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": -0.2,
+                    "y": 5,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.ObjectSubLanes, Game",
+                "name": "ObjectSubLanes",
+                "active": true,
+                "m_SubLanes": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.ObjectSubLaneInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "6|Game.Prefabs.ObjectSubLaneInfo, Game",
+                            "m_LanePrefab": $fstrref:"UnityGUID:b33cf4e54ea8ffa47a9bb1ed44e3eaa6",
+                            "m_BezierCurve": {
+                                "$type": "7|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": 3,
+                                    "x": -0.207,
+                                    "y": 7.319,
+                                    "z": 0
+                                },
+                                "b": {
+                                    "$type": 3,
+                                    "x": -0.207,
+                                    "y": 7.319,
+                                    "z": 0
+                                },
+                                "c": {
+                                    "$type": 3,
+                                    "x": -0.207,
+                                    "y": 7.319,
+                                    "z": 0
+                                },
+                                "d": {
+                                    "$type": 3,
+                                    "x": -0.207,
+                                    "y": 7.319,
+                                    "z": 0
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "8|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_ParentMesh": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 0
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "9|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": 3,
+                    "x": 0.3,
+                    "y": 7,
+                    "z": 0.3
+                },
+                "m_CircularLeg": true
+            },
+            {
+                "$id": 7,
+                "$type": "10|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 8,
+                    "$type": "11|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Road Decorations"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 9,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 10,
+        "$type": "12|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": "13|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:d4052dbb03f18ac439d0ff5eb797ad04",
+                "m_Position": {
+                    "$type": 3,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "14|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "15|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

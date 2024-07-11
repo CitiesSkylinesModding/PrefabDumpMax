@@ -1,0 +1,394 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MultipleUnitTrainFrontPrefab, Game",
+    "name": "SubwayEngine01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PublicTransport, Game",
+                "name": "PublicTransport",
+                "active": true,
+                "m_TransportType": 8,
+                "m_PassengerCapacity": 120,
+                "m_Purposes": 1,
+                "m_MaintenanceRange": 850
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.VehicleSideEffects, Game",
+                "name": "VehicleSideEffects",
+                "active": true,
+                "m_RoadWear": {
+                    "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 1,
+                    "y": 2
+                },
+                "m_NoisePollution": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 10
+                },
+                "m_AirPollution": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 5,
+                    "$type": "6|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "7|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:556b208463abf6c47ab8382ceb3a1c38",
+                            "m_PositionOffset": {
+                                "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 7,
+                            "m_Effect": $fstrref:"UnityGUID:de32f8ad166d2d944b6f069e25675da1",
+                            "m_PositionOffset": {
+                                "$type": 8,
+                                "x": 0.890499949,
+                                "y": 3.2109375,
+                                "z": 8.7421875
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0.108270623,
+                                    "y": 0.103907183,
+                                    "z": -0.0113797011,
+                                    "w": 0.9886108
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 7,
+                            "m_Effect": $fstrref:"UnityGUID:de32f8ad166d2d944b6f069e25675da1",
+                            "m_PositionOffset": {
+                                "$type": 8,
+                                "x": -0.89,
+                                "y": 3.2109375,
+                                "z": 8.7421875
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0.108270593,
+                                    "y": -0.103907183,
+                                    "z": 0.0113796974,
+                                    "w": 0.9886108
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 8,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 9,
+                    "$type": "11|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 10,
+                "$type": "12|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 11,
+                    "$type": "13|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 12,
+                            "$type": "14|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Subway Front",
+                            "m_Type": "MultipleUnitTrainFrontPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "15|Game.Prefabs.ActivityLocation, Game",
+                "name": "ActivityLocation",
+                "active": true,
+                "m_Locations": {
+                    "$id": 14,
+                    "$type": "16|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$id": 15,
+                            "$type": "17|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 1.39270782,
+                                "y": 1.06329346,
+                                "z": -5.402569
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": -0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 1.402832,
+                                "y": 1.03686523,
+                                "z": 0.0153923035
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": -0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 1.40419769,
+                                "y": 1.03686523,
+                                "z": 5.32271
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": -0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -1.39298248,
+                                "y": 1.06536865,
+                                "z": -5.34382057
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -1.392601,
+                                "y": 1.0557251,
+                                "z": 0.0316004753
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 17,
+                            "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": -1.392868,
+                                "y": 1.06451416,
+                                "z": 5.36661959
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": 0.707106769
+                                }
+                            }
+                        }
+                    ]
+                },
+                "m_InvertWhen": 0,
+                "m_AnimatedPropName": "",
+                "m_RequireAuthorization": false
+            },
+            {
+                "$id": 21,
+                "$type": "18|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/Subway.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 22,
+        "$type": "19|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 23,
+                "$type": "20|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:227e6025799708d4e94d26143e57ed46",
+                "m_Position": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_TrackType": 4,
+    "m_EnergyType": 2,
+    "m_MaxSpeed": 240,
+    "m_Acceleration": 6,
+    "m_Braking": 12,
+    "m_Turning": {
+        "$type": 4,
+        "x": 90,
+        "y": 10
+    },
+    "m_BogieOffset": {
+        "$type": 4,
+        "x": 0,
+        "y": 0
+    },
+    "m_AttachOffset": {
+        "$type": 4,
+        "x": 0.09424937,
+        "y": 0.09424937
+    },
+    "m_MinMultipleUnitCount": 2,
+    "m_MaxMultipleUnitCount": 2,
+    "m_Carriages": {
+        "$id": 24,
+        "$type": "21|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 25,
+                "$type": "22|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
+                "m_Carriage": $fstrref:"UnityGUID:5f209da67994f3548ae59f14ea602829",
+                "m_Direction": 2,
+                "m_MinCount": 2,
+                "m_MaxCount": 2
+            }
+        ]
+    },
+    "m_AddReversedEndCarriage": true
+}

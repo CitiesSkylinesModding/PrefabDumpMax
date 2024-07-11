@@ -1,0 +1,33 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DevTreeNodePrefab, Game",
+    "name": "TouristAttractionsNode",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Service": $fstrref:"UnityGUID:5c1f656a5ea20284197a71e4997b4187",
+    "m_Requirements": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.DevTreeNodePrefab[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:9dd3e24f8cb353b43be9a3668aef329d"
+        ]
+    },
+    "m_Cost": 8,
+    "m_HorizontalPosition": 4,
+    "m_VerticalPosition": 0.5,
+    "m_IconPath": "Media/Game/Icons/TouristAttractions.svg",
+    "m_IconPrefab": null
+}

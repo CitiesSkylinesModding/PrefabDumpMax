@@ -1,0 +1,49 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "UndergroundTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:cc38232bfe339f240b53d4f40f098bc1",
+                "m_Priority": 4,
+                "m_Icon": "Media/Game/Icons/AdvisorUnderground.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:eb987bbba53ac8a4da6c76b8e33ad0e5",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:af2e9b275571828428bef9e54c8ddc2c"
+        ]
+    },
+    "m_Priority": 100,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

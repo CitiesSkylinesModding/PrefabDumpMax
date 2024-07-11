@@ -1,0 +1,66 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DisasterConfigurationPrefab, Game",
+    "name": "Disaster Configuration",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_WeatherDamageNotificationPrefab": $fstrref:"UnityGUID:c1c3b4bf6e39ae44a8eaa62e7363df21",
+    "m_WeatherDestroyedNotificationPrefab": $fstrref:"UnityGUID:25372e054935de34b8932971dffe568e",
+    "m_WaterDamageNotificationPrefab": $fstrref:"UnityGUID:7f33818978c4e1e46825417b1a08b689",
+    "m_WaterDestroyedNotificationPrefab": $fstrref:"UnityGUID:c732da66c3aa3af488f2de90127d6589",
+    "m_DestroyedNotificationPrefab": $fstrref:"UnityGUID:a07ad9aa9dbd2a547a4d0425a02aeda1",
+    "m_FloodDamageRate": 200,
+    "m_EmergencyShelterDangerLevelExitProbability": {
+        "$id": 2,
+        "$type": "2|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        {
+            "$id": 3,
+            "$type": "3|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": "4|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 0.08,
+                    "m_InTangent": -0.452627569,
+                    "m_OutTangent": -0.452627569,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.0873094
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0.5,
+                    "m_Value": 0,
+                    "m_InTangent": -0.03773254,
+                    "m_OutTangent": Infinity,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.333333343
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1,
+                    "m_Value": 0,
+                    "m_InTangent": Infinity,
+                    "m_OutTangent": -0.06302034,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.08705068,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_InoperableEmergencyShelterExitProbability": 0.2
+}

@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "In Danger By Event Lifepath Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LifePathEvent, Game",
+                "name": "LifePathEvent",
+                "active": true,
+                "m_EventType": 9,
+                "m_IsChirp": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "LifePath.CITIZEN_GOT_IN_DANGER_BY_EVENT"
+            }
+        ]
+    },
+    "m_TriggerType": 19,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.PrefabBase[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:17feff5d68f85154bb511fcaf05ba985",
+            $fstrref:"UnityGUID:e0c49d2a952960840877c2601ad58ad9",
+            $fstrref:"UnityGUID:fe13132b40c27274d9c0bd8157182770"
+        ]
+    },
+    "m_TargetTypes": 2
+}

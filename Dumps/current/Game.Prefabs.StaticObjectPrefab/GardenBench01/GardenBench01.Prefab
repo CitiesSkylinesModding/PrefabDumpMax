@@ -1,0 +1,228 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "GardenBench01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:8df0703be09426948b5bc3262d86bc04"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ActivityLocation, Game",
+                "name": "ActivityLocation",
+                "active": true,
+                "m_Locations": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": -0.8,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "8|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 4.371139E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 6,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 7,
+                                "x": -0.4,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0,
+                                    "y": 4.371139E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 6,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 7,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0,
+                                    "y": 4.371139E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 6,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 7,
+                                "x": 0.4,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0,
+                                    "y": 4.371139E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 6,
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": 7,
+                                "x": 0.8,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 8,
+                                "value": {
+                                    "$type": 9,
+                                    "x": 0,
+                                    "y": 4.371139E-08,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                "m_InvertWhen": 0,
+                "m_AnimatedPropName": "",
+                "m_RequireAuthorization": false
+            },
+            {
+                "$id": 11,
+                "$type": "10|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 12,
+                    "$type": "11|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "12|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Garden_Bench_01",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 14,
+                "$type": "13|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 70,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 15,
+                "$type": "14|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 16,
+                    "$type": "15|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Props/Residential"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 17,
+                    "$type": 15,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 18,
+        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 19,
+                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:cccb847abb6c5e842bbde22bafa7c9c6",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 8,
+                    "value": {
+                        "$type": 9,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

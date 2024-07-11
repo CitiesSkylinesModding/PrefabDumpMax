@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StatisticTriggerPrefab, Game",
+    "name": "Birth Rate Up Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:963eef84e21e9214bbea9076e7ef8734"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 1,
+                            "m_Value": 0.1
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Type": 0,
+    "m_StatisticPrefab": $fstrref:"UnityGUID:74633bbc68b94d34b9b5c5a76148ad38",
+    "m_StatisticParameter": 0,
+    "m_NormalizeWithPrefab": $fstrref:"UnityGUID:570659d225916d145bb547f640e398f5",
+    "m_NormalizeWithParameter": 0,
+    "m_TimeFrame": 1,
+    "m_MinSamples": 1
+}

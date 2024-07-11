@@ -1,0 +1,86 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "XianBellTower_Ext01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:d331babed6e9f0445842da3e026d0ba5",
+                        $fstrref:"UnityGUID:6754079b9a8f50245a083c8e4b16aec4"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "XianBellTower_Ext Mesh",
+                            "m_Type": "MeshPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:c3724de73723f5b4ab589dd1fa756861"
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:49da37747fe58925cb7f6d270621056d",
+    "m_SurfaceAssets": {
+        "$id": 8,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:8cbdc7da184f181e1dad7563a2f0fea4"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "10|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -59.0519676,
+            "y": -5.841255E-06,
+            "z": -59.5117378
+        },
+        "max": {
+            "$type": 10,
+            "x": 59.3303642,
+            "y": 2.359116,
+            "z": 59.5117455
+        }
+    },
+    "m_SurfaceArea": 9049.408,
+    "m_IndexCount": 10248,
+    "m_VertexCount": 3096,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

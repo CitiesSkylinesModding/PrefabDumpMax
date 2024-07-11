@@ -1,0 +1,38 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "SignatureResidentialMasterSpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:be6dfe6d0c3b278458c9d64731ebfe45",
+                        $fstrref:"UnityGUID:1d2a03499a1c3884eb6189402b98041c",
+                        $fstrref:"UnityGUID:30480c28affb88f48a87fe439b36ab60"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 80
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

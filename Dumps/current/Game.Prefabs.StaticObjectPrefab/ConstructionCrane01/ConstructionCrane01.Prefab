@@ -1,0 +1,140 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "ConstructionCrane01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": "4|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 6,
+                    "y": 3.5,
+                    "z": 6
+                },
+                "m_CircularLeg": false
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.CraneObject, Game",
+                "name": "CraneObject",
+                "active": true,
+                "m_DistanceRange": {
+                    "$type": "6|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 5,
+                    "max": 27
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "7|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 6,
+                    "$type": "8|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Decorations/Dynamic"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 7,
+                    "$type": 8,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 8,
+        "$type": "9|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 9,
+                "$type": "10|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:602c925e80bb21e4fb6491ee2d23a4b8",
+                "m_Position": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "11|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "12|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 10,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:fc8e625fa24218a4799b379981a58e38",
+                "m_Position": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 11,
+                    "value": {
+                        "$type": 12,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 11,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:6fee4e5e18f1d594abef7aebe2569671",
+                "m_Position": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 11,
+                    "value": {
+                        "$type": 12,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": true
+}

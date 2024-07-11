@@ -1,0 +1,35 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Cargo Airplane Stop",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportStopMarker, Game",
+                "name": "TransportStopMarker",
+                "active": true,
+                "m_TransportType": 7,
+                "m_PassengerTransport": false,
+                "m_CargoTransport": true
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:53a728862f994f6d8bde9db7a1420622",
+    "m_Description": "Cargo airplane stop",
+    "m_TargetDescription": "",
+    "m_DisplaySize": {
+        "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 3,
+        "max": 3
+    },
+    "m_PulsateAmplitude": {
+        "$type": 3,
+        "min": 0.01,
+        "max": 0.01
+    }
+}

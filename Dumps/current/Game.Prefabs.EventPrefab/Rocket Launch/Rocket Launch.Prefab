@@ -1,0 +1,53 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EventPrefab, Game",
+    "name": "Rocket Launch",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SpectatorEvent, Game",
+                "name": "SpectatorEvent",
+                "active": true,
+                "m_RandomSiteType": 5,
+                "m_PreparationDuration": 0.01,
+                "m_ActiveDuration": 0.01,
+                "m_TerminationDuration": 0.01
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.VehicleLaunch, Game",
+                "name": "VehicleLaunch",
+                "active": true,
+                "m_TransportType": 9
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.JournalEventComponent, Game",
+                "name": "JournalEventComponent",
+                "active": true,
+                "m_Icon": "",
+                "m_TrackedData": {
+                    "$id": 5,
+                    "$type": "5|Game.Events.EventDataTrackingType[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        2
+                    ]
+                },
+                "m_TrackedCityEffects": {
+                    "$id": 6,
+                    "$type": "6|Game.Events.EventCityEffectTrackingType[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_ConcurrentLimit": 0
+}

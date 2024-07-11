@@ -1,0 +1,83 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PolicyTogglePrefab, Game",
+    "name": "Recycling",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.DistrictModifiers, Game",
+                "name": "DistrictModifiers",
+                "active": true,
+                "m_Modifiers": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.DistrictModifierInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.DistrictModifierInfo, Game",
+                            "m_Type": 0,
+                            "m_Mode": 0,
+                            "m_Range": {
+                                "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                                "min": -0.1,
+                                "max": -0.1
+                            }
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Type": 1,
+                            "m_Mode": 0,
+                            "m_Range": {
+                                "$type": 5,
+                                "min": -0.05,
+                                "max": -0.05
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Policies/Recycling.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 8,
+                    "$type": "8|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:5c6cbf5168762c84993f0ee6b8953323"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 9,
+                    "$type": 8,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Visibility": 0,
+    "m_Category": 5
+}

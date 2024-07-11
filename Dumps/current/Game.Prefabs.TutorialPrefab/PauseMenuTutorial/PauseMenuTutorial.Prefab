@@ -1,0 +1,42 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "PauseMenuTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:cc38232bfe339f240b53d4f40f098bc1",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/PauseMenu.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialAutoActivation, Game",
+                "name": "TutorialAutoActivation",
+                "active": true,
+                "m_RequiredUnlock": null
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:9d30dac75b062c8419f62d061adea71e"
+        ]
+    },
+    "m_Priority": 10,
+    "m_ReplaceActive": false,
+    "m_Mandatory": true
+}

@@ -1,0 +1,94 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "TransportationVehicleSubwayEngine",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.VehicleSFX, Game",
+                "name": "VehicleSFX",
+                "active": true,
+                "m_SpeedLimits": {
+                    "$type": "3|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0,
+                    "y": 20
+                },
+                "m_SpeedPitches": {
+                    "$type": 3,
+                    "x": 0.5,
+                    "y": 1
+                },
+                "m_SpeedVolumes": {
+                    "$type": 3,
+                    "x": 0,
+                    "y": 1
+                }
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.Effects.SFX, Game",
+                "name": "SFX",
+                "active": true,
+                "m_AudioClip": $fstrref:"UnityObjectsMap:adb9d995848e4b9d9d4ef84a6042cb8a",
+                "m_Volume": 0.5,
+                "m_Pitch": 1,
+                "m_SpatialBlend": 1,
+                "m_Doppler": 1,
+                "m_Spread": 20,
+                "m_RolloffMode": 1,
+                "m_MinMaxDistance": {
+                    "$type": 3,
+                    "x": 1,
+                    "y": 90
+                },
+                "m_Loop": true,
+                "m_MixerGroup": 6,
+                "m_Priority": 50,
+                "m_RolloffCurve": {
+                    "$id": 4,
+                    "$type": "5|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+                    {
+                        "$id": 5,
+                        "$type": "6|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+                        "$rlength": 0,
+                        "$rcontent": [
+                        ]
+                    },
+                    8,
+                    8
+                },
+                "m_SourceSize": {
+                    "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_FadeTimes": {
+                    "$type": 3,
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "m_RandomStartTime": true
+            },
+            {
+                "$id": 6,
+                "$type": "8|Game.Prefabs.CullingEffect, Game",
+                "name": "CullingEffect",
+                "active": true,
+                "m_AudioCullGroup": 3
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "9|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 8,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

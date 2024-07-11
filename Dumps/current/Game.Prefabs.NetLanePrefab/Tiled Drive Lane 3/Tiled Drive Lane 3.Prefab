@@ -1,0 +1,29 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLanePrefab, Game",
+    "name": "Tiled Drive Lane 3",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": null,
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": false
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:f2ca9cc56afd5044e836f99cbe21c9d2"
+}

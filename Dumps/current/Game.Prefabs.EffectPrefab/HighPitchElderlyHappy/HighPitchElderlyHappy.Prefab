@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "HighPitchElderlyHappy",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioRandomize, Game",
+                "name": "AudioRandomize",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 7,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:b55bd0bda7e350b45b336cd0c6885ad9",
+                        $fstrref:"UnityGUID:8b14978e9598b68488584a698ef3f7ca",
+                        $fstrref:"UnityGUID:0679bf98a4b3ed84e80486996cfb3d37",
+                        $fstrref:"UnityGUID:1afd5ed296a607d4aa24b581c001ed2c",
+                        $fstrref:"UnityGUID:6516037d1ea390b47bc239b370265b25",
+                        $fstrref:"UnityGUID:467fb6672516bb1488169d4ae677d8de",
+                        $fstrref:"UnityGUID:ac6ebb6e1c1121549979a22f3e43a3d3"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

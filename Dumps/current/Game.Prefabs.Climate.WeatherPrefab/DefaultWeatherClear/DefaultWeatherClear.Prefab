@@ -1,0 +1,328 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.Climate.WeatherPrefab, Game",
+    "name": "DefaultWeatherClear",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Climate.ColorAdjustmentsProperties, Game",
+                "name": "ColorAdjustmentsProperties",
+                "active": true,
+                "m_InterpolationMode": 0,
+                "m_InterpolationTime": 5,
+                "m_PostExposure": {
+                    "$id": 3,
+                    "$type": "3|UnityEngine.Rendering.FloatParameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": 0.5
+                },
+                "m_Contrast": {
+                    "$id": 4,
+                    "$type": "4|UnityEngine.Rendering.ClampedFloatParameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": 10.8
+                },
+                "m_ColorFilter": {
+                    "$id": 5,
+                    "$type": "5|UnityEngine.Rendering.ColorParameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": {
+                        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                        1,
+                        1,
+                        1,
+                        1
+                    }
+                },
+                "m_HueShift": {
+                    "$id": 6,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_Saturation": {
+                    "$id": 7,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 35.5
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "7|Game.Prefabs.Climate.DistanceCloudsProperties, Game",
+                "name": "DistanceCloudsProperties",
+                "active": true,
+                "m_InterpolationMode": 1,
+                "m_InterpolationTime": 1,
+                "m_Opacity": {
+                    "$id": 9,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_CumulusStrength": {
+                    "$id": 10,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_StratusStrength": {
+                    "$id": 11,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_CirrusStrength": {
+                    "$id": 12,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_WispyStrength": {
+                    "$id": 13,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_Altitude": {
+                    "$id": 14,
+                    "$type": "8|UnityEngine.Rendering.MinFloatParameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": 2000
+                }
+            },
+            {
+                "$id": 15,
+                "$type": "9|Game.Prefabs.Climate.VolumetricCloudsProperties, Game",
+                "name": "VolumetricCloudsProperties",
+                "active": true,
+                "m_InterpolationMode": 1,
+                "m_InterpolationTime": 1,
+                "m_BottomAltitude": {
+                    "$id": 16,
+                    "$type": 8,
+                    "m_OverrideState": true,
+                    "m_Value": 1200
+                },
+                "m_AltitudeRange": {
+                    "$id": 17,
+                    "$type": 8,
+                    "m_OverrideState": true,
+                    "m_Value": 2000
+                },
+                "m_DensityMultiplier": {
+                    "$id": 18,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0
+                },
+                "m_DensityCurve": {
+                    "$id": 19,
+                    "$type": "10|UnityEngine.Rendering.AnimationCurveParameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": {
+                        "$id": 20,
+                        "$type": "11|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+                        {
+                            "$id": 21,
+                            "$type": "12|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+                            "$rlength": 3,
+                            "$rcontent": [
+                                {
+                                    "$type": "13|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                                    "ver": 1,
+                                    "m_Time": 0,
+                                    "m_Value": 0,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 0.15,
+                                    "m_Value": 1,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 1,
+                                    "m_Value": 0.1,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                }
+                            ]
+                        },
+                        8,
+                        8
+                    }
+                },
+                "m_ShapeFactor": {
+                    "$id": 22,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 1
+                },
+                "m_ShapeOffset": {
+                    "$id": 23,
+                    "$type": "14|UnityEngine.Rendering.Vector3Parameter, Unity.RenderPipelines.Core.Runtime",
+                    "m_OverrideState": true,
+                    "m_Value": {
+                        "$type": "15|UnityEngine.Vector3, UnityEngine.CoreModule",
+                        0,
+                        0,
+                        0
+                    }
+                },
+                "m_ErosionFactor": {
+                    "$id": 24,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0.75
+                },
+                "m_ErosionOcclusion": {
+                    "$id": 25,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0.1
+                },
+                "m_ErosionCurve": {
+                    "$id": 26,
+                    "$type": 10,
+                    "m_OverrideState": true,
+                    "m_Value": {
+                        "$id": 27,
+                        "$type": 11,
+                        {
+                            "$id": 28,
+                            "$type": 12,
+                            "$rlength": 3,
+                            "$rcontent": [
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 0,
+                                    "m_Value": 1,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 0.1,
+                                    "m_Value": 0.9,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 1,
+                                    "m_Value": 1,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                }
+                            ]
+                        },
+                        8,
+                        8
+                    }
+                },
+                "m_AmbientOcclusionCurve": {
+                    "$id": 29,
+                    "$type": 10,
+                    "m_OverrideState": true,
+                    "m_Value": {
+                        "$id": 30,
+                        "$type": 11,
+                        {
+                            "$id": 31,
+                            "$type": 12,
+                            "$rlength": 3,
+                            "$rcontent": [
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 0,
+                                    "m_Value": 0,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 0.25,
+                                    "m_Value": 0.4,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                },
+                                {
+                                    "$type": 13,
+                                    "ver": 1,
+                                    "m_Time": 1,
+                                    "m_Value": 0,
+                                    "m_InTangent": 0,
+                                    "m_OutTangent": 0,
+                                    "m_WeightedMode": 0,
+                                    "m_InWeight": 0,
+                                    "m_OutWeight": 0
+                                }
+                            ]
+                        },
+                        8,
+                        8
+                    }
+                },
+                "m_MultiScattering": {
+                    "$id": 32,
+                    "$type": 4,
+                    "m_OverrideState": true,
+                    "m_Value": 0.5
+                }
+            },
+            {
+                "$id": 33,
+                "$type": "16|Game.Prefabs.Climate.WeatherPlaceholder, Game",
+                "name": "WeatherPlaceholder",
+                "active": true
+            }
+        ]
+    },
+    "m_RandomizationLayer": 1,
+    "m_CloudinessRange": {
+        "$type": "17|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 0,
+        "y": 0.06
+    },
+    "m_Classification": 1
+}

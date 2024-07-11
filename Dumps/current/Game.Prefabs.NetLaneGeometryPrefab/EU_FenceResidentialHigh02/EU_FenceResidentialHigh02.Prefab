@@ -1,0 +1,63 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "EU_FenceResidentialHigh02",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 16,
+                "m_LocalConnectionLane": null,
+                "m_LocalConnectionLane2": null,
+                "m_NodeObject": null,
+                "m_Width": 0.3,
+                "m_VisualCapacity": 2,
+                "m_Hanging": 0,
+                "m_Underground": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnableLane, Game",
+                "name": "SpawnableLane",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.NetLanePrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:e6b5fc6beaf0ee24bb0f6a3a5abf48ab"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": $fstrref:"UnityGUID:082d98fba4893eb478c87a35c9d4fd61"
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:0df6102666d13014c8f869a2793c3839",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

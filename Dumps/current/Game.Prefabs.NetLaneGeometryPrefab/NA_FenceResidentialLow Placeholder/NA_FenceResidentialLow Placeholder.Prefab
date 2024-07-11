@@ -1,0 +1,53 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "NA_FenceResidentialLow Placeholder",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 16,
+                "m_LocalConnectionLane": null,
+                "m_LocalConnectionLane2": null,
+                "m_NodeObject": null,
+                "m_Width": 0.5,
+                "m_VisualCapacity": 1,
+                "m_Hanging": 0,
+                "m_Underground": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceholderLane, Game",
+                "name": "PlaceholderLane",
+                "active": true
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:39875827169339f4aa2a51ad73cf6dba",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

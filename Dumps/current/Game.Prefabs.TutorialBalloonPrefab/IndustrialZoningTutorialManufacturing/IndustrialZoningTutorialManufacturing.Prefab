@@ -1,0 +1,56 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialBalloonPrefab, Game",
+    "name": "IndustrialZoningTutorialManufacturing",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Image": "",
+    "m_OverrideImagePS": "",
+    "m_OverrideImageXBox": "",
+    "m_Icon": "Media/Game/Icons/ZoneIndustrialManufacturing.svg",
+    "m_TitleVisible": true,
+    "m_DescriptionVisible": true,
+    "m_CanDeactivate": false,
+    "m_Trigger": null,
+    "m_OverrideCompletionDelay": -1,
+    "m_UITargets": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget, Game",
+                "m_UITagProvider": $fstrref:"UnityGUID:a22d9797c7e53db41b9648ba70b39703",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 5,
+                "$type": 4,
+                "m_UITagProvider": $fstrref:"UnityGUID:4f800ee88525f4f4c97eb5000f5da28a",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 6,
+                "$type": 4,
+                "m_UITagProvider": $fstrref:"UnityGUID:0e35df380310be349b98b04a0471b211",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            }
+        ]
+    }
+}

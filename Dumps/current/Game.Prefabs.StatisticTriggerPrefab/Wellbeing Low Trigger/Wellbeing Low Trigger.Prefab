@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StatisticTriggerPrefab, Game",
+    "name": "Wellbeing Low Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:066368a4a14920640aad09805f2bd535"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 1,
+                            "m_Value": 0.4
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Type": 0,
+    "m_StatisticPrefab": $fstrref:"UnityGUID:b006bc1a78d347846b4fa43d6e8c3eb6",
+    "m_StatisticParameter": 40,
+    "m_NormalizeWithPrefab": $fstrref:"UnityGUID:570659d225916d145bb547f640e398f5",
+    "m_NormalizeWithParameter": 0,
+    "m_TimeFrame": 0,
+    "m_MinSamples": 0
+}

@@ -1,0 +1,59 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "RoadArrow Forward Placeholder",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PlaceholderObject, Game",
+                "name": "PlaceholderObject",
+                "active": true,
+                "m_RandomizeGroupIndex": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LaneDirectionObject, Game",
+                "name": "LaneDirectionObject",
+                "active": true,
+                "m_Left": 18446744073709551436,
+                "m_Forward": 0,
+                "m_Right": 18446744073709551436
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:c9578e8128cfe0b46bdef0147710090c",
+                "m_Position": {
+                    "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "7|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "8|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

@@ -1,0 +1,33 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Battery",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.BuildingMarker, Game",
+                "name": "BuildingMarker",
+                "active": true,
+                "m_BuildingType": 26
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:05bbd6b089d740e5920f783b9c2d2cf0",
+    "m_Description": "Battery",
+    "m_TargetDescription": "",
+    "m_DisplaySize": {
+        "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 4.5,
+        "max": 4.5
+    },
+    "m_PulsateAmplitude": {
+        "$type": 3,
+        "min": 0.01,
+        "max": 0.01
+    }
+}

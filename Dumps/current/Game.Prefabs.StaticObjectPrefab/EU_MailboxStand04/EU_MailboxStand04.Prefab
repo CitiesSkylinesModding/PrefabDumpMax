@@ -1,0 +1,148 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "EU_MailboxStand04",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:eda3f7f5da151a647a2c4aa7c0c8669b"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.QuantityObject, Game",
+                "name": "QuantityObject",
+                "active": true,
+                "m_Resources": {
+                    "$id": 5,
+                    "$type": "5|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        14
+                    ]
+                },
+                "m_MapFeature": 18446744073709551615
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:846c60044f7ead04d9b11f0d749ea5f2"
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 8,
+                    "$type": "8|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "9|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "EU_Mailbox_Stand_04_Empty",
+                            "m_Type": "StaticObjectPrefab"
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 9,
+                            "m_Name": "EU_MailboxStandEmpty04",
+                            "m_Type": "StaticObjectPrefab"
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 9,
+                            "m_Name": "EU_Mailbox_Stand_04_Full",
+                            "m_Type": "StaticObjectPrefab"
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 9,
+                            "m_Name": "EU_MailboxStandFull04",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "10|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 14,
+        "$type": "11|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 15,
+                "$type": "12|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:7498b993594f12a46a95a6807f2d6fbb",
+                "m_Position": {
+                    "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "14|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "15|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 7
+            },
+            {
+                "$id": 16,
+                "$type": 12,
+                "m_Mesh": $fstrref:"UnityGUID:17a5bc32c1157ba47bad44c190a3ae21",
+                "m_Position": {
+                    "$type": 13,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 14,
+                    "value": {
+                        "$type": 15,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 8
+            }
+        ]
+    },
+    "m_Circular": false
+}

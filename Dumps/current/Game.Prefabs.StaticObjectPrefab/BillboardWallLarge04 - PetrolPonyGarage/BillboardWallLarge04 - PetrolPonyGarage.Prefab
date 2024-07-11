@@ -1,0 +1,170 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "BillboardWallLarge04 - PetrolPonyGarage",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:6a69fd7569362ac458e38dd5d96facb7",
+                            "m_PositionOffset": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 1.16,
+                                "y": 2.38,
+                                "z": 1.9
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": -2.34861126E-08,
+                                    "y": 0.8433914,
+                                    "z": -0.537299633,
+                                    "w": -3.686581E-08
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Effect": $fstrref:"UnityGUID:6a69fd7569362ac458e38dd5d96facb7",
+                            "m_PositionOffset": {
+                                "$type": 5,
+                                "x": -1.16,
+                                "y": 2.38,
+                                "z": 1.9
+                            },
+                            "m_Rotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": -2.34861126E-08,
+                                    "y": 0.8433914,
+                                    "z": -0.537299633,
+                                    "w": -3.686581E-08
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 5,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 60,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 8,
+                "$type": "10|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 9,
+                    "$type": "11|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:592e71c02ef086149945afa28da64278",
+                        $fstrref:"UnityGUID:384ed11a5eddc3a41bc90aebf10b43f2"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 10,
+                "$type": "12|Game.Prefabs.BrandObject, Game",
+                "name": "BrandObject",
+                "active": true,
+                "m_Brand": $fstrref:"UnityGUID:de7f0d146d2d3c9409ebd8ec3c51fcde"
+            },
+            {
+                "$id": 11,
+                "$type": "13|Game.Prefabs.AttachedObject, Game",
+                "name": "AttachedObject",
+                "active": true,
+                "m_AttachType": 1,
+                "m_AttachOffset": 0
+            },
+            {
+                "$id": 12,
+                "$type": "14|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:6a2dbb5b0d5ed814d975ec201667b644"
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 13,
+        "$type": "15|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 14,
+                "$type": "16|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:b62b365768a517f418e1a2299e9355c2",
+                "m_Position": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 6,
+                    "value": {
+                        "$type": 7,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

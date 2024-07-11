@@ -1,0 +1,198 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CitizenHappinessPrefab, Game",
+    "name": "CitizenHappinessParameters",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_PollutionDivisor": 330,
+    "m_MaxAirAndGroundPollution": 50,
+    "m_MaxNoisePollution": 15,
+    "m_ElectricityWellbeingPenalty": 20,
+    "m_ElectricityPenaltyDelay": 32,
+    "m_ElectricityFeeWellbeingEffect": {
+        "$id": 2,
+        "$type": "2|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        {
+            "$id": 3,
+            "$type": "3|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": "4|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 10,
+                    "m_InTangent": -10,
+                    "m_OutTangent": -10,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.333333343
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1,
+                    "m_Value": 0,
+                    "m_InTangent": -9.924973,
+                    "m_OutTangent": -9.924973,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.281066418
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 2,
+                    "m_Value": -20,
+                    "m_InTangent": -39.9993935,
+                    "m_OutTangent": -39.9993935,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.08189082,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_WaterHealthPenalty": 20,
+    "m_WaterWellbeingPenalty": 20,
+    "m_WaterPenaltyDelay": 32,
+    "m_WaterPollutionMultiplier": -50,
+    "m_SewageHealthEffect": 10,
+    "m_SewageWellbeingEffect": 20,
+    "m_SewagePenaltyDelay": 32,
+    "m_WaterFeeHealthEffect": {
+        "$id": 4,
+        "$type": 2,
+        {
+            "$id": 5,
+            "$type": 3,
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 5,
+                    "m_InTangent": -5,
+                    "m_OutTangent": -5,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.333333343
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1,
+                    "m_Value": 0,
+                    "m_InTangent": -5.774686,
+                    "m_OutTangent": -5.774686,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.151116371
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 2,
+                    "m_Value": -10,
+                    "m_InTangent": -17.9479828,
+                    "m_OutTangent": -17.9479828,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.149803519,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_WaterFeeWellbeingEffect": {
+        "$id": 6,
+        "$type": 2,
+        {
+            "$id": 7,
+            "$type": 3,
+            "$rlength": 3,
+            "$rcontent": [
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 0,
+                    "m_Value": 5,
+                    "m_InTangent": -5,
+                    "m_OutTangent": -5,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0,
+                    "m_OutWeight": 0.333333343
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 1,
+                    "m_Value": 0,
+                    "m_InTangent": -5.774686,
+                    "m_OutTangent": -5.774686,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.333333343,
+                    "m_OutWeight": 0.151116371
+                },
+                {
+                    "$type": 4,
+                    "ver": 1,
+                    "m_Time": 2,
+                    "m_Value": -10,
+                    "m_InTangent": -17.9479828,
+                    "m_OutTangent": -17.9479828,
+                    "m_WeightedMode": 0,
+                    "m_InWeight": 0.149803519,
+                    "m_OutWeight": 0
+                }
+            ]
+        },
+        8,
+        8
+    },
+    "m_WealthyMoneyAmount": {
+        "$type": "5|Unity.Mathematics.int4, Unity.Mathematics",
+        "x": 500,
+        "y": 2500,
+        "z": 4500,
+        "w": 8000
+    },
+    "m_HealthCareHealthMultiplier": 2,
+    "m_HealthCareWellbeingMultiplier": 0.8,
+    "m_EducationWellbeingMultiplier": 3,
+    "m_NeutralEducation": 5,
+    "m_EntertainmentWellbeingMultiplier": 20,
+    "m_NegligibleCrime": 5000,
+    "m_CrimeMultiplier": 0.0004,
+    "m_MaxCrimePenalty": 30,
+    "m_MailMultiplier": 3,
+    "m_NegligibleMail": 20,
+    "m_TelecomBaseline": 0.3,
+    "m_TelecomBonusMultiplier": 10,
+    "m_TelecomPenaltyMultiplier": 4,
+    "m_WelfareMultiplier": 2,
+    "m_HealthProblemHealthPenalty": 20,
+    "m_DeathWellbeingPenalty": 20,
+    "m_DeathHealthPenalty": 10,
+    "m_ConsumptionMultiplier": 1,
+    "m_LowWellbeing": 40,
+    "m_LowHealth": 40,
+    "m_TaxUneducatedMultiplier": -0.4,
+    "m_TaxPoorlyEducatedMultiplier": -1,
+    "m_TaxEducatedMultiplier": -2,
+    "m_TaxWellEducatedMultiplier": -4,
+    "m_TaxHighlyEducatedMultiplier": -5,
+    "m_PenaltyEffect": -50,
+    "m_HomelessHealthEffect": -20,
+    "m_HomelessWellbeingEffect": -20
+}

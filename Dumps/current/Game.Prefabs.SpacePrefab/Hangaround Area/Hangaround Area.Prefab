@@ -1,0 +1,65 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.SpacePrefab, Game",
+    "name": "Hangaround Area",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NavigationArea, Game",
+                "name": "NavigationArea",
+                "active": true,
+                "m_ConnectionType": 2,
+                "m_SecondaryType": 0,
+                "m_TrackTypes": 0,
+                "m_RoadTypes": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.HangaroundArea, Game",
+                "name": "HangaroundArea",
+                "active": true,
+                "m_Activities": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.ActivityType[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        1
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+        0.633790553,
+        0.494117647,
+        0.6431373,
+        0.196078435
+    },
+    "m_EdgeColor": {
+        "$type": 5,
+        0.635294139,
+        0.494117647,
+        0.6431373,
+        0.392156869
+    },
+    "m_SelectionColor": {
+        "$type": 5,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_SelectionEdgeColor": {
+        "$type": 5,
+        1,
+        1,
+        1,
+        1
+    }
+}

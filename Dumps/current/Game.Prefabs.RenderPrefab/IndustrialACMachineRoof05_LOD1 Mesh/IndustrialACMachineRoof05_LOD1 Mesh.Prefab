@@ -1,0 +1,152 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "IndustrialACMachineRoof05_LOD1 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "IndustrialACMachineRoof05_RootBone",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                2.18556941E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "VentilationFan",
+                            "position": {
+                                "$type": 5,
+                                -5.455449E-07,
+                                1.70032728,
+                                6.10351549E-07
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 5.455449E-07,
+                                "m13": -1.70032728,
+                                "m23": -6.10351549E-07,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 1.6,
+                            "m_Acceleration": 0.2,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:500ad58541860fba72e44b3c1fb5de42",
+    "m_SurfaceAssets": {
+        "$id": 6,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:56b30650b758fa801ef57e12ff3c8006"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "10|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.28430212,
+            "y": 1.198487,
+            "z": -0.428101063
+        },
+        "max": {
+            "$type": 10,
+            "x": 0.5567161,
+            "y": 1.86839128,
+            "z": 1.284301
+        }
+    },
+    "m_SurfaceArea": 1.4821589,
+    "m_IndexCount": 12,
+    "m_VertexCount": 12,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

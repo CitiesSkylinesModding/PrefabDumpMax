@@ -1,0 +1,45 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StatisticTriggerPrefab, Game",
+    "name": "High Unemployment Radio Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RadioEvent, Game",
+                "name": "RadioEvent",
+                "active": true,
+                "m_SegmentType": 4
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "5|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 1,
+                            "m_Value": 0.25
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Type": 1,
+    "m_StatisticPrefab": $fstrref:"UnityGUID:90abbb2af27ec854da900220f0ade7b2",
+    "m_StatisticParameter": 0,
+    "m_NormalizeWithPrefab": $fstrref:"UnityGUID:570659d225916d145bb547f640e398f5",
+    "m_NormalizeWithParameter": 0,
+    "m_TimeFrame": 128,
+    "m_MinSamples": 1
+}

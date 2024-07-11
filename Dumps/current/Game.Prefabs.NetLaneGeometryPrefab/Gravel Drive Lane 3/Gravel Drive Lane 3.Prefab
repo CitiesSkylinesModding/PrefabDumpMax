@@ -1,0 +1,56 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Gravel Drive Lane 3",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": null,
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 3,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LaneDeterioration, Game",
+                "name": "LaneDeterioration",
+                "active": true,
+                "m_TrafficDeterioration": 0.01,
+                "m_TimeDeterioration": 0.5
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:f4e42245382aea44ca7be75c48162da2",
+    "m_Meshes": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:987ed78d71a904e4a837e051586bf2af",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

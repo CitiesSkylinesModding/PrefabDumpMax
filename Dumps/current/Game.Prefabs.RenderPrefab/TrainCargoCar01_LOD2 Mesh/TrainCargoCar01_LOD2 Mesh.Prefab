@@ -1,0 +1,200 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "TrainCargoCar01_LOD2 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "TrainCargoCar01_RootBone",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0.01,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.01,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "TrainCargoCar01_BogieFront",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                0.705092549,
+                                4.52046967
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.71509254,
+                                "m23": -4.52046967,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 15,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "TrainCargoCar01_BogieRear",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                0.705092549,
+                                -4.52046967
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.71509254,
+                                "m23": 4.52046967,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 15,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:f0951f2f5c335f356a9aea9a110f712c",
+    "m_SurfaceAssets": {
+        "$id": 7,
+        "$type": "8|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:ffca5fbc81e19f8dd3847dee4004961d"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "9|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "10|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.3617903,
+            "y": -0.0159877539,
+            "z": -7.467888
+        },
+        "max": {
+            "$type": 10,
+            "x": 1.35713756,
+            "y": 1.60413039,
+            "z": 7.47753334
+        }
+    },
+    "m_SurfaceArea": 116.242241,
+    "m_IndexCount": 1200,
+    "m_VertexCount": 586,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

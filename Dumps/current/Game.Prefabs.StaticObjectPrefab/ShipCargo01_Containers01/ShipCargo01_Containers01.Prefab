@@ -1,0 +1,173 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "ShipCargo01_Containers01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.QuantityObject, Game",
+                "name": "QuantityObject",
+                "active": true,
+                "m_Resources": {
+                    "$id": 3,
+                    "$type": "3|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 31,
+                    "$rcontent": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        23,
+                        24,
+                        24,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        14,
+                        13,
+                        40
+                    ]
+                },
+                "m_MapFeature": 18446744073709551615
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:3d17e0430547eae47822db10a70c1419"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 7,
+                    "$type": "7|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 8,
+                            "$type": "8|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "ShipCargo01_Containers02",
+                            "m_Type": "StaticObjectPrefab"
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_Name": "ShipCargo01_Containers03",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 10,
+        "$type": "9|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": "10|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:d5251e3f72178a64a85f3beef3beccbb",
+                "m_Position": {
+                    "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "12|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "13|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 11
+            },
+            {
+                "$id": 12,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:2106853952de4e044bf3b413ca043c11",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 12
+            },
+            {
+                "$id": 13,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:5c0e24efe45828c4d8385b4a4f7c74bb",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 8
+            }
+        ]
+    },
+    "m_Circular": false
+}

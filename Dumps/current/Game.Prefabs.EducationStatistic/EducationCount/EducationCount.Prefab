@@ -1,0 +1,126 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EducationStatistic, Game",
+    "name": "EducationCount",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:b57f6b8308b722d4ab3cf7993e24a541",
+                "m_Priority": 100,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:99af7a6b8f5eedd46a9a5f500f46ba28"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Category": $fstrref:"UnityGUID:b57f6b8308b722d4ab3cf7993e24a541",
+    "m_Group": null,
+    "m_StatisticsType": 19,
+    "m_CollectionType": 1,
+    "m_UnitType": 0,
+    "m_Color": {
+        "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+        0.6162097,
+        0.898568451,
+        0.724990845,
+        1
+    },
+    "m_Stacked": false,
+    "m_Levels": {
+        "$id": 6,
+        "$type": "6|Game.Prefabs.EducationLevelInfo[], Game",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.EducationLevelInfo, Game",
+                "m_Color": {
+                    "$type": 5,
+                    0.5754717,
+                    0.410767883,
+                    0.3022131,
+                    1
+                },
+                "m_EducationLevel": 0
+            },
+            {
+                "$id": 8,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.45174402,
+                    0.7088442,
+                    0.5174474,
+                    1
+                },
+                "m_EducationLevel": 1
+            },
+            {
+                "$id": 9,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.5398712,
+                    0.616542,
+                    0.718552,
+                    1
+                },
+                "m_EducationLevel": 2
+            },
+            {
+                "$id": 10,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.4762248,
+                    0.423529416,
+                    0.8352941,
+                    1
+                },
+                "m_EducationLevel": 3
+            },
+            {
+                "$id": 11,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.6132076,
+                    0.362525225,
+                    0.5533432,
+                    1
+                },
+                "m_EducationLevel": 4
+            }
+        ]
+    }
+}

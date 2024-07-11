@@ -1,0 +1,81 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "ParkingLotElectricDecal01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.DecalProperties, Game",
+                "name": "DecalProperties",
+                "active": true,
+                "m_TextureArea": {
+                    "$type": "3|Colossal.Mathematics.Bounds2, Colossal.Mathematics",
+                    "min": {
+                        "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                        "x": 0.4083,
+                        "y": 0.8159
+                    },
+                    "max": {
+                        "$type": 4,
+                        "x": 0.5118,
+                        "y": 0.9963
+                    }
+                },
+                "m_RendererPriority": 0,
+                "m_LayerMask": 7,
+                "m_EnableInfoviewColor": false
+            },
+            {
+                "$id": 3,
+                "$type": "5|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 4,
+                    "$type": "6|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:e506ed800dac564479dcfaf4b08a8708"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:9f472dc8d860473c75a0df0dbd91e330",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "7|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:2587ccd3c73f0a593b75a0ebb852dca5"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "8|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "9|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.6,
+            "y": -0.5,
+            "z": -3.1
+        },
+        "max": {
+            "$type": 9,
+            "x": 1.6,
+            "y": 0.5,
+            "z": 3.1
+        }
+    },
+    "m_SurfaceArea": 58.4797668,
+    "m_IndexCount": 36,
+    "m_VertexCount": 24,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

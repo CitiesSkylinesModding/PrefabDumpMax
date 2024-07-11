@@ -1,0 +1,102 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.LotPrefab, Game",
+    "name": "Agriculture Lot",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EnclosedArea, Game",
+                "name": "EnclosedArea",
+                "active": true,
+                "m_BorderLaneType": $fstrref:"UnityGUID:d4d7ed74817a3444688dfb374d573386",
+                "m_CounterClockWise": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ExtractorArea, Game",
+                "name": "ExtractorArea",
+                "active": true,
+                "m_MapFeature": 2,
+                "m_ObjectSpawnFactor": 2,
+                "m_MaxObjectArea": 0.25
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.AreaSubObjects, Game",
+                "name": "AreaSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.AreaSubObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.AreaSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:a1c22d7b955e29f41881fb669af85dfb"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.MasterArea, Game",
+                "name": "MasterArea",
+                "active": true,
+                "m_SlaveAreas": {
+                    "$id": 8,
+                    "$type": "8|Game.Prefabs.SlaveAreaInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "9|Game.Prefabs.SlaveAreaInfo, Game",
+                            "m_Area": $fstrref:"UnityGUID:80200b89fc8f7bb43b0825eaea1e520d"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": "10|UnityEngine.Color, UnityEngine.CoreModule",
+        0.6273073,
+        0.7169812,
+        0.1251335,
+        0.196078435
+    },
+    "m_EdgeColor": {
+        "$type": 10,
+        0.447650284,
+        0.512,
+        0.0895300657,
+        0.392156869
+    },
+    "m_SelectionColor": {
+        "$type": 10,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_SelectionEdgeColor": {
+        "$type": 10,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_MaxRadius": 300,
+    "m_RangeColor": {
+        "$type": 10,
+        0.445901632,
+        0.51,
+        0.08918033,
+        0.5019608
+    }
+}

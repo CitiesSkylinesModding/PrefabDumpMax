@@ -1,0 +1,344 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "OakTree01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 10,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TreeObject, Game",
+                "name": "TreeObject",
+                "active": true,
+                "m_WoodAmount": 2000
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 10,
+                "m_XPReward": 0
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:5930db6811522d34495a9e16c4fd4c18"
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:bb48d3cee3f4c3f4f830a4ebc0b31bfd",
+                "m_Priority": 0,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.StandingObject, Game",
+                "name": "StandingObject",
+                "active": true,
+                "m_LegSize": {
+                    "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 3,
+                    "z": 1
+                },
+                "m_CircularLeg": true
+            },
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 8,
+                    "$type": "9|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 9,
+                            "$type": "10|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Oak",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 10,
+                "$type": "11|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 11,
+                    "$type": "12|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:60b4f57c5adfe124cbf6d111ac8a8fea"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 12,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 13,
+                "$type": "13|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 14,
+                    "$type": "14|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:f7955fd41c1617847b4a4138acabcbcb"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 15,
+                "$type": "15|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 70,
+                "m_RotationSymmetry": 127
+            },
+            {
+                "$id": 16,
+                "$type": "16|Game.Prefabs.EffectSource, Game",
+                "name": "EffectSource",
+                "active": true,
+                "m_Effects": {
+                    "$id": 17,
+                    "$type": "17|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 18,
+                            "$type": "18|Game.Prefabs.EffectSource+EffectSettings, Game",
+                            "m_Effect": $fstrref:"UnityGUID:3d37303779fc8e94f9e366a39e10ed6a",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": 0,
+                                "y": 1,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "19|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "20|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 18,
+                            "m_Effect": $fstrref:"UnityGUID:81649d26cd609f84b9c6c10c1d75bcef",
+                            "m_PositionOffset": {
+                                "$type": 7,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 19,
+                                "value": {
+                                    "$type": 20,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 7,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 20,
+                    "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 21,
+        "$type": "22|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 22,
+                "$type": "23|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:0225b69c5f48a534ebb462ccf596fd53",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 1
+            },
+            {
+                "$id": 23,
+                "$type": 23,
+                "m_Mesh": $fstrref:"UnityGUID:8c2c03d455192a54bac8c2ea8f814f6b",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 2
+            },
+            {
+                "$id": 24,
+                "$type": 23,
+                "m_Mesh": $fstrref:"UnityGUID:da53da44530f6494c97bc0360ea05fe9",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 3
+            },
+            {
+                "$id": 25,
+                "$type": 23,
+                "m_Mesh": $fstrref:"UnityGUID:64eb3397313a0c84a9ce5342d1a5eba1",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 4
+            },
+            {
+                "$id": 26,
+                "$type": 23,
+                "m_Mesh": $fstrref:"UnityGUID:24347d51214d0f14fbf8a1c11d228bec",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 5
+            },
+            {
+                "$id": 27,
+                "$type": 23,
+                "m_Mesh": $fstrref:"UnityGUID:b3a49d5b0f70e0d43ae3c039f6a69ec9",
+                "m_Position": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 19,
+                    "value": {
+                        "$type": 20,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 6
+            }
+        ]
+    },
+    "m_Circular": true
+}

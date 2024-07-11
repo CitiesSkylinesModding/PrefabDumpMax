@@ -1,0 +1,68 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "XianBellTower Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:8146cbb09495c064dbc5d563512cefae",
+                        $fstrref:"UnityGUID:3bd82d3ca7eed9448af9cf6b9314332c"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:c3724de73723f5b4ab589dd1fa756861"
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:d272590185326e8588bb9ad0f1387d28",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:2f6119e7553e0caa26ab004847ec6495",
+            $fstrref:"CID:ada56183dfdd630810a3c1293c40edb2"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -30.1301765,
+            "y": 0,
+            "z": -18.18247
+        },
+        "max": {
+            "$type": 7,
+            "x": 18.1824684,
+            "y": 36.01104,
+            "z": 18.1824741
+        }
+    },
+    "m_SurfaceArea": 17040.5859,
+    "m_IndexCount": 1132836,
+    "m_VertexCount": 554807,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

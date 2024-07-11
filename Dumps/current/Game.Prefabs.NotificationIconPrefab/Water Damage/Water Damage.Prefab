@@ -1,0 +1,51 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Water Damage",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SimulationWarning, Game",
+                "name": "SimulationWarning",
+                "active": true,
+                "m_Categories": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.IconCategory[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        9
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "media/Game/Notifications/WaterDamage.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:83da5536273d4de1be71565e8efb80c4",
+    "m_Description": "Flooded",
+    "m_TargetDescription": "Reason",
+    "m_DisplaySize": {
+        "$type": "5|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 1.75,
+        "max": 1.75
+    },
+    "m_PulsateAmplitude": {
+        "$type": 5,
+        "min": 0.01,
+        "max": 0.02
+    }
+}

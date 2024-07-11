@@ -1,0 +1,46 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "EventJournalTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:cc51436c9a0d9d04faad846f793c16be",
+                "m_CanDeactivate": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:79f5374dc3ae86b408452ccc4fab97db",
+                "m_Priority": 2,
+                "m_Icon": "Media/Game/Icons/Journal.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            $fstrref:"UnityGUID:d011213f3711fba4a94f6098bdc151de",
+            $fstrref:"UnityGUID:8d1f7420b38951e44942e419a3bb375c",
+            $fstrref:"UnityGUID:f1cf13a0d4905c346a6cc5b99badc82a",
+            $fstrref:"UnityGUID:3f089cad213c0354e874f947ca971054"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

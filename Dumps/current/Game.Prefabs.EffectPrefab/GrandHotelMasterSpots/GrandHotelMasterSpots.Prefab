@@ -1,0 +1,45 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "GrandHotelMasterSpots",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioSpot, Game",
+                "name": "AudioSpot",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:687a760eed711964b9171157364467de",
+                        $fstrref:"UnityGUID:cc0cf80d15bb4384a9ad3eb6b96540ae",
+                        $fstrref:"UnityGUID:75c7dcdbdfd821144826d12d71e50683"
+                    ]
+                },
+                "m_MinimumInterval": 20,
+                "m_MaximumInterval": 50
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
+                "active": true,
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:c3724de73723f5b4ab589dd1fa756861"
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "5|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 4,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

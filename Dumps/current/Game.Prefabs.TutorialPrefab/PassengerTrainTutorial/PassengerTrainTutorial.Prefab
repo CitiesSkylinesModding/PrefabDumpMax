@@ -1,0 +1,79 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "PassengerTrainTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialObjectSelectionActivation, Game",
+                "name": "TutorialObjectSelectionActivation",
+                "active": true,
+                "m_Prefabs": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:96a9bfd047a938f4f98eaa5339e41335",
+                        $fstrref:"UnityGUID:335b12b616bdd67469d776577b323338"
+                    ]
+                },
+                "m_AllowTool": true
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:81673effb36bba342a6a509f8eae7a6e",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/PassengerTrainLine.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 6,
+                    "$type": 3,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:335b12b616bdd67469d776577b323338"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 7,
+                    "$type": 3,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 8,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            $fstrref:"UnityGUID:0ebe8249cfe094f4bbb9fdfec07d97cf",
+            $fstrref:"UnityGUID:f4ede4441c1fd334dab052fc4a35b023",
+            $fstrref:"UnityGUID:c416fce575e387140bfc78a9a7691b6d",
+            $fstrref:"UnityGUID:4065c10934789d0449df18a966602ae0",
+            $fstrref:"UnityGUID:d394496ddac996e4a9a7afc3b74c0350",
+            $fstrref:"UnityGUID:79f1f4725bb0252468c294f9d45526c4",
+            $fstrref:"UnityGUID:d62c54704180f15409b118ff9b33d071"
+        ]
+    },
+    "m_Priority": 10,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

@@ -1,0 +1,85 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Invisible Helicopter Twoway Piece 12",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetPieceLanes, Game",
+                "name": "NetPieceLanes",
+                "active": true,
+                "m_Lanes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.NetLaneInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.NetLaneInfo, Game",
+                            "m_Lane": $fstrref:"UnityGUID:7b1f84ddba0b422428f88966aedf251c",
+                            "m_Position": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_FindAnchor": false
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:ac39c45c0cb0d4268f9ea1f4bc4860f4",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "6|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:e22dc66536a33a45e8400a951c11f8c3"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "7|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 5,
+            "x": -6,
+            "y": 0,
+            "z": -32
+        },
+        "max": {
+            "$type": 5,
+            "x": 6,
+            "y": 5,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 1536,
+    "m_IndexCount": 192,
+    "m_VertexCount": 68,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 0,
+    "m_Width": 12,
+    "m_Length": 64,
+    "m_HeightRange": {
+        "$type": "8|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 0,
+        "max": 5
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 1,
+    "m_SurfaceHeights": {
+        "$type": "9|Unity.Mathematics.float4, Unity.Mathematics",
+        "x": 0,
+        "y": 5,
+        "z": 0,
+        "w": 5
+    }
+}

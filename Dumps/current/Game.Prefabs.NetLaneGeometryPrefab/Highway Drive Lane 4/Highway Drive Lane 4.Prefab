@@ -1,0 +1,75 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "Highway Drive Lane 4",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CarLane, Game",
+                "name": "CarLane",
+                "active": true,
+                "m_NotTrackLane": null,
+                "m_NotBusLane": null,
+                "m_RoadType": 1,
+                "m_MaxSize": 2,
+                "m_Width": 4,
+                "m_StartingLane": false,
+                "m_EndingLane": false,
+                "m_Twoway": false,
+                "m_BusLane": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LaneDeterioration, Game",
+                "name": "LaneDeterioration",
+                "active": true,
+                "m_TrafficDeterioration": 0.01,
+                "m_TimeDeterioration": 0.5
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "6|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "Highway Drive Lane 4",
+                            "m_Type": "NetLanePrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_PathfindPrefab": $fstrref:"UnityGUID:d91914fc6f04ced4a9c972aea7f2fd31",
+    "m_Meshes": {
+        "$id": 7,
+        "$type": "7|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:b595a77294404ac4da01f71a22335a47",
+                "m_RequireSafe": true,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "LevelUpOfficeTrigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $iref:0
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 5,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": 3,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_TargetTypes": 18446744073709551615
+}

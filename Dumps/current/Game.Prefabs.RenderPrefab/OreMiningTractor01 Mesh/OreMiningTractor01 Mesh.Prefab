@@ -1,0 +1,1230 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "OreMiningTractor01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 13,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "OreMiningTractor01_RootBone",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "Bucket",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                -3.703456,
+                                -1.89305329
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                5.96046448E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 2.98019314,
+                                "m23": -0.6139903,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "TopPiston01",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                0,
+                                1.52587887E-07
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                5.96046448E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.723262846,
+                                "m23": -2.50704336,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "ArmRotation",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                2.50704312,
+                                -0.723262966
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.723262548,
+                                "m23": -2.50704336,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 4,
+                            "name": "LeftSidePiston01",
+                            "position": {
+                                "$type": 5,
+                                -0.995092869,
+                                1.969988,
+                                -0.723372042
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": 0.995092869,
+                                "m13": -0.723371744,
+                                "m23": -1.96998811,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 4,
+                            "name": "LeftSidePiston02",
+                            "position": {
+                                "$type": 5,
+                                -0.995092869,
+                                -2.09998655,
+                                -0.5370549
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                5.96046448E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": 0.995092869,
+                                "m13": 1.37672365,
+                                "m23": -1.96998858,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 4,
+                            "name": "TireFront_L",
+                            "position": {
+                                "$type": 5,
+                                -1.90903366,
+                                1.17064416,
+                                -0.00584136974
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 1.90903366,
+                                "m13": -1.17064416,
+                                "m23": 0.00584136974,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 4,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 4,
+                            "name": "TireFront_R",
+                            "position": {
+                                "$type": 5,
+                                1.90903366,
+                                1.17064416,
+                                -0.00584136974
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.192093E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.192093E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -1.90903366,
+                                "m13": -1.17064416,
+                                "m23": 0.00584136974,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 4,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 4,
+                            "name": "RightSidePiston01",
+                            "position": {
+                                "$type": 5,
+                                0.99509275,
+                                1.969988,
+                                -0.723372042
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -2.82129974E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -2.82129974E-07,
+                                "m32": 0,
+                                "m03": -0.99509275,
+                                "m13": -0.723371744,
+                                "m23": -1.96998811,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 4,
+                            "name": "RightSidePiston02",
+                            "position": {
+                                "$type": 5,
+                                0.99509275,
+                                -2.09998655,
+                                -0.5370549
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                5.96046448E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": -0.99509275,
+                                "m13": 1.37672365,
+                                "m23": -1.96998858,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 4,
+                            "name": "TopPiston02",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                -0.525402963,
+                                1.02407491
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 1.90220928,
+                                "m23": -2.99408054,
+                                "m33": 1
+                            },
+                            "parentId": 11,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 4,
+                            "name": "CenterHinge",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                -2.10006928,
+                                -0.5370378
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                5.96046448E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.62920685E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.62920685E-07,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 1.37680638,
+                                "m23": -1.97000563,
+                                "m33": 1
+                            },
+                            "parentId": 3,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 4,
+                            "name": "Hinge",
+                            "position": {
+                                "$type": 5,
+                                0,
+                                0.06299118,
+                                -0.869304061
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                -0.05145351,
+                                0,
+                                0,
+                                0.9986754
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -0.102770872,
+                                "m21": 0.994705,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -0.994705,
+                                "m22": -0.102770872,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 1.4199785,
+                                "m23": -0.959851742,
+                                "m33": 1
+                            },
+                            "parentId": 11,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 17,
+                "$type": "8|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 18,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 19,
+                            "$type": "10|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 20,
+                                "$type": "11|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "12|UnityEngine.Color, UnityEngine.CoreModule",
+                                        1,
+                                        0.745283,
+                                        0.2971698,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        0.41568628,
+                                        0.41568628,
+                                        0.41568628,
+                                        1
+                                    },
+                                    {
+                                        "$type": 12,
+                                        0.41568628,
+                                        0.41568628,
+                                        0.41568628,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 21,
+                    "$type": "13|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 22,
+                            "$type": "14|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 23,
+                            "$type": 14,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 24,
+                            "$type": 14,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 25,
+                    "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "16|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 16,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 26,
+                "$type": "17|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 27,
+                    "$type": "18|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 28,
+                    "$type": "19|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 10,
+                    "$rcontent": [
+                        {
+                            "$id": 29,
+                            "$type": "20|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 1,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 10
+                        },
+                        {
+                            "$id": 30,
+                            "$type": 20,
+                            "purpose": 2,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 15
+                        },
+                        {
+                            "$id": 31,
+                            "$type": 20,
+                            "purpose": 3,
+                            "color": {
+                                "$type": 12,
+                                0.996078432,
+                                0.996078432,
+                                0.996078432,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.00393689,
+                            "luminance": 0.996078551,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 20
+                        },
+                        {
+                            "$id": 32,
+                            "$type": 20,
+                            "purpose": 4,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                0.8,
+                                0,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.27421856,
+                            "luminance": 0.7847947,
+                            "responseTime": 0,
+                            "animationIndex": 0,
+                            "layerId": 25
+                        },
+                        {
+                            "$id": 33,
+                            "$type": 20,
+                            "purpose": 5,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                0.8,
+                                0,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.27421856,
+                            "luminance": 0.7847947,
+                            "responseTime": 0,
+                            "animationIndex": 0,
+                            "layerId": 30
+                        },
+                        {
+                            "$id": 34,
+                            "$type": 20,
+                            "purpose": 6,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                0,
+                                0,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 4.70205641,
+                            "luminance": 0.2126729,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 35
+                        },
+                        {
+                            "$id": 35,
+                            "$type": 20,
+                            "purpose": 7,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                0,
+                                0,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 4.70205641,
+                            "luminance": 0.2126729,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 40
+                        },
+                        {
+                            "$id": 36,
+                            "$type": 20,
+                            "purpose": 47,
+                            "color": {
+                                "$type": 12,
+                                1,
+                                0.8,
+                                0,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.27421856,
+                            "luminance": 0.7847947,
+                            "responseTime": 0,
+                            "animationIndex": 1,
+                            "layerId": 45
+                        },
+                        {
+                            "$id": 37,
+                            "$type": 20,
+                            "purpose": 49,
+                            "color": {
+                                "$type": 12,
+                                0.992156863,
+                                0.992156863,
+                                0.992156863,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.007905,
+                            "luminance": 0.992157,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 50
+                        },
+                        {
+                            "$id": 38,
+                            "$type": 20,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 12,
+                                0.670588255,
+                                0.635294139,
+                                0.533333361,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 12,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.57370949,
+                            "luminance": 0.6354413,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 120
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 39,
+                    "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 40,
+                            "$type": "22|Game.Prefabs.EmissiveProperties+AnimationProperties, Game",
+                            "m_Duration": 0.5,
+                            "m_Curve": {
+                                "$id": 41,
+                                "$type": "23|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+                                {
+                                    "$id": 42,
+                                    "$type": "24|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": "25|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.249,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.25,
+                                            "m_Value": 1,
+                                            "m_InTangent": 999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.749,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -1000.01288,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.75,
+                                            "m_Value": 0,
+                                            "m_InTangent": -1000.01288,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        },
+                        {
+                            "$id": 43,
+                            "$type": 22,
+                            "m_Duration": 0.5,
+                            "m_Curve": {
+                                "$id": 44,
+                                "$type": 23,
+                                {
+                                    "$id": 45,
+                                    "$type": 24,
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.249,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.25,
+                                            "m_Value": 1,
+                                            "m_InTangent": 999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.749,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -1000.01288,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 0.75,
+                                            "m_Value": 0,
+                                            "m_InTangent": -1000.01288,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 25,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        }
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 46,
+                    "$type": "26|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 47,
+                "$type": "27|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 48,
+                    "$type": "28|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fde5ddc6a5bcdf14f8b9e15b8f544ee5",
+                        $fstrref:"UnityGUID:2846634f5140d3a4d9dc80c578723aa8"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:5f630faf18f00d262152b9198e3bb86f",
+    "m_SurfaceAssets": {
+        "$id": 49,
+        "$type": "29|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:e9254c745840df9fea2674ba04594b2b"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "30|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "31|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -2.531932,
+            "y": -3.57627869E-07,
+            "z": -2.28485036
+        },
+        "max": {
+            "$type": 31,
+            "x": 2.531932,
+            "y": 3.25823116,
+            "z": 5.969101
+        }
+    },
+    "m_SurfaceArea": 194.633072,
+    "m_IndexCount": 7236,
+    "m_VertexCount": 2629,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

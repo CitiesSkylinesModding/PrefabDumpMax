@@ -1,0 +1,226 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CitizenPrefab, Game",
+    "name": "CitizenMale",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "Assets.CITIZEN_NAME_MALE"
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Effects.CitizenSelectedSound, Game",
+                "name": "CitizenSelectedSound",
+                "active": true,
+                "m_CitizenSelectedSounds": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.Effects.CitizenSelectedSoundInfo[], Game",
+                    "$rlength": 24,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.Effects.CitizenSelectedSoundInfo, Game",
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 4,
+                            "m_SelectedSound": $fstrref:"UnityGUID:bc433099cb4a1aa4cb4d7a010de5461f"
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 5,
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 2,
+                            "m_SelectedSound": $fstrref:"UnityGUID:43ff358bf18b2b147af79d82861d122c"
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 5,
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 1,
+                            "m_SelectedSound": $fstrref:"UnityGUID:38516067e3a7468459f3e9aae98123a9"
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 5,
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": true,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:fd08a76c56f8b44478bced43853ce7ab"
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 5,
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 3,
+                            "m_SelectedSound": $fstrref:"UnityGUID:bc433099cb4a1aa4cb4d7a010de5461f"
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 5,
+                            "m_Age": 2,
+                            "m_IsSickOrInjured": true,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:fd08a76c56f8b44478bced43853ce7ab"
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 2,
+                            "m_SelectedSound": $fstrref:"UnityGUID:4c143522234f6c94391a08f477a1726e"
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 3,
+                            "m_SelectedSound": $fstrref:"UnityGUID:cb3d1b1cbcab71a43bb33d7a388f6608"
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 1,
+                            "m_SelectedSound": $fstrref:"UnityGUID:001fe6fd0f968c8429fd8722af17a5b3"
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:001fe6fd0f968c8429fd8722af17a5b3"
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": true,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:a541e3271b3a50b45a719be53dde9488"
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 5,
+                            "m_Age": 0,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 4,
+                            "m_SelectedSound": $fstrref:"UnityGUID:cb3d1b1cbcab71a43bb33d7a388f6608"
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 4,
+                            "m_SelectedSound": $fstrref:"UnityGUID:1db49ef33c8405e40a140168f72fcc94"
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 3,
+                            "m_SelectedSound": $fstrref:"UnityGUID:1db49ef33c8405e40a140168f72fcc94"
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 2,
+                            "m_SelectedSound": $fstrref:"UnityGUID:c864212928b2918438ad5131e2407311"
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 1,
+                            "m_SelectedSound": $fstrref:"UnityGUID:dbb64889b1cbbd74c8ab625170f47dcc"
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:dbb64889b1cbbd74c8ab625170f47dcc"
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 5,
+                            "m_Age": 1,
+                            "m_IsSickOrInjured": true,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:20b0d86e3fb0d554a9f0245b4c8c1ba8"
+                        },
+                        {
+                            "$id": 23,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 0,
+                            "m_SelectedSound": $fstrref:"UnityGUID:bdf5daa1cb23542479e5fa909a3f8610"
+                        },
+                        {
+                            "$id": 24,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 1,
+                            "m_SelectedSound": $fstrref:"UnityGUID:bdf5daa1cb23542479e5fa909a3f8610"
+                        },
+                        {
+                            "$id": 25,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 2,
+                            "m_SelectedSound": $fstrref:"UnityGUID:203e69ad76ff28b4e819237a9e82ae6d"
+                        },
+                        {
+                            "$id": 26,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 3,
+                            "m_SelectedSound": $fstrref:"UnityGUID:a726fd7e1659f1c459a53f33c82bb9f6"
+                        },
+                        {
+                            "$id": 27,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": false,
+                            "m_Happiness": 4,
+                            "m_SelectedSound": $fstrref:"UnityGUID:a726fd7e1659f1c459a53f33c82bb9f6"
+                        },
+                        {
+                            "$id": 28,
+                            "$type": 5,
+                            "m_Age": 3,
+                            "m_IsSickOrInjured": true,
+                            "m_Happiness": 4,
+                            "m_SelectedSound": $fstrref:"UnityGUID:530f8b74f7cac814e827e52539fbdb4d"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Male": true
+}

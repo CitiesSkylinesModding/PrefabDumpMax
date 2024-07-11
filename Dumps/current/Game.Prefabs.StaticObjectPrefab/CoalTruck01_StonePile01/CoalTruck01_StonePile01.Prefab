@@ -1,0 +1,143 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "CoalTruck01_StonePile01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.QuantityObject, Game",
+                "name": "QuantityObject",
+                "active": true,
+                "m_Resources": {
+                    "$id": 3,
+                    "$type": "3|Game.Economy.ResourceInEditor[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        24
+                    ]
+                },
+                "m_MapFeature": 18446744073709551615
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:6cc105bd12ef1cd4bac0eaa20e170020"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 7,
+                    "$type": "7|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 8,
+                            "$type": "8|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "CoalTruck01_StonePile02",
+                            "m_Type": "StaticObjectPrefab"
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_Name": "CoalTruck01_StonePile03",
+                            "m_Type": "StaticObjectPrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 10,
+        "$type": "9|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 11,
+                "$type": "10|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:9901ceb70a824ab49bca4934f6945c07",
+                "m_Position": {
+                    "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "12|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "13|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 11
+            },
+            {
+                "$id": 12,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:fe72430c2c985864fbd2d4e1f9f21874",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 12
+            },
+            {
+                "$id": 13,
+                "$type": 10,
+                "m_Mesh": $fstrref:"UnityGUID:7d09e0307c820fe4bb8d5ab84350ef2c",
+                "m_Position": {
+                    "$type": 11,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 12,
+                    "value": {
+                        "$type": 13,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 8
+            }
+        ]
+    },
+    "m_Circular": false
+}

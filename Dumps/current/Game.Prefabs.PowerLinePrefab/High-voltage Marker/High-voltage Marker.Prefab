@@ -1,0 +1,215 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.PowerLinePrefab, Game",
+    "name": "High-voltage Marker",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.MarkerNet, Game",
+                "name": "MarkerNet",
+                "active": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceableNet, Game",
+                "name": "PlaceableNet",
+                "active": true,
+                "m_ElevationRange": {
+                    "$type": "4|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 0,
+                    "max": 0
+                },
+                "m_AllowParallelMode": true,
+                "m_UndergroundPrefab": $fstrref:"UnityGUID:79de4886e7178c6448e11e31d2a62433",
+                "m_XPReward": 0
+            },
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.NetSubObjects, Game",
+                "name": "NetSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 5,
+                    "$type": "6|Game.Prefabs.NetSubObjectInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 6,
+                            "$type": "7|Game.Prefabs.NetSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:525ba6a9954f9e949bd5d006e162583f",
+                            "m_Position": {
+                                "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Placement": 0,
+                            "m_FixedIndex": 0,
+                            "m_AnchorTop": false,
+                            "m_AnchorCenter": false,
+                            "m_RequireElevated": false,
+                            "m_RequireOutsideConnection": false,
+                            "m_RequireDeadEnd": false,
+                            "m_RequireOrphan": false
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 7,
+                            "m_Object": $fstrref:"UnityGUID:a5fa1d841230833429fb3dec2f5ed39d",
+                            "m_Position": {
+                                "$type": 8,
+                                "x": 0,
+                                "y": 50,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 9,
+                                "value": {
+                                    "$type": 10,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Placement": 0,
+                            "m_FixedIndex": 0,
+                            "m_AnchorTop": false,
+                            "m_AnchorCenter": false,
+                            "m_RequireElevated": false,
+                            "m_RequireOutsideConnection": true,
+                            "m_RequireDeadEnd": false,
+                            "m_RequireOrphan": false
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "11|Game.Prefabs.ElectricityConnection, Game",
+                "name": "ElectricityConnection",
+                "active": true,
+                "m_Voltage": 1,
+                "m_Direction": 3,
+                "m_Capacity": 4000000,
+                "m_RequireAll": {
+                    "$id": 9,
+                    "$type": "12|Game.Prefabs.NetPieceRequirements[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 10,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 11,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 12,
+                "$type": "13|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 13,
+                    "$type": "14|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 14,
+                            "$type": "15|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "High-voltage Input Marker",
+                            "m_Type": "PowerLinePrefab"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Sections": {
+        "$id": 15,
+        "$type": "16|Game.Prefabs.NetSectionInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 16,
+                "$type": "17|Game.Prefabs.NetSectionInfo, Game",
+                "m_Section": $fstrref:"UnityGUID:1a9046179d51e5c4fa4ef45e801d0ffd",
+                "m_RequireAll": {
+                    "$id": 17,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 18,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 19,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": true,
+                "m_Offset": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    "m_EdgeStates": {
+        "$id": 20,
+        "$type": "18|Game.Prefabs.NetEdgeStateInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_NodeStates": {
+        "$id": 21,
+        "$type": "19|Game.Prefabs.NetNodeStateInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_MaxSlopeSteepness": 1,
+    "m_AggregateType": null,
+    "m_InvertMode": 0,
+    "m_MaxPylonDistance": 180,
+    "m_Hanging": 0
+}

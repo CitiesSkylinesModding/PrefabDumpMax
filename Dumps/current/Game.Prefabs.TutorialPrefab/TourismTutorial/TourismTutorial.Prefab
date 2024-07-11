@@ -1,0 +1,68 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "TourismTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:18db5904724a09c4ea2213caad4920bb",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/Tourism.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialInfoviewActivation, Game",
+                "name": "TutorialInfoviewActivation",
+                "active": true,
+                "m_Infoview": $fstrref:"UnityGUID:0af47ba425123d642894ce19ef385e5d"
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0af47ba425123d642894ce19ef385e5d"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 5,
+        "$rcontent": [
+            $fstrref:"UnityGUID:8b3ab0c009cc4cf45b94b8a8449e5445",
+            $fstrref:"UnityGUID:e029ab5d67b5b594c9bee266bbde37ad",
+            $fstrref:"UnityGUID:e9ed7e4e0df6cd24484838bc27b50a20",
+            $fstrref:"UnityGUID:e7f19c9645d8ee74589f9c4e359deb9e",
+            $fstrref:"UnityGUID:0e6e141a1b447904ab24a045a379633c"
+        ]
+    },
+    "m_Priority": 100,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

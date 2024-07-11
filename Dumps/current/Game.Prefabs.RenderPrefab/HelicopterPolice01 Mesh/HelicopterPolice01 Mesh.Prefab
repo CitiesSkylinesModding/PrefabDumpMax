@@ -1,0 +1,954 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "HelicopterPolice01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 5,
+                                "$type": "5|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                        1,
+                                        1,
+                                        1,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.169416,
+                                        0.30852896,
+                                        0.468,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.4716981,
+                                        0.4716981,
+                                        0.4716981,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "8|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 8,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 10,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "10|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 12,
+                    "$type": "12|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 13,
+                    "$type": "13|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 9,
+                    "$rcontent": [
+                        {
+                            "$id": 14,
+                            "$type": "14|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 57,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 10
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 14,
+                            "purpose": 60,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                0.5254902,
+                                0.5254902,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.59640956,
+                            "luminance": 0.626405656,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 25
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 14,
+                            "purpose": 61,
+                            "color": {
+                                "$type": 6,
+                                0.380392164,
+                                1,
+                                0.4117647,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.21099031,
+                            "luminance": 0.825770438,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 30
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 14,
+                            "purpose": 63,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                0.5254902,
+                                0.5254902,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.59640956,
+                            "luminance": 0.626405656,
+                            "responseTime": 0,
+                            "animationIndex": 0,
+                            "layerId": 40
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 14,
+                            "purpose": 35,
+                            "color": {
+                                "$type": 6,
+                                0.6627451,
+                                0.7607843,
+                                0.9764706,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.32362449,
+                            "luminance": 0.7555013,
+                            "responseTime": 0,
+                            "animationIndex": 1,
+                            "layerId": 50
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 14,
+                            "purpose": 36,
+                            "color": {
+                                "$type": 6,
+                                0.6627451,
+                                0.7607843,
+                                0.9764706,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.32362449,
+                            "luminance": 0.7555013,
+                            "responseTime": 0,
+                            "animationIndex": 2,
+                            "layerId": 55
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 14,
+                            "purpose": 65,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 60
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 14,
+                            "purpose": 66,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                1,
+                                1,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 0.9999999,
+                            "luminance": 1.00000012,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 65
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 14,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 6,
+                                0.670588255,
+                                0.635294139,
+                                0.533333361,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.57370949,
+                            "luminance": 0.6354413,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 120
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 23,
+                    "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 24,
+                            "$type": "16|Game.Prefabs.EmissiveProperties+AnimationProperties, Game",
+                            "m_Duration": 1,
+                            "m_Curve": {
+                                "$id": 25,
+                                "$type": "17|UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+                                {
+                                    "$id": 26,
+                                    "$type": "18|UnityEngine.Keyframe[], UnityEngine.CoreModule",
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": "19|UnityEngine.Keyframe, UnityEngine.CoreModule",
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.199,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.2,
+                                            "m_Value": 1,
+                                            "m_InTangent": 999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.299,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -999.9831,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.3,
+                                            "m_Value": 0,
+                                            "m_InTangent": -999.9831,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        },
+                        {
+                            "$id": 27,
+                            "$type": 16,
+                            "m_Duration": 0.5,
+                            "m_Curve": {
+                                "$id": 28,
+                                "$type": 17,
+                                {
+                                    "$id": 29,
+                                    "$type": 18,
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.249,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.25,
+                                            "m_Value": 1,
+                                            "m_InTangent": 999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.749,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -1000.01288,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.75,
+                                            "m_Value": 0,
+                                            "m_InTangent": -1000.01288,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        },
+                        {
+                            "$id": 30,
+                            "$type": 16,
+                            "m_Duration": 0.5,
+                            "m_Curve": {
+                                "$id": 31,
+                                "$type": 17,
+                                {
+                                    "$id": 32,
+                                    "$type": 18,
+                                    "$rlength": 6,
+                                    "$rcontent": [
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.249,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": -999.998,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.25,
+                                            "m_Value": 0,
+                                            "m_InTangent": -999.998,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.749,
+                                            "m_Value": 0,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1000.01288,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 0.75,
+                                            "m_Value": 1,
+                                            "m_InTangent": 1000.01288,
+                                            "m_OutTangent": 0,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        },
+                                        {
+                                            "$type": 19,
+                                            "ver": 1,
+                                            "m_Time": 1,
+                                            "m_Value": 1,
+                                            "m_InTangent": 0,
+                                            "m_OutTangent": 1,
+                                            "m_WeightedMode": 0,
+                                            "m_InWeight": 0.333333343,
+                                            "m_OutWeight": 0.333333343
+                                        }
+                                    ]
+                                },
+                                8,
+                                8
+                            }
+                        }
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 33,
+                    "$type": "20|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 34,
+                "$type": "21|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 35,
+                    "$type": "22|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$id": 36,
+                            "$type": "23|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "HelicopterPolice01_RootBone",
+                            "position": {
+                                "$type": "24|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                -0.025,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "25|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                4.47233326E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "26|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 8.94466652E-08,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -8.94466652E-08,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": -0.024,
+                                "m23": 2.861023E-09,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 37,
+                            "$type": 23,
+                            "name": "RotorMain",
+                            "position": {
+                                "$type": 24,
+                                8.529951E-05,
+                                2.767672,
+                                0.7630845
+                            },
+                            "rotation": {
+                                "$type": 25,
+                                1.323489E-23,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 26,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 8.94466652E-08,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -8.94466652E-08,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -8.529951E-05,
+                                "m13": -2.79167247,
+                                "m23": -0.7630845,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 10,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 38,
+                            "$type": 23,
+                            "name": "RotorRear",
+                            "position": {
+                                "$type": 24,
+                                -4.05251967E-06,
+                                1.86842954,
+                                -4.42016459
+                            },
+                            "rotation": {
+                                "$type": 25,
+                                -0.5,
+                                -0.5,
+                                -0.5,
+                                0.5
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 26,
+                                "m00": 1.1920929E-07,
+                                "m10": -1,
+                                "m20": -7.549788E-08,
+                                "m30": 0,
+                                "m01": -2.08655962E-07,
+                                "m11": 7.549785E-08,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 1,
+                                "m12": -1.192093E-07,
+                                "m22": -2.08655948E-07,
+                                "m32": 0,
+                                "m03": 4.42016459,
+                                "m13": 3.38272048E-06,
+                                "m23": -1.89243,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 10,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 39,
+                            "$type": 23,
+                            "name": "CameraRotation",
+                            "position": {
+                                "$type": 24,
+                                -0.693039656,
+                                0.5542388,
+                                2.56813574
+                            },
+                            "rotation": {
+                                "$type": 25,
+                                -8.14603354E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 26,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 2.52367329E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -2.52367329E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0.693039656,
+                                "m13": -0.5532384,
+                                "m23": -2.56813574,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 18,
+                            "m_Speed": 0.5,
+                            "m_Acceleration": 0.2,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 40,
+                            "$type": 23,
+                            "name": "SearchLightRotation",
+                            "position": {
+                                "$type": 24,
+                                -0.6950503,
+                                0.61423856,
+                                0.0003712488
+                            },
+                            "rotation": {
+                                "$type": 25,
+                                -5.96046448E-08,
+                                1.301043E-18,
+                                -6.938894E-18,
+                                1
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 26,
+                                "m00": 1,
+                                "m10": -1.38777878E-17,
+                                "m20": 2.60208687E-18,
+                                "m30": 0,
+                                "m01": 1.38777878E-17,
+                                "m11": 1,
+                                "m21": 2.08655962E-07,
+                                "m31": 0,
+                                "m02": -2.602084E-18,
+                                "m12": -2.08655962E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0.6950503,
+                                "m13": -0.6382386,
+                                "m23": -0.000371322036,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 18,
+                            "m_Speed": 2,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 41,
+                            "$type": 23,
+                            "name": "SearchLightAim",
+                            "position": {
+                                "$type": 24,
+                                0.00225172378,
+                                -0.375840545,
+                                0.00367819821
+                            },
+                            "rotation": {
+                                "$type": 25,
+                                -1.22464672E-16,
+                                1.92593E-34,
+                                -6.502152E-34,
+                                1
+                            },
+                            "scale": {
+                                "$type": 24,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 26,
+                                "m00": 1,
+                                "m10": 2.60208687E-18,
+                                "m20": 1.38777878E-17,
+                                "m30": 0,
+                                "m01": 1.38777878E-17,
+                                "m11": -2.08655962E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": -2.602084E-18,
+                                "m12": -1,
+                                "m22": -2.08655962E-07,
+                                "m32": 0,
+                                "m03": 0.692798555,
+                                "m13": -0.0149504794,
+                                "m23": -0.332398027,
+                                "m33": 1
+                            },
+                            "parentId": 4,
+                            "m_Type": 19,
+                            "m_Speed": 2,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 42,
+                "$type": "27|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 43,
+                    "$type": "28|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:1c4b5e84b87355e4181da93253fcb7e1",
+                        $fstrref:"UnityGUID:3bd684dc8eaaed649bdaf7683ba1bc21"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:a22c55033370a0dc53954cfbaae8ab64",
+    "m_SurfaceAssets": {
+        "$id": 44,
+        "$type": "29|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:aa65320497a22d7c8405ff7f1c15f2fc"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "30|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "31|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -4.54447269,
+            "y": 0.00450456142,
+            "z": -5.30004072
+        },
+        "max": {
+            "$type": 31,
+            "x": 4.54447269,
+            "y": 3.43379974,
+            "z": 5.30747271
+        }
+    },
+    "m_SurfaceArea": 58.9405441,
+    "m_IndexCount": 15408,
+    "m_VertexCount": 4712,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

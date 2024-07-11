@@ -1,0 +1,35 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AttractivenessParametersPrefab, Game",
+    "name": "AttractivenessParameters",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_ForestEffect": 10,
+    "m_ForestDistance": 250,
+    "m_ShoreEffect": 20,
+    "m_ShoreDistance": 500,
+    "m_HeightBonus": {
+        "$type": "2|Unity.Mathematics.float3, Unity.Mathematics",
+        "x": 50,
+        "y": 0.02,
+        "z": 10
+    },
+    "m_RaininessBaseline": 0.15,
+    "m_RaininessAffectLimit": {
+        "$type": "3|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 0.8,
+        "y": 1.2
+    },
+    "m_CloudinessBaseline": 0.5,
+    "m_CloudinessAffectLimit": {
+        "$type": 3,
+        "x": 0.9,
+        "y": 1.1
+    }
+}

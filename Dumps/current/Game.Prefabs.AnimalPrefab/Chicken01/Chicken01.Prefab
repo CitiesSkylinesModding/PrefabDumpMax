@@ -1,0 +1,83 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AnimalPrefab, Game",
+    "name": "Chicken01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Domesticated, Game",
+                "name": "Domesticated",
+                "active": true,
+                "m_IdleTime": {
+                    "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 20,
+                    "max": 120
+                },
+                "m_MinGroupMemberCount": 1,
+                "m_MaxGroupMemberCount": 2
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.SpawnableObject, Game",
+                "name": "SpawnableObject",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.ObjectPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:b463795d73d496f468440c45dcd4e31f",
+                        $fstrref:"UnityGUID:d91813a7806949741beef0d7e922f77e"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": $fstrref:"UnityGUID:33f4d1869caf5d24abcf7a27e0822a40"
+            },
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.Effects.SelectedSound, Game",
+                "name": "SelectedSound",
+                "active": true,
+                "m_SelectedSound": $fstrref:"UnityGUID:454065a29773b68459cd56ae93f72ae4"
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 6,
+        "$type": "7|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 7,
+                "$type": "8|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:a42546fce2092f541a1ef1bb52a6dd53",
+                "m_Position": {
+                    "$type": "9|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "10|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "11|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": true,
+    "m_Gender": 7,
+    "m_MoveSpeed": 1,
+    "m_Acceleration": 1
+}

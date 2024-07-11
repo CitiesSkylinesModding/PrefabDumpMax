@@ -1,0 +1,69 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Subway Tunnel Top Piece 4",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.PlaceableNetPiece, Game",
+                "name": "PlaceableNetPiece",
+                "active": true,
+                "m_ConstructionCost": 64,
+                "m_ElevationCost": 0,
+                "m_UpkeepCost": 4.8
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:2dec9270b54a24a9d42c585952c026b6",
+    "m_SurfaceAssets": {
+        "$id": 3,
+        "$type": "3|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:be0288a9a49c5205fb9d0b0ab76a3065"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "4|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -2,
+            "y": 5,
+            "z": -32
+        },
+        "max": {
+            "$type": 5,
+            "x": 2,
+            "y": 5,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 256,
+    "m_IndexCount": 96,
+    "m_VertexCount": 36,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 2,
+    "m_Width": 4,
+    "m_Length": 64,
+    "m_HeightRange": {
+        "$type": "6|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 4.1,
+        "max": 5
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+        "x": 5,
+        "y": 5,
+        "z": 5,
+        "w": 5
+    }
+}

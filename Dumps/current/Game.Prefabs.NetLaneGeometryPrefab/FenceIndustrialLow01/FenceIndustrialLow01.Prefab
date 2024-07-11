@@ -1,0 +1,63 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetLaneGeometryPrefab, Game",
+    "name": "FenceIndustrialLow01",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UtilityLane, Game",
+                "name": "UtilityLane",
+                "active": true,
+                "m_UtilityType": 16,
+                "m_LocalConnectionLane": null,
+                "m_LocalConnectionLane2": null,
+                "m_NodeObject": null,
+                "m_Width": 0.1,
+                "m_VisualCapacity": 1,
+                "m_Hanging": 0,
+                "m_Underground": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnableLane, Game",
+                "name": "SpawnableLane",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.NetLanePrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:53a39522e9df6f94596075a3b74a90c7"
+                    ]
+                },
+                "m_Probability": 100,
+                "m_RandomizationGroup": null
+            }
+        ]
+    },
+    "m_PathfindPrefab": null,
+    "m_Meshes": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.NetLaneMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.NetLaneMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:4fe9d7d653614db4b8676c1220b770b2",
+                "m_RequireSafe": false,
+                "m_RequireLevelCrossing": false,
+                "m_RequireEditor": false,
+                "m_RequireTrackCrossing": false,
+                "m_RequireClear": false,
+                "m_RequireLeftHandTraffic": false,
+                "m_RequireRightHandTraffic": false
+            }
+        ]
+    }
+}

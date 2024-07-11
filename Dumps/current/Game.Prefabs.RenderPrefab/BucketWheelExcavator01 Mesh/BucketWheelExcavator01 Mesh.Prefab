@@ -1,0 +1,543 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "BucketWheelExcavator01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ColorProperties, Game",
+                "name": "ColorProperties",
+                "active": true,
+                "m_ColorVariations": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationSet, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ColorProperties+VariationSet, Game",
+                            "m_Colors": {
+                                "$id": 5,
+                                "$type": "5|UnityEngine.Color[], UnityEngine.CoreModule",
+                                "$rlength": 3,
+                                "$rcontent": [
+                                    {
+                                        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                        0.495283037,
+                                        0.6603774,
+                                        0.5265171,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.695,
+                                        0.695,
+                                        0.695,
+                                        1
+                                    },
+                                    {
+                                        "$type": 6,
+                                        0.44,
+                                        0.44,
+                                        0.44,
+                                        1
+                                    }
+                                ]
+                            },
+                            "m_VariationGroup": ""
+                        }
+                    ]
+                },
+                "m_ChannelsBinding": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+ColorChannelBinding, Game]], mscorlib",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "8|Game.Prefabs.ColorProperties+ColorChannelBinding, Game",
+                            "m_ChannelId": 0,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 8,
+                            "m_ChannelId": 1,
+                            "m_CanBeModifiedByExternal": false
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 8,
+                            "m_ChannelId": 2,
+                            "m_CanBeModifiedByExternal": false
+                        }
+                    ]
+                },
+                "m_VariationGroups": {
+                    "$id": 10,
+                    "$type": "9|System.Collections.Generic.List`1[[Game.Prefabs.ColorProperties+VariationGroup, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_VariationRanges": {
+                    "$type": "10|Unity.Mathematics.int3, Unity.Mathematics",
+                    "x": 1,
+                    "y": 5,
+                    "z": 10
+                },
+                "m_AlphaRanges": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 11,
+                "$type": "11|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 12,
+                    "$type": "12|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 13,
+                    "$type": "13|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 14,
+                            "$type": "14|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "purpose": 24,
+                            "color": {
+                                "$type": 6,
+                                0.996078432,
+                                0.917647064,
+                                0.7490196,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.08441436,
+                            "luminance": 0.9221567,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 5
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 14,
+                            "purpose": 23,
+                            "color": {
+                                "$type": 6,
+                                1,
+                                0.894117653,
+                                0.5882353,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "intensity": 1.11786926,
+                            "luminance": 0.894559,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 120
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 16,
+                    "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 17,
+                    "$type": "16|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 18,
+                "$type": "17|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 19,
+                    "$type": "18|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$id": 20,
+                            "$type": "19|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "BucketWheelExcavator01_RootBone",
+                            "position": {
+                                "$type": "20|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "21|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                6.657903E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "22|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 1.1920929E-07,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1.1920929E-07,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 4.2239975E-22,
+                                "m23": 9.663381E-15,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 21,
+                            "$type": 19,
+                            "name": "MainRotation",
+                            "position": {
+                                "$type": 20,
+                                25.51578,
+                                17.02587,
+                                2.75010133
+                            },
+                            "rotation": {
+                                "$type": 21,
+                                -0.7071068,
+                                0,
+                                0,
+                                0.7071067
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 22,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.94707212E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.94707212E-07,
+                                "m32": 0,
+                                "m03": -25.5157757,
+                                "m13": 2.75010347,
+                                "m23": -17.02587,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 23,
+                            "m_Speed": -0.1,
+                            "m_Acceleration": 0.02,
+                            "m_ConnectionID": 100
+                        },
+                        {
+                            "$id": 22,
+                            "$type": 19,
+                            "name": "Arm",
+                            "position": {
+                                "$type": 20,
+                                0.00404296862,
+                                -8.052508,
+                                7.86457157
+                            },
+                            "rotation": {
+                                "$type": 21,
+                                3.717705E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 22,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.20353121E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.20353121E-07,
+                                "m32": 0,
+                                "m03": -25.5198212,
+                                "m13": 10.8026094,
+                                "m23": -24.8904476,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 19,
+                            "m_Speed": -0.1,
+                            "m_Acceleration": 0.02,
+                            "m_ConnectionID": 200
+                        },
+                        {
+                            "$id": 23,
+                            "$type": 19,
+                            "name": "RampBottom",
+                            "position": {
+                                "$type": 20,
+                                0.58421874,
+                                -2.223485,
+                                8.10746
+                            },
+                            "rotation": {
+                                "$type": 21,
+                                6.201824E-08,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 22,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -7.067075E-08,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -7.067075E-08,
+                                "m32": 0,
+                                "m03": -26.0999985,
+                                "m13": 4.973585,
+                                "m23": -25.13333,
+                                "m33": 1
+                            },
+                            "parentId": 1,
+                            "m_Type": 19,
+                            "m_Speed": -0.1,
+                            "m_Acceleration": 0.02,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 24,
+                            "$type": 19,
+                            "name": "ArmCabin",
+                            "position": {
+                                "$type": 20,
+                                14.8365526,
+                                -82.18765,
+                                -1.5522629
+                            },
+                            "rotation": {
+                                "$type": 21,
+                                -2.53479726E-09,
+                                3.821371E-15,
+                                -9.686403E-24,
+                                1
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 22,
+                                "m00": 1,
+                                "m10": -2.1681027E-29,
+                                "m20": 7.642742E-15,
+                                "m30": 0,
+                                "m01": 7.642742E-15,
+                                "m11": -1.254227E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 9.585734E-22,
+                                "m12": -1,
+                                "m22": -1.254227E-07,
+                                "m32": 0,
+                                "m03": -40.3563728,
+                                "m13": 92.9902649,
+                                "m23": -23.3381844,
+                                "m33": 1
+                            },
+                            "parentId": 2,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0
+                        },
+                        {
+                            "$id": 25,
+                            "$type": 19,
+                            "name": "BucketWheel 1",
+                            "position": {
+                                "$type": 20,
+                                -3.01978517,
+                                -96.96352,
+                                3.13727975
+                            },
+                            "rotation": {
+                                "$type": 21,
+                                -3.379732E-09,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 20,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 22,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": -1.27112571E-07,
+                                "m21": 1,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": -1,
+                                "m22": -1.27112571E-07,
+                                "m32": 0,
+                                "m03": -22.5000362,
+                                "m13": 107.766136,
+                                "m23": -28.0277214,
+                                "m33": 1
+                            },
+                            "parentId": 2,
+                            "m_Type": 24,
+                            "m_Speed": -0.2,
+                            "m_Acceleration": 0.04,
+                            "m_ConnectionID": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 26,
+                "$type": "23|Game.Prefabs.BaseProperties, Game",
+                "name": "BaseProperties",
+                "active": true,
+                "m_BaseType": null,
+                "m_UseMinBounds": false
+            },
+            {
+                "$id": 27,
+                "$type": "24|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 28,
+                    "$type": "25|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:249b94b8940b60741802250d7c2ca82b",
+                        $fstrref:"UnityGUID:7aa4ee33e66cfc84e8174ca8eb6f2663"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:516d5fefc3146269c2c30d1a6d591214",
+    "m_SurfaceAssets": {
+        "$id": 29,
+        "$type": "26|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:0736dcc34aa83e16a78f8e4decd29a23",
+            $fstrref:"CID:e24335c4558f3b8c3c11f47ba4a8689c"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "27|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "28|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -55.05684,
+            "y": -1.43051147E-06,
+            "z": -73.2242355
+        },
+        "max": {
+            "$type": 28,
+            "x": 47.105835,
+            "y": 93.35177,
+            "z": 121.15229
+        }
+    },
+    "m_SurfaceArea": 58076.6133,
+    "m_IndexCount": 81777,
+    "m_VertexCount": 40447,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

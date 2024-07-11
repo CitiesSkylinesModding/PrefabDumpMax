@@ -1,0 +1,28 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "FireTinyVFX",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.VFX, Game",
+                "name": "VFX",
+                "active": true,
+                "m_Effect": $fstrref:"UnityObjectsMap:6b3378de84a84d5a8c98d1d9d745ecd2",
+                "m_MaxCount": 500
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "3|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 16,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

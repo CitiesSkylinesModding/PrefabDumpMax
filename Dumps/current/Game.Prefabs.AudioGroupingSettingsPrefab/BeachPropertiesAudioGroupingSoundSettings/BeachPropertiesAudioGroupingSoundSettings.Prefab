@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AudioGroupingSettingsPrefab, Game",
+    "name": "BeachPropertiesAudioGroupingSoundSettings",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Settings": {
+        "$id": 2,
+        "$type": "2|Game.Prefabs.AudioGroupSettings[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.AudioGroupSettings, Game",
+                "m_Type": 18,
+                "m_FadeSpeed": 0.2,
+                "m_Scale": 0.005,
+                "m_Height": {
+                    "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0,
+                    "y": 600
+                },
+                "m_GroupSoundNear": $fstrref:"UnityGUID:08d20c0c81eee204290f2f0dd0495510",
+                "m_GroupSoundFar": $fstrref:"UnityGUID:e584fd3b120245745ae4cc4dc86cdba2",
+                "m_NearHeight": {
+                    "$type": 4,
+                    "x": 50,
+                    "y": 150
+                },
+                "m_NearWeight": 2
+            }
+        ]
+    }
+}

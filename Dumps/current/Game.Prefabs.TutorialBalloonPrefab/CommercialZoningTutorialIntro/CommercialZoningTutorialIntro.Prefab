@@ -1,0 +1,63 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialBalloonPrefab, Game",
+    "name": "CommercialZoningTutorialIntro",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ForceUIGroupUnlock, Game",
+                "name": "ForceUIGroupUnlock",
+                "active": true,
+                "m_Unlocks": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.UIGroupPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:b6926c65be19b13459de7836112db8a5"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Image": "",
+    "m_OverrideImagePS": "",
+    "m_OverrideImageXBox": "",
+    "m_Icon": "Media/Game/Icons/ZoneCommercial.svg",
+    "m_TitleVisible": true,
+    "m_DescriptionVisible": true,
+    "m_CanDeactivate": false,
+    "m_Trigger": $fstrref:"UnityGUID:6ef218bc4d78f5d4aa7645b80da2b5b8",
+    "m_OverrideCompletionDelay": -1,
+    "m_UITargets": {
+        "$id": 5,
+        "$type": "5|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget[], Game",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.TutorialBalloonPrefab+BalloonUITarget, Game",
+                "m_UITagProvider": $fstrref:"UnityGUID:b6926c65be19b13459de7836112db8a5",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            },
+            {
+                "$id": 7,
+                "$type": 6,
+                "m_UITagProvider": $fstrref:"UnityGUID:0e35df380310be349b98b04a0471b211",
+                "m_BalloonDirection": 0,
+                "m_BalloonAlignment": 1
+            }
+        ]
+    }
+}

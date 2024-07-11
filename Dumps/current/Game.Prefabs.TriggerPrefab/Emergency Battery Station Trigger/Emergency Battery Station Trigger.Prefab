@@ -1,0 +1,55 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Emergency Battery Station Trigger",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Chirp, Game",
+                "name": "Chirp",
+                "active": true,
+                "m_Chirps": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:7dcf7a8fd79c0d145959822b581f8b75"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.TriggerCondition, Game",
+                "name": "TriggerCondition",
+                "active": true,
+                "m_Conditions": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.TriggerConditionData[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": "6|Game.Prefabs.TriggerConditionData, Game",
+                            "m_Type": 0,
+                            "m_Value": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_TriggerType": 36,
+    "m_TriggerPrefabs": {
+        "$id": 6,
+        "$type": 3,
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:64923f3966a9145459ad222f1a96e7c9"
+        ]
+    },
+    "m_TargetTypes": 1
+}

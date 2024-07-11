@@ -1,0 +1,150 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.IncomeStatistic, Game",
+    "name": "FeesIncome",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:4b116b2695dc6d340a37871867c698b9",
+                "m_Priority": 200,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:1e07f6afd29ec2a4f9b58ca3a6134445"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Category": $fstrref:"UnityGUID:6c71ab017247d424c9b64ab1bfc5d14f",
+    "m_Group": $fstrref:"UnityGUID:4b116b2695dc6d340a37871867c698b9",
+    "m_StatisticsType": 2,
+    "m_CollectionType": 0,
+    "m_UnitType": 1,
+    "m_Color": {
+        "$type": "5|UnityEngine.Color, UnityEngine.CoreModule",
+        0.7372549,
+        0.427451,
+        0.396078467,
+        1
+    },
+    "m_Stacked": true,
+    "m_Incomes": {
+        "$id": 6,
+        "$type": "6|Game.Prefabs.IncomeSourceInfo[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.IncomeSourceInfo, Game",
+                "m_Color": {
+                    "$type": 5,
+                    0.738861859,
+                    0.42940256,
+                    0.396004051,
+                    1
+                },
+                "m_IncomeSource": 9
+            },
+            {
+                "$id": 8,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.664548159,
+                    0.522141457,
+                    0.472487271,
+                    1
+                },
+                "m_IncomeSource": 4
+            },
+            {
+                "$id": 9,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.168627456,
+                    0.468224376,
+                    0.8,
+                    1
+                },
+                "m_IncomeSource": 13
+            },
+            {
+                "$id": 10,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.6556469,
+                    0.8,
+                    0.168627456,
+                    1
+                },
+                "m_IncomeSource": 12
+            },
+            {
+                "$id": 11,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.631872356,
+                    0.5956099,
+                    0.8538475,
+                    1
+                },
+                "m_IncomeSource": 3
+            },
+            {
+                "$id": 12,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.7009661,
+                    0.53135556,
+                    0.3784042,
+                    1
+                },
+                "m_IncomeSource": 6
+            },
+            {
+                "$id": 13,
+                "$type": 7,
+                "m_Color": {
+                    "$type": 5,
+                    0.396078438,
+                    0.7372549,
+                    0.403700024,
+                    1
+                },
+                "m_IncomeSource": 10
+            }
+        ]
+    }
+}

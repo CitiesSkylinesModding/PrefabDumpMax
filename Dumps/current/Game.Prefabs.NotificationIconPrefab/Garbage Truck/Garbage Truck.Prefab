@@ -1,0 +1,33 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NotificationIconPrefab, Game",
+    "name": "Garbage Truck",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.VehicleMarker, Game",
+                "name": "VehicleMarker",
+                "active": true,
+                "m_VehicleType": 8
+            }
+        ]
+    },
+    "m_Icon": $fstrref:"UnityObjectsMap:8ac59b5255d74a1fb4b82ad5386a9e1c",
+    "m_Description": "Garbage truck",
+    "m_TargetDescription": "",
+    "m_DisplaySize": {
+        "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 2.5,
+        "max": 3
+    },
+    "m_PulsateAmplitude": {
+        "$type": 3,
+        "min": 0.01,
+        "max": 0.01
+    }
+}

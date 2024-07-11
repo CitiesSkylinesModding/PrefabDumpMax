@@ -1,0 +1,33 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.DevTreeNodePrefab, Game",
+    "name": "TramNode",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753",
+    "m_Requirements": {
+        "$id": 3,
+        "$type": "3|Game.Prefabs.DevTreeNodePrefab[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:971bf1cf514571340be61c80b7c703d7"
+        ]
+    },
+    "m_Cost": 2,
+    "m_HorizontalPosition": 2,
+    "m_VerticalPosition": -0.5,
+    "m_IconPath": "Media/Game/Icons/Tram.svg",
+    "m_IconPrefab": null
+}

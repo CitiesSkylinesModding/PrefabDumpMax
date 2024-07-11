@@ -1,0 +1,45 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialPrefab, Game",
+    "name": "DevelopmentTutorial",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:6977c988a8a065a478b78dfad4a8cd36",
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/DevPoint.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.TutorialUIActivation, Game",
+                "name": "TutorialUIActivation",
+                "active": true,
+                "m_UITagProvider": $fstrref:"UnityGUID:84c64e384d60aac4abeee5da9c58867f",
+                "m_CanDeactivate": true
+            }
+        ]
+    },
+    "m_Phases": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.TutorialPhasePrefab[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            $fstrref:"UnityGUID:92fc7885fa5b6984b8624e6ebc6416a5",
+            $fstrref:"UnityGUID:0e06b3ed078022e4eb1ff9d2d9f7de36",
+            $fstrref:"UnityGUID:28dd220b1b4498343a026f5bb5de216c"
+        ]
+    },
+    "m_Priority": 0,
+    "m_ReplaceActive": false,
+    "m_Mandatory": false
+}

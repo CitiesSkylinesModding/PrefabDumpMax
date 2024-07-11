@@ -1,0 +1,169 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TaxiwayPrefab, Game",
+    "name": "Invisible Airplane Runway",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.MarkerNet, Game",
+                "name": "MarkerNet",
+                "active": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.PlaceableNet, Game",
+                "name": "PlaceableNet",
+                "active": true,
+                "m_ElevationRange": {
+                    "$type": "4|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 0,
+                    "max": 0
+                },
+                "m_AllowParallelMode": true,
+                "m_UndergroundPrefab": null,
+                "m_XPReward": 0
+            }
+        ]
+    },
+    "m_Sections": {
+        "$id": 4,
+        "$type": "5|Game.Prefabs.NetSectionInfo[], Game",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 5,
+                "$type": "6|Game.Prefabs.NetSectionInfo, Game",
+                "m_Section": $fstrref:"UnityGUID:d6928951cddddfd47ad7c550fa39688b",
+                "m_RequireAll": {
+                    "$id": 6,
+                    "$type": "7|Game.Prefabs.NetPieceRequirements[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 7,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 8,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_Offset": {
+                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 9,
+                "$type": 6,
+                "m_Section": $fstrref:"UnityGUID:1fa3163e0a2e4fa45a1a29a22b66cf6e",
+                "m_RequireAll": {
+                    "$id": 10,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 11,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 12,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": true,
+                "m_Offset": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 13,
+                "$type": 6,
+                "m_Section": $fstrref:"UnityGUID:d6928951cddddfd47ad7c550fa39688b",
+                "m_RequireAll": {
+                    "$id": 14,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 15,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 16,
+                    "$type": 7,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_Offset": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    "m_EdgeStates": {
+        "$id": 17,
+        "$type": "9|Game.Prefabs.NetEdgeStateInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_NodeStates": {
+        "$id": 18,
+        "$type": "10|Game.Prefabs.NetNodeStateInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_MaxSlopeSteepness": 0.04,
+    "m_AggregateType": $fstrref:"UnityGUID:bd0a24a26255db74fb90d2f1eb559ff5",
+    "m_InvertMode": 0,
+    "m_SpeedLimit": 1000,
+    "m_Taxiway": false,
+    "m_Runway": true,
+    "m_Airspace": true
+}

@@ -1,0 +1,60 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "WallLightMidRangeSource02",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.LightEffect, Game",
+                "name": "LightEffect",
+                "active": true,
+                "m_Type": 0,
+                "m_SpotShape": 0,
+                "m_AreaShape": 0,
+                "m_Range": 6,
+                "m_Intensity": 10,
+                "m_LuxAtDistance": 10,
+                "m_LightUnit": 2,
+                "m_EnableSpotReflector": true,
+                "m_SpotAngle": 85,
+                "m_InnerSpotPercentage": 63,
+                "m_ShapeRadius": 0.025,
+                "m_AspectRatio": 1,
+                "m_ShapeWidth": 0.5,
+                "m_ShapeHeight": 0.5,
+                "m_UseColorTemperature": true,
+                "m_Color": {
+                    "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+                    1,
+                    0.9647059,
+                    0.921568632,
+                    1
+                },
+                "m_ColorTemperature": 6570,
+                "m_Cookie": $fstrref:"UnityObjectsMap:acc286b8e1174f209db76ffb4ac7848e",
+                "m_AffectDiffuse": true,
+                "m_AffectSpecular": true,
+                "m_ApplyRangeAttenuation": true,
+                "m_LightDimmer": 0.4,
+                "m_LodBias": 0,
+                "m_BarnDoorAngle": 0,
+                "m_BarnDoorLength": 0,
+                "m_UseVolumetric": true,
+                "m_VolumetricDimmer": 1,
+                "m_VolumetricFadeDistance": 10000
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 32768,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": true
+}

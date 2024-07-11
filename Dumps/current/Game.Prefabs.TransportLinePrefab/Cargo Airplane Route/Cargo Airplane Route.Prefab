@@ -1,0 +1,79 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TransportLinePrefab, Game",
+    "name": "Cargo Airplane Route",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753"
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:34453e018d24e604c959e2dff11dded1",
+                "m_Priority": 40,
+                "m_Icon": "Media/Game/Icons/CargoPlaneLine.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 5,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:a72f9642e6aa555448d5b42a661bed06",
+                        $fstrref:"UnityGUID:00a0bb9ac90cdf947b26e3cf77306533"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 6,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Material": $fstrref:"UnityObjectsMap:6687142f595f4db287de53628f26723c",
+    "m_Width": 40,
+    "m_SegmentLength": 640,
+    "m_Color": {
+        "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+        0.6320754,
+        0.336908132,
+        0.592614532,
+        1
+    },
+    "m_LocaleID": "Assets.ROUTE_NAME",
+    "m_AccessConnectionType": 4,
+    "m_RouteConnectionType": 1,
+    "m_AccessTrackType": 0,
+    "m_RouteTrackType": 0,
+    "m_AccessRoadType": 0,
+    "m_RouteRoadType": 8,
+    "m_TransportType": 7,
+    "m_DefaultVehicleInterval": 150,
+    "m_DefaultUnbunchingFactor": 0.75,
+    "m_StopDuration": 30,
+    "m_PassengerTransport": false,
+    "m_CargoTransport": true,
+    "m_PathfindPrefab": $fstrref:"UnityGUID:2ad17edd8f9e49b4fbf5044157e07eb0",
+    "m_VehicleNotification": $fstrref:"UnityGUID:b2b9e13d67443a341af3db9e2de7264d"
+}

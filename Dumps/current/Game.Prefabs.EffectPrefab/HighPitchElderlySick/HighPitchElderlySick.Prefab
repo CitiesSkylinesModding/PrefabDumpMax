@@ -1,0 +1,40 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EffectPrefab, Game",
+    "name": "HighPitchElderlySick",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Effects.AudioRandomize, Game",
+                "name": "AudioRandomize",
+                "active": true,
+                "m_SFXes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.EffectPrefab[], Game",
+                    "$rlength": 7,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fa508fbf9a2ba864fb25baa273c30dcf",
+                        $fstrref:"UnityGUID:aad7a93afb8c26342bdc9575a49be8f6",
+                        $fstrref:"UnityGUID:8df36fa9fec20ca4191e9534a585c0f4",
+                        $fstrref:"UnityGUID:3e0bc63258521124098ae82833186195",
+                        $fstrref:"UnityGUID:ccda44e1967e1fb4dbde3d313672417b",
+                        $fstrref:"UnityGUID:44313c7f2ba89bb4aa0d27d9920da5ac",
+                        $fstrref:"UnityGUID:f0bfc066440b13342afd131ea0c62b42"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Conditions": {
+        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "m_RequiredFlags": 0,
+        "m_ForbiddenFlags": 0,
+        "m_IntensityFlags": 0
+    },
+    "m_DisableDistanceCulling": false
+}

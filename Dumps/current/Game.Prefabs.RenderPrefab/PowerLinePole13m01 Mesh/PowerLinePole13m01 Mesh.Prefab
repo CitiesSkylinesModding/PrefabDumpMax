@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "PowerLinePole13m01 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:a8e8ed9773418e948ae3663bb0159303"
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.BaseProperties, Game",
+                "name": "BaseProperties",
+                "active": true,
+                "m_BaseType": $fstrref:"UnityGUID:685bd42e3774fa54b9cfe1fd0a4c6400",
+                "m_UseMinBounds": false
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:d8013ae6be9c07d5582aeb53082eb5de",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:d03c38196f8a59dbad49ab4f14edf791"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.700582,
+            "y": 0,
+            "z": -0.124326
+        },
+        "max": {
+            "$type": 7,
+            "x": 1.700582,
+            "y": 13.0206509,
+            "z": 0.124326
+        }
+    },
+    "m_SurfaceArea": 11.8351841,
+    "m_IndexCount": 1044,
+    "m_VertexCount": 435,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

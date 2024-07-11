@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Stormwater Pipe Lane 1.5 Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UndergroundMesh, Game",
+                "name": "UndergroundMesh",
+                "active": true,
+                "m_IsTunnel": false,
+                "m_IsPipeline": false,
+                "m_IsSubPipeline": true
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:33f0df663e775ad13f25af9ecca12e56",
+    "m_SurfaceAssets": {
+        "$id": 3,
+        "$type": "3|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:f03078103254239529d6e93cd13bd314"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "4|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -0.49,
+            "y": -0.490001321,
+            "z": -32
+        },
+        "max": {
+            "$type": 5,
+            "x": 0.49,
+            "y": 0.489998579,
+            "z": 32
+        }
+    },
+    "m_SurfaceArea": 195.776276,
+    "m_IndexCount": 1536,
+    "m_VertexCount": 289,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

@@ -1,0 +1,85 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.EventPrefab, Game",
+    "name": "Robbery",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.Crime, Game",
+                "name": "Crime",
+                "active": true,
+                "m_RandomTargetType": 4,
+                "m_CrimeType": 0,
+                "m_OccurenceProbability": {
+                    "$type": "3|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": 1,
+                    "max": 5
+                },
+                "m_RecurrenceProbability": {
+                    "$type": 3,
+                    "min": 1,
+                    "max": 7
+                },
+                "m_AlarmDelay": {
+                    "$type": 3,
+                    "min": 5,
+                    "max": 10
+                },
+                "m_CrimeDuration": {
+                    "$type": 3,
+                    "min": 20,
+                    "max": 60
+                },
+                "m_CrimeIncomeAbsolute": {
+                    "$type": 3,
+                    "min": 100,
+                    "max": 1000
+                },
+                "m_CrimeIncomeRelative": {
+                    "$type": 3,
+                    "min": 0,
+                    "max": 0.25
+                },
+                "m_JailTimeRange": {
+                    "$type": 3,
+                    "min": 0.125,
+                    "max": 1
+                },
+                "m_PrisonTimeRange": {
+                    "$type": 3,
+                    "min": 1,
+                    "max": 100
+                },
+                "m_PrisonProbability": 100
+            },
+            {
+                "$id": 3,
+                "$type": "4|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "5|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:1bfc2e0f6b548a844b9ae638199ef9c7"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 5,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_ConcurrentLimit": 0
+}

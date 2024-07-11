@@ -1,0 +1,92 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.AgeStatistic, Game",
+    "name": "Age",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:13ecec2684098dd48a7f523bfad117ee",
+                "m_Priority": 200,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Category": $fstrref:"UnityGUID:13ecec2684098dd48a7f523bfad117ee",
+    "m_Group": null,
+    "m_StatisticsType": 56,
+    "m_CollectionType": 1,
+    "m_UnitType": 0,
+    "m_Color": {
+        "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+        0.5238293,
+        0.8021344,
+        0.5629125,
+        1
+    },
+    "m_Stacked": true,
+    "m_AgeGroups": {
+        "$id": 3,
+        "$type": "4|Game.Prefabs.PopulationAgeGroupInfo[], Game",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 4,
+                "$type": "5|Game.Prefabs.PopulationAgeGroupInfo, Game",
+                "m_Color": {
+                    "$type": 3,
+                    0.6839622,
+                    0.954667151,
+                    1,
+                    1
+                },
+                "m_Group": 0
+            },
+            {
+                "$id": 5,
+                "$type": 5,
+                "m_Color": {
+                    "$type": 3,
+                    0.869264245,
+                    1,
+                    0.5896226,
+                    1
+                },
+                "m_Group": 1
+            },
+            {
+                "$id": 6,
+                "$type": 5,
+                "m_Color": {
+                    "$type": 3,
+                    1,
+                    0.8628063,
+                    0.5801887,
+                    1
+                },
+                "m_Group": 2
+            },
+            {
+                "$id": 7,
+                "$type": 5,
+                "m_Color": {
+                    "$type": 3,
+                    1,
+                    0.5518868,
+                    0.5518868,
+                    1
+                },
+                "m_Group": 3
+            }
+        ]
+    }
+}

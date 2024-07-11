@@ -1,0 +1,48 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TutorialListPrefab, Game",
+    "name": "TutorialsIntroList",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TutorialAutoActivation, Game",
+                "name": "TutorialAutoActivation",
+                "active": true,
+                "m_RequiredUnlock": $fstrref:"UnityGUID:20084918fac682f4c85636b298357919"
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ManualUnlockable, Game",
+                "name": "ManualUnlockable",
+                "active": true
+            }
+        ]
+    },
+    "m_Priority": -1,
+    "m_Tutorials": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.TutorialPrefab[], Game",
+        "$rlength": 14,
+        "$rcontent": [
+            $fstrref:"UnityGUID:d5c91480e927fea4596f3b4a58adfb95",
+            $fstrref:"UnityGUID:654c02049d1098e419c657edadc945f8",
+            $fstrref:"UnityGUID:687461e4b36f93b489904dd92f38f25f",
+            $fstrref:"UnityGUID:6eee9466a73b09c4291a71d8469d56c2",
+            $fstrref:"UnityGUID:a3b83e7769ece4f4a88704b79fb754f1",
+            $fstrref:"UnityGUID:f3181d3007198204f8d5d9011379318b",
+            $fstrref:"UnityGUID:3843a88c9af84064eb2a59f1d3f95ded",
+            $fstrref:"UnityGUID:b3f44fccfe49c9b42be8e9fa3490521a",
+            $fstrref:"UnityGUID:72a6735a93db02c4780c2ed1abf84be1",
+            $fstrref:"UnityGUID:206e74462ddb1a04586798ffb87ef4a9",
+            $fstrref:"UnityGUID:a6158b5a0fa3b704cbcc3af9552757c2",
+            $fstrref:"UnityGUID:c4f15321428f15645aed7c9f970f8e93",
+            $fstrref:"UnityGUID:efcd5882fa67543448e39301026b4c31",
+            $fstrref:"UnityGUID:2387ec2bdeb9db54fbac70aad4281598"
+        ]
+    }
+}

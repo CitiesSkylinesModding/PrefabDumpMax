@@ -1,0 +1,72 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "Subway Sleepers LeftHand Mesh",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.CurveProperties, Game",
+                "name": "CurveProperties",
+                "active": true,
+                "m_TilingCount": 40,
+                "m_OverrideLength": 32,
+                "m_SmoothingDistance": 0,
+                "m_GeometryTiling": true,
+                "m_StraightTiling": true,
+                "m_InvertCurve": true,
+                "m_SubFlow": false,
+                "m_HangingSwaying": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 4,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:ce4bedab1f5febf324eb32a70eacd85d",
+    "m_SurfaceAssets": {
+        "$id": 5,
+        "$type": "5|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:4d4c9bf6b3ef3ad5782606ef2e73f46b"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "6|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "7|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -1.558771,
+            "y": -0.199995011,
+            "z": -15.7329693
+        },
+        "max": {
+            "$type": 7,
+            "x": 1.44999993,
+            "y": 0.365531,
+            "z": 15.73295
+        }
+    },
+    "m_SurfaceArea": 48.56812,
+    "m_IndexCount": 22845,
+    "m_VertexCount": 9595,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

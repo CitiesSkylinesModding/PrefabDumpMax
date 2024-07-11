@@ -1,0 +1,70 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MarkerObjectPrefab, Game",
+    "name": "ParkingLotDecal02 - Invisible",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ObjectSubLanes, Game",
+                "name": "ObjectSubLanes",
+                "active": true,
+                "m_SubLanes": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectSubLaneInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ObjectSubLaneInfo, Game",
+                            "m_LanePrefab": $fstrref:"UnityGUID:84304fc9a98117a48a4de10f03845ffc",
+                            "m_BezierCurve": {
+                                "$type": "5|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                                    "x": 4.35,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "b": {
+                                    "$type": 6,
+                                    "x": 1.45,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "c": {
+                                    "$type": 6,
+                                    "x": -1.45,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "d": {
+                                    "$type": 6,
+                                    "x": -4.35,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "7|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 7,
+                                "x": -1,
+                                "y": -1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Mesh": $fstrref:"UnityGUID:fe74cb85677478f4fbdc5c355dc6858e",
+    "m_Circular": false
+}

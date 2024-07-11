@@ -1,0 +1,67 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CompanyPrefab, Game",
+    "name": "Commercial_DrugStore",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 4,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ServiceCompany, Game",
+                "name": "ServiceCompany",
+                "active": true,
+                "m_MaxService": 5000,
+                "m_MaxWorkersPerCell": 0.5,
+                "m_ServiceConsuming": 1
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.ProcessingCompany, Game",
+                "name": "ProcessingCompany",
+                "active": true,
+                "process": {
+                    "$type": "4|Game.Prefabs.IndustrialProcess, Game",
+                    "m_Input1": {
+                        "$type": "5|Game.Prefabs.ResourceStackInEditor, Game",
+                        "m_Resource": 32,
+                        "m_Amount": 1
+                    },
+                    "m_Input2": {
+                        "$type": 5,
+                        "m_Resource": 0,
+                        "m_Amount": 0
+                    },
+                    "m_Output": {
+                        "$type": 5,
+                        "m_Resource": 32,
+                        "m_Amount": 1
+                    },
+                    "m_MaxWorkersPerCell": 0
+                },
+                "transports": 1
+            },
+            {
+                "$id": 4,
+                "$type": "6|Game.Prefabs.StorageLimit, Game",
+                "name": "StorageLimit",
+                "active": true,
+                "storageLimit": 8000
+            },
+            {
+                "$id": 5,
+                "$type": "7|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 2,
+                "m_Complexity": 2,
+                "m_EveningShiftProbability": 0.3,
+                "m_NightShiftProbability": 0.1
+            }
+        ]
+    },
+    "zone": 2,
+    "profitability": 600
+}

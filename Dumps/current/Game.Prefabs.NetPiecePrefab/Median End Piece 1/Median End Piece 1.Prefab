@@ -1,0 +1,301 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.NetPiecePrefab, Game",
+    "name": "Median End Piece 1",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetDividerPiece, Game",
+                "name": "NetDividerPiece",
+                "active": true,
+                "m_PreserveShape": true,
+                "m_BlockTraffic": true,
+                "m_BlockCrosswalk": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.NetPieceObjects, Game",
+                "name": "NetPieceObjects",
+                "active": true,
+                "m_PieceObjects": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.NetPieceObjectInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.NetPieceObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:d6bfcb262f4ba2348b9ed2f29fc63a13",
+                            "m_Position": {
+                                "$type": "6|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": -0.2
+                            },
+                            "m_Offset": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "7|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "8|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            },
+                            "m_RequireAll": {
+                                "$id": 6,
+                                "$type": "9|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 7,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 8,
+                                "$type": 9,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    10
+                                ]
+                            },
+                            "m_Probability": 100,
+                            "m_MinLength": 0,
+                            "m_CurveOffsetRange": {
+                                "$type": "10|Unity.Mathematics.float2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Spacing": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_UseCurveRotation": {
+                                "$type": 10,
+                                "x": 0,
+                                "y": 0.5
+                            },
+                            "m_FlipWhenInverted": false,
+                            "m_EvenSpacing": false,
+                            "m_SpacingOverride": false
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 5,
+                            "m_Object": $fstrref:"UnityGUID:d5844314e7d9a8049b510ed4f20b8d5b",
+                            "m_Position": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": -0.2
+                            },
+                            "m_Offset": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 7,
+                                "value": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            },
+                            "m_RequireAll": {
+                                "$id": 10,
+                                "$type": 9,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    10
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 11,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 12,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_Probability": 100,
+                            "m_MinLength": 0,
+                            "m_CurveOffsetRange": {
+                                "$type": 10,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Spacing": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_UseCurveRotation": {
+                                "$type": 10,
+                                "x": 0,
+                                "y": 0.5
+                            },
+                            "m_FlipWhenInverted": false,
+                            "m_EvenSpacing": false,
+                            "m_SpacingOverride": false
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 5,
+                            "m_Object": $fstrref:"UnityGUID:7293c2c520ab56f4a9247963a4fc01c7",
+                            "m_Position": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0.4
+                            },
+                            "m_Offset": {
+                                "$type": 6,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 7,
+                                "value": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_RequireAll": {
+                                "$id": 14,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 15,
+                                "$type": 9,
+                                "$rlength": 2,
+                                "$rcontent": [
+                                    18,
+                                    20
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 16,
+                                "$type": 9,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_Probability": 100,
+                            "m_MinLength": 0,
+                            "m_CurveOffsetRange": {
+                                "$type": 10,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Spacing": {
+                                "$type": 6,
+                                "x": 3,
+                                "y": 0,
+                                "z": 40
+                            },
+                            "m_UseCurveRotation": {
+                                "$type": 10,
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_FlipWhenInverted": true,
+                            "m_EvenSpacing": true,
+                            "m_SpacingOverride": true
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 17,
+                "$type": "11|Game.Prefabs.AsymmetricPieceMesh, Game",
+                "name": "AsymmetricPieceMesh",
+                "active": true,
+                "m_Sideways": false,
+                "m_Lengthwise": true
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:15f92d60cec727a2f773e240c1dd06b4",
+    "m_SurfaceAssets": {
+        "$id": 18,
+        "$type": "12|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:1d7dad9f64c9fe55a809f1080c39fb92"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "13|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": 6,
+            "x": -0.199999988,
+            "y": -0.200002,
+            "z": -0.299999
+        },
+        "max": {
+            "$type": 6,
+            "x": 0.199999988,
+            "y": 1.9967556E-06,
+            "z": 0.300001025
+        }
+    },
+    "m_SurfaceArea": 0.5044324,
+    "m_IndexCount": 42,
+    "m_VertexCount": 28,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false,
+    "m_Layer": 0,
+    "m_Width": 1,
+    "m_Length": 0.6,
+    "m_HeightRange": {
+        "$type": "14|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+        "min": 0,
+        "max": 3
+    },
+    "m_WidthOffset": 0,
+    "m_NodeOffset": 0.5,
+    "m_SurfaceHeights": {
+        "$type": 8,
+        "x": -0.2,
+        "y": 0,
+        "z": -0.2,
+        "w": 0
+    }
+}

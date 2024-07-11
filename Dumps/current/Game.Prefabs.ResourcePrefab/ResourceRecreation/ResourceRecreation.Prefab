@@ -1,0 +1,86 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.ResourcePrefab, Game",
+    "name": "ResourceRecreation",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TaxableResource, Game",
+                "name": "TaxableResource",
+                "active": true,
+                "m_TaxAreas": {
+                    "$id": 3,
+                    "$type": "3|Game.Simulation.TaxAreaType[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        2
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:d8f2e7da649dcf34b8ff26bdbe5c3cee",
+                "m_Priority": 80,
+                "m_Icon": "Media/Game/Resources/Recreation.svg",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.UIProductionLinks, Game",
+                "name": "UIProductionLinks",
+                "active": true,
+                "m_Producer": $fstrref:"UnityGUID:f668a9ffdcd5f2c47995fea547bd0b13",
+                "m_FinalConsumers": {
+                    "$id": 6,
+                    "$type": "6|Game.Prefabs.UIProductionLinkPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:1ba434557852546478f16b19edf84487"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": "7|UnityEngine.Color, UnityEngine.CoreModule",
+        0.839215755,
+        0.1764706,
+        0.447058856,
+        1
+    },
+    "m_Resource": 39,
+    "m_IsProduceable": false,
+    "m_IsTradable": false,
+    "m_IsMaterial": false,
+    "m_IsLeisure": true,
+    "m_Weight": 0,
+    "m_InitialPrice": {
+        "$type": "8|Unity.Mathematics.float2, Unity.Mathematics",
+        "x": 20,
+        "y": 110
+    },
+    "m_WealthModifier": 0.4,
+    "m_BaseConsumption": 10,
+    "m_CarConsumption": 0,
+    "m_ChildWeight": 20,
+    "m_TeenWeight": 25,
+    "m_AdultWeight": 30,
+    "m_ElderlyWeight": 25,
+    "m_RequireTemperature": false,
+    "m_RequiredTemperature": 0,
+    "m_RequireNaturalResource": false,
+    "m_NeededWorkPerUnit": {
+        "$type": "9|Unity.Mathematics.int2, Unity.Mathematics",
+        "x": 50,
+        "y": 40
+    }
+}

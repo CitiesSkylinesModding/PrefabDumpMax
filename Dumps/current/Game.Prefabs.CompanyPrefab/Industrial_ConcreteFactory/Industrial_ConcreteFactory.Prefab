@@ -1,0 +1,58 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.CompanyPrefab, Game",
+    "name": "Industrial_ConcreteFactory",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProcessingCompany, Game",
+                "name": "ProcessingCompany",
+                "active": true,
+                "process": {
+                    "$type": "3|Game.Prefabs.IndustrialProcess, Game",
+                    "m_Input1": {
+                        "$type": "4|Game.Prefabs.ResourceStackInEditor, Game",
+                        "m_Resource": 24,
+                        "m_Amount": 1
+                    },
+                    "m_Input2": {
+                        "$type": 4,
+                        "m_Resource": 0,
+                        "m_Amount": 0
+                    },
+                    "m_Output": {
+                        "$type": 4,
+                        "m_Resource": 29,
+                        "m_Amount": 12
+                    },
+                    "m_MaxWorkersPerCell": 0.166
+                },
+                "transports": 2
+            },
+            {
+                "$id": 3,
+                "$type": "5|Game.Prefabs.StorageLimit, Game",
+                "name": "StorageLimit",
+                "active": true,
+                "storageLimit": 40000
+            },
+            {
+                "$id": 4,
+                "$type": "6|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 4,
+                "m_Complexity": 1,
+                "m_EveningShiftProbability": 0.25,
+                "m_NightShiftProbability": 0.15
+            }
+        ]
+    },
+    "zone": 3,
+    "profitability": 50
+}

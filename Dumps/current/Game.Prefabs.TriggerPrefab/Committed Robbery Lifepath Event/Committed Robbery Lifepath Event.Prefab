@@ -1,0 +1,38 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TriggerPrefab, Game",
+    "name": "Committed Robbery Lifepath Event",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.LifePathEvent, Game",
+                "name": "LifePathEvent",
+                "active": true,
+                "m_EventType": 17,
+                "m_IsChirp": true
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.RandomLocalization, Game",
+                "name": "RandomLocalization",
+                "active": true,
+                "m_LocalizationID": "LifePath.CITIZEN_COMMITED_ROBBERY"
+            }
+        ]
+    },
+    "m_TriggerType": 34,
+    "m_TriggerPrefabs": {
+        "$id": 4,
+        "$type": "4|Game.Prefabs.PrefabBase[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"UnityGUID:3008c03f05e9d514b8bb937c25aa7196"
+        ]
+    },
+    "m_TargetTypes": 2
+}
