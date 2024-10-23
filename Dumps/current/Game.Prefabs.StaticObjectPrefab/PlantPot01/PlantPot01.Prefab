@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 5,
+        "$rlength": 7,
         "$rcontent": [
             {
                 "$id": 2,
@@ -55,7 +55,8 @@
                 "$id": 8,
                 "$type": "8|Game.Prefabs.PlantObject, Game",
                 "name": "PlantObject",
-                "active": true
+                "active": true,
+                "m_PotCoverage": 0.75
             },
             {
                 "$id": 9,
@@ -77,28 +78,61 @@
                     "$rcontent": [
                     ]
                 }
+            },
+            {
+                "$id": 12,
+                "$type": "11|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:3ba2737bfda3b344bac230cccc68dd49",
+                "m_Priority": 31,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 13,
+                "$type": "12|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 14,
+                    "$type": "13|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0fb3ad54c42d95b44bb089d674542a41"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 15,
+                    "$type": 13,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
             }
         ]
     },
     "m_Meshes": {
-        "$id": 12,
-        "$type": "11|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 16,
+        "$type": "14|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 13,
-                "$type": "12|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 17,
+                "$type": "15|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:1eac0e9a74fea9c4388b1edd4e253499",
                 "m_Position": {
-                    "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
+                    "$type": "16|Unity.Mathematics.float3, Unity.Mathematics",
                     "x": 0,
                     "y": 0,
                     "z": 0
                 },
                 "m_Rotation": {
-                    "$type": "14|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "$type": "17|Unity.Mathematics.quaternion, Unity.Mathematics",
                     "value": {
-                        "$type": "15|Unity.Mathematics.float4, Unity.Mathematics",
+                        "$type": "18|Unity.Mathematics.float4, Unity.Mathematics",
                         "x": 0,
                         "y": 0,
                         "z": 0,
@@ -109,5 +143,5 @@
             }
         ]
     },
-    "m_Circular": false
+    "m_Circular": true
 }

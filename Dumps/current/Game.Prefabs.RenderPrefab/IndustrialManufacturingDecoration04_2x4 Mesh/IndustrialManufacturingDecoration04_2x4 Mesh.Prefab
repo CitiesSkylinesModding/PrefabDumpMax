@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 2,
+        "$rlength": 3,
         "$rcontent": [
             {
                 "$id": 2,
@@ -172,28 +172,50 @@
                 "active": true,
                 "m_BaseType": $fstrref:"UnityGUID:685bd42e3774fa54b9cfe1fd0a4c6400",
                 "m_UseMinBounds": false
+            },
+            {
+                "$id": 16,
+                "$type": "12|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 17,
+                    "$type": "13|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:0483cabb871c9d848aecc74912d22f8b"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 18,
+                    "$type": 13,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
             }
         ]
     },
     "m_GeometryAsset": $fstrref:"CID:b8e2df71c678e67910ea61da2fa1763a",
     "m_SurfaceAssets": {
-        "$id": 16,
-        "$type": "12|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$id": 19,
+        "$type": "14|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
         "$rlength": 1,
         "$rcontent": [
             $fstrref:"CID:b49bd25d8b3b8e85cb235e9ba109c9ce"
         ]
     },
     "m_Bounds": {
-        "$type": "13|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "$type": "15|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
         "min": {
-            "$type": "14|Unity.Mathematics.float3, Unity.Mathematics",
+            "$type": "16|Unity.Mathematics.float3, Unity.Mathematics",
             "x": -7.41064453,
             "y": -0.00194168091,
             "z": -15.44371
         },
         "max": {
-            "$type": 14,
+            "$type": 16,
             "x": 7.41064453,
             "y": 37.60407,
             "z": 15.7211056

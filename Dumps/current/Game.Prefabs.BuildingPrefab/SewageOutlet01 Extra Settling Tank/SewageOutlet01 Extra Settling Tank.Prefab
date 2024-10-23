@@ -171,7 +171,7 @@
                 "m_Effects": {
                     "$id": 15,
                     "$type": "15|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
-                    "$rlength": 1,
+                    "$rlength": 2,
                     "$rcontent": [
                         {
                             "$id": 16,
@@ -202,11 +202,41 @@
                             "m_Intensity": 1,
                             "m_ParentMesh": 0,
                             "m_AnimationIndex": -1
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 16,
+                            "m_Effect": $fstrref:"UnityGUID:3d37303779fc8e94f9e366a39e10ed6a",
+                            "m_PositionOffset": {
+                                "$type": 11,
+                                "x": 0.5885925,
+                                "y": 2.168579,
+                                "z": 7.8812027
+                            },
+                            "m_Rotation": {
+                                "$type": 12,
+                                "value": {
+                                    "$type": 13,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Scale": {
+                                "$type": 11,
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            },
+                            "m_Intensity": 1,
+                            "m_ParentMesh": 0,
+                            "m_AnimationIndex": -1
                         }
                     ]
                 },
                 "m_AnimationCurves": {
-                    "$id": 17,
+                    "$id": 18,
                     "$type": "17|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
                     "$rlength": 0,
                     "$rcontent": [
@@ -214,7 +244,7 @@
                 }
             },
             {
-                "$id": 18,
+                "$id": 19,
                 "$type": "18|Game.Prefabs.Pollution, Game",
                 "name": "Pollution",
                 "active": true,
@@ -224,7 +254,7 @@
                 "m_ScaleWithRenters": true
             },
             {
-                "$id": 19,
+                "$id": 20,
                 "$type": "19|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
@@ -235,7 +265,7 @@
                 "m_IsDebugObject": false
             },
             {
-                "$id": 20,
+                "$id": 21,
                 "$type": "20|Game.Prefabs.ServiceConsumption, Game",
                 "name": "ServiceConsumption",
                 "active": true,
@@ -246,7 +276,7 @@
                 "m_TelecomNeed": 0
             },
             {
-                "$id": 21,
+                "$id": 22,
                 "$type": "21|Game.Prefabs.BuildingTerraformOverride, Game",
                 "name": "BuildingTerraformOverride",
                 "active": true,
@@ -292,7 +322,7 @@
                 },
                 "m_HeightOffset": 0,
                 "m_AdditionalSmoothAreas": {
-                    "$id": 22,
+                    "$id": 23,
                     "$type": "23|Game.Prefabs.BuildingTerraformOverride+SubLot[], Game",
                     "$rlength": 0,
                     "$rcontent": [
@@ -302,17 +332,17 @@
                 "m_DontLower": false
             },
             {
-                "$id": 23,
+                "$id": 24,
                 "$type": "24|Game.Prefabs.ObjectSubLanes, Game",
                 "name": "ObjectSubLanes",
                 "active": true,
                 "m_SubLanes": {
-                    "$id": 24,
+                    "$id": 25,
                     "$type": "25|Game.Prefabs.ObjectSubLaneInfo[], Game",
                     "$rlength": 4,
                     "$rcontent": [
                         {
-                            "$id": 25,
+                            "$id": 26,
                             "$type": "26|Game.Prefabs.ObjectSubLaneInfo, Game",
                             "m_LanePrefab": $fstrref:"UnityGUID:9a89f6cea93f7e74995aaac4f9408cba",
                             "m_BezierCurve": {
@@ -354,7 +384,7 @@
                             }
                         },
                         {
-                            "$id": 26,
+                            "$id": 27,
                             "$type": 26,
                             "m_LanePrefab": $fstrref:"UnityGUID:9a89f6cea93f7e74995aaac4f9408cba",
                             "m_BezierCurve": {
@@ -396,7 +426,7 @@
                             }
                         },
                         {
-                            "$id": 27,
+                            "$id": 28,
                             "$type": 26,
                             "m_LanePrefab": $fstrref:"UnityGUID:9a89f6cea93f7e74995aaac4f9408cba",
                             "m_BezierCurve": {
@@ -438,7 +468,7 @@
                             }
                         },
                         {
-                            "$id": 28,
+                            "$id": 29,
                             "$type": 26,
                             "m_LanePrefab": $fstrref:"UnityGUID:9a89f6cea93f7e74995aaac4f9408cba",
                             "m_BezierCurve": {
@@ -483,30 +513,24 @@
                 }
             },
             {
-                "$id": 29,
+                "$id": 30,
                 "$type": "29|Game.Prefabs.ObjectSubAreas, Game",
                 "name": "ObjectSubAreas",
                 "active": true,
                 "m_SubAreas": {
-                    "$id": 30,
+                    "$id": 31,
                     "$type": "30|Game.Prefabs.ObjectSubAreaInfo[], Game",
                     "$rlength": 1,
                     "$rcontent": [
                         {
-                            "$id": 31,
+                            "$id": 32,
                             "$type": "31|Game.Prefabs.ObjectSubAreaInfo, Game",
                             "m_AreaPrefab": $fstrref:"UnityGUID:9574f89a9bf1fb84b8fac93b71e987e5",
                             "m_NodePositions": {
-                                "$id": 32,
+                                "$id": 33,
                                 "$type": "32|Unity.Mathematics.float3[], Unity.Mathematics",
                                 "$rlength": 4,
                                 "$rcontent": [
-                                    {
-                                        "$type": 11,
-                                        "x": 5.41494274,
-                                        "y": -1.14440918E-05,
-                                        "z": 11.999999
-                                    },
                                     {
                                         "$type": 11,
                                         "x": 5.41494,
@@ -524,11 +548,17 @@
                                         "x": -5.567807,
                                         "y": -5.722046E-06,
                                         "z": 11.999999
+                                    },
+                                    {
+                                        "$type": 11,
+                                        "x": 5.41494274,
+                                        "y": -1.14440918E-05,
+                                        "z": 11.999999
                                     }
                                 ]
                             },
                             "m_ParentMeshes": {
-                                "$id": 33,
+                                "$id": 34,
                                 "$type": "33|System.Int32[], mscorlib",
                                 "$plength": 0,
                                 "$pcontent": [
@@ -541,12 +571,12 @@
         ]
     },
     "m_Meshes": {
-        "$id": 34,
+        "$id": 35,
         "$type": "34|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 35,
+                "$id": 36,
                 "$type": "35|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:1752b539bab40654dac2d87c3b34c9c7",
                 "m_Position": {

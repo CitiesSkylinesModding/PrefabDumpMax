@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 5,
+        "$rlength": 7,
         "$rcontent": [
             {
                 "$id": 2,
@@ -108,17 +108,50 @@
                     "$rcontent": [
                     ]
                 }
+            },
+            {
+                "$id": 14,
+                "$type": "16|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:f9063821e22f8f04086d12b19bb1883d",
+                "m_Priority": 12,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 15,
+                "$type": "17|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 16,
+                    "$type": "18|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:fa46ed7edfcfad448b66d9783e05b42f"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 17,
+                    "$type": 18,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
             }
         ]
     },
     "m_Meshes": {
-        "$id": 14,
-        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 18,
+        "$type": "19|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 15,
-                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 19,
+                "$type": "20|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:3ab022f32b1c30049b6266afd356b770",
                 "m_Position": {
                     "$type": 10,
@@ -140,5 +173,5 @@
             }
         ]
     },
-    "m_Circular": false
+    "m_Circular": true
 }

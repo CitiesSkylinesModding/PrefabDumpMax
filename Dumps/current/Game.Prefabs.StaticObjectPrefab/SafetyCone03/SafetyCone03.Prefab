@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 4,
+        "$rlength": 6,
         "$rcontent": [
             {
                 "$id": 2,
@@ -71,28 +71,61 @@
                     "$rcontent": [
                     ]
                 }
+            },
+            {
+                "$id": 11,
+                "$type": "10|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:5532fb68308e3554cb84978eecaca563",
+                "m_Priority": 73,
+                "m_Icon": "",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 12,
+                "$type": "11|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 13,
+                    "$type": "12|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:aa472287cc12cc740b91bc9283220564"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 14,
+                    "$type": 12,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
             }
         ]
     },
     "m_Meshes": {
-        "$id": 11,
-        "$type": "10|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 15,
+        "$type": "13|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 12,
-                "$type": "11|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 16,
+                "$type": "14|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:71ae074eb3357894da617558af4041f0",
                 "m_Position": {
-                    "$type": "12|Unity.Mathematics.float3, Unity.Mathematics",
+                    "$type": "15|Unity.Mathematics.float3, Unity.Mathematics",
                     "x": 0,
                     "y": 0,
                     "z": 0
                 },
                 "m_Rotation": {
-                    "$type": "13|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "$type": "16|Unity.Mathematics.quaternion, Unity.Mathematics",
                     "value": {
-                        "$type": "14|Unity.Mathematics.float4, Unity.Mathematics",
+                        "$type": "17|Unity.Mathematics.float4, Unity.Mathematics",
                         "x": 0,
                         "y": 0,
                         "z": 0,
@@ -103,5 +136,5 @@
             }
         ]
     },
-    "m_Circular": false
+    "m_Circular": true
 }
