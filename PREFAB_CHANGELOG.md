@@ -1,0 +1,35 @@
+### 1.1.10f1 - 2024-10-24
+- UIObject component no longer contains "m_LargeIcon" property.
+- Workplace component has new "m_MinimumWorkersLimit" property.
+-- College01, ElementarySchool01, ElementarySchool02, ElementarySchool03, HighSchool01, HighSchool02, HighSchool03, MedicalUniversity01, TechnicalUniversity01, University01: 15.
+-- Industrial_CottonExtractor, Industrial_ForestryExtractor, Industrial_GrainExtractor, Industrial_LivestockExtractor, Industrial_OilExtractor, Industrial_OreExtractor, Industrial_VegetableExtractor: 1.
+- LightEffect component now has "m_LightIntensity" property.
+- New Pathfind parameter: m_CurveAngleCost.
+- New Demand parameter: m_HotelRoomPercentRequirement.
+- Pollution parameters changed.
+- AttractivenessParameters now uses parameters like AttractiveTemperature, ExtremeTemperature, RainEffectRange, SnowEffectRange ,TemperatureAffect, SnowRainExtremeAffect instead of Raininess, Cloudiness.
+- LeisureParameters now include m_TouristLodgingConsumePerDay and m_TouristServiceConsumePerDay.
+- RadioEvent component now have m_EmergencyFrameDelay property.
+- TutorialBalloonPrefab has now m_ControlScheme property.
+- Removed ZonePreferenceParameters m_ResidentialSignificancePollutionDelta.
+- Infoviews are now locked until starting Road Basics tutorial.
+- Infoviews color changes.
+- Removed BuildingInfomode icons for Commercial Buildings, Industrial Buildings, Office Buildings, Residential Buildings, Signature Commercial, Signature Industrial, Signature Office, Signature Residential and replaced with BuildingStatusInfomode.
+- Removed unused "AchievementFilter" from NA_ResidentialMediumRow03_L3_1x6.
+- Helipad Airspace added to PoliceStation03 Helipad.
+- SpaceCenter01 now provides CityIndoor leisure.
+- SubwayStation01, SubwayStation02, SubwayStation03, SubwayStationElevated01 garbage accumulation increased by 140% (125 -> 300).
+- SubwayStationElevated02 garbage accumulation decreased by 67% (150 -> 50).
+- SubwayStation01, SubwayStation02 workplaces decreased by 100% (10 -> 0).
+- SubwayStationElevated02 workplaces increased (0 -> 10).
+- Bulldozer Tool no longer needs to be unlocked.
+- Bus03 now uses DisasterControl icon.
+- New "UIShortcut" component.
+-- Bulldozer Tool, all UIAssetMenuPrefab
+- District Area selection color changed? (#00b3ffcf -> #00ff12cf).
+- Warning and Error highlight colors are now brighter.
+- Effect update for IndustrialVehicleExcavator, PrivateVehicle*, ServiceVehicle*, TransportationVehicle*
+- New "NightForest" audio/effect.
+- New RelocateBuildingSFX
+- New RadioEvent: Celebrity Interview, Free Public Transport.
+- Building Fire spread probability increased (0.05 -> 0.3).

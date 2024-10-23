@@ -17,7 +17,13 @@
                 "m_SpotShape": 0,
                 "m_AreaShape": 0,
                 "m_Range": 40,
-                "m_Intensity": 20,
+                "m_Intensity": 10,
+                "m_LightIntensity": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.Effects.LightIntensity, Game",
+                    "m_Intensity": 10,
+                    "m_LightUnit": 2
+                },
                 "m_LuxAtDistance": 19.25,
                 "m_LightUnit": 2,
                 "m_EnableSpotReflector": true,
@@ -29,7 +35,7 @@
                 "m_ShapeHeight": 0.5,
                 "m_UseColorTemperature": true,
                 "m_Color": {
-                    "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+                    "$type": "4|UnityEngine.Color, UnityEngine.CoreModule",
                     1,
                     0.9219849,
                     0.711320758,
@@ -51,7 +57,7 @@
         ]
     },
     "m_Conditions": {
-        "$type": "4|Game.Prefabs.EffectCondition, Game",
+        "$type": "5|Game.Prefabs.EffectCondition, Game",
         "m_RequiredFlags": 0,
         "m_ForbiddenFlags": 0,
         "m_IntensityFlags": 0

@@ -27,7 +27,7 @@
                 "m_Upkeep": 15000,
                 "m_ElectricityConsumption": 7500,
                 "m_WaterConsumption": 0,
-                "m_GarbageAccumulation": 150,
+                "m_GarbageAccumulation": 50,
                 "m_TelecomNeed": 0
             },
             {
@@ -50,7 +50,8 @@
                 "$type": "6|Game.Prefabs.Workplace, Game",
                 "name": "Workplace",
                 "active": true,
-                "m_Workplaces": 0,
+                "m_Workplaces": 10,
+                "m_MinimumWorkersLimit": 0,
                 "m_Complexity": 1,
                 "m_EveningShiftProbability": 0.25,
                 "m_NightShiftProbability": 0.125
@@ -111,7 +112,6 @@
                 "m_Group": $fstrref:"UnityGUID:32b5e550d4a9af34facf35e8b1b14206",
                 "m_Priority": 40,
                 "m_Icon": "",
-                "m_LargeIcon": "",
                 "m_IsDebugObject": false
             },
             {

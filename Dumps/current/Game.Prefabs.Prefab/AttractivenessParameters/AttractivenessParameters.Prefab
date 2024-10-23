@@ -20,16 +20,35 @@
         "y": 0.02,
         "z": 10
     },
-    "m_RaininessBaseline": 0.15,
-    "m_RaininessAffectLimit": {
+    "m_AttractiveTemperature": {
         "$type": "3|Unity.Mathematics.float2, Unity.Mathematics",
-        "x": 0.8,
-        "y": 1.2
+        "x": 18,
+        "y": 26
     },
-    "m_CloudinessBaseline": 0.5,
-    "m_CloudinessAffectLimit": {
+    "m_ExtremeTemperature": {
         "$type": 3,
-        "x": 0.9,
-        "y": 1.1
+        "x": -10,
+        "y": 30
+    },
+    "m_RainEffectRange": {
+        "$type": 3,
+        "x": 0.3,
+        "y": 1
+    },
+    "m_SnowEffectRange": {
+        "$type": 3,
+        "x": 0.2,
+        "y": 0.7
+    },
+    "m_TemperatureAffect": {
+        "$type": 3,
+        "x": 0.2,
+        "y": -0.3
+    },
+    "m_SnowRainExtremeAffect": {
+        "$type": 2,
+        "x": 0.3,
+        "y": -0.1,
+        "z": -0.3
     }
 }

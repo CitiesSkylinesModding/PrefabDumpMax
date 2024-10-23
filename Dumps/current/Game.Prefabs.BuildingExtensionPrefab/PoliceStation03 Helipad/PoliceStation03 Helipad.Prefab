@@ -55,7 +55,6 @@
                 "m_Group": null,
                 "m_Priority": 0,
                 "m_Icon": "",
-                "m_LargeIcon": "",
                 "m_IsDebugObject": false
             },
             {
@@ -74,6 +73,7 @@
                 "name": "Workplace",
                 "active": true,
                 "m_Workplaces": 6,
+                "m_MinimumWorkersLimit": 0,
                 "m_Complexity": 2,
                 "m_EveningShiftProbability": 0,
                 "m_NightShiftProbability": 0
@@ -86,7 +86,7 @@
                 "m_SubObjects": {
                     "$id": 10,
                     "$type": "10|Game.Prefabs.ObjectSubObjectInfo[], Game",
-                    "$rlength": 6,
+                    "$rlength": 7,
                     "$rcontent": [
                         {
                             "$id": 11,
@@ -142,30 +142,6 @@
                             "m_Object": $fstrref:"UnityGUID:5613b0ba2924411448abf2cb5572bc1e",
                             "m_Position": {
                                 "$type": 12,
-                                "x": -5.42563534,
-                                "y": 19.1171875,
-                                "z": -8.6008
-                            },
-                            "m_Rotation": {
-                                "$type": 13,
-                                "value": {
-                                    "$type": 14,
-                                    "x": 0,
-                                    "y": 5.96046448E-08,
-                                    "z": 0,
-                                    "w": 1
-                                }
-                            },
-                            "m_ParentMesh": 0,
-                            "m_GroupIndex": 0,
-                            "m_Probability": 100
-                        },
-                        {
-                            "$id": 14,
-                            "$type": 11,
-                            "m_Object": $fstrref:"UnityGUID:5613b0ba2924411448abf2cb5572bc1e",
-                            "m_Position": {
-                                "$type": 12,
                                 "x": -12.0830917,
                                 "y": 19.1171875,
                                 "z": -1.874506
@@ -178,6 +154,30 @@
                                     "y": 0.7071069,
                                     "z": 0,
                                     "w": 0.70710665
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 11,
+                            "m_Object": $fstrref:"UnityGUID:5613b0ba2924411448abf2cb5572bc1e",
+                            "m_Position": {
+                                "$type": 12,
+                                "x": -5.42563534,
+                                "y": 19.1171875,
+                                "z": -8.6008
+                            },
+                            "m_Rotation": {
+                                "$type": 13,
+                                "value": {
+                                    "$type": 14,
+                                    "x": 0,
+                                    "y": 5.96046448E-08,
+                                    "z": 0,
+                                    "w": 1
                                 }
                             },
                             "m_ParentMesh": 0,
@@ -231,26 +231,50 @@
                             "m_ParentMesh": -1001,
                             "m_GroupIndex": 0,
                             "m_Probability": 100
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 11,
+                            "m_Object": $fstrref:"UnityGUID:79f2dada84ac1b54694f99d62d4c367b",
+                            "m_Position": {
+                                "$type": 12,
+                                "x": -5.2,
+                                "y": 19.1181641,
+                                "z": -1.9
+                            },
+                            "m_Rotation": {
+                                "$type": 13,
+                                "value": {
+                                    "$type": 14,
+                                    "x": 0,
+                                    "y": 0.707106769,
+                                    "z": 0,
+                                    "w": -0.7071068
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
                         }
                     ]
                 }
             },
             {
-                "$id": 17,
+                "$id": 18,
                 "$type": "15|Game.Prefabs.ObjectSubAreas, Game",
                 "name": "ObjectSubAreas",
                 "active": true,
                 "m_SubAreas": {
-                    "$id": 18,
+                    "$id": 19,
                     "$type": "16|Game.Prefabs.ObjectSubAreaInfo[], Game",
                     "$rlength": 1,
                     "$rcontent": [
                         {
-                            "$id": 19,
+                            "$id": 20,
                             "$type": "17|Game.Prefabs.ObjectSubAreaInfo, Game",
                             "m_AreaPrefab": $fstrref:"UnityGUID:430d3a6a5dbdafc448ca69340fe06172",
                             "m_NodePositions": {
-                                "$id": 20,
+                                "$id": 21,
                                 "$type": "18|Unity.Mathematics.float3[], Unity.Mathematics",
                                 "$rlength": 17,
                                 "$rcontent": [
@@ -359,7 +383,7 @@
                                 ]
                             },
                             "m_ParentMeshes": {
-                                "$id": 21,
+                                "$id": 22,
                                 "$type": "19|System.Int32[], mscorlib",
                                 "$plength": 17,
                                 "$pcontent": [
@@ -387,17 +411,17 @@
                 }
             },
             {
-                "$id": 22,
+                "$id": 23,
                 "$type": "20|Game.Prefabs.EffectSource, Game",
                 "name": "EffectSource",
                 "active": true,
                 "m_Effects": {
-                    "$id": 23,
+                    "$id": 24,
                     "$type": "21|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+EffectSettings, Game]], mscorlib",
                     "$rlength": 1,
                     "$rcontent": [
                         {
-                            "$id": 24,
+                            "$id": 25,
                             "$type": "22|Game.Prefabs.EffectSource+EffectSettings, Game",
                             "m_Effect": $fstrref:"UnityGUID:3d37303779fc8e94f9e366a39e10ed6a",
                             "m_PositionOffset": {
@@ -429,7 +453,7 @@
                     ]
                 },
                 "m_AnimationCurves": {
-                    "$id": 25,
+                    "$id": 26,
                     "$type": "23|System.Collections.Generic.List`1[[Game.Prefabs.EffectSource+AnimationProperties, Game]], mscorlib",
                     "$rlength": 0,
                     "$rcontent": [
@@ -439,12 +463,12 @@
         ]
     },
     "m_Meshes": {
-        "$id": 26,
+        "$id": 27,
         "$type": "24|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 27,
+                "$id": 28,
                 "$type": "25|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:ba0dc2a90da9eab448ebd14198ada1cf",
                 "m_Position": {

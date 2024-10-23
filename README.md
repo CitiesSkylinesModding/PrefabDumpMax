@@ -13,3 +13,7 @@ The repo consists of two folders, one is Dumps and another is Mod.
 * 1.1.2f1 - 2024-07-11 - 40053 prefabs
 * 1.1.7f1 - 2024-07-11 - 40403 prefabs
 * 1.1.8f1 - 2024-09-04 - 40417 prefabs
+* 1.1.10f1 - 2024-10-24 - 40466 prefabs
+
+## Notable Changes
+See PREFAB_CHANGELOG.md
