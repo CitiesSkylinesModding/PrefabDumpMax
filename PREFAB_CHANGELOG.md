@@ -1,8 +1,115 @@
+### 1.1.12f1 - 2024-11-26
+- Increased Student Capacity:
+- - College01 Extension Wing, MedicalUniversity01 Extension Wing, TechnicalUniversity01 Extension Wing, University01 Extension Wing (500 -> 2500)
+- - College01 (1000 -> 10000)
+- - MedicalUniversity01, TechnicalUniversity01 (1500 -> 15000)
+- - University01 (2000 -> 15000)
+- Reduced Garbage Accumulation:
+- - EmergencyBatteryStation01 (950 -> 500)
+- - CoalPowerPlant01 (700 -> 350)
+- - SolarPowerStation01 (1875 -> 800)
+- - GasPowerPlant01 (600 -> 300)
+- - GeothermalPowerPlant01 (700 -> 350)
+- - NuclearPowerPlant01 (300 -> 150)
+- - DesalinationPlant01 (2000 -> 500)
+- - WastewaterTreatmentPlant01 (1000 -> 500)
+- - College01 (7 -> 6)
+- - MedicalUniversity01, University01 (5 -> 7)
+- - TechnicalUniversity01 (8 -> 7)
+- - College01 Extension Wing, College01 Library, TechnicalUniversity01 Extension Wing, TechnicalUniversity01 Workshop Upgrade, University01 Extension Wing, University01 Library, University01 Park (1 -> 0)
+- - MedicalUniversity01 Extension Wing, MedicalUniversity01 Practice Clinic, MedicalUniversity01 Research Facilities (4 -> 0)
+- - HealthResearchInstitute01 (600 -> 200)
+- - EmergencyShelter01 (500 -> 10)
+- - LargeEmergencyShelter01 (1120 -> 10)
+- - InternationalAirport01 (626 -> 120)
+- - SpaceCenter01 (200 -> 100)
+- - PostSortingFacility01 (305 -> 100)
+- Changed UI priorities:
+- - Electricity
+- - - High-voltage Line (2 -> 50)
+- - - TransformerStation01 (3 -> 100)
+- - - WindTurbine01 (110 -> 130)
+- - - SmallCoalPowerPlant01 (120 -> 140)
+- - - GasPowerPlant01 (130 -> 150)
+- - - EmergencyBatteryStation01 (200 -> 220)
+- - - GeothermalPowerPlant01 (330 -> 310)
+- - - CoalPowerPlant01 (300 -> 320)
+- - - SolarPowerStation01 (400 -> 420)
+- - - NuclearPowerPlant01 (520 -> 500)
+- - Transportation: Roads
+- - - BusStation02 (19 -> 100)
+- - - BusStation01 (20 -> 200)
+- - - EU_BusStop01 (20 -> 300)
+- - - EU_BusStop02 (30 -> 301)
+- - - NA_BusStop01 (20 -> 302)
+- - - NA_BusStop02 (30 -> 303)
+- - - Double Public Transport Lane (40 -> 400)
+- - - Oneway Public Transport Lane (50 -> 405)
+- - - Bus Line (60 -> 500)
+- - - TaxiDepot01 (70 -> 600)
+- - - EU_TaxiStop01 (80 -> 700)
+- - - EU_TaxiStop02 (90 -> 701)
+- - - NA_TaxiStop01 (80 -> 800)
+- - - NA_TaxiStop02 (90 -> 801)
+- - Transportation: Tram
+- - - EU_TramStop01 (10 -> 100)
+- - - NA_TramStop01 (10 -> 200)
+- - - Double Tram Track (20 -> 200)
+- - - Oneway Tram Track (30 -> 201)
+- - - Tram Line (40 -> 300)
+- - Transportation: Train
+- - - TrainStation02 (8 -> 100)
+- - - TrainStation03 (9 -> 200)
+- - - CargoTrainTerminal01 (20 -> 200)
+- - - TrainStation01 (10 -> 300)
+- - - Passenger Train Line (60 -> 400)
+- - - Twoway Train Track (30 -> 400)
+- - - Oneway Train Track (40 -> 410)
+- - - Double Train Track (50 -> 420)
+- - - Cargo Train Route (70 -> 500)
+- - Transportation: Subway
+- - - SubwayStation03 (5 -> 100)
+- - - SubwayStation02 (10 -> 200)
+- - - SubwayStation01 (20 -> 300)
+- - - SubwayStationElevated01 (30 -> 400)
+- - - SubwayStationElevated01 (40 -> 500)
+- - - Double Subway Track (60 -> 600)
+- - - Oneway Subway Track (70 -> 700)
+- - - Subway Line (80 -> 800)
+- - Transportation: Water
+- - - CargoHarbor01 (10 -> 100)
+- - - Narrow Seaway (20 -> 200)
+- - - Medium Seaway (30 -> 210)
+- - - Wide Seaway (40 -> 220)
+- - - Passenger Ship Line (50 -> 300)
+- - - Cargo Ship Route (60 -> 310)
+- - Transportation: Air
+- - - InternationalAirport01 (10 -> 100)
+- - - SpaceCenter01 (20 -> 200)
+- - - Passenger Airplane Line (30 -> 300)
+- - - Cargo Airplane Route (40 -> 400)
+- - Education: Schools
+- - - ElementarySchool01 (40 -> 20)
+- - - ElementarySchool02 (20 -> 0)
+- - Education: Research
+- - - LargeHadronCollider01 (510 -> 530)
+- Changes to ObjectSubObjects, ObjectSubAreas, EffectSource:
+- - NA_ResidentialMediumRow01_L1_1x2, NA_ResidentialMediumRow01_L2_1x2, NA_ResidentialMediumRow02_L5_1x3, NA_ResidentialMediumRow02_L5_1x4
+- Added CityEffects for RadioTelescope01
+- Type changes for BuildingStatusInfomodePrefab:
+- - Signature Commercial, Signature Industrial, Signature Office
+- EffectPrefab audio adjustments:
+- - DisasterTornadoLoop, UXTutorialCompletedSFX, UXTutorialStartedSFX
+- Changed colors for Infomode/Infoview:
+- - Healthcare, Healthcare Coverage, PostFacility Buildings, Roads
+- New Audio cue for Tutorial Completed
+- Changes to Tutorials regarding input control
+
 ### 1.1.10f1 - 2024-10-24
 - UIObject component no longer contains "m_LargeIcon" property.
 - Workplace component has new "m_MinimumWorkersLimit" property.
--- College01, ElementarySchool01, ElementarySchool02, ElementarySchool03, HighSchool01, HighSchool02, HighSchool03, MedicalUniversity01, TechnicalUniversity01, University01: 15.
--- Industrial_CottonExtractor, Industrial_ForestryExtractor, Industrial_GrainExtractor, Industrial_LivestockExtractor, Industrial_OilExtractor, Industrial_OreExtractor, Industrial_VegetableExtractor: 1.
+- - College01, ElementarySchool01, ElementarySchool02, ElementarySchool03, HighSchool01, HighSchool02, HighSchool03, MedicalUniversity01, TechnicalUniversity01, University01: 15.
+- - Industrial_CottonExtractor, Industrial_ForestryExtractor, Industrial_GrainExtractor, Industrial_LivestockExtractor, Industrial_OilExtractor, Industrial_OreExtractor, Industrial_VegetableExtractor: 1.
 - LightEffect component now has "m_LightIntensity" property.
 - New Pathfind parameter: m_CurveAngleCost.
 - New Demand parameter: m_HotelRoomPercentRequirement.
@@ -25,7 +132,7 @@
 - Bulldozer Tool no longer needs to be unlocked.
 - Bus03 now uses DisasterControl icon.
 - New "UIShortcut" component.
--- Bulldozer Tool, all UIAssetMenuPrefab
+- - Bulldozer Tool, all UIAssetMenuPrefab
 - District Area selection color changed? (#00b3ffcf -> #00ff12cf).
 - Warning and Error highlight colors are now brighter.
 - Effect update for IndustrialVehicleExcavator, PrivateVehicle*, ServiceVehicle*, TransportationVehicle*
