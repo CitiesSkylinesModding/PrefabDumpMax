@@ -1,115 +1,1356 @@
+### 1.2.0f1 - 2024-12-11
+- New BuildingPrefab:
+  - ParkingHall03 Additional Floors
+  - TaxiDepot02 Dispatch Center
+  - TaxiDepot02 Electric Taxis
+  - TaxiDepot02 Taxi Garage
+- New BuildingExtensionPrefab:
+  - ParkingHall03
+  - ParkingHall04
+  - ParkingLot11
+  - ParkingLot12
+  - ParkingLot13
+  - ParkingLot14
+  - ParkingLot15
+  - ParkingLot16
+  - ParkingLot17
+  - PocketPark01
+  - PocketPark02
+  - PocketPark03
+  - PocketPark04
+  - PocketPark05
+  - PocketPark06
+  - PocketPark07
+  - PocketPark08
+  - PocketPark09
+  - PocketPark10
+  - TaxiDepot02
+- New LivePathPrefab (Traffic Routes):
+  - Aircraft Path
+  - Car Path
+  - Human Path
+  - Train Path
+  - Watercraft Path
+- New NetLanePrefab:
+  - Alley Parking Lane - Angled67 2.9x5.5
+  - Alley Parking Lane - Angled67 2.9x6.5
+  - Alley Parking Lane - Perpendicular 3x5.5
+  - Alley Parking Lane - Perpendicular 3x6.5
+  - Alley Parking Lane 2
+  - Gravel Parking Lane 2
+  - Gravel Pedestrian Lane 0.5
+  - Invisible Parking Lane - Parallel 3x7.7
+  - Invisible Parking Lane - Parallel 4x10.5
+  - Invisible Parking Lane - Perpendicular 3x7.7
+  - Invisible Parking Lane - Perpendicular 4x10.5
+  - Invisible SpecialParking Lane - Angled67 2.9x5.9
+  - Invisible SpecialParking Lane - Parallel 2.9x5.9
+  - Invisible SpecialParking Lane - Parallel 3x7.7
+  - Invisible SpecialParking Lane - Parallel 4x10.5
+  - Invisible SpecialParking Lane - Perpendicular 2.9x5.9
+  - Invisible SpecialParking Lane - Perpendicular 3x7.7
+  - Invisible SpecialParking Lane - Perpendicular 4x10.5
+  - Invisible SpecialParking Lane - Perpendicular 4x13
+  - Parking Lane - Angled67 2.9x5.5
+  - Parking Lane - Perpendicular 3x5.5
+  - Pathway Parking Lane - Angled67 2.9x5.5
+  - Pathway Parking Lane - Perpendicular 3x5.5
+  - Pedestrian Lane 1
+- New NetPiecePrefab:
+  - GravelShoulder2.5 Mesh
+  - GravelShoulderFlat2.5 Mesh
+  - ParkingLane7 Mesh
+  - ParkingLane9 Mesh
+  - ParkingLaneAlley5.5 Mesh
+  - ParkingLaneAlley8 Mesh
+  - ParkingLaneAlleyAngled5.5 Mesh
+  - ParkingLaneAlleyAngled8 Mesh
+  - ParkingLaneAlleyEnding5.5 Mesh
+  - ParkingLaneAlleyEnding8 Mesh
+  - ParkingLaneAlleyShoulder1 Mesh
+  - ParkingLaneAlleyShoulder2.5 Mesh
+  - ParkingLaneAlleyShoulderFlat2.5 Mesh
+  - ParkingLaneAlleyShoulderToSidewalk2.5 Mesh
+  - ParkingLaneAlleyShoulderToSidewalkFlat2.5 Mesh
+  - ParkingLaneAngled7 Mesh
+  - ParkingLaneAngled9 Mesh
+  - ParkingLaneElevatedBottomEdge7 Mesh
+  - ParkingLaneElevatedBottomEdge9 Mesh
+  - ParkingLaneElevatedBottomEdgeEnding7 Mesh
+  - ParkingLaneElevatedBottomEdgeEnding9 Mesh
+  - ParkingLaneTunnelTop7 Mesh
+  - ParkingLaneTunnelTop9 Mesh
+  - ParkingLaneTunnelTopEdgeEnding7 Mesh
+  - ParkingLaneTunnelTopEdgeEnding9 Mesh
+  - Pedestrian Street Median Intersection Piece 0
+  - Pedestrian Street Pedestrian Piece 3
+  - Sidewalk9 Mesh
+  - SidewalkFlat9 Mesh
+- New NetSectionPrefab:
+  - Gravel Shoulder 2.5
+  - Parking Lane 5.5 - Alley
+  - Parking Lane 8 - Alley
+  - Parking Lane Angled 5.5 - Alley
+  - Parking Lane Angled 8 - Alley
+  - Parking Lane Shoulder 1
+  - Parking Lane Shoulder 2.5
+  - Parking Road Median 5
+  - Pedestrian Street Median 0
+  - Pedestrian Street Pedestrian Section 3
+  - Sidewalk With Parking Lane 7
+  - Sidewalk With Parking Lane 9
+  - Sidewalk With Parking Lane Angled 7
+  - Sidewalk With Parking Lane Angled 9
+  - Sidewalk With Parking Lane Divided 9
+  - Sidewalk With Parking Lane Divided Angled 9
+- New RenderPrefab:
+  - Carport04 Mesh
+  - Carport04_LOD1 Mesh
+  - Carport04_LOD2 Mesh
+  - CulDeSacLarge02 Mesh
+  - CulDeSacLarge02_LOD1 Mesh
+  - CulDeSacLarge02_LOD2 Mesh
+  - CulDeSacLarge03 Mesh
+  - CulDeSacLarge03_LOD1 Mesh
+  - CulDeSacLarge03_LOD2 Mesh
+  - CulDeSacMedium02 Mesh
+  - CulDeSacMedium02_LOD1 Mesh
+  - CulDeSacMedium02_LOD2 Mesh
+  - CulDeSacMedium03 Mesh
+  - CulDeSacMedium03_LOD1 Mesh
+  - CulDeSacMedium03_LOD2 Mesh
+  - CulDeSacSmall02 Mesh
+  - CulDeSacSmall02_LOD1 Mesh
+  - CulDeSacSmall02_LOD2 Mesh
+  - CulDeSacSmall03 Mesh
+  - CulDeSacSmall03_LOD1 Mesh
+  - CulDeSacSmall03_LOD2 Mesh
+  - CulDeSacXL02 Mesh
+  - CulDeSacXL02_LOD1 Mesh
+  - CulDeSacXL02_LOD2 Mesh
+  - CulDeSacXL03 Mesh
+  - CulDeSacXL03_LOD1 Mesh
+  - CulDeSacXL03_LOD2 Mesh
+  - DoNotEnter01 Placeholder Mesh
+  - EU_ServiceParkingSign01 Mesh
+  - EU_ServiceParkingSign01_LOD1 Mesh
+  - EU_ServiceParkingSign01_LOD2 Mesh
+  - FireHydrant01 Placeholder Mesh
+  - FuelFillingSystem01 Mesh
+  - FuelFillingSystem01_LOD1 Mesh
+  - FuelFillingSystem01_LOD2 Mesh
+  - LargeRoundabout04 Mesh
+  - LargeRoundabout04_LOD1 Mesh
+  - LargeRoundabout04_LOD2 Mesh
+  - LargeRoundabout05 Mesh
+  - LargeRoundabout05_LOD1 Mesh
+  - LargeRoundabout05_LOD2 Mesh
+  - LargeRoundabout06 Mesh
+  - LargeRoundabout06_LOD1 Mesh
+  - LargeRoundabout06_LOD2 Mesh
+  - LargeRoundabout07 Mesh
+  - LargeRoundabout07_LOD1 Mesh
+  - LargeRoundabout07_LOD2 Mesh
+  - LargeRoundabout08 Mesh
+  - LargeRoundabout08_LOD1 Mesh
+  - LargeRoundabout08_LOD2 Mesh
+  - LargeRoundabout09 Mesh
+  - LargeRoundabout09_LOD1 Mesh
+  - LargeRoundabout09_LOD2 Mesh
+  - LargeRoundabout10 Mesh
+  - LargeRoundabout10_LOD1 Mesh
+  - LargeRoundabout10_LOD2 Mesh
+  - MediumRoundabout04 Mesh
+  - MediumRoundabout04_LOD1 Mesh
+  - MediumRoundabout04_LOD2 Mesh
+  - MediumRoundabout05 Mesh
+  - MediumRoundabout05_LOD1 Mesh
+  - MediumRoundabout05_LOD2 Mesh
+  - MediumRoundabout06 Mesh
+  - MediumRoundabout06_LOD1 Mesh
+  - MediumRoundabout06_LOD2 Mesh
+  - MediumRoundabout07 Mesh
+  - MediumRoundabout07_LOD1 Mesh
+  - MediumRoundabout07_LOD2 Mesh
+  - MediumRoundabout08 Mesh
+  - MediumRoundabout08_LOD1 Mesh
+  - MediumRoundabout08_LOD2 Mesh
+  - MediumRoundabout09 Mesh
+  - MediumRoundabout09_LOD1 Mesh
+  - MediumRoundabout09_LOD2 Mesh
+  - MediumRoundabout10 Mesh
+  - MediumRoundabout10_LOD1 Mesh
+  - MediumRoundabout10_LOD2 Mesh
+  - MotorwaySign01 Placeholder Mesh
+  - NA_ServiceParkingSign01 Mesh
+  - NA_ServiceParkingSign01_LOD1 Mesh
+  - NA_ServiceParkingSign01_LOD2 Mesh
+  - NoTurnLeft01 Placeholder Mesh
+  - NoTurnRight01 Placeholder Mesh
+  - NoUTurnLeft01 Placeholder Mesh
+  - NoUTurnRight01 Placeholder Mesh
+  - OnewaySign01 Placeholder Mesh
+  - ParkingHall03 Mesh
+  - ParkingHall03_Ext01 Mesh
+  - ParkingHall03_Ext01_LOD1 Mesh
+  - ParkingHall03_Ext01_LOD2 Mesh
+  - ParkingHall03_LOD1 Mesh
+  - ParkingHall03_LOD2 Mesh
+  - ParkingHall04 Mesh
+  - ParkingHall04_LOD1 Mesh
+  - ParkingHall04_LOD2 Mesh
+  - ParkingLotCharger02 Mesh
+  - ParkingLotCharger02_LOD1 Mesh
+  - ParkingLotCharger02_LOD2 Mesh
+  - ParkingLotCharger03 Mesh
+  - ParkingLotCharger03_LOD1 Mesh
+  - ParkingLotCharger03_LOD2 Mesh
+  - ParkingLotCharger04 Mesh
+  - ParkingLotCharger04_LOD1 Mesh
+  - ParkingLotCharger04_LOD2 Mesh
+  - ParkingLotDecal05 Mesh
+  - ParkingLotDoubleDecal02 Mesh
+  - ParkingLotLongDecal02 Mesh
+  - ParkingLotSidewaysDecal02 Mesh
+  - ParkingLotSidewaysDecal03 Mesh
+  - ParkingSign01 Placeholder Mesh
+  - ServiceParkingSign01 Placeholder Mesh
+  - SmallRoundabout04 Mesh
+  - SmallRoundabout04_LOD1 Mesh
+  - SmallRoundabout04_LOD2 Mesh
+  - SmallRoundabout05 Mesh
+  - SmallRoundabout05_LOD1 Mesh
+  - SmallRoundabout05_LOD2 Mesh
+  - SmallRoundabout06 Mesh
+  - SmallRoundabout06_LOD1 Mesh
+  - SmallRoundabout06_LOD2 Mesh
+  - SmallRoundabout07 Mesh
+  - SmallRoundabout07_LOD1 Mesh
+  - SmallRoundabout07_LOD2 Mesh
+  - SmallRoundabout08 Mesh
+  - SmallRoundabout08_LOD1 Mesh
+  - SmallRoundabout08_LOD2 Mesh
+  - SmallRoundabout09 Mesh
+  - SmallRoundabout09_LOD1 Mesh
+  - SmallRoundabout09_LOD2 Mesh
+  - SmallRoundabout10 Mesh
+  - SmallRoundabout10_LOD1 Mesh
+  - SmallRoundabout10_LOD2 Mesh
+  - Speedlimit100 Placeholder Mesh
+  - Speedlimit120 Placeholder Mesh
+  - Speedlimit30 Placeholder Mesh
+  - Speedlimit40 Placeholder Mesh
+  - Speedlimit50 Placeholder Mesh
+  - Speedlimit60 Placeholder Mesh
+  - Speedlimit80 Placeholder Mesh
+  - StopSign01 Placeholder Mesh
+  - StreetSign01 Placeholder Mesh
+  - TaxiDepot02 Mesh
+  - TaxiDepot02_Ext01 Mesh
+  - TaxiDepot02_Ext01_LOD1 Mesh
+  - TaxiDepot02_Ext01_LOD2 Mesh
+  - TaxiDepot02_Ext02 Mesh
+  - TaxiDepot02_Ext02_LOD1 Mesh
+  - TaxiDepot02_Ext02_LOD2 Mesh
+  - TaxiDepot02_LOD1 Mesh
+  - TaxiDepot02_LOD2 Mesh
+  - XLRoundabout04 Mesh
+  - XLRoundabout04_LOD1 Mesh
+  - XLRoundabout04_LOD2 Mesh
+  - XLRoundabout05 Mesh
+  - XLRoundabout05_LOD1 Mesh
+  - XLRoundabout05_LOD2 Mesh
+  - XLRoundabout06 Mesh
+  - XLRoundabout06_LOD1 Mesh
+  - XLRoundabout06_LOD2 Mesh
+  - XLRoundabout07 Mesh
+  - XLRoundabout07_LOD1 Mesh
+  - XLRoundabout07_LOD2 Mesh
+  - XLRoundabout08 Mesh
+  - XLRoundabout08_LOD1 Mesh
+  - XLRoundabout08_LOD2 Mesh
+  - XLRoundabout09 Mesh
+  - XLRoundabout09_LOD1 Mesh
+  - XLRoundabout09_LOD2 Mesh
+  - XLRoundabout10 Mesh
+  - XLRoundabout10_LOD1 Mesh
+  - XLRoundabout10_LOD2 Mesh
+  - YieldSign01 Placeholder Mesh
+- New RoadPrefab:
+  - Alley - Double Sided Parking
+  - Alley - Double Sided Parking Angled
+  - Alley Oneway
+  - Alley Oneway - Double Sided Parking
+  - Alley Oneway - Double Sided Parking Angled
+  - Gravel Road Oneway
+  - Highway Twoway Asymmetric - 1+3 lanes
+  - Highway Twoway Asymmetric - 2+3 lanes
+  - Large Road Asymmetric - 2+4 lanes
+  - Large Road Asymmetric - 2+5 lanes
+  - Medium Road - Double Sided Parking
+  - Medium Road - Double Sided Parking Angled
+  - Medium Road Asymmetric - 1+3 lanes
+  - Pedestrian Street Small
+  - Small Road - Double Sided Parking
+  - Small Road - Double Sided Parking Angled
+  - Small Road Divided - Double Sided Parking
+  - Small Road Divided - Double Sided Parking Angled
+  - Small Road Oneway - Single Sided Parking
+  - Small Road Oneway - Single Sided Parking Angled
+- New StaticObjectPrefab:
+  - Carport04
+  - CulDeSacLarge01
+  - CulDeSacLarge02
+  - CulDeSacLarge03
+  - CulDeSacMedium01
+  - CulDeSacMedium02
+  - CulDeSacMedium03
+  - CulDeSacSmall01
+  - CulDeSacSmall02
+  - CulDeSacSmall03
+  - CulDeSacXL02
+  - CulDeSacXL03
+  - DoNotEnter01 Placeholder
+  - EU_ServiceParkingSign01
+  - FireHydrant01 Placeholder
+  - FuelFillingSystem01
+  - LargeRoundabout04
+  - LargeRoundabout05
+  - LargeRoundabout06
+  - LargeRoundabout07
+  - LargeRoundabout08
+  - LargeRoundabout09
+  - LargeRoundabout10
+  - MediumRoundabout04
+  - MediumRoundabout05
+  - MediumRoundabout06
+  - MediumRoundabout07
+  - MediumRoundabout08
+  - MediumRoundabout09
+  - MediumRoundabout10
+  - MotorwaySign01 Placeholder
+  - NA_ServiceParkingSign01
+  - NoTurnLeft01 Placeholder
+  - NoTurnRight01 Placeholder
+  - NoUTurnLeft01 Placeholder
+  - NoUTurnRight01 Placeholder
+  - OnewaySign01 Placeholder
+  - ParkingLotCharger02
+  - ParkingLotCharger03
+  - ParkingLotCharger04
+  - ParkingLotDecal05
+  - ParkingLotDoubleDecal02
+  - ParkingLotDoubleServiceDecal02
+  - ParkingLotLongDecal02
+  - ParkingLotLongServiceDecal02
+  - ParkingLotServiceDecal05
+  - ParkingLotSidewaysDecal02
+  - ParkingLotSidewaysDecal03
+  - ParkingLotSidewaysServiceDecal02
+  - ParkingLotSidewaysServiceDecal03
+  - ParkingSign01 Placeholder
+  - ServiceParkingSign01 Placeholder
+  - Small Virtual Pillar
+  - SmallRoundabout04
+  - SmallRoundabout05
+  - SmallRoundabout06
+  - SmallRoundabout07
+  - SmallRoundabout08
+  - SmallRoundabout09
+  - SmallRoundabout10
+  - Speedlimit100 Placeholder
+  - Speedlimit120 Placeholder
+  - Speedlimit30 Placeholder
+  - Speedlimit40 Placeholder
+  - Speedlimit50 Placeholder
+  - Speedlimit60 Placeholder
+  - Speedlimit80 Placeholder
+  - StopSign01 Placeholder
+  - StreetSign01 Placeholder
+  - XLRoundabout04
+  - XLRoundabout05
+  - XLRoundabout06
+  - XLRoundabout07
+  - XLRoundabout08
+  - XLRoundabout09
+  - XLRoundabout10
+  - YieldSign01 Placeholder
+- New UIAssetCategoryPrefab:
+  - CulDeSacs
+- Removed NetLanePrefab:
+  - Invisible Parking Lane - Perpendicular 3x5.5
+- Removed RenderPrefab:
+  - NoParkingStripingDecal01_LOD1 Mesh
+  - NoParkingStripingDecal02_LOD1 Mesh
+  - NoParkingStripingDecal03_LOD1 Mesh
+  - NoParkingStripingDecal04_LOD1 Mesh
+  - NoParkingTextDecal01_LOD1 Mesh
+  - ParkingIconDecal01_LOD1 Mesh
+  - ParkingIconDisabledDecal01_LOD1 Mesh
+  - ParkingIconElectricDecal01_LOD1 Mesh
+  - ParkingIconMotorbikeDecal01_LOD1 Mesh
+  - ParkingIconTruckDecal01_LOD1 Mesh
+  - ParkingLotDecal01_LOD1 Mesh
+  - ParkingLotDecal02_LOD1 Mesh
+  - ParkingLotDecal03_LOD1 Mesh
+  - ParkingLotDecal04_LOD1 Mesh
+  - ParkingLotDiagonalDecal01_LOD1 Mesh
+  - ParkingLotDiagonalDecal02_LOD1 Mesh
+  - ParkingLotDiagonalDecal03_LOD1 Mesh
+  - ParkingLotDisabledDecal01_LOD1 Mesh
+  - ParkingLotDisabledDecal02_LOD1 Mesh
+  - ParkingLotDoubleDecal01_LOD1 Mesh
+  - ParkingLotElectricDecal01_LOD1 Mesh
+  - ParkingLotElectricDecal02_LOD1 Mesh
+  - ParkingLotLongDecal01_LOD1 Mesh
+  - ParkingLotMotorbikeDecal01_LOD1 Mesh
+  - ParkingLotSidewaysDecal01_LOD1 Mesh
+  - ParkingTextDecal01_LOD1 Mesh
+  - ServiceTextDecal01_LOD1 Mesh
+  - SlowDownTextDecal01_LOD1 Mesh
+- Changes to Audio Configuration:
+  - m_CarEngineCullMaxAmount (7 -> 10)
+- Changes to BuildingExtensionPrefab:
+  - BusStation01 Taxi Stop
+  - Hospital01 Special Ward
+  - Landfill01 Garbage Truck Depot
+  - PostOffice02 Loading Dock
+  - Prison01 Prison Library
+  - RecyclingCenter01 Garbage Truck Depot
+  - RoadMaintenanceDepot01 Extra Garage
+  - TaxiDepot01 Dispatch Center
+    - Upgrade Cost (22500 -> 25000)
+    - Upkeep Cost (6000 -> 2500)
+  - TaxiDepot01 Electric Taxis
+    - Upgrade Cost (18000 -> 20000)
+    - Upkeep Cost (8000 -> 10000)
+- Changes to BuildingPrefab:
+  - Airport01
+  - AmericanFootballField01
+  - BasketballCourt01
+  - BotanicalGarden01
+  - BusDepot01
+  - BusStation01
+  - CampfireSite01
+  - Cemetery01
+  - CentralBank01
+  - CentralInvestigationBureau01
+  - CityHall01
+  - CityPark09
+    - Service Range (1200 -> 2000)
+    - Service Capacity (640 -> 1000)
+    - Maintenance Pool (200 -> 400)
+  - CoalPowerPlant01
+  - College01
+  - Crematorium01
+  - Crematorium01 Hearse Garage
+  - DesalinationPlant01
+  - DiseaseControlCenter01
+  - EU_CommercialGasStation01_L1_2x2
+  - EU_CommercialGasStation01_L1_3x2
+  - EU_CommercialGasStation01_L1_3x3
+  - EU_CommercialGasStation01_L1_4x4
+  - EU_CommercialGasStation01_L1_4x5
+  - EU_CommercialGasStation01_L1_4x6
+  - EU_CommercialGasStation01_L2_2x2
+  - EU_CommercialGasStation01_L2_3x2
+  - EU_CommercialGasStation01_L2_3x3
+  - EU_CommercialGasStation01_L2_4x4
+  - EU_CommercialGasStation01_L2_4x5
+  - EU_CommercialGasStation01_L2_4x6
+  - EU_CommercialGasStation01_L3_2x2
+  - EU_CommercialGasStation01_L3_3x2
+  - EU_CommercialGasStation01_L3_3x3
+  - EU_CommercialGasStation01_L3_4x4
+  - EU_CommercialGasStation01_L3_4x5
+  - EU_CommercialGasStation01_L3_4x6
+  - EU_CommercialGasStation01_L4_2x2
+  - EU_CommercialGasStation01_L4_3x2
+  - EU_CommercialGasStation01_L4_3x3
+  - EU_CommercialGasStation01_L4_4x4
+  - EU_CommercialGasStation01_L4_4x5
+  - EU_CommercialGasStation01_L4_4x6
+  - EU_CommercialGasStation01_L5_2x2
+  - EU_CommercialGasStation01_L5_3x2
+  - EU_CommercialGasStation01_L5_3x3
+  - EU_CommercialGasStation01_L5_4x4
+  - EU_CommercialGasStation01_L5_4x5
+  - EU_CommercialGasStation01_L5_4x6
+  - EU_CommercialHigh01_L1_6x6
+  - EU_CommercialHigh01_L2_6x6
+  - EU_CommercialLow01_L1_3x5
+  - EU_CommercialLow01_L1_3x6
+  - EU_CommercialLow01_L1_4x4
+  - EU_CommercialLow01_L1_5x5
+  - EU_CommercialLow01_L1_5x6
+  - EU_CommercialLow01_L1_6x4
+  - EU_CommercialLow01_L2_2x6
+  - EU_CommercialLow01_L2_3x5
+  - EU_CommercialLow01_L2_3x6
+  - EU_CommercialLow01_L2_4x4
+  - EU_CommercialLow01_L2_5x5
+  - EU_CommercialLow01_L2_5x6
+  - EU_CommercialLow01_L2_6x4
+  - EU_CommercialLow01_L3_2x3
+  - EU_CommercialLow01_L3_2x5
+  - EU_CommercialLow01_L3_2x6
+  - EU_CommercialLow01_L3_3x3
+  - EU_CommercialLow01_L3_3x5
+  - EU_CommercialLow01_L3_3x6
+  - EU_CommercialLow01_L3_4x4
+  - EU_CommercialLow01_L3_5x6
+  - EU_CommercialLow01_L3_6x4
+  - EU_CommercialLow01_L4_2x5
+  - EU_CommercialLow01_L4_2x6
+  - EU_CommercialLow01_L4_3x3
+  - EU_CommercialLow01_L4_3x5
+  - EU_CommercialLow01_L4_3x6
+  - EU_CommercialLow01_L4_4x4
+  - EU_CommercialLow01_L4_5x6
+  - EU_CommercialLow01_L4_6x4
+  - EU_CommercialLow01_L5_2x5
+  - EU_CommercialLow01_L5_2x6
+  - EU_CommercialLow01_L5_4x4
+  - EU_CommercialLow01_L5_4x6
+  - EU_CommercialLow01_L5_5x6
+  - EU_CommercialLow01_L5_6x4
+  - EU_CommercialLow02_L1_5x6
+  - EU_CommercialLow02_L2_5x6
+  - EU_CommercialLow02_L4_5x6
+  - EU_CommercialLowSignature03
+  - EU_CommercialMotel01_L1_6x4
+  - EU_CommercialMotel01_L1_6x6
+  - EU_CommercialMotel01_L2_6x4
+  - EU_CommercialMotel01_L2_6x6
+  - EU_CommercialMotel01_L3_6x6
+  - EU_CommercialMotel01_L4_6x6
+  - EU_CommercialMotel01_L5_6x6
+  - EU_Mixed01_L5_2x4
+  - EU_MixedSignature02
+  - EU_ResidentialHigh01_L1_3x5
+  - EU_ResidentialHigh01_L1_6x4
+  - EU_ResidentialHigh01_L2_3x5
+  - EU_ResidentialHigh01_L2_6x4
+  - EU_ResidentialHigh01_L3_4x4
+  - EU_ResidentialHigh01_L3_5x5
+  - EU_ResidentialHigh01_L4_4x4
+  - EU_ResidentialHigh01_L4_5x5
+  - EU_ResidentialHighSignature01
+  - EU_ResidentialHighSignature02
+  - EU_ResidentialMedium01_L1_4x5
+  - EU_ResidentialMedium01_L2_4x5
+  - EU_ResidentialMedium01_L3_2x4
+  - EU_ResidentialMedium01_L3_2x6
+  - EU_ResidentialMedium01_L4_2x4
+  - EU_ResidentialMedium01_L4_2x6
+  - EU_ResidentialMediumSignature03
+  - FireHouse01
+    - Garbage Accumulation (85 -> 65)
+  - FireHouse02
+    - Garbage Accumulation (85 -> 65)
+  - FireStation01
+  - FootballField01
+  - GeologicalResearchCenter01
+  - GrandHotel01
+  - HazardousWasteProcessingSite01
+  - HealthResearchInstitute01
+  - HighSchool01
+  - HighSchool01 Sports Field
+  - HighSchool02
+  - HighSchool03
+  - Hospital01
+  - IncinerationPlant01
+  - IndustrialManufacturing01_L1_2x2
+  - IndustrialManufacturing01_L1_2x3
+  - IndustrialManufacturing01_L1_2x4
+  - IndustrialManufacturing01_L1_2x5
+  - IndustrialManufacturing01_L1_2x6
+  - IndustrialManufacturing01_L1_3x3
+  - IndustrialManufacturing01_L1_3x4
+  - IndustrialManufacturing01_L1_3x5
+  - IndustrialManufacturing01_L1_3x6
+  - IndustrialManufacturing01_L1_4x3
+  - IndustrialManufacturing01_L1_4x4
+  - IndustrialManufacturing01_L1_4x5
+  - IndustrialManufacturing01_L1_4x6
+  - IndustrialManufacturing01_L1_5x3
+  - IndustrialManufacturing01_L1_5x4
+  - IndustrialManufacturing01_L1_5x6
+  - IndustrialManufacturing01_L1_6x4
+  - IndustrialManufacturing01_L1_6x6
+  - IndustrialManufacturing01_L2_2x2
+  - IndustrialManufacturing01_L2_2x3
+  - IndustrialManufacturing01_L2_2x4
+  - IndustrialManufacturing01_L2_2x5
+  - IndustrialManufacturing01_L2_2x6
+  - IndustrialManufacturing01_L2_3x3
+  - IndustrialManufacturing01_L2_3x4
+  - IndustrialManufacturing01_L2_3x5
+  - IndustrialManufacturing01_L2_3x6
+  - IndustrialManufacturing01_L2_4x3
+  - IndustrialManufacturing01_L2_4x4
+  - IndustrialManufacturing01_L2_4x5
+  - IndustrialManufacturing01_L2_4x6
+  - IndustrialManufacturing01_L2_5x3
+  - IndustrialManufacturing01_L2_5x4
+  - IndustrialManufacturing01_L2_5x6
+  - IndustrialManufacturing01_L2_6x4
+  - IndustrialManufacturing01_L2_6x6
+  - IndustrialManufacturing01_L3_2x3
+  - IndustrialManufacturing01_L3_2x5
+  - IndustrialManufacturing01_L3_2x6
+  - IndustrialManufacturing01_L3_3x3
+  - IndustrialManufacturing01_L3_3x4
+  - IndustrialManufacturing01_L3_3x6
+  - IndustrialManufacturing01_L3_4x3
+  - IndustrialManufacturing01_L3_4x4
+  - IndustrialManufacturing01_L3_4x6
+  - IndustrialManufacturing01_L3_5x4
+  - IndustrialManufacturing01_L3_5x5
+  - IndustrialManufacturing01_L3_5x6
+  - IndustrialManufacturing01_L3_6x4
+  - IndustrialManufacturing01_L3_6x6
+  - IndustrialManufacturing01_L4_2x3
+  - IndustrialManufacturing01_L4_2x5
+  - IndustrialManufacturing01_L4_2x6
+  - IndustrialManufacturing01_L4_3x3
+  - IndustrialManufacturing01_L4_3x4
+  - IndustrialManufacturing01_L4_3x6
+  - IndustrialManufacturing01_L4_4x3
+  - IndustrialManufacturing01_L4_4x4
+  - IndustrialManufacturing01_L4_4x5
+  - IndustrialManufacturing01_L4_4x6
+  - IndustrialManufacturing01_L4_5x3
+  - IndustrialManufacturing01_L4_5x4
+  - IndustrialManufacturing01_L4_5x5
+  - IndustrialManufacturing01_L4_5x6
+  - IndustrialManufacturing01_L4_6x4
+  - IndustrialManufacturing01_L4_6x6
+  - IndustrialManufacturing01_L5_2x3
+  - IndustrialManufacturing01_L5_3x3
+  - IndustrialManufacturing01_L5_3x4
+  - IndustrialManufacturing01_L5_4x6
+  - IndustrialManufacturing01_L5_5x4
+  - IndustrialManufacturing01_L5_5x6
+  - IndustrialManufacturing01_L5_6x4
+  - IndustrialManufacturing02_L1_2x4
+  - IndustrialManufacturing02_L1_3x3
+  - IndustrialManufacturing02_L1_4x4
+  - IndustrialManufacturing02_L1_4x5
+  - IndustrialManufacturing02_L1_4x6
+  - IndustrialManufacturing02_L1_5x5
+  - IndustrialManufacturing02_L1_5x6
+  - IndustrialManufacturing02_L1_6x6
+  - IndustrialManufacturing02_L2_2x4
+  - IndustrialManufacturing02_L2_3x3
+  - IndustrialManufacturing02_L2_4x4
+  - IndustrialManufacturing02_L2_4x5
+  - IndustrialManufacturing02_L2_4x6
+  - IndustrialManufacturing02_L2_5x5
+  - IndustrialManufacturing02_L2_5x6
+  - IndustrialManufacturing02_L2_6x6
+  - IndustrialManufacturing02_L3_2x4
+  - IndustrialManufacturing02_L3_3x3
+  - IndustrialManufacturing02_L3_4x4
+  - IndustrialManufacturing02_L3_4x5
+  - IndustrialManufacturing02_L3_5x5
+  - IndustrialManufacturing02_L3_5x6
+  - IndustrialManufacturing02_L3_6x6
+  - IndustrialManufacturing02_L4_2x4
+  - IndustrialManufacturing02_L4_3x3
+  - IndustrialManufacturing02_L4_4x4
+  - IndustrialManufacturing02_L4_4x5
+  - IndustrialManufacturing02_L4_5x5
+  - IndustrialManufacturing02_L4_5x6
+  - IndustrialManufacturing02_L4_6x6
+  - IndustrialManufacturing02_L5_2x4
+  - IndustrialManufacturing02_L5_3x3
+  - IndustrialManufacturing02_L5_4x4
+  - IndustrialManufacturing02_L5_4x5
+  - IndustrialManufacturing02_L5_5x5
+  - IndustrialManufacturing02_L5_5x6
+  - IndustrialManufacturing02_L5_6x6
+  - IndustrialManufacturing03_L1_4x4
+  - IndustrialManufacturing03_L1_5x5
+  - IndustrialManufacturing03_L1_6x6
+  - IndustrialManufacturing03_L2_4x4
+  - IndustrialManufacturing03_L2_5x5
+  - IndustrialManufacturing03_L2_6x6
+  - IndustrialManufacturing03_L3_4x4
+  - IndustrialManufacturing03_L3_5x5
+  - IndustrialManufacturing03_L3_6x6
+  - IndustrialManufacturing03_L4_4x4
+  - IndustrialManufacturing03_L4_5x5
+  - IndustrialManufacturing03_L4_6x6
+  - IndustrialManufacturing03_L5_4x4
+  - IndustrialManufacturing03_L5_6x6
+  - IndustrialManufacturing04_L1_4x4
+  - IndustrialManufacturing04_L1_6x6
+  - IndustrialManufacturing04_L2_4x4
+  - IndustrialManufacturing04_L2_6x6
+  - IndustrialManufacturing04_L3_4x4
+  - IndustrialManufacturing04_L3_6x6
+  - IndustrialManufacturing04_L4_4x4
+  - IndustrialManufacturing04_L4_6x6
+  - IndustrialManufacturing04_L5_4x4
+  - IndustrialManufacturing04_L5_6x6
+  - IndustrialManufacturing05_L1_6x6
+  - IndustrialManufacturing05_L2_6x6
+  - IndustrialManufacturing05_L3_6x6
+  - IndustrialManufacturing05_L4_6x6
+  - IndustrialManufacturing05_L5_6x6
+  - IndustrialManufacturing06_L3_6x6
+  - IndustrialManufacturing06_L4_6x6
+  - IndustrialManufacturing06_L5_6x6
+  - IndustrialManufacturingSignature02
+  - IndustrialManufacturingSignature03
+  - IndustrialManufacturingSignature04
+  - IndustrialManufacturingSignature05
+  - IndustrialManufacturingSignature06
+  - IndustrialManufacturingSignature07
+  - IndustrialManufacturingSignature08
+  - IndustrialManufacturingSignature09
+  - IndustrialManufacturingWarehouse01_L1_6x6
+  - IndustrialManufacturingWarehouse01_L2_6x6
+  - IndustrialManufacturingWarehouse01_L3_6x6
+  - IndustrialManufacturingWarehouse01_L4_6x6
+  - IndustrialOilHub01_L1
+  - IndustrialOilHub01_L2
+  - IndustrialOilHub01_L3
+  - IndustrialOilHub01_L4
+  - IndustrialOilHub01_L5
+  - IndustrialOilHub02_L1
+  - IndustrialOilHub02_L2
+  - IndustrialOilHub02_L3
+  - IndustrialOilHub02_L4
+  - IndustrialOilHub02_L5
+  - IndustrialOilHub03_L1
+  - IndustrialOilHub03_L2
+  - IndustrialOilHub03_L3
+  - IndustrialOilHub03_L4
+  - IndustrialOilHub03_L5
+  - IndustrialOreHub02_L1
+  - IndustrialOreHub02_L2
+  - IndustrialOreHub02_L3
+  - IndustrialOreHub02_L4
+  - IndustrialOreHub02_L5
+  - InternationalAirport01
+  - Landfill01
+  - MedicalClinic01
+  - MedicalClinic02
+  - NA_CommercialGasStation01_L1_2x2
+  - NA_CommercialGasStation01_L1_3x2
+  - NA_CommercialGasStation01_L1_3x3
+  - NA_CommercialGasStation01_L1_4x4
+  - NA_CommercialGasStation01_L1_4x5
+  - NA_CommercialGasStation01_L1_4x6
+  - NA_CommercialGasStation01_L2_2x2
+  - NA_CommercialGasStation01_L2_3x2
+  - NA_CommercialGasStation01_L2_3x3
+  - NA_CommercialGasStation01_L2_4x4
+  - NA_CommercialGasStation01_L2_4x5
+  - NA_CommercialGasStation01_L2_4x6
+  - NA_CommercialGasStation01_L3_2x2
+  - NA_CommercialGasStation01_L3_3x2
+  - NA_CommercialGasStation01_L3_3x3
+  - NA_CommercialGasStation01_L3_4x4
+  - NA_CommercialGasStation01_L3_4x5
+  - NA_CommercialGasStation01_L3_4x6
+  - NA_CommercialGasStation01_L4_2x2
+  - NA_CommercialGasStation01_L4_3x2
+  - NA_CommercialGasStation01_L4_3x3
+  - NA_CommercialGasStation01_L4_4x4
+  - NA_CommercialGasStation01_L4_4x5
+  - NA_CommercialGasStation01_L4_4x6
+  - NA_CommercialGasStation01_L5_2x2
+  - NA_CommercialGasStation01_L5_3x2
+  - NA_CommercialGasStation01_L5_3x3
+  - NA_CommercialGasStation01_L5_4x4
+  - NA_CommercialGasStation01_L5_4x5
+  - NA_CommercialGasStation01_L5_4x6
+  - NA_CommercialHigh02_L1_6x6
+  - NA_CommercialHigh02_L2_6x6
+  - NA_CommercialLow01_L1_2x3
+  - NA_CommercialLow01_L1_2x5
+  - NA_CommercialLow01_L1_3x3
+  - NA_CommercialLow01_L1_3x4
+  - NA_CommercialLow01_L1_3x5
+  - NA_CommercialLow01_L1_3x6
+  - NA_CommercialLow01_L1_4x4
+  - NA_CommercialLow01_L1_4x6
+  - NA_CommercialLow01_L1_5x6
+  - NA_CommercialLow01_L1_6x4
+  - NA_CommercialLow01_L2_2x3
+  - NA_CommercialLow01_L2_2x5
+  - NA_CommercialLow01_L2_3x3
+  - NA_CommercialLow01_L2_3x4
+  - NA_CommercialLow01_L2_3x5
+  - NA_CommercialLow01_L2_3x6
+  - NA_CommercialLow01_L2_4x4
+  - NA_CommercialLow01_L2_4x6
+  - NA_CommercialLow01_L2_5x6
+  - NA_CommercialLow01_L2_6x4
+  - NA_CommercialLow01_L3_2x3
+  - NA_CommercialLow01_L3_2x6
+  - NA_CommercialLow01_L3_3x5
+  - NA_CommercialLow01_L3_3x6
+  - NA_CommercialLow01_L3_4x6
+  - NA_CommercialLow01_L3_6x4
+  - NA_CommercialLow01_L4_2x3
+  - NA_CommercialLow01_L4_2x6
+  - NA_CommercialLow01_L4_3x5
+  - NA_CommercialLow01_L4_3x6
+  - NA_CommercialLow01_L4_4x6
+  - NA_CommercialLow01_L4_6x4
+  - NA_CommercialLow01_L5_2x3
+  - NA_CommercialLow01_L5_2x6
+  - NA_CommercialLow01_L5_3x5
+  - NA_CommercialLow01_L5_3x6
+  - NA_CommercialLow01_L5_6x4
+  - NA_CommercialLow02_L1_5x6
+  - NA_CommercialLow02_L2_5x6
+  - NA_CommercialLow02_L3_5x6
+  - NA_CommercialLow02_L4_5x6
+  - NA_CommercialLow02_L5_5x6
+  - NA_CommercialLowSignature02
+  - NA_CommercialLowSignature03
+  - NA_CommercialMotel01_L1_6x4
+  - NA_CommercialMotel01_L1_6x6
+  - NA_CommercialMotel01_L2_6x4
+  - NA_CommercialMotel01_L2_6x6
+  - NA_CommercialMotel01_L3_6x4
+  - NA_CommercialMotel01_L3_6x6
+  - NA_CommercialMotel01_L4_6x4
+  - NA_CommercialMotel01_L4_6x6
+  - NA_CommercialMotel01_L5_6x6
+  - NA_MixedSignature01
+  - NA_ResidentialLowWaterfront01_L3_2x6
+  - NA_ResidentialLowWaterfront01_L4_2x6
+  - NA_ResidentialMediumRow02_L5_1x6
+  - Nasinneula
+  - ObservationTower01
+  - OfficeHighSignature01
+  - OfficeHighSignature02
+  - OfficeHighSignature03
+  - OfficeLow01_L1_2x6
+  - OfficeLow01_L1_3x4
+  - OfficeLow01_L1_3x6
+  - OfficeLow01_L1_4x6
+  - OfficeLow01_L1_5x6
+  - OfficeLow01_L1_6x6
+  - OfficeLow01_L2_2x6
+  - OfficeLow01_L2_3x4
+  - OfficeLow01_L2_3x6
+  - OfficeLow01_L2_4x6
+  - OfficeLow01_L2_5x6
+  - OfficeLow01_L2_6x6
+  - OfficeLow01_L3_2x6
+  - OfficeLow01_L3_3x6
+  - OfficeLow01_L3_4x6
+  - OfficeLow01_L3_5x6
+  - OfficeLow01_L3_6x6
+  - OfficeLow01_L4_2x6
+  - OfficeLow01_L4_3x6
+  - OfficeLow01_L4_4x6
+  - OfficeLow01_L4_5x6
+  - OfficeLow01_L4_6x6
+  - OfficeLow01_L5_2x6
+  - OfficeLow01_L5_3x4
+  - OfficeLow01_L5_3x6
+  - OfficeLow01_L5_4x6
+  - OfficeLow01_L5_5x6
+  - OfficeLow01_L5_6x6
+  - OfficeLow02_L1_5x6
+  - OfficeLow02_L2_5x6
+  - OfficeLow02_L3_5x6
+  - OfficeLow02_L4_5x6
+  - OfficeLow02_L5_5x6
+  - OfficeLowSignature01
+  - OfficeLowSignature02
+  - ParkingHall01
+    - Noise Pollution (2500 -> 3500)
+  - ParkingHall02
+    - Noise Pollution (2500 -> 1000)
+  - ParkingLot01
+  - ParkingLot03
+  - ParkingLot04
+  - ParkingLot05
+  - ParkingLot06
+  - ParkingLot08
+    - Garbage Accumulation (80 -> 150)
+  - ParkingLot09
+  - ParkingLot10
+  - ParkMaintenanceDepot01
+  - PoliceHeadquarters01
+  - PoliceStation01
+    - Garbage Accumulation (25 -> 45)
+  - PoliceStation02
+    - Garbage Accumulation (25 -> 45)
+  - PoliceStation03
+    - Garbage Accumulation (25 -> 45)
+  - PostOffice01
+  - PostOffice02
+  - PostSortingFacility01
+  - Prison01
+  - RadioTelescope01
+  - RailYard01
+  - RecyclingCenter01
+  - RoadMaintenanceDepot01
+  - SatelliteUplink01
+  - SmallCoalPowerPlant01
+  - SolarPowerStation01
+  - SpaceCenter01
+  - SubwayStationElevated01
+  - TaxiDepot01
+    - Upkeep (14000 -> 10000)
+    - Garbage Accumulation (40 -> 35)
+    - Vehicle Capacity (20 -> 25)
+    - Workplaces (20 -> 25)
+  - TaxiDepot01 Taxi Garage
+    - Vehicle Capacity (5 -> 10)
+    - Upgrade Cost (12000 -> 32000)
+    - Upkeep (6000 -> 3200)
+    - Electricity Consumption (700 -> 400)
+  - TechnicalUniversity01
+  - TelecomTower01
+  - TennisCourt01
+  - TrainStation01
+  - TramDepot01
+  - University01
+  - WastewaterTreatmentPlant01
+  - WaterPark01
+  - WelfareOffice01
+- Changes to BuildingStatusInfomodePrefab:
+  - Signature Commercial (Occupied range limit fix)
+- Changes to EffectPrefab:
+  - ServiceVehicleHelicopter (Possible fix for walking helicopters)
+- Changes to MarkerObjectPrefab (adds `m_RoadPassThrough` property):
+  - Integrated Bus Stop
+  - Integrated Cargo Ship Stop
+  - Integrated Cargo Train Stop
+  - Integrated Passenger Ship Stop
+  - Integrated Passenger Train Stop
+  - Integrated Subway Stop - Middle
+  - Integrated Subway Stop - Side
+  - Integrated Taxi Stand
+  - Subway Spawn Location
+  - Train Spawn Location
+  - Tram Spawn Location
+- Changes to NetLaneGeometryPrefab (adds `m_RequireContinue` property):
+  - EU Car Stop Line
+  - EU Car Yield Line
+  - EU Parking Cross Line
+  - EU Parking Edge Line
+  - Gravel Pavement Transition
+  - NA Car Stop Line
+  - NA Car Yield Line
+  - NA Parking Cross Line
+  - NA Parking Edge Line
+  - Tiled Transition
+- Changes to NetLaneGeometryPrefab (adds `m_TreeReplacement` property):
+  - HedgeHigh Placeholder
+  - HedgeHigh01
+  - HedgeHigh02
+  - HedgeLow Placeholder
+  - HedgeLow01
+  - HedgeLow02
+- Changes to NetLanePrefab (adds `m_RoadType` and `m_SpecialVehicles` properties):
+  - Alley Boarding Lane 0
+  - Boarding Lane 0
+  - Gravel Boarding Lane 0
+  - Highway Boarding Lane 0
+  - Invisible Boarding Lane 0
+  - Invisible Parking Lane - Angled67 2.9x5.9
+  - Invisible Parking Lane - Parallel 2.9x5.9
+  - Invisible Parking Lane - Perpendicular 1.3x3.9
+  - Invisible Parking Lane - Perpendicular 2.9x5.9
+  - Invisible Parking Lane - Perpendicular 4.7x5.9
+  - Invisible Parking Lane - Perpendicular 4x13
+  - Parking Lane 2
+  - Pedestrian Lane 2
+  - Public Transport Boarding Lane 0
+  - Tiled Boarding Lane 0
+- Changes to NetPiecePrefab:
+  - Median Piece 5 - Platform
+  - Sound Barrier 1
+  - Sound Barrier 1 - End
+- Changes to NotificationIconPrefab:
+  - No Groundwater
+    - Now Disabled in Editor
+- Changes to RenderPrefab (Colour Variation update):
+  - AirplaneCargo01 Mesh
+  - AirplanePassenger01 Mesh
+  - Bus01 Mesh
+  - Bus02 Mesh
+  - Bus03 Mesh
+  - BusMirrored01 Mesh
+  - BusMirrored02 Mesh
+  - BusMirrored03 Mesh
+  - CamperTrailer01 Mesh
+  - Car01 Mesh
+  - Car02 Mesh
+  - Car03 Mesh
+  - Car04 Mesh
+  - Car05 Mesh
+  - Car06 Mesh
+  - Car07 Mesh
+  - Car08 Mesh
+  - Car09 Mesh
+  - EU_TrainCargoEngine01 Mesh
+  - EU_TrainPassengerCar01 Mesh
+  - EU_TrainPassengerEngine01 Mesh
+  - Motorbike01 Mesh
+  - MotorbikeDelivery01 Mesh
+  - MuscleCar01 Mesh
+  - MuscleCar02 Mesh
+  - MuscleCar03 Mesh
+  - MuscleCar04 Mesh
+  - MuscleCar05 Mesh
+  - NA_TrainCargoEngine01 Mesh
+  - NA_TrainPassengerCar01 Mesh
+  - Scooter01 Mesh
+  - ShipCargo01 Mesh
+  - ShipPassenger01 Mesh
+  - SubwayCar01 Mesh
+  - SubwayEngine01 Mesh
+  - TramCar01 Mesh
+  - TramEngine01 Mesh
+  - Van01 Mesh
+- Changes to RenderPrefab (Animation update):
+  - HelicopterFire01 Mesh
+  - HelicopterFire01_LOD1 Mesh
+  - HelicopterFire01_LOD2 Mesh
+  - HelicopterHealthcare01 Mesh
+  - HelicopterHealthcare01_LOD1 Mesh
+  - HelicopterHealthcare01_LOD2 Mesh
+  - HelicopterPolice01 Mesh
+  - HelicopterPolice01_LOD1 Mesh
+  - HelicopterPolice01_LOD2 Mesh
+  - NA_TrainPassengerEngine01 Mesh
+  - NA_TrainPassengerEngine01_LOD1 Mesh
+  - NA_TrainPassengerEngine01_LOD2 Mesh
+- Changes to RenderPrefab (LOD removal):
+  - NoParkingStripingDecal01 Mesh
+  - NoParkingStripingDecal02 Mesh
+  - NoParkingStripingDecal03 Mesh
+  - NoParkingStripingDecal04 Mesh
+  - NoParkingTextDecal01 Mesh
+  - ParkingIconDecal01 Mesh
+  - ParkingIconDisabledDecal01 Mesh
+  - ParkingIconElectricDecal01 Mesh
+  - ParkingIconMotorbikeDecal01 Mesh
+  - ParkingIconTruckDecal01 Mesh
+  - ParkingLotDecal01 Mesh
+  - ParkingLotDecal02 Mesh
+  - ParkingLotDecal03 Mesh
+  - ParkingLotDecal04 Mesh
+  - ParkingLotDiagonalDecal01 Mesh
+  - ParkingLotDiagonalDecal02 Mesh
+  - ParkingLotDiagonalDecal03 Mesh
+  - ParkingLotDisabledDecal01 Mesh
+  - ParkingLotDisabledDecal02 Mesh
+  - ParkingLotDoubleDecal01 Mesh
+  - ParkingLotElectricDecal01 Mesh
+  - ParkingLotElectricDecal02 Mesh
+  - ParkingLotLongDecal01 Mesh
+  - ParkingLotMotorbikeDecal01 Mesh
+  - ParkingLotSidewaysDecal01 Mesh
+  - ParkingTextDecal01 Mesh
+  - ServiceTextDecal01 Mesh
+  - SlowDownTextDecal01 Mesh
+- Changes to RenderPrefab (Lighting update):
+  - NotreDame Mesh
+  - RoadMaintenanceVehicle01 Mesh
+- Changes to RoadPrefab:
+  - Highway Oneway - 3 lanes
+    - XP Reward (3 -> 4)
+  - Highway Oneway - 4 lanes
+    - XP Reward (3 -> 4)
+  - Highway Oneway - 5 lanes
+    - XP Reward (3 -> 5)
+  - Highway Twoway - 3 lanes
+    - XP Reward (7 -> 4)
+  - Highway Twoway - 4 lanes
+    - XP Reward (7 -> 4)
+  - Large Road Asymmetric
+    - UI Priority (20 -> 33)
+  - Pedestrian Street
+    - UI Priority (100 -> 102)
+  - Suspension Bridge - Highway Oneway - 4 Lanes
+    - XP Reward (3 -> 4)
+  - Suspension Bridge - Highway Oneway - 5 Lanes
+    - XP Reward (3 -> 4)
+- Changes to Route Configuration (Traffic Routes related)
+- Changes to StaticObjectPrefab (adds `m_TreeReplacement` property):
+  - BushCityRandom01
+  - BushWildRandom01
+  - Flowerbed01
+  - Flowerbed02
+  - FlowerBushCity01
+  - FlowerBushCity02
+  - FlowerBushCity03
+  - FlowerBushWildChild02
+  - FlowerBushWildDead02
+  - FlowerBushWildElderly01
+  - FlowerPot01
+  - FlowerPot02
+  - GardenBed01CornerHigh
+  - GardenBed01CornerLow
+  - GardenBed01NarrowHigh
+  - GardenBed01NarrowLow
+  - GardenBed01QuadrantHigh
+  - GardenBed01QuadrantLow
+  - GardenBed01WideHigh
+  - GardenBed01WideLow
+  - GardenBed02CornerHigh
+  - GardenBed02CornerLow
+  - GardenBed02NarrowHigh
+  - GardenBed02NarrowLow
+  - GardenBed02QuadrantHigh
+  - GardenBed02QuadrantLow
+  - GardenBed02WideHigh
+  - GardenBed02WideLow
+  - GardenBed03CornerHigh
+  - GardenBed03CornerLow
+  - GardenBed03NarrowHigh
+  - GardenBed03NarrowLow
+  - GardenBed03QuadrantHigh
+  - GardenBed03QuadrantLow
+  - GardenBed03WideHigh
+  - GardenBed03WideLow
+  - GardenBedCornerRandom01
+  - GardenBedNarrowRandom01
+  - GardenBedQuadrantRandom01
+  - GardenBedWideRandom01
+  - GreenBushCity01
+  - GreenBushCity02
+  - GreenBushCity03
+  - GreenBushWildAdult01
+  - GreenBushWildChild01
+  - GreenBushWildElderly01
+  - GreenBushWildTeen01
+  - PlantPot01
+  - PlantPot02
+  - PotRandom01
+  - TreeCityRandom01
+  - TreeWildRandom01
+- Changes to StaticObjectPrefab (adds `m_RoadPassThrough` property):
+  - BusStop02 Placeholder
+  - EU_BusStop01
+  - EU_BusStop02
+  - EU_TaxiStop01
+  - EU_TaxiStop02
+  - EU_TramStop01
+  - LargeRoundabout01
+  - LargeRoundabout02
+  - LargeRoundabout03
+  - MediumRoundabout01
+  - MediumRoundabout02
+  - MediumRoundabout03
+  - NA_BusStop01
+  - NA_BusStop02
+  - NA_TaxiStop01
+  - NA_TaxiStop02
+  - NA_TramStop01
+  - PostMailbox01
+  - PowerLinePylon47m01
+  - PowerLinePylon52m01
+  - PowerLinePylon57m01
+  - SmallRoundabout01
+  - SmallRoundabout02
+  - SmallRoundabout03
+  - Subway Station Virtual Pillar
+  - Subway Vertical Pillar
+  - Train Vertical Pillar
+  - Vertical Pillar
+  - Vertical Pillar Pedestrian
+  - XLRoundabout01
+  - XLRoundabout02
+  - XLRoundabout03
+- Changes to StaticObjectPrefab:
+  - EU_DoNotEnter01
+  - EU_FireHydrant01
+  - EU_MotorwaySign01
+  - EU_NoTurnLeft01
+  - EU_NoTurnRight01
+  - EU_NoUTurnLeft01
+  - EU_NoUTurnRight01
+  - EU_OnewaySign01
+  - EU_ParkingSign01
+  - EU_Speedlimit100
+  - EU_Speedlimit120
+  - EU_Speedlimit30
+  - EU_Speedlimit40
+  - EU_Speedlimit50
+  - EU_Speedlimit60
+  - EU_Speedlimit80
+  - EU_StopSign01
+  - EU_StreetSign01
+  - EU_YieldSign01
+  - FoodStallRandom01
+  - Kiosk01
+  - Kiosk02
+  - KioskRandom01
+  - NA_DoNotEnter01
+  - NA_FireHydrant01
+  - NA_MotorwaySign01
+  - NA_NoTurnLeft01
+  - NA_NoTurnRight01
+  - NA_NoUTurnLeft01
+  - NA_NoUTurnRight01
+  - NA_OnewaySign01
+  - NA_ParkingSign01
+  - NA_Speedlimit25
+  - NA_Speedlimit30
+  - NA_Speedlimit35
+  - NA_Speedlimit45
+  - NA_Speedlimit55
+  - NA_Speedlimit65
+  - NA_Speedlimit70
+  - NA_StopSign01
+  - NA_StreetSign01
+  - NA_YieldSign01
+  - NewspaperVendingMachineRandom01
+  - ParkingLotDiagonalServiceDecal01
+  - ParkingLotDiagonalServiceDecal02
+  - ParkingLotDiagonalServiceDecal03
+  - ParkingLotDoubleServiceDecal01
+  - ParkingLotLongServiceDecal01
+  - ParkingLotServiceDecal01
+  - ParkingLotServiceDecal02
+  - ParkingLotServiceDecal03
+  - ParkingLotServiceDecal04
+  - ParkingLotSidewaysServiceDecal01
+  - VendingMachineRandom01
+- Changes to TransportLinePrefab:
+  - Passenger Train Line
+    - UI Priority (400 -> 499)
+- Changes to Weather Audio Configuration
+- Changes to ZonePrefab:
+  - EU Residential Low Waterfront
+    - UI Priority (0 -> 1)
+  - NA Residential Low Waterfront
+    - UI Priority (0 -> 2)
+  - Residential LowRent
+    - UI Priority (25 -> 26)
+- CompanyNotificationParameterPrefab has new "m_NoCustomersHotelLimit" (0.9)
+- NetObject component has new "m_RoadPassThrough" property
+- SecondaryLaneInfo2 items has new "m_RequireContinue" property
+- PlantObject component has new "m_TreeReplacement" property
+- ParkingLane component has new "m_RoadType" and "m_SpecialVehicles" properties
+
 ### 1.1.12f1 - 2024-11-26
 - Increased Student Capacity:
-- - College01 Extension Wing, MedicalUniversity01 Extension Wing, TechnicalUniversity01 Extension Wing, University01 Extension Wing (500 -> 2500)
-- - College01 (1000 -> 10000)
-- - MedicalUniversity01, TechnicalUniversity01 (1500 -> 15000)
-- - University01 (2000 -> 15000)
+  - College01 Extension Wing, MedicalUniversity01 Extension Wing, TechnicalUniversity01 Extension Wing, University01 Extension Wing (500 -> 2500)
+  - College01 (1000 -> 10000)
+  - MedicalUniversity01, TechnicalUniversity01 (1500 -> 15000)
+  - University01 (2000 -> 15000)
 - Reduced Garbage Accumulation:
-- - EmergencyBatteryStation01 (950 -> 500)
-- - CoalPowerPlant01 (700 -> 350)
-- - SolarPowerStation01 (1875 -> 800)
-- - GasPowerPlant01 (600 -> 300)
-- - GeothermalPowerPlant01 (700 -> 350)
-- - NuclearPowerPlant01 (300 -> 150)
-- - DesalinationPlant01 (2000 -> 500)
-- - WastewaterTreatmentPlant01 (1000 -> 500)
-- - College01 (7 -> 6)
-- - MedicalUniversity01, University01 (5 -> 7)
-- - TechnicalUniversity01 (8 -> 7)
-- - College01 Extension Wing, College01 Library, TechnicalUniversity01 Extension Wing, TechnicalUniversity01 Workshop Upgrade, University01 Extension Wing, University01 Library, University01 Park (1 -> 0)
-- - MedicalUniversity01 Extension Wing, MedicalUniversity01 Practice Clinic, MedicalUniversity01 Research Facilities (4 -> 0)
-- - HealthResearchInstitute01 (600 -> 200)
-- - EmergencyShelter01 (500 -> 10)
-- - LargeEmergencyShelter01 (1120 -> 10)
-- - InternationalAirport01 (626 -> 120)
-- - SpaceCenter01 (200 -> 100)
-- - PostSortingFacility01 (305 -> 100)
+  - EmergencyBatteryStation01 (950 -> 500)
+  - CoalPowerPlant01 (700 -> 350)
+  - SolarPowerStation01 (1875 -> 800)
+  - GasPowerPlant01 (600 -> 300)
+  - GeothermalPowerPlant01 (700 -> 350)
+  - NuclearPowerPlant01 (300 -> 150)
+  - DesalinationPlant01 (2000 -> 500)
+  - WastewaterTreatmentPlant01 (1000 -> 500)
+  - College01 (7 -> 6)
+  - MedicalUniversity01, University01 (5 -> 7)
+  - TechnicalUniversity01 (8 -> 7)
+  - College01 Extension Wing, College01 Library, TechnicalUniversity01 Extension Wing, TechnicalUniversity01 Workshop Upgrade, University01 Extension Wing, University01 Library, University01 Park (1 -> 0)
+  - MedicalUniversity01 Extension Wing, MedicalUniversity01 Practice Clinic, MedicalUniversity01 Research Facilities (4 -> 0)
+  - HealthResearchInstitute01 (600 -> 200)
+  - EmergencyShelter01 (500 -> 10)
+  - LargeEmergencyShelter01 (1120 -> 10)
+  - InternationalAirport01 (626 -> 120)
+  - SpaceCenter01 (200 -> 100)
+  - PostSortingFacility01 (305 -> 100)
 - Changed UI priorities:
-- - Electricity
-- - - High-voltage Line (2 -> 50)
-- - - TransformerStation01 (3 -> 100)
-- - - WindTurbine01 (110 -> 130)
-- - - SmallCoalPowerPlant01 (120 -> 140)
-- - - GasPowerPlant01 (130 -> 150)
-- - - EmergencyBatteryStation01 (200 -> 220)
-- - - GeothermalPowerPlant01 (330 -> 310)
-- - - CoalPowerPlant01 (300 -> 320)
-- - - SolarPowerStation01 (400 -> 420)
-- - - NuclearPowerPlant01 (520 -> 500)
-- - Transportation: Roads
-- - - BusStation02 (19 -> 100)
-- - - BusStation01 (20 -> 200)
-- - - EU_BusStop01 (20 -> 300)
-- - - EU_BusStop02 (30 -> 301)
-- - - NA_BusStop01 (20 -> 302)
-- - - NA_BusStop02 (30 -> 303)
-- - - Double Public Transport Lane (40 -> 400)
-- - - Oneway Public Transport Lane (50 -> 405)
-- - - Bus Line (60 -> 500)
-- - - TaxiDepot01 (70 -> 600)
-- - - EU_TaxiStop01 (80 -> 700)
-- - - EU_TaxiStop02 (90 -> 701)
-- - - NA_TaxiStop01 (80 -> 800)
-- - - NA_TaxiStop02 (90 -> 801)
-- - Transportation: Tram
-- - - EU_TramStop01 (10 -> 100)
-- - - NA_TramStop01 (10 -> 200)
-- - - Double Tram Track (20 -> 200)
-- - - Oneway Tram Track (30 -> 201)
-- - - Tram Line (40 -> 300)
-- - Transportation: Train
-- - - TrainStation02 (8 -> 100)
-- - - TrainStation03 (9 -> 200)
-- - - CargoTrainTerminal01 (20 -> 200)
-- - - TrainStation01 (10 -> 300)
-- - - Passenger Train Line (60 -> 400)
-- - - Twoway Train Track (30 -> 400)
-- - - Oneway Train Track (40 -> 410)
-- - - Double Train Track (50 -> 420)
-- - - Cargo Train Route (70 -> 500)
-- - Transportation: Subway
-- - - SubwayStation03 (5 -> 100)
-- - - SubwayStation02 (10 -> 200)
-- - - SubwayStation01 (20 -> 300)
-- - - SubwayStationElevated01 (30 -> 400)
-- - - SubwayStationElevated01 (40 -> 500)
-- - - Double Subway Track (60 -> 600)
-- - - Oneway Subway Track (70 -> 700)
-- - - Subway Line (80 -> 800)
-- - Transportation: Water
-- - - CargoHarbor01 (10 -> 100)
-- - - Narrow Seaway (20 -> 200)
-- - - Medium Seaway (30 -> 210)
-- - - Wide Seaway (40 -> 220)
-- - - Passenger Ship Line (50 -> 300)
-- - - Cargo Ship Route (60 -> 310)
-- - Transportation: Air
-- - - InternationalAirport01 (10 -> 100)
-- - - SpaceCenter01 (20 -> 200)
-- - - Passenger Airplane Line (30 -> 300)
-- - - Cargo Airplane Route (40 -> 400)
-- - Education: Schools
-- - - ElementarySchool01 (40 -> 20)
-- - - ElementarySchool02 (20 -> 0)
-- - Education: Research
-- - - LargeHadronCollider01 (510 -> 530)
+  - Electricity
+    - High-voltage Line (2 -> 50)
+    - TransformerStation01 (3 -> 100)
+    - WindTurbine01 (110 -> 130)
+    - SmallCoalPowerPlant01 (120 -> 140)
+    - GasPowerPlant01 (130 -> 150)
+    - EmergencyBatteryStation01 (200 -> 220)
+    - GeothermalPowerPlant01 (330 -> 310)
+    - CoalPowerPlant01 (300 -> 320)
+    - SolarPowerStation01 (400 -> 420)
+    - NuclearPowerPlant01 (520 -> 500)
+  - Transportation: Roads
+    - BusStation02 (19 -> 100)
+    - BusStation01 (20 -> 200)
+    - EU_BusStop01 (20 -> 300)
+    - EU_BusStop02 (30 -> 301)
+    - NA_BusStop01 (20 -> 302)
+    - NA_BusStop02 (30 -> 303)
+    - Double Public Transport Lane (40 -> 400)
+    - Oneway Public Transport Lane (50 -> 405)
+    - Bus Line (60 -> 500)
+    - TaxiDepot01 (70 -> 600)
+    - EU_TaxiStop01 (80 -> 700)
+    - EU_TaxiStop02 (90 -> 701)
+    - NA_TaxiStop01 (80 -> 800)
+    - NA_TaxiStop02 (90 -> 801)
+  - Transportation: Tram
+    - EU_TramStop01 (10 -> 100)
+    - NA_TramStop01 (10 -> 200)
+    - Double Tram Track (20 -> 200)
+    - Oneway Tram Track (30 -> 201)
+    - Tram Line (40 -> 300)
+  - Transportation: Train
+    - TrainStation02 (8 -> 100)
+    - TrainStation03 (9 -> 200)
+    - CargoTrainTerminal01 (20 -> 200)
+    - TrainStation01 (10 -> 300)
+    - Passenger Train Line (60 -> 400)
+    - Twoway Train Track (30 -> 400)
+    - Oneway Train Track (40 -> 410)
+    - Double Train Track (50 -> 420)
+    - Cargo Train Route (70 -> 500)
+  - Transportation: Subway
+    - SubwayStation03 (5 -> 100)
+    - SubwayStation02 (10 -> 200)
+    - SubwayStation01 (20 -> 300)
+    - SubwayStationElevated01 (30 -> 400)
+    - SubwayStationElevated01 (40 -> 500)
+    - Double Subway Track (60 -> 600)
+    - Oneway Subway Track (70 -> 700)
+    - Subway Line (80 -> 800)
+  - Transportation: Water
+    - CargoHarbor01 (10 -> 100)
+    - Narrow Seaway (20 -> 200)
+    - Medium Seaway (30 -> 210)
+    - Wide Seaway (40 -> 220)
+    - Passenger Ship Line (50 -> 300)
+    - Cargo Ship Route (60 -> 310)
+  - Transportation: Air
+    - InternationalAirport01 (10 -> 100)
+    - SpaceCenter01 (20 -> 200)
+    - Passenger Airplane Line (30 -> 300)
+    - Cargo Airplane Route (40 -> 400)
+  - Education: Schools
+    - ElementarySchool01 (40 -> 20)
+    - ElementarySchool02 (20 -> 0)
+  - Education: Research
+    - LargeHadronCollider01 (510 -> 530)
 - Changes to ObjectSubObjects, ObjectSubAreas, EffectSource:
-- - NA_ResidentialMediumRow01_L1_1x2, NA_ResidentialMediumRow01_L2_1x2, NA_ResidentialMediumRow02_L5_1x3, NA_ResidentialMediumRow02_L5_1x4
+  - NA_ResidentialMediumRow01_L1_1x2, NA_ResidentialMediumRow01_L2_1x2, NA_ResidentialMediumRow02_L5_1x3, NA_ResidentialMediumRow02_L5_1x4
 - Added CityEffects for RadioTelescope01
 - Type changes for BuildingStatusInfomodePrefab:
-- - Signature Commercial, Signature Industrial, Signature Office
+  - Signature Commercial, Signature Industrial, Signature Office
 - EffectPrefab audio adjustments:
-- - DisasterTornadoLoop, UXTutorialCompletedSFX, UXTutorialStartedSFX
+  - DisasterTornadoLoop, UXTutorialCompletedSFX, UXTutorialStartedSFX
 - Changed colors for Infomode/Infoview:
-- - Healthcare, Healthcare Coverage, PostFacility Buildings, Roads
+  - Healthcare, Healthcare Coverage, PostFacility Buildings, Roads
 - New Audio cue for Tutorial Completed
 - Changes to Tutorials regarding input control
 
 ### 1.1.10f1 - 2024-10-24
 - UIObject component no longer contains "m_LargeIcon" property.
 - Workplace component has new "m_MinimumWorkersLimit" property.
-- - College01, ElementarySchool01, ElementarySchool02, ElementarySchool03, HighSchool01, HighSchool02, HighSchool03, MedicalUniversity01, TechnicalUniversity01, University01: 15.
-- - Industrial_CottonExtractor, Industrial_ForestryExtractor, Industrial_GrainExtractor, Industrial_LivestockExtractor, Industrial_OilExtractor, Industrial_OreExtractor, Industrial_VegetableExtractor: 1.
+  - College01, ElementarySchool01, ElementarySchool02, ElementarySchool03, HighSchool01, HighSchool02, HighSchool03, MedicalUniversity01, TechnicalUniversity01, University01: 15.
+  - Industrial_CottonExtractor, Industrial_ForestryExtractor, Industrial_GrainExtractor, Industrial_LivestockExtractor, Industrial_OilExtractor, Industrial_OreExtractor, Industrial_VegetableExtractor: 1.
 - LightEffect component now has "m_LightIntensity" property.
 - New Pathfind parameter: m_CurveAngleCost.
 - New Demand parameter: m_HotelRoomPercentRequirement.
@@ -117,7 +1358,7 @@
 - AttractivenessParameters now uses parameters like AttractiveTemperature, ExtremeTemperature, RainEffectRange, SnowEffectRange ,TemperatureAffect, SnowRainExtremeAffect instead of Raininess, Cloudiness.
 - LeisureParameters now include m_TouristLodgingConsumePerDay and m_TouristServiceConsumePerDay.
 - RadioEvent component now have m_EmergencyFrameDelay property.
-- TutorialBalloonPrefab has now m_ControlScheme property.
+- TutorialBalloonPrefab now have m_ControlScheme property.
 - Removed ZonePreferenceParameters m_ResidentialSignificancePollutionDelta.
 - Infoviews are now locked until starting Road Basics tutorial.
 - Infoviews color changes.
@@ -132,7 +1373,7 @@
 - Bulldozer Tool no longer needs to be unlocked.
 - Bus03 now uses DisasterControl icon.
 - New "UIShortcut" component.
-- - Bulldozer Tool, all UIAssetMenuPrefab
+  - Bulldozer Tool, all UIAssetMenuPrefab
 - District Area selection color changed? (#00b3ffcf -> #00ff12cf).
 - Warning and Error highlight colors are now brighter.
 - Effect update for IndustrialVehicleExcavator, PrivateVehicle*, ServiceVehicle*, TransportationVehicle*
