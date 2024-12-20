@@ -1,10 +1,10 @@
 ### 1.2.0f1 - 2024-12-11
-- New BuildingPrefab:
+- New BuildingExtensionPrefab:
   - ParkingHall03 Additional Floors
   - TaxiDepot02 Dispatch Center
   - TaxiDepot02 Electric Taxis
   - TaxiDepot02 Taxi Garage
-- New BuildingExtensionPrefab:
+- New BuildingPrefab:
   - ParkingHall03
   - ParkingHall04
   - ParkingLot11
