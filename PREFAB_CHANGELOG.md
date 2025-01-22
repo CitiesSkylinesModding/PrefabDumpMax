@@ -1,3 +1,41 @@
+### 1.2.3f1 - 2025-01-22
+- New Prefab:
+  - UXMapTileZoomInSFX
+  - UXMapTileZoomOutSFX
+- New TutorialBalloonPrefab:
+  - RoadsTutorialTwoLaneRoadTrigger
+- Changes to BuildingPrefab:
+  - EU_ResidentialMedium01_L1_2x4
+  - EU_ResidentialMedium01_L2_2x4
+  - IndustrialManufacturing04_L1_6x6
+  - IndustrialManufacturing04_L2_6x6
+  - NA_ResidentialHigh01_L3_3x6
+  - NA_ResidentialHigh01_L4_3x6
+  - NA_ResidentialMedium01_L3_6x6
+  - NA_ResidentialMedium01_L4_6x6
+- Changes to EffectPrefab:
+  - BuildingCollapseSFX (Audio Trigger Distance)
+- Changes to HealthcarePrefab:
+  - HealthcareParameters (Change to DeathRate)
+- Changes to Prefab:
+  - ToolUXSoundSettings (New sounds: m_CameraZoomInSound, m_CameraZoomOutSound, m_DeletetEntitySound)
+- Changes to RoadPrefab (Unlock Requirement added):
+  - Gravel Road Oneway
+  - Medium Road - Double Sided Parking
+  - Medium Road - Double Sided Parking Angled
+  - Medium Road Asymmetric - 1+3 lanes
+  - Small Road - Double Sided Parking
+  - Small Road - Double Sided Parking Angled
+  - Small Road Divided - Double Sided Parking
+  - Small Road Divided - Double Sided Parking Angled
+  - Small Road Oneway - Single Sided Parking
+  - Small Road Oneway - Single Sided Parking Angled
+- Changes to TutorialBalloonPrefab:
+  - RoadsTutorialTwoLaneRoad (fix tutorial not triggering)
+- Changes to TutorialPrefab (enable priority):
+  - CinematicCameraTutorial
+  - PhotoModeTutorial
+
 ### 1.2.0f1 - 2024-12-11
 - New BuildingExtensionPrefab:
   - ParkingHall03 Additional Floors
