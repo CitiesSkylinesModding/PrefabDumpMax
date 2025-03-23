@@ -1,3 +1,1007 @@
+### 1.2.5f1 - 2025-03-18
+**IMPORTANT**: The following applies only to base game contents, items part of FreeUpdate02 and MA/UP DLCs are not tracked for this update. It will be tracked for future updates.
+- Changes to AirplanePrefab:
+  - AirplanePassenger02
+    - m_PassengerCapacity (175 -> 80)
+- Changes to BuildingExtensionPrefab:
+  - IncinerationPlant01 Garbage Truck Depot
+    - Object/Area modification related to `Increased transport capacity`
+- Changes to BuildingPrefab:
+  - AmericanFootballField01
+    - m_GarbageAccumulation (1000 -> 80)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - BasketballCourt01
+    - m_GarbageAccumulation (265 -> 400)
+  - BotanicalGarden01
+    - m_GarbageAccumulation (2500 -> 98)
+    - m_AllowHomeless set to false 
+  - BronzeStatue01
+    - m_GarbageAccumulation (1300 -> 100)
+    - m_AllowHomeless set to false
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CampfireSite01
+    - m_GarbageAccumulation (265 -> 400)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+    - Various changes to components
+  - CityPark01
+    - m_GarbageAccumulation (70 -> 100)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark02
+    - m_GarbageAccumulation (130 -> 200)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark03
+    - m_GarbageAccumulation (200 -> 300)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark04
+    - m_GarbageAccumulation (265 -> 400)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark05
+    - m_GarbageAccumulation (50 -> 100)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark06
+    - m_GarbageAccumulation (100 -> 200)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+    - Various changes to components
+  - CityPark07
+    - m_GarbageAccumulation (235 -> 400)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark08
+    - m_GarbageAccumulation (160 -> 300)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CityPark09
+    - m_GarbageAccumulation (80 -> 200)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - CommunityPool01
+    - m_GarbageAccumulation (1000 -> 150)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - DogPark01
+    - m_GarbageAccumulation (130 -> 200)
+  - ElementarySchool03
+    - Various changes to components
+  - FerrisWheel01
+    - m_GarbageAccumulation (2000 -> 165)
+    - m_AllowHomeless set to false
+  - FootballField01
+    - m_GarbageAccumulation (1000 -> 80)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - FountainPlaza01
+    - m_GarbageAccumulation (1300 -> 160)
+    - m_AllowHomeless set to false
+  - GrandHotel01
+    - m_GarbageAccumulation (1900 -> 60)
+  - GymPark01
+    - m_GarbageAccumulation (265 -> 400)
+  - HazardousWasteProcessingSite01
+    - m_TransportCapacity (1 -> 25) [Dump Trucks]
+  - IncinerationPlant01
+    - m_TransportCapacity (1 -> 10) [Dump Trucks]
+  - Landfill01
+    - m_GarbageCapacity (20000 -> 100000)
+    - m_TransportCapacity (1 -> 3) [Dump Trucks]
+  - NA_ResidentialHigh01_L5_2x4
+    - Various changes to components
+  - Nasinneula
+    - m_GarbageCapacity (2000 -> 70)
+    - m_AllowHomeless set to false
+  - NationalGalleryofArts
+    - m_GarbageCapacity (2500 -> 80)
+    - m_AllowHomeless set to false
+  - NotreDame
+    - m_GarbageCapacity (3200 -> 120)
+    - m_AllowHomeless set to false
+  - ObservationTower01
+    - m_GarbageCapacity (3700 -> 145)
+    - m_AllowHomeless set to false
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - OldCastle01
+    - m_GarbageCapacity (1000 -> 50)
+    - m_AllowHomeless set to false
+  - Playground01
+    - m_GarbageCapacity (130 -> 100)
+    - UI m_Priority (70 -> 60)
+    - Reduced probability for homeless shelter objects (100 -> 50)
+  - Playground02
+    - m_GarbageCapacity (265 -> 200)
+  - PocketPark01
+    - m_GarbageCapacity (25 -> 50)
+  - PocketPark02
+    - m_GarbageCapacity (25 -> 50)
+  - PocketPark03
+    - m_GarbageCapacity (25 -> 50)
+  - PocketPark04
+    - m_GarbageCapacity (25 -> 50)
+  - PocketPark05
+    - m_GarbageCapacity (130 -> 50)
+  - PocketPark08
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - RecyclingCenter01
+    - m_TransportCapacity (1 -> 5) [Dump Trucks]
+  - SkatePark01
+    - m_GarbageCapacity (265 -> 400)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - SolarPowerStation01
+    - Object/Area modification related to `Fixed misaligned assets`
+  - SungnyemunGate
+    - m_GarbageCapacity (2500 -> 100)
+    - m_AllowHomeless set to false
+  - TennisCourt01
+    - m_GarbageCapacity (265 -> 400)
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - TheNationalDiet
+    - m_GarbageCapacity (2500 -> 65)
+    - m_AllowHomeless set to false
+  - WaterPark01
+    - m_GarbageCapacity (1300 -> 70)
+    - m_AllowHomeless set to false
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - XianBellTower
+    - m_GarbageCapacity (2500 -> 97)
+    - m_AllowHomeless set to false
+    - Object/Area modification related to `No pedestrian access`
+    - Reduced probability for homeless shelter objects (70 -> 50)
+- New BuildingStateInfomodePrefab:
+  - Homeless
+- Changes to CitizenHappinessPrefab:
+  - CitizenHappinessParameters
+    - m_CrimeMultiplier (0.0004 -> 0.0015)
+- Changes to ClimatePrefab:
+  - ContinentalGreatHighlandsClimate
+    - Updated precipitation, cloudiness and fog
+  - ContinentalLakelandClimate
+    - Updated precipitation, cloudiness and fog
+  - ContinentalMountainVillageClimate
+    - Updated precipitation, cloudiness and fog
+  - ContinentalTampereClimate
+    - Updated precipitation, cloudiness and fog
+  - PolarSweepingPlainsClimate
+    - Updated precipitation, cloudiness and fog
+  - PolarTwinMountainClimate
+    - Updated precipitation, cloudiness and fog
+  - PolarWindyFjordsClimate
+    - Updated precipitation, cloudiness and fog
+  - TemperateArchipelagoHavenClimate
+    - Updated precipitation, cloudiness and fog
+  - TemperateBarrierIslandClimate
+    - Updated precipitation, cloudiness and fog
+  - TemperateRiverDeltaClimate
+    - Updated precipitation, cloudiness and fog
+  - TemperateSanFranciscoClimate
+    - Updated precipitation, cloudiness and fog
+  - TemperateWaterwayPassClimate
+    - Updated precipitation, cloudiness and fog
+- Changes to Climate.WeatherPrefab:
+  - AutumnColorsOverride
+    - Updated ColorAdjustmentsProperties
+  - DefaultContinental
+    - Updated ColorAdjustmentsProperties
+  - DefaultPolar
+    - Updated ColorAdjustmentsProperties
+  - DefaultTemperate
+    - Updated ColorAdjustmentsProperties
+  - SpringColorsOverride
+    - Updated ColorAdjustmentsProperties
+  - SummerColorsOverride
+    - Updated ColorAdjustmentsProperties
+  - WinterColorsOverride
+    - Updated ColorAdjustmentsProperties
+- Changes to CompanyPrefab:
+  - Commercial_Bar
+    - m_Output m_Amount (1 -> 2)
+  - Industrial_BeverageFromGrainFactory
+    - m_Output m_Amount (1 -> 5)
+  - Industrial_BeverageFromVegetablesFactory
+    - m_Output m_Amount (1 -> 2)
+  - Industrial_ConcreteFactory
+    - m_Output m_Amount (12 -> 15)
+  - Industrial_ConvenienceFoodFromGrainFactory
+    - m_Output m_Amount (10 -> 15)
+  - Industrial_ConvenienceFoodFromLivestockFactory
+    - m_Output m_Amount (10 -> 15)
+  - Industrial_ElectronicsFactory
+    - m_Output m_Amount (26 -> 30)
+  - Industrial_MineralPlant
+    - m_Output m_Amount (80 -> 20)
+  - Industrial_PaperMill
+    - m_Output m_Amount (14 -> 20)
+  - Industrial_PharmaceuticalsFactory
+    - m_Output m_Amount (12 -> 15)
+  - Industrial_PlasticsFactory
+    - m_Output m_Amount (10 -> 15)
+  - Industrial_SawMill
+    - m_Output m_Amount (8 -> 15)
+  - Industrial_TextileFromCottonFactory
+    - m_Output m_Amount (4 -> 15)
+  - Industrial_TextileFromLivestockFactory
+    - m_Output m_Amount (4 -> 15)
+  - Industrial_TextileFromPetrochemicalsFactory
+    - m_Output m_Amount (4 -> 15)
+- Changes to DevTreeNodePrefab:
+  - RoundaboutsNode
+    - Updated m_IconPath
+- Changes to EconomyParameters:
+  - EconomyParameters
+    - New properties: m_RelocationCostMultiplier, m_LoanMinMaxInterestRate
+- New EffectPrefab:
+  - ServiceBuildingHugePlayground
+  - UXMapTileZoomInSFX
+  - UXMapTileZoomOutSFX
+- Changes to EffectPrefab:
+  - UXDeleteItemSFX
+    - m_Volume (0.7 -> 0.2)
+- Changes to EventPrefab:
+  - Lightning Strike
+    - m_OccurrenceProbability (20 -> 5)
+    - m_OccurenceRain min (0.7 -> 0.3)
+  - Robbery
+    - m_AlarmDelay (5-10 -> 2-6)
+    - m_CrimeDuration (20-60 -> 40-80)
+    - m_PrisonTimeRange min (1 -> 5)
+- Changes to ExpenseStatistic:
+  - TradeExpenses
+    - Updated ExpenseSourceInfo m_Color
+- Changes to FencePrefab:
+  - Crosswalk
+    - Updated m_Icon
+  - Forbid Left Turn
+    - Updated m_Icon
+  - Forbid Right Turn
+    - Updated m_Icon
+  - Forbid Straight
+    - Updated m_Icon
+  - Lighting
+    - Updated m_Icon
+  - Sound Barrier
+    - Updated m_Icon
+  - Wide Sidewalk
+    - Updated m_Icon
+- Changes to InfoviewPrefab:
+  - Population
+    - New m_Infomodes
+- Changes to LotPrefab:
+  - Forestry Lot
+    - Updated m_EdgeColor
+    - Updated m_RangeColor
+- Changes to MarkerObjectPrefab:
+  - Integrated Bus Stop
+    - Updated m_Icon
+  - Integrated Cargo Airplane Stop
+    - Updated m_Icon
+  - Integrated Cargo Ship Stop
+    - Updated m_Icon
+  - Integrated Cargo Train Stop
+    - Updated m_Icon
+  - Integrated Passenger Airplane Stop
+    - Updated m_Icon
+  - Integrated Passenger Ship Stop
+    - Updated m_Icon
+  - Integrated Passenger Train Stop
+    - Updated m_Icon
+  - Integrated Subway Stop - Middle
+    - Updated m_Icon
+  - Integrated Subway Stop - Side
+    - Updated m_Icon
+- New Modes:
+  - EasyMode_CitizenHappinessMode
+  - EasyMode_CrimeAccumulationGlobalMode
+  - EasyMode_EconomyParametersMode
+  - EasyMode_ElectricityConnectionGlobalMode
+  - EasyMode_ElectricityParametersMode
+  - EasyMode_FireMode
+  - EasyModeInfo
+  - NormalModeInfo
+  - EasyMode_HealthcareParametersMode
+  - EasyMode_MapTileMode
+  - EasyMode_MilestoneMode
+  - EasyMode
+  - NormalMode
+  - ModeParameters
+  - EasyMode_OutsideParametersMode
+  - EasyMode_PlaceableNaturalObjectGlobalMode
+  - EasyMode_PoliceConfigMode
+  - EasyMode_PollutionGlobalMode
+  - EasyMode_PollutionParametersMode
+  - EasyMode_ServiceConsumptionGlobalMode
+  - EasyMode_ServiceCoverageGlobalMode
+  - EasyMode_TrafficAccidentMode
+  - EasyMode_TreeObjectGlobalMode
+  - EasyMode_UnlockAtStartMode
+  - EasyMode_WeatherPhenomenonMode
+  - EasyMode_ZoneServiceConsumptionGlobalMode
+- New NetPiecePrefab:
+  - Subway Elevated Bottom Piece 8
+  - Subway Elevated Bottom Piece 8 - Intersection Middle
+- Changes to NetPiecePrefab:
+  - Public Transport Shoulder Piece 1
+    - Object/Area modification related to `Lighting upgrade for bus lanes`
+  - Public Transport Shoulder To Sidewalk 1
+    - Object/Area modification related to `Lighting upgrade for bus lanes`
+- Changes to NetPiecePrefab:
+  - Subway Median 8 - Plain
+    - Added m_Pieces
+- Changes to NotificationIconPrefab:
+  - Abandoned
+    - Updated m_Icon
+  - Abandoned Collapsed
+    - Updated m_Icon
+  - Air Pollution
+    - Updated m_Icon
+  - Already Exists
+    - Updated m_Icon
+  - Already Upgraded
+    - Updated m_Icon
+  - Ambulance Notification
+    - Updated m_Icon
+  - Battery Empty
+    - Updated m_Icon
+  - Burned Down
+    - Updated m_Icon
+  - Condemned
+    - Updated m_Icon
+  - Crime Scene
+    - Updated m_Icon
+  - Dead End
+    - Updated m_Icon
+  - Destroyed
+    - Updated m_Icon
+  - Dirty Water
+    - Updated m_Icon
+  - Dirty Water Pump Notification
+    - Updated m_Icon
+  - Electricity Bottleneck Notification
+    - Updated m_Icon
+  - Electricity Building Bottleneck Notification
+    - Updated m_Icon
+  - Electricity Not Enough Connected Notification
+    - Updated m_Icon
+  - Electricity Not Enough Production Notification
+    - Updated m_Icon
+  - Electricity Notification
+    - Updated m_Icon
+  - Electricity Transformer Out of Capacity
+    - Updated m_Icon
+  - Exceeds City Limits
+    - Updated m_Icon
+  - Exceeds Lot Limits
+    - Updated m_Icon
+  - Facility Full
+    - Updated m_Icon
+  - Fire Notification
+    - Updated m_Icon
+  - Garbage Notification
+    - Updated m_Icon
+  - Ground Pollution
+    - Updated m_Icon
+  - Hearse Notification
+    - Updated m_Icon
+  - In Water
+    - Updated m_Icon
+  - Invalid Shape
+    - Updated m_Icon
+  - Long Distance
+    - Updated m_Icon
+  - Low Elevation
+    - Updated m_Icon
+  - MissingEducatedWorkers
+    - Updated m_Icon
+  - MissingUneducatedWorkers
+    - Updated m_Icon
+  - No Car Access
+    - Updated m_Icon
+  - No Cargo Access
+    - Updated m_Icon
+  - No Customers
+    - Updated m_Icon
+  - No Emergency Shelter Supplies
+    - Updated m_Icon
+  - No Fuel Notification
+    - Updated m_Icon
+  - No Hospital Supplies
+    - Updated m_Icon
+  - No Inputs
+    - Updated m_Icon
+  - No Outside Connection
+    - Updated m_Icon
+  - No Pedestrian Access
+    - Updated m_Icon
+  - No Road Access
+    - Updated m_Icon
+  - No Track Access
+    - Updated m_Icon
+  - No Train Access
+    - Updated m_Icon
+  - No Vehicles
+    - Updated m_Icon
+  - No Water
+    - Updated m_Icon
+  - No Watercraft Access
+    - Updated m_Icon
+  - Noise Pollution
+    - Updated m_Icon
+  - Not Enough Groundwater Notification
+    - Updated m_Icon
+  - Not Enough Money
+    - Updated m_Icon
+  - Not Enough Surface Water Notification
+    - Updated m_Icon
+  - Not On Border
+    - Updated m_Icon
+  - Not On Shoreline
+    - Updated m_Icon
+  - Overlap Existing
+    - Updated m_Icon
+  - Pathfind Failed
+    - Updated m_Icon
+  - Pipeline Not Connected
+    - Updated m_Icon
+  - Pipeline Not Connected - Sewage
+    - Updated m_Icon
+  - Powerline Not Connected
+    - Updated m_Icon
+  - Powerline Not Connected - Low
+    - Updated m_Icon
+  - Rent Too High
+    - Updated m_Icon
+  - Sewage Not Enough Production Notification
+    - Updated m_Icon
+  - Sewage Notification
+    - Updated m_Icon
+  - Short Distance
+    - Updated m_Icon
+  - Small Area
+    - Updated m_Icon
+  - Steep Slope
+    - Updated m_Icon
+  - Tight Curve
+    - Updated m_Icon
+  - Track Not Connected
+    - Updated m_Icon
+  - Traffic Accident
+    - Updated m_Icon
+  - Traffic Bottleneck Notification
+    - Updated m_Icon
+  - Turned Off
+    - Updated m_Icon
+  - Water Damage
+    - Updated m_Icon
+  - Water Destroyed
+    - Updated m_Icon
+  - Water Not Enough Production Notification
+    - Updated m_Icon
+  - Water Notification
+    - Updated m_Icon
+  - Weather Damage
+    - Updated m_Icon
+  - Weather Destroyed
+    - Updated m_Icon
+- Changes to ObjectStateInfomodePrefab:
+  - ExtractorLot
+    - Updated m_Color
+- Changes to PoliceConfigurationPrefab:
+  - PoliceAdmin Configuration
+    - Replaced properties: m_CrimeIncreaseMultiplier (0.01) -> m_CrimePoliceCoverageFactor (5000)
+- Changes to PowerLinePrefab:
+  - High-voltage Line
+    - Updated m_Icon
+  - Low-voltage Line
+    - Updated m_Icon
+- New Prefab:
+  - UIInfoviewsConfiguration
+- Removed Prefab:
+  - UXMapTileZoomInSFX
+  - UXMapTileZoomOutSFX
+- Changes to Prefab:
+  - RenderingSettings
+    - New GuideLineSettings m_PositiveFeedbackColor
+    - Increased opacity for m_HoveredColor
+  - ToolUXSoundSettings
+    - Changed source for m_CameraZoomInSound, m_CameraZoomOutSound
+- Changes to RenderPrefab:
+  - Flowerbed01 Mesh
+    - Adjustment to variation m_Colors for Spring season
+  - Flowerbed02 Mesh
+    - Adjustment to variation m_Colors for Spring season
+  - FlowerPot01 Mesh
+    - Adjustment to variation m_Colors for Spring season
+  - FlowerPot02 Mesh
+    - Adjustment to variation m_Colors for Spring season
+  - PlantPot01 Mesh
+    - Adjustment to variation m_Colors for Spring and Summer seasons
+  - PlantPot02 Mesh
+    - Adjustment to variation m_Colors for Spring and Summer seasons
+- Changes to ResourcePrefab:
+  - ResourceBeverages
+    - m_NeededWorkPerUnit (50-90 -> 30-60)
+  - ResourceChemicals
+    - m_NeededWorkPerUnit (60-880 -> 30-300)
+  - ResourceConcrete
+    - m_NeededWorkPerUnit (1-480 -> 1-200)
+  - ResourceConvenienceFood
+    - m_NeededWorkPerUnit (40-480 -> 40-120)
+  - ResourceElectronics
+    - m_NeededWorkPerUnit (60-1200 -> 30-250)
+  - ResourceEntertainment
+    - m_NeededWorkPerUnit (40-100 -> 30-100)
+  - ResourceFood
+    - m_NeededWorkPerUnit (40-800 -> 30-200)
+  - ResourceFurniture
+    - m_NeededWorkPerUnit (40-1120 -> 40-400)
+  - ResourceMachinery
+    - m_NeededWorkPerUnit (1-800 -> 1-400)
+  - ResourceMedia
+    - m_NeededWorkPerUnit (600-1200 -> 600-900)
+  - ResourceMetals
+    - m_NeededWorkPerUnit (1-650 -> 1-325)
+  - ResourceMinerals
+    - m_NeededWorkPerUnit (1-500 -> 1-250)
+  - ResourcePaper
+    - m_NeededWorkPerUnit (50-640 -> 40-250)
+  - ResourcePetrochemicals
+    - m_NeededWorkPerUnit (40-960 -> 40-240)
+  - ResourcePharmaceuticals
+    - m_NeededWorkPerUnit (60-960 -> 60-240)
+  - ResourcePlastics
+    - m_NeededWorkPerUnit (50-880 -> 50-220)
+  - ResourceSteel
+    - m_NeededWorkPerUnit (20-600 -> 20-400)
+  - ResourceTextiles
+    - m_NeededWorkPerUnit (40-400 -> 40-120)
+  - ResourceTimber
+    - m_NeededWorkPerUnit (10-320 -> 10-80)
+  - ResourceVehicles
+    - m_NeededWorkPerUnit (100-1300 -> 100-650)
+- Changes to RoadPrefab:
+  - Double Public Transport Lane
+    - Object/Area modification related to `Lighting upgrade for bus lanes`
+    - Fixed missing underground cables/pipes
+  - Oneway Public Transport Lane
+    - Object/Area modification related to `Lighting upgrade for bus lanes`
+    - Fixed missing underground cables/pipes
+- Changes to ServicePrefab:
+  - Roads
+    - Add CrimeAccumulation (m_CrimeRate 7)
+- Changes to StaticObjectPrefab:
+  - AppleTree01
+    - Changed related to m_Effects
+  - BarrelFire01
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - BarrelFire02
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - BarrelFireRandom01
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - BirchTree01
+    - Changed related to m_Effects
+  - EU_AlderTree01
+    - Changed related to m_Effects
+  - EU_BusStop01
+    - Updated m_Icon
+  - EU_BusStop02
+    - Updated m_Icon
+  - EU_ChestnutTree01
+    - Changed related to m_Effects
+  - EU_PoplarTree01
+    - Changed related to m_Effects
+  - EU_TrafficLightCarCrosswalkLeft02
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TrafficLightCarCrosswalkRight02
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TrafficLightCarLeft01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TrafficLightCarLeftCrosswalk01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TrafficLightCarRight01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TrafficLightCarRightCrosswalk01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - EU_TramStop01
+    - Updated m_Icon
+  - MakeshiftTent01
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - MakeshiftTent02
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - MakeshiftTent03
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - MakeshiftTent04
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - MakeshiftTentRandom01
+    - Reduced probability for homeless shelter objects (70 -> 50)
+  - NA_BusStop01
+    - Updated m_Icon
+  - NA_BusStop02
+    - Updated m_Icon
+  - NA_HickoryTree01
+    - Changed related to m_Effects
+  - NA_LindenTree01
+    - Changed related to m_Effects
+  - NA_LondonPlaneTree01
+    - Changed related to m_Effects
+  - NA_TrafficLightCarCrosswalkLeft02
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TrafficLightCarCrosswalkRight02
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TrafficLightCarLeft01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TrafficLightCarLeftCrosswalk01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TrafficLightCarRight01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TrafficLightCarRightCrosswalk01
+    - TrafficLightObject m_ReachOffset (2-8 -> 1-8)
+  - NA_TramStop01
+    - Updated m_Icon
+  - OakTree01
+    - Changed related to m_Effects
+  - PineTree01
+    - Changed related to m_Effects
+  - SpruceTree01
+    - Changed related to m_Effects
+- New StatisticsPrefab:
+  - HomelessCount
+- Changes to TrackPrefab:
+  - Double Tram Track
+    - Fixed missing underground cables/pipes
+  - Oneway Tram Track
+    - Fixed missing underground cables/pipes
+  - Oneway Tram Track - Inside
+    - Fixed missing underground cables/pipes
+- Changes to TrainCarPrefab:
+  - TrainAgricultureCar01
+    - Updated m_Icon
+  - TrainCargoCar01
+    - Updated m_Icon
+  - TrainForestryCar01
+    - Updated m_Icon
+  - TrainOilCar01
+    - Updated m_Icon
+  - TrainOreCar01
+    - Updated m_Icon
+- Changes to TrainEnginePrefab:
+  - EU_TrainCargoEngine01
+    - Updated m_Icon
+  - NA_TrainCargoEngine01
+    - Updated m_Icon
+- Changes to TransportLinePrefab:
+  - Cargo Airplane Route
+    - Updated m_Icon
+  - Cargo Ship Route
+    - Updated m_Icon
+  - Passenger Airplane Line
+    - Updated m_Icon
+- Moved TutorialBalloonPrefab to TutorialUITriggerPrefab:
+  - RoadsTutorialTwoLaneRoadTrigger
+- Changes to TutorialBalloonPrefab:
+  - CargoAirlineTutorialCargoRoute
+    - Updated m_Icon
+  - CargoShipOutsideTutorialIntro
+    - Updated m_Icon
+  - CargoShipsTutorialHarbor
+    - Updated m_Icon
+  - CargoShipsTutorialRoutes
+    - Updated m_Icon
+  - ElectricityTutorialOutsideElevation
+    - Updated m_Icon
+  - ElectricityTutorialOutsidePowerLine
+    - Updated m_Icon
+  - ElectricityTutorialOutsideTransformer
+    - Updated m_Icon
+  - ElectricityTutorialWindElevation
+    - Updated m_Icon
+  - ParksTutorialMaintanence
+    - Updated m_UITargets m_UITagProvider
+  - PassengerAirlineTutorialLine
+    - Updated m_Icon
+  - PassengerShipsTutorialHarbor
+    - Updated m_Icon
+  - RoadsTutorialTwoLaneRoad
+    - Updated m_Trigger
+  - ShipOutsideTutorialIntro
+    - Updated m_Icon
+- Changes to TutorialPrefab:
+  - AdministrationTutorial
+    - New properties: m_FireTelemetry
+  - AirPollutionTutorial
+    - New properties: m_FireTelemetry
+  - AirwaysTutorial
+    - New properties: m_FireTelemetry
+  - BudgetTutorial
+    - New properties: m_FireTelemetry
+  - BuildingLevelTutorial
+    - New properties: m_FireTelemetry
+  - BulldozerTutorial
+    - New properties: m_FireTelemetry
+  - BusOutsideTutorial
+    - New properties: m_FireTelemetry
+  - BusTutorial
+    - New properties: m_FireTelemetry
+  - CargoAirlineTutorial
+    - Updated m_Icon
+    - New properties: m_FireTelemetry
+  - CargoShipOutsideTutorial
+    - New properties: m_FireTelemetry
+  - CargoShipsTutorial
+    - Updated m_Icon
+    - New properties: m_FireTelemetry
+  - CargoTrainOutsideTutorial
+    - New properties: m_FireTelemetry
+  - CargoTrainTutorial
+    - New properties: m_FireTelemetry
+  - CemeteryTutorial
+    - New properties: m_FireTelemetry
+  - ChirperTutorial
+    - New properties: m_FireTelemetry
+  - CinematicCameraTutorial
+    - New properties: m_FireTelemetry
+  - CitizenWealthTutorial
+    - New properties: m_FireTelemetry
+  - CityInfoTutorial
+    - New properties: m_FireTelemetry
+  - CityStatisticsTutorial
+    - New properties: m_FireTelemetry
+  - CommercialZoningTutorial
+    - New properties: m_FireTelemetry
+  - CompanyProfitabilityTutorial
+    - New properties: m_FireTelemetry
+  - DeathcareTutorial
+    - New properties: m_FireTelemetry
+  - DevelopmentTutorial
+    - New properties: m_FireTelemetry
+  - DirtyWaterTutorial
+    - New properties: m_FireTelemetry
+  - DisasterControlTutorial
+    - New properties: m_FireTelemetry
+  - DistrictTutorial
+    - New properties: m_FireTelemetry
+  - EducationTutorial
+    - New properties: m_FireTelemetry
+  - ElectricityBottleneckTutorial
+    - New properties: m_FireTelemetry
+  - ElectricityFlowTutorial
+    - New properties: m_FireTelemetry
+  - ElectricityTutorial
+    - Updated m_Icon
+    - New properties: m_FireTelemetry
+  - EventJournalTutorial
+    - New properties: m_FireTelemetry
+  - FireAndRescueTutorial
+    - New properties: m_FireTelemetry
+  - FireTutorial
+    - New properties: m_FireTelemetry
+  - FollowingCitizensTutorial
+    - New properties: m_FireTelemetry
+  - ForestFireTutorial
+    - New properties: m_FireTelemetry
+  - GamepadCameraTutorial
+    - New properties: m_FireTelemetry
+  - GarbageTutorial
+    - New properties: m_FireTelemetry
+  - GroundPollutionTutorial
+    - New properties: m_FireTelemetry
+  - HappinessTutorial
+    - New properties: m_FireTelemetry
+  - HealthcareTutorial
+    - New properties: m_FireTelemetry
+  - ImportingAssetsTutorial
+    - New properties: m_FireTelemetry
+  - IndustrialZoningTutorial
+    - New properties: m_FireTelemetry
+  - InfoviewTutorial
+    - New properties: m_FireTelemetry
+  - IntroductionTutorial
+    - New properties: m_FireTelemetry
+  - KeyboardCameraTutorial
+    - New properties: m_FireTelemetry
+  - LandmarksTutorial
+    - New properties: m_FireTelemetry
+  - LandValueTutorial
+    - New properties: m_FireTelemetry
+  - LoanTutorial
+    - New properties: m_FireTelemetry
+  - LocateOutsideConnectionsTutorial
+    - New properties: m_FireTelemetry
+  - MapTileTutorial
+    - New properties: m_FireTelemetry
+  - MedicalClinicTutorial
+    - New properties: m_FireTelemetry
+  - MilestoneTutorial
+    - New properties: m_FireTelemetry
+  - NaturalResourcesTutorial
+    - New properties: m_FireTelemetry
+  - NoisePollutionTutorial
+    - New properties: m_FireTelemetry
+  - NotificationTutorial
+    - New properties: m_FireTelemetry
+  - OfficeZoningTutorial
+    - New properties: m_FireTelemetry
+  - OutsideConnectionTutorial
+    - New properties: m_FireTelemetry
+  - ParksTutorial
+    - New properties: m_FireTelemetry
+  - PassengerAirlineTutorial
+    - Updated m_Icon
+    - New properties: m_FireTelemetry
+  - PassengerShipsTutorial
+    - Updated m_Icon
+    - New properties: m_FireTelemetry
+  - PassengerTrainTutorial
+    - New properties: m_FireTelemetry
+  - PathwaysTutorial
+    - New properties: m_FireTelemetry
+  - PauseMenuTutorial
+    - New properties: m_FireTelemetry
+  - PhotoModeTutorial
+    - New properties: m_FireTelemetry
+  - PoliceTutorial
+    - New properties: m_FireTelemetry
+  - PopulationTutorial
+    - New properties: m_FireTelemetry
+  - PostServiceTutorial
+    - New properties: m_FireTelemetry
+  - ProductionTutorial
+    - New properties: m_FireTelemetry
+  - PublicTransportationTutorial
+    - New properties: m_FireTelemetry
+  - RadioTutorial
+    - New properties: m_FireTelemetry
+  - ResearchTutorial
+    - New properties: m_FireTelemetry
+  - RoadLaneDirectionTutorial
+    - New properties: m_FireTelemetry
+  - RoadRequiredTutorial
+    - New properties: m_FireTelemetry
+  - RoadServicesTutorial
+    - New properties: m_FireTelemetry
+  - RoadsTutorial
+    - New properties: m_FireTelemetry
+  - SeawaysTutorial
+    - New properties: m_FireTelemetry
+  - ServicesTutorial
+    - New properties: m_FireTelemetry
+  - SewageTutorial
+    - New properties: m_FireTelemetry
+  - ShipOutsideTutorial
+    - New properties: m_FireTelemetry
+  - SignatureBuildingTutorial
+    - New properties: m_FireTelemetry
+  - SimulationSpeedTutorial
+    - New properties: m_FireTelemetry
+  - SpecialIndustryZoneTutorial
+    - New properties: m_FireTelemetry
+  - SpecializationAreaTutorial
+    - New properties: m_FireTelemetry
+  - SubwayTutorial
+    - New properties: m_FireTelemetry
+  - TaxationTutorial
+    - New properties: m_FireTelemetry
+  - TaxiTutorial
+    - New properties: m_FireTelemetry
+  - TelecomServiceTutorial
+    - New properties: m_FireTelemetry
+  - TerraformingTutorial
+    - New properties: m_FireTelemetry
+  - TourismTutorial
+    - New properties: m_FireTelemetry
+  - TouristAttractionsTutorial
+    - New properties: m_FireTelemetry
+  - TrafficAccidentTutorial
+    - New properties: m_FireTelemetry
+  - TrainOutsideTutorial
+    - New properties: m_FireTelemetry
+  - TrainTutorial
+    - New properties: m_FireTelemetry
+  - TramTutorial
+    - New properties: m_FireTelemetry
+  - TransportationOverviewTutorial
+    - New properties: m_FireTelemetry
+  - UndergroundTutorial
+    - New properties: m_FireTelemetry
+  - UpgradeTutorial
+    - New properties: m_FireTelemetry
+  - VegetationTutorial
+    - New properties: m_FireTelemetry
+  - WaterTutorial
+    - New properties: m_FireTelemetry
+  - WorkplaceAvailabilityTutorial
+    - New properties: m_FireTelemetry
+  - ZoningDemandTutorial
+    - New properties: m_FireTelemetry
+  - ZoningTutorial
+    - New properties: m_FireTelemetry
+  - ZoningTutorialRemoveZone
+    - New properties: m_FireTelemetry
+- Changes to WatercraftPrefab:
+  - ShipCargo01
+    - Updated m_Icon
+- Changes to ZonePrefab:
+  - Commercial High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Commercial Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Commercial High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Commercial Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential Low Waterfront
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential Medium
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential Medium Row
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - EU Residential Mixed
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Industrial Agriculture
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Industrial Forestry
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Industrial Manufacturing
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Industrial Oil
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Industrial Ore
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Commercial High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Commercial Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential Low Waterfront
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential Medium
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential Medium Row
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - NA Residential Mixed
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Office High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Office Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Residential High
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Residential Low
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Residential LowRent
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+  - Residential Mixed
+    - Replaced ZoneProperties m_FireHazardModifier with m_FireHazardMultiplier
+    - Add ZoneProperties m_IgnoreLandValue
+- Changes to UIEconomyConfigurationPrefab:
+  - UI Economy Configuration
+    - Add Government subsidies section
+
 ### 1.2.3f1 - 2025-01-22
 - New Prefab:
   - UXMapTileZoomInSFX

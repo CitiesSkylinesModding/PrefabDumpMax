@@ -2,13 +2,12 @@
 using Game;
 using Game.Modding;
 using Game.SceneFlow;
-using System;
 
 namespace PrefabDumpMax
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(PrefabDumpMax)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger($"{nameof(PrefabDumpMax)}").SetShowsErrorsInUI(false);
 
         public void OnLoad(UpdateSystem updateSystem)
         {

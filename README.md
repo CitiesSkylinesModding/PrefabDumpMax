@@ -17,6 +17,15 @@ The repo consists of two folders, one is Dumps and another is Mod.
 * 1.1.12f1 - 2024-11-26 - 40466 prefabs
 * 1.2.0f1 - 2024-12-11 - 40805 prefabs
 * 1.2.3f1 - 2025-01-22 - 40808 prefabs
+* 1.2.5f1 - 2025-03-18 - 42050 prefabs:
+ * Base Game* => 40840 items
+ * ModernArchitecture => 257 items
+ * UrbanPromenades => 204 items
+ * FreeUpdate02 => 131 items
+ * DragonGate => 207 items
+ * LeisureVenues => 122 items
+ * MediterraneanHeritage => 289 items
+\* Base Game includes CS1 Treasure Hunt, San Francisco Pack, Landmark Pack.
 
 ## Notable Changes
 See PREFAB_CHANGELOG.md
