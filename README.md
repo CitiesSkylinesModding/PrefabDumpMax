@@ -3,7 +3,7 @@ The repo consists of two folders, one is Dumps and another is Mod.
 
 ## Dumps
 * This folder contains Prefab Dumps to browse any and all Prefab assets in the vanilla game.
-* Each game version's dump will have a heavily compressed zip (using 7zip) for easy download and a log. (The unzipped current version has been removed to reduce file count)
+* Each game version's dump will have a heavily compressed zip (using 7zip) for easy download and a log file listing all prefabs. (The unzipped current version has been removed to reduce file count)
 * Somewhat of a known issue: the UnityObjectsMap ID on the prefab files are known to differ between dumps, so those line changes **should be ignored**. (From 1.1.8f1, I've replaced all UnityObjectsMap ID to `x*(2^5)` (previously `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`) so it's easy to track other differences.)
 
 ## Mod
@@ -22,9 +22,17 @@ The repo consists of two folders, one is Dumps and another is Mod.
 * * ModernArchitecture => 257 items
 * * UrbanPromenades => 204 items
 * * FreeUpdate02 => 131 items
-* * DragonGate => 207 items
 * * LeisureVenues => 122 items
 * * MediterraneanHeritage => 289 items
+* * DragonGate => 207 items
+* 1.3.3f1 - 2025-06-11 - 43181 prefabs:
+* * Base Game* => 41971 items
+* * ModernArchitecture => 257 items
+* * UrbanPromenades => 204 items
+* * FreeUpdate02 => 131 items
+* * LeisureVenues => 122 items
+* * MediterraneanHeritage => 289 items
+* * DragonGate => 207 items
 
 \* Base Game includes CS1 Treasure Hunt, San Francisco Pack, Landmark Pack.
 

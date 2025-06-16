@@ -1,3 +1,1599 @@
+### 1.3.3f1 - 2025-06-11
+- New Prefab:
+  - PrefabUnlockedRequirementPrefab
+  - WorkRoutePrefab
+- New Prefab properties:
+  - BuildingConfigurationPrefab: m_CollapseSFXDensity
+  - EasyMode_UnlockAtStartMode: m_Requirement
+  - ExtractorParameterPrefab: m_FishConsumption
+  - ExtractorParameterPrefab: m_FullFish
+  - FencePrefab: m_StyleType
+  - LotPrefab: m_OnWater
+  - LotPrefab: m_AllowOverlap
+  - LotPrefab: m_AllowEditing
+  - NetPiecePrefab: m_SideConnectionOffset
+  - RouteConfigurationPrefab: m_MissingRoutePrefab
+  - TransportLinePrefab: m_SizeClass
+  - TutorialUITriggerPrefab+UITriggerInfo[]:  m_CompleteManually
+- New component:
+  - AmbienceEmitter
+  - AuxiliaryNets
+  - BuildingModules
+  - MoveableBridge
+  - ResourceConnection
+  - WorkStop
+- New component properties:
+  - AreaSubObjectInfo: m_BorderPlacement
+  - Bridge: m_ElevationOnWater
+  - Bridge: m_CanCurve
+  - Bridge: m_AllowMinimalLength
+  - Bridge: m_BuildStyle
+  - BuildingProperties: m_AllowedInput
+  - ExtractorArea: m_RequireNaturalResource
+  - ExtractorArea: m_WorkAmountFactor
+  - ExtractorFacility: m_RouteNeeded
+  - ExtractorFacility: m_NetNeeded
+  - NetObject: m_NodeOffset
+  - NetObject: m_Attached
+  - NetSectionInfo[]: m_HalfLength
+  - NetSubObjectInfo[]: m_Spacing
+  - ObjectAchievementComponent: m_AbsoluteCounter
+  - SpawnLocation: m_HangaroundOnLane
+  - StandingObject: m_LegGap
+  - TerrainArea: m_AbsoluteHeight
+  - TransportDepot: m_SizeClass
+  - TransportStopMarker: m_WorkStop
+  - TransportStopMarker: m_WorkLocation
+
+## 00_BaseGame
+- New AggregateNetPrefab:
+  - Boatway
+- New BrandPrefab:
+  - BowmanBanking
+  - CrocodilesHook
+  - InstaLOD
+  - LifebeltPetroleum
+  - StArmandsGoblet
+  - TurttleShell
+- New BuildingExtensionPrefab:
+  - LeisurePier01HeadLarge
+  - LeisurePier01HeadMedium
+  - LeisurePier01HeadSmall
+- Changes to AirplanePrefab:
+  - AirplaneCargo01
+    - CargoTransport: m_TransportedResources (Replace duplicate Stone with Livestock)
+    - CargoTransport: m_TransportedResources (Added Fish)
+- Changes to AnimalPrefab:
+  - Seagull01
+    - Add AmbienceEmitter
+- Changes to BuildingConfigurationPrefab:
+  - Building Configuration
+    - m_CollapseSFXDensity (0.004)
+- Changes to BuildingExtensionPrefab:
+  - BusDepot01 Electric Bus Maintenance, RailYard01 Extra Rails, RailYard01 Maintenance Hall, SubwayYard01 Extra Rails, TaxiDepot01 Dispatch Center, TaxiDepot01 Electric Taxis, TaxiDepot02 Dispatch Center, TaxiDepot02 Electric Taxis, TaxiDepot02 Taxi Garage, TramDepot01 Garage Extension
+    - TransportDepot: m_SizeClass (3)
+  - CargoHarbor01 Cargo Cranes
+    - Prop adjustments
+    - CargoTransportStation: m_WorkMultiplier (0)
+  - CargoHarbor01 Railway Connection
+    - UnlockOnBuild Requirement (Cargo Train Terminal)
+  - Helipad Airspace - Large, Helipad Airspace - Medium, Helipad Airspace - Small
+    - StandingObject: m_LegGap (0,0)
+- Changes to InfomodePrefab:
+  - FreshWater Buildings
+    - Change color (#4282E0 to #BED0FF)
+- Changes to BuildingPrefab:
+  - [All commercial/industrial/office zoned/signature/specialized buildings]
+    - BuildingProperties: m_AllowedInput (none)
+  - [All specialized industry work buildings]
+    - ExtractorFacility: m_RouteNeeded (false)
+    - ExtractorFacility: m_NetNeeded (false)
+  - Airport01, CargoHarbor01, CargoTrainTerminal01
+    - CargoTransportStation: m_TradedResources (Added Fish)
+    - CargoTransportStation: m_WorkMultiplier (0)
+  - Airport01
+    - ObjectAchievementComponent: m_AbsoluteCounter (false)
+  - BusDepot01, BusDepot01 Extra Garage, RailYard01, SpaceCenter01, SubwayYard01, SubwayYard01 Maintenance Hall, TaxiDepot01, TaxiDepot01 Taxi Garage, TaxiDepot02, TramDepot01
+    - TransportDepot: m_SizeClass (3)
+  - CargoHarbor01
+    - Major redesign
+  - CargoHarbor01 Warehouses
+    - StorageLimit: storageLimit (15500000 > 7500000)
+    - UIObject: m_Group (null > TransportationWater)
+  - CargoTrainTerminal01 Storage Warehouse
+    - StorageLimit: storageLimit (15500000 > 7500000)
+    - UIObject: m_Group (null > TransportationTrain)
+  - Crematorium01 Hearse Garage
+    - UIObject: m_Group (null > Deathcare)
+  - EU_CommercialGasStation01_L3_2x2, EU_CommercialGasStation01_L4_2x2, EU_CommercialHighSignature01, EU_CommercialHighSignature02, EU_CommercialLowSignature01, IndustrialStorageOre02_L1_2x4,IndustrialStorageOre02_L2_2x4, IndustrialStorageOre02_L3_2x4, IndustrialStorageOre02_L4_2x4, IndustrialStorageOre02_L5_2x4, NA_CommercialGasStation01_L1_2x2, NA_CommercialGasStation01_L2_2x2, NA_CommercialGasStation01_L3_3x2, NA_CommercialGasStation01_L3_3x3, NA_CommercialGasStation01_L4_3x2, NA_CommercialGasStation01_L4_3x3, NA_CommercialHighSignature01, NA_CommercialHighSignature03, NA_CommercialHotel01_L3_3x2, NA_CommercialHotel01_L4_3x2, NA_CommercialHotel01_L5_3x2, OfficeHighSignature02, OfficeHighSignature03, University01 Library
+    - Prop adjustments
+  - Forestry Area Placeholder
+    - UIObject: m_Priority (25 > 40)
+  - IndustrialManufacturingSignature01, IndustrialManufacturingSignature02, IndustrialManufacturingSignature03, IndustrialManufacturingSignature06, IndustrialManufacturingSignature07, IndustrialManufacturingSignature08, IndustrialManufacturingSignature09
+    - CityEffects: Industrial Efficiency (Relative 2% > Absolute 2%)
+  - IndustrialManufacturingSignature04
+    - CityEffects: Industrial Efficiency (Relative 5% > Absolute 5%)
+  - IndustrialManufacturingSignature05
+    - CityEffects: Industrial Efficiency (Relative 1% > Absolute 1%)
+  - InternationalAirport01
+    - CargoTransportStation: m_TradedResources (Removed Software)
+    - CargoTransportStation: m_TradedResources (Added Unsorted Mail, Local Mail, Fish)
+    - ObjectAchievementComponent: m_AbsoluteCounter (false)
+    - UnlockOnBuild: m_Unlocks (Replaced 'Cargo Train Terminal' with 'Passenger Train Station')
+  - LargeHadronCollider01
+    - CityEffects: Office Software Efficiency (Relative 5% > Absolute 5%)
+    - CityEffects: Industrial Electronics Efficiency (Relative 5% > Absolute 5%)
+  - MedicalUniversity01
+    - CityEffects: Hospital Efficiency (Relative 10% > Absolute 10%)
+  - OfficeHighSignature01, OfficeHighSignature02, OfficeHighSignature03
+    - CityEffects: Office Efficiency (Relative 2% > Absolute 2%)
+  - OfficeLowSignature01, OfficeLowSignature02, OfficeLowSignature03
+    - CityEffects: Office Efficiency (Relative 1% > Absolute 1%)
+  - Oil Area Placeholder
+    - UIObject: m_Priority (35 > 60)
+  - Ore Area Placeholder - Coal
+    - UIObject: m_Priority (31 > 51)
+  - Ore Area Placeholder - Ore
+    - UIObject: m_Priority (32 > 52)
+  - Ore Area Placeholder - Stone
+    - UIObject: m_Priority (30 > 50)
+  - SubwayStationElevated01, SubwayStationElevated02, WindTurbine01
+    - StandingObject: m_LegGap (0,0)
+  - SubwayStationElevated01
+    - NetObject: m_NodeOffset (0)
+    - NetObject: m_Attached (true)
+  - SubwayYard01 Maintenance Hall
+    - UIObject: m_Group (null > TransportationSubway)
+  - TechnicalUniversity01
+    - CityEffects: Industrial Efficiency (Relative 10% > Absolute 10%)
+    - CityEffects: Office Efficiency (Relative 10% > Absolute 10%)
+  - WindTurbine01
+    - Unlockable: m_RequireAll (ElectricityTutorialWindTurbineIntro > IntroListCompleted)
+- Changes to BuildingStatusInfomodePrefab:
+  - Electricity Consumption
+    - m_High Color (#FF8000 > #FF4200)
+    - m_Range min (-1 > 0)
+- Changes to CarTrailerPrefab:
+  - TruckTrailer01
+    - DeliveryTruck: m_TransportedResources (Added Fish)
+- Changes to CompanyPrefab:
+  - Industrial_StoneQuarry
+    - ProcessingCompany: m_Output m_Amount (3 > 5)
+    - ProcessingCompany: m_MaxWorkersPerCell (0.05 > 0.1)
+- Changes to ContentPrefab:
+  - SanFranciscoSet
+    - DlcRequirement: m_Notes ("Pre-order bonus. 9 unique landmarks + Tampere map" > "")
+- Changes to 
+  - DemandParameters
+    - m_TaxEffect (2 > float3(2,1,1))
+- New EffectPrefab:
+  - BoatFoam01VFX
+  - GasFlareFireVFX
+  - ShipwayBuoyLightSource01
+- Changes to EffectPrefab:
+  - BuildingCollapseSFX
+    - SFX: m_MinMaxDistance (float2(50,180) > float2(100,300))
+  - TransportationVehicleShip
+    - SFX: m_MinMaxDistance (float2(100,300) > float2(1,225))
+  - WarningLightSource01
+    - LightEffect: m_Color (#FF0000 > #F13131)
+  - WarningLightSource02
+    - LightEffect: m_Color (#FF0000 > #F23131)
+- New ExpenseStatistic:
+  - MapTileUpkeep
+- Changes to ExtractorParameterPrefab:
+  - ExtractorParameters
+    - m_FishConsumption (0.1)
+    - m_FullFish (0.5)
+- New FeaturePrefab:
+  - Signature Buildings
+- Changes to FencePrefab:
+  - [All FencePrefab]:
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+- New GroupPrefab:
+  - LeisurePier01Style01
+  - OilTankStyle01
+  - OilTankStyle02
+  - OilTankStyle03
+  - QuayStyle01
+  - QuayStyle02
+  - TrafficDividerStyle01
+- New HeatmapInfomodePrefab:
+  - FishInfomode
+- New IncomeStatistic:
+  - GovernmentSubsidy
+- New InfomodeGroupPrefab:
+  - Resource Flows
+- Changes to InfoviewPrefab:
+  - Extractors
+    - m_Infomodes: InfomodeInfo[] (Added Resource Flows)
+- Changes to LotPrefab:
+  - [All LotPrefab]:
+    - m_OnWater (false)
+    - m_AllowOverlap (false)
+    - m_AllowEditing (true)
+  - Agriculture Lot
+    - ExtractorArea: m_ObjectSpawnFactor (2 > 5)
+    - ExtractorArea: m_MaxObjectArea (0.25 > 0.35)
+    - ExtractorArea: m_RequireNaturalResource (true)
+    - ExtractorArea: m_WorkAmountFactor (8)
+    - AreaSubObjects: m_SubObjects m_BorderPlacement (false)
+  - Forestry Lot
+    - ExtractorArea: m_RequireNaturalResource (true)
+    - ExtractorArea: m_WorkAmountFactor (25)
+  - Landfill Site Lot
+    - TerrainArea: m_AbsoluteHeight (false)
+    - AreaSubObjects: m_SubObjects m_BorderPlacement (false)
+  - Oil Lot
+    - ExtractorArea: m_MaxObjectArea (0.25 > 0.1)
+    - ExtractorArea: m_RequireNaturalResource (true)
+    - ExtractorArea: m_WorkAmountFactor (2)
+    - AreaSubObjects: m_SubObjects m_BorderPlacement (false)
+  - Ore Lot
+    - ExtractorArea: m_ObjectSpawnFactor (2 > 3)
+    - ExtractorArea: m_RequireNaturalResource (true)
+    - ExtractorArea: m_WorkAmountFactor (5)
+    - AreaSubObjects: m_SubObjects m_BorderPlacement (false)
+- New MarkerObjectPrefab:
+  - Pedestrian Hangaround Location
+- Changes to MarkerObjectPrefab:
+  - Airplane Outside Connection, Road Outside Connection - Oneway, Road Outside Connection - Twoway, Ship Outside Connection - Twoway, Train Outside Connection - Oneway, Train Outside Connection - Twoway
+    - OutsideConnection: m_TradedResources (Added Fish)
+  - Airplane Outside Connection, Road Outside Connection - Oneway, Road Outside Connection - Twoway, Ship Outside Connection - Twoway
+    - TransportDepot: m_SizeClass (3)
+  - Car Garage Location, Car Spawn Location, Cargo Loading Location, Cattle Animal Spawner, Chicken Spawner, Cow Spawner, Helicopter Spawn Location, Horse Spawner, Integrated Cargo Airplane Stop, Integrated Cargo Ship Stop, Integrated Cargo Train Stop, Integrated Helipad, Integrated Passenger Airplane Stop, Integrated Passenger Ship Stop, Pedestrian Spawn Location, Pig Spawner, Poultry Animal Spawner, Restricted Spawn Location, Sheep Spawner, Subway Spawn Location, Train Spawn Location, Tram Spawn Location
+    - SpawnLocation: m_HangaroundOnLane (false)
+  - Integrated Bus Stop, Integrated Cargo Ship Stop, Integrated Cargo Train Stop, Integrated Passenger Ship Stop, Integrated Passenger Train Stop, Integrated Subway Stop - Middle, Integrated Subway Stop - Side, Integrated Taxi Stand, Subway Spawn Location, Train Spawn Location, Tram Spawn Location
+    - NetObject: m_NodeOffset (0)
+    - NetObject: m_Attached (true)
+- Changes to Modes.ModeSetting:
+  - EasyMode
+    - m_IndustrialOfficeTaxEffectDemandOffset (10 > 0.05)
+  - EasyMode_OutsideParametersMode
+    - m_WaterImportPrice (0.1 > 0.075)
+    - m_WaterExportPrice (0.05 > 0.1)
+    - m_SewageExportPrice (0.1 > 0.075)
+  - EasyMode_ServiceConsumptionGlobalMode
+    - m_ElectricityConsumptionMultiplier (0.4 > 0.8)
+    - m_WaterConsumptionMultiplier (0.2 > 0.8)
+    - m_GarbageAccumlationMultiplier (0.1 > 1)
+  - EasyMode_UnlockAtStartMode
+    - m_Requirement (IntroListCompleted)
+- New NetLaneGeometryPrefab:
+  - Boatway Edge Lane 3
+- New NetLanePrefab:
+  - Boat Drive Lane 20
+  - Pedestrian Pavement Lane 7
+  - Pedestrian Pavement Lane 9
+- New NetPiecePrefab:
+  - Boat Drive Piece 20
+  - Boatway Edge Piece 3
+  - ExtradosedBridge01PillarCablesNet Mesh
+  - Pier01Bottom100cm Mesh
+  - Pier01Bottom300cm Mesh
+  - Pier01BottomEnding100cm Mesh
+  - Pier01BottomEnding300cm Mesh
+  - Pier01BottomIntersectionMiddle100cm Mesh
+  - Pier01BottomIntersectionMiddle300cm Mesh
+  - Pier01Side25cm Mesh
+  - Pier01Side50cm Mesh
+  - Pier01SideEnding25cm Mesh
+  - Pier01SideEnding50cm Mesh
+  - Pier01SideFence25cm Mesh
+  - Pier01SideFence50cm Mesh
+  - PierStyleBreakBottomEnding100cm Mesh
+  - PierStyleBreakBottomEnding300cm Mesh
+  - PierStyleBreakMiddle100cm Mesh
+  - PierStyleBreakMiddle100cm Pavement
+  - PierStyleBreakMiddle300cm Mesh
+  - PierStyleBreakSide100cm Mesh
+  - PierWood01Median100cm Mesh
+  - PierWood01Median300cm Mesh
+  - PierWood01MedianMiddle100cm Mesh
+  - PierWood01MedianMiddle300cm Mesh
+  - PierWood01Pavement300cm Median
+  - PierWood01Pavement300cm Mesh
+  - PierWood01PavementMiddle300cm Mesh
+  - PierWood01PavementSide0cm Mesh
+  - PierWood02PavementSide0cm Mesh
+  - Quay01Side100cm Mesh
+  - Quay02Side50cm Mesh
+  - TrussArchBridge01Net Mesh
+- Changes to NetPiecePrefab:
+  - [All NetPiecePrefab]
+    - m_SideConnectionOffset (0)
+  - Alley Shoulder To Sidewalk 1 - Flat
+    - MatchPieceVertices: m_Offsets (-0.5,0,0.5 > -0.5,-0.1,0.5)
+  - Highway Shoulder 2, Sidewalk Piece 3.5
+    - NetPieceObjects adjustments
+  - Highway Shoulder To Sidewalk 2 - Flat
+    - MatchPieceVertices: m_Offsets (-1,0,1 > -1,-0.6,1)
+  - Pavement Path Middle Piece 3
+    - Removed MatchPieceVertices
+  - Pavement Path Side Piece 0
+    - Added MatchPieceVertices: m_Offsets (0,0,0)
+  - Seaway Edge Piece 5
+    - Added NetPieceObjects (ShipwayBuoy01)
+- New NetSectionPrefab:
+  - Boat Drive Section 20
+  - Boatway Edge Section 3
+  - ExtradosedBridge01 Section
+  - LeisurePier01Median01 Section 1
+  - LeisurePier01Median02 Section 3
+  - LeisurePier01Pavement01 Section 3
+  - LeisurePier01Side01 Section 0
+  - LeisurePier01Side02 Section 0
+  - LeisurePierStyleBreak Section 1
+  - LeisurePierStyleBreak Section 3
+  - LeisurePierStyleBreakSide Section 0
+  - Quay Sidewalk 5
+  - Quay Sidewalk 6
+  - Quay Sidewalk With Parking 5
+  - Quay Sidewalk With Parking 6
+  - QuaySide01
+  - QuaySide01 - Road
+  - QuaySide02
+  - TrussArchBridge01 Section
+- Changes to NetSectionPrefab:
+  - Highway Drive Section 4, Highway Shoulder 2, Pavement Path Section 3, Pavement Path Side Section 0
+    - Multiple adjustments
+- Changes to NotificationIconPrefab:
+  - Airplane Stop, Bus Stop, Cargo Airplane Stop, Cargo Ship Stop, Cargo Train Stop, Mail Box, Ship Stop, Subway Stop, Taxi Stand, Train Stop, Tram Stop
+    - TransportStopMarker: m_WorkStop (false)
+    - TransportStopMarker: m_WorkLocation (false)
+- New PathwayPrefab:
+  - LeisurePier01Large01
+  - LeisurePier01Medium01
+  - LeisurePier01Small01
+  - QuaySmall01
+  - QuaySmall02
+- Changes to PathwayPrefab:
+  - [All PathwayPrefab]
+    - NetSubObjectInfo[]: m_Spacing (0)
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+  - [All PathwayPrefab with Bridge]
+    - Bridge: m_ElevationOnWater (5)
+    - Bridge: m_CanCurve (false)
+    - Bridge: m_AllowMinimalLength (false)
+    - Bridge: m_BuildStyle (0)
+    - More Net adjustments
+  - Pavement Path
+    - More Net adjustments
+- Changes to PipelinePrefab:
+  - [All PipelinePrefab]
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+  - Combined Large Pipe, Combined Small Pipe, Large Sewage Pipe, Large Water Pipe, Small Combined Marker, Small Sewage Marker, Small Sewage Pipe, Small Water Marker, Small Water Pipe, High-voltage Ground Cable
+    - NetSubObjectInfo[]: m_Spacing (0)
+- Changes to PowerLinePrefab:
+  - [All PowerLinePrefab]
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+  - High-voltage Line, High-voltage Marker, Low-voltage Line, Low-voltage Marker, Low-voltage Marker - Small
+    - NetSubObjectInfo[]: m_Spacing (0)
+- New PrefabUnlockedRequirementPrefab:
+  - Signatures Unlocked Req
+- New RenderPrefab:
+  - AlphabetDecalA01 Mesh
+  - AlphabetDecalB01 Mesh
+  - AlphabetDecalC01 Mesh
+  - AlphabetDecalD01 Mesh
+  - AlphabetDecalE01 Mesh
+  - AlphabetDecalF01 Mesh
+  - AlphabetDecalG01 Mesh
+  - AlphabetDecalH01 Mesh
+  - AlphabetDecalI01 Mesh
+  - AlphabetDecalJ01 Mesh
+  - AlphabetDecalK01 Mesh
+  - AlphabetDecalL01 Mesh
+  - AlphabetDecalM01 Mesh
+  - AlphabetDecalN01 Mesh
+  - AlphabetDecalO01 Mesh
+  - AlphabetDecalP01 Mesh
+  - AlphabetDecalQ01 Mesh
+  - AlphabetDecalR01 Mesh
+  - AlphabetDecalS01 Mesh
+  - AlphabetDecalT01 Mesh
+  - AlphabetDecalU01 Mesh
+  - AlphabetDecalV01 Mesh
+  - AlphabetDecalW01 Mesh
+  - AlphabetDecalX01 Mesh
+  - AlphabetDecalY01 Mesh
+  - AlphabetDecalZ01 Mesh
+  - AStand01 - BowmanBanking Mesh
+  - AStand01 - CrocodilesHook Mesh
+  - AStand01 - InstaLOD Mesh
+  - AStand01 - LifebeltPetroleum Mesh
+  - AStand01 - StArmandsGoblet Mesh
+  - AStand01 - TurttleShell Mesh
+  - AStand02 - BowmanBanking Mesh
+  - AStand02 - CrocodilesHook Mesh
+  - AStand02 - InstaLOD Mesh
+  - AStand02 - LifebeltPetroleum Mesh
+  - AStand02 - StArmandsGoblet Mesh
+  - AStand02 - TurttleShell Mesh
+  - BillboardHuge01 - BowmanBanking Mesh
+  - BillboardHuge01 - CrocodilesHook Mesh
+  - BillboardHuge01 - InstaLOD Mesh
+  - BillboardHuge01 - LifebeltPetroleum Mesh
+  - BillboardHuge01 - StArmandsGoblet Mesh
+  - BillboardHuge01 - TurttleShell Mesh
+  - BillboardHuge02 - BowmanBanking Mesh
+  - BillboardHuge02 - CrocodilesHook Mesh
+  - BillboardHuge02 - InstaLOD Mesh
+  - BillboardHuge02 - LifebeltPetroleum Mesh
+  - BillboardHuge02 - StArmandsGoblet Mesh
+  - BillboardHuge02 - TurttleShell Mesh
+  - BillboardLarge01 - BowmanBanking Mesh
+  - BillboardLarge01 - CrocodilesHook Mesh
+  - BillboardLarge01 - InstaLOD Mesh
+  - BillboardLarge01 - LifebeltPetroleum Mesh
+  - BillboardLarge01 - StArmandsGoblet Mesh
+  - BillboardLarge01 - TurttleShell Mesh
+  - BillboardLarge02 - BowmanBanking Mesh
+  - BillboardLarge02 - CrocodilesHook Mesh
+  - BillboardLarge02 - InstaLOD Mesh
+  - BillboardLarge02 - LifebeltPetroleum Mesh
+  - BillboardLarge02 - StArmandsGoblet Mesh
+  - BillboardLarge02 - TurttleShell Mesh
+  - BillboardMedium01 - BowmanBanking Mesh
+  - BillboardMedium01 - CrocodilesHook Mesh
+  - BillboardMedium01 - InstaLOD Mesh
+  - BillboardMedium01 - LifebeltPetroleum Mesh
+  - BillboardMedium01 - StArmandsGoblet Mesh
+  - BillboardMedium01 - TurttleShell Mesh
+  - BillboardMedium02 - BowmanBanking Mesh
+  - BillboardMedium02 - CrocodilesHook Mesh
+  - BillboardMedium02 - InstaLOD Mesh
+  - BillboardMedium02 - LifebeltPetroleum Mesh
+  - BillboardMedium02 - StArmandsGoblet Mesh
+  - BillboardMedium02 - TurttleShell Mesh
+  - BillboardRoundLarge01 - BowmanBanking Mesh
+  - BillboardRoundLarge01 - CrocodilesHook Mesh
+  - BillboardRoundLarge01 - InstaLOD Mesh
+  - BillboardRoundLarge01 - LifebeltPetroleum Mesh
+  - BillboardRoundLarge01 - StArmandsGoblet Mesh
+  - BillboardRoundLarge01 - TurttleShell Mesh
+  - BillboardRoundMedium01 - BowmanBanking Mesh
+  - BillboardRoundMedium01 - CrocodilesHook Mesh
+  - BillboardRoundMedium01 - InstaLOD Mesh
+  - BillboardRoundMedium01 - LifebeltPetroleum Mesh
+  - BillboardRoundMedium01 - StArmandsGoblet Mesh
+  - BillboardRoundMedium01 - TurttleShell Mesh
+  - BillboardRoundSmall01 - BowmanBanking Mesh
+  - BillboardRoundSmall01 - CrocodilesHook Mesh
+  - BillboardRoundSmall01 - InstaLOD Mesh
+  - BillboardRoundSmall01 - LifebeltPetroleum Mesh
+  - BillboardRoundSmall01 - StArmandsGoblet Mesh
+  - BillboardRoundSmall01 - TurttleShell Mesh
+  - BillboardSmall01 - BowmanBanking Mesh
+  - BillboardSmall01 - CrocodilesHook Mesh
+  - BillboardSmall01 - InstaLOD Mesh
+  - BillboardSmall01 - LifebeltPetroleum Mesh
+  - BillboardSmall01 - StArmandsGoblet Mesh
+  - BillboardSmall01 - TurttleShell Mesh
+  - BillboardSmall02 - BowmanBanking Mesh
+  - BillboardSmall02 - CrocodilesHook Mesh
+  - BillboardSmall02 - InstaLOD Mesh
+  - BillboardSmall02 - LifebeltPetroleum Mesh
+  - BillboardSmall02 - StArmandsGoblet Mesh
+  - BillboardSmall02 - TurttleShell Mesh
+  - BillboardWallHuge01 - BowmanBanking Mesh
+  - BillboardWallHuge01 - CrocodilesHook Mesh
+  - BillboardWallHuge01 - InstaLOD Mesh
+  - BillboardWallHuge01 - LifebeltPetroleum Mesh
+  - BillboardWallHuge01 - StArmandsGoblet Mesh
+  - BillboardWallHuge01 - TurttleShell Mesh
+  - BillboardWallHuge02 - BowmanBanking Mesh
+  - BillboardWallHuge02 - CrocodilesHook Mesh
+  - BillboardWallHuge02 - InstaLOD Mesh
+  - BillboardWallHuge02 - LifebeltPetroleum Mesh
+  - BillboardWallHuge02 - StArmandsGoblet Mesh
+  - BillboardWallHuge02 - TurttleShell Mesh
+  - BillboardWallLarge01 - BowmanBanking Mesh
+  - BillboardWallLarge01 - CrocodilesHook Mesh
+  - BillboardWallLarge01 - InstaLOD Mesh
+  - BillboardWallLarge01 - LifebeltPetroleum Mesh
+  - BillboardWallLarge01 - StArmandsGoblet Mesh
+  - BillboardWallLarge01 - TurttleShell Mesh
+  - BillboardWallLarge02 - BowmanBanking Mesh
+  - BillboardWallLarge02 - CrocodilesHook Mesh
+  - BillboardWallLarge02 - InstaLOD Mesh
+  - BillboardWallLarge02 - LifebeltPetroleum Mesh
+  - BillboardWallLarge02 - StArmandsGoblet Mesh
+  - BillboardWallLarge02 - TurttleShell Mesh
+  - BillboardWallLarge03 - BowmanBanking Mesh
+  - BillboardWallLarge03 - CrocodilesHook Mesh
+  - BillboardWallLarge03 - InstaLOD Mesh
+  - BillboardWallLarge03 - LifebeltPetroleum Mesh
+  - BillboardWallLarge03 - StArmandsGoblet Mesh
+  - BillboardWallLarge03 - TurttleShell Mesh
+  - BillboardWallLarge04 - BowmanBanking Mesh
+  - BillboardWallLarge04 - CrocodilesHook Mesh
+  - BillboardWallLarge04 - InstaLOD Mesh
+  - BillboardWallLarge04 - LifebeltPetroleum Mesh
+  - BillboardWallLarge04 - StArmandsGoblet Mesh
+  - BillboardWallLarge04 - TurttleShell Mesh
+  - BillboardWallMedium01 - BowmanBanking Mesh
+  - BillboardWallMedium01 - CrocodilesHook Mesh
+  - BillboardWallMedium01 - InstaLOD Mesh
+  - BillboardWallMedium01 - LifebeltPetroleum Mesh
+  - BillboardWallMedium01 - StArmandsGoblet Mesh
+  - BillboardWallMedium01 - TurttleShell Mesh
+  - BillboardWallMedium02 - BowmanBanking Mesh
+  - BillboardWallMedium02 - CrocodilesHook Mesh
+  - BillboardWallMedium02 - InstaLOD Mesh
+  - BillboardWallMedium02 - LifebeltPetroleum Mesh
+  - BillboardWallMedium02 - StArmandsGoblet Mesh
+  - BillboardWallMedium02 - TurttleShell Mesh
+  - BillboardWallSmall01 - BowmanBanking Mesh
+  - BillboardWallSmall01 - CrocodilesHook Mesh
+  - BillboardWallSmall01 - InstaLOD Mesh
+  - BillboardWallSmall01 - LifebeltPetroleum Mesh
+  - BillboardWallSmall01 - StArmandsGoblet Mesh
+  - BillboardWallSmall01 - TurttleShell Mesh
+  - BillboardWallSmall02 - BowmanBanking Mesh
+  - BillboardWallSmall02 - CrocodilesHook Mesh
+  - BillboardWallSmall02 - InstaLOD Mesh
+  - BillboardWallSmall02 - LifebeltPetroleum Mesh
+  - BillboardWallSmall02 - StArmandsGoblet Mesh
+  - BillboardWallSmall02 - TurttleShell Mesh
+  - BillboardWallSmall03 - BowmanBanking Mesh
+  - BillboardWallSmall03 - CrocodilesHook Mesh
+  - BillboardWallSmall03 - InstaLOD Mesh
+  - BillboardWallSmall03 - LifebeltPetroleum Mesh
+  - BillboardWallSmall03 - StArmandsGoblet Mesh
+  - BillboardWallSmall03 - TurttleShell Mesh
+  - BillboardWallSmall04 - BowmanBanking Mesh
+  - BillboardWallSmall04 - CrocodilesHook Mesh
+  - BillboardWallSmall04 - InstaLOD Mesh
+  - BillboardWallSmall04 - LifebeltPetroleum Mesh
+  - BillboardWallSmall04 - StArmandsGoblet Mesh
+  - BillboardWallSmall04 - TurttleShell Mesh
+  - BoatwayBuoy01 Mesh
+  - BoatwayBuoy01_LOD1 Mesh
+  - BoatwayBuoy01_LOD2 Mesh
+  - BoatwayEdge6 Mesh
+  - BorderControlBooth01 Mesh
+  - BorderControlBooth01_LOD1 Mesh
+  - BorderControlBooth01_LOD2 Mesh
+  - BorderControlBooth02 Mesh
+  - BorderControlBooth02_LOD1 Mesh
+  - BorderControlBooth02_LOD2 Mesh
+  - BorderControlPylon01 Mesh
+  - BorderControlPylon01_LOD1 Mesh
+  - BorderControlPylon01_LOD2 Mesh
+  - BorderControlRoofHeavy01 Mesh
+  - BorderControlRoofHeavy01_LOD1 Mesh
+  - BorderControlRoofHeavy02 Mesh
+  - BorderControlRoofHeavy02_LOD1 Mesh
+  - BorderControlRoofHeavy02_LOD2 Mesh
+  - BorderControlRoofHeavy03 Mesh
+  - BorderControlRoofHeavy03_LOD1 Mesh
+  - BorderControlRoofHeavy03_LOD2 Mesh
+  - BorderControlRoofLight01 Mesh
+  - BorderControlRoofLight01_LOD1 Mesh
+  - BorderControlRoofLight02 Mesh
+  - BorderControlRoofLight02_LOD1 Mesh
+  - BorderControlRoofLight02_LOD2 Mesh
+  - BorderControlRoofLight03 Mesh
+  - BorderControlRoofLight03_LOD1 Mesh
+  - BorderControlRoofLight03_LOD2 Mesh
+  - CameraPortalRail01 Mesh
+  - CameraPortalRail01_LOD1 Mesh
+  - CameraPortalRail01_LOD2 Mesh
+  - CameraPortalRail02 Mesh
+  - CameraPortalRail02_LOD1 Mesh
+  - CameraPortalRail02_LOD2 Mesh
+  - CameraPortalRoad01 Mesh
+  - CameraPortalRoad01_LOD1 Mesh
+  - CameraPortalRoad01_LOD2 Mesh
+  - ContainerGridDecal01 Mesh
+  - ContainerGridDecal02 Mesh
+  - EU_BasculeBridgeBarrierLeft01 Mesh
+  - EU_BasculeBridgeBarrierLeft01_LOD1 Mesh
+  - EU_BasculeBridgeBarrierLeft01_LOD2 Mesh
+  - EU_BasculeBridgeBarrierRight01 Mesh
+  - EU_BasculeBridgeBarrierRight01_LOD1 Mesh
+  - EU_BasculeBridgeBarrierRight01_LOD2 Mesh
+  - EU_BasculeBridgeSign01 Mesh
+  - EU_BasculeBridgeSign01_LOD1 Mesh
+  - ExtradosedBridge01NetPillar Mesh
+  - ExtradosedBridge01NetPillar_LOD1 Mesh
+  - ExtradosedBridge01NetPillar_LOD2 Mesh
+  - ExtradosedBridge01NetPillarBase Mesh
+  - ExtradosedBridge01NetPillarBase_LOD1 Mesh
+  - ExtradosedBridge01NetPillarBase_LOD2 Mesh
+  - ExtradosedBridge01NetPillarTop Mesh
+  - ExtradosedBridge01NetPillarTop_LOD1 Mesh
+  - ExtradosedBridge01NetPillarTop_LOD2 Mesh
+  - ExtradosedBridge01PillarCablesNet_LOD1 Mesh
+  - ExtradosedBridge01PillarCablesNet_LOD2 Mesh
+  - GasStationPylon01 - BowmanBanking Mesh
+  - GasStationPylon01 - CrocodilesHook Mesh
+  - GasStationPylon01 - InstaLOD Mesh
+  - GasStationPylon01 - LifebeltPetroleum Mesh
+  - GasStationPylon01 - StArmandsGoblet Mesh
+  - GasStationPylon01 - TurttleShell Mesh
+  - GasStationPylon02 - BowmanBanking Mesh
+  - GasStationPylon02 - CrocodilesHook Mesh
+  - GasStationPylon02 - InstaLOD Mesh
+  - GasStationPylon02 - LifebeltPetroleum Mesh
+  - GasStationPylon02 - StArmandsGoblet Mesh
+  - GasStationPylon02 - TurttleShell Mesh
+  - GasStationPylon03 - BowmanBanking Mesh
+  - GasStationPylon03 - CrocodilesHook Mesh
+  - GasStationPylon03 - InstaLOD Mesh
+  - GasStationPylon03 - LifebeltPetroleum Mesh
+  - GasStationPylon03 - StArmandsGoblet Mesh
+  - GasStationPylon03 - TurttleShell Mesh
+  - HeightClearanceBar01 Mesh
+  - HeightClearanceBar01_LOD1 Mesh
+  - HeightClearanceBar01_LOD2 Mesh
+  - IndustrialManufacturingDecoration05_1x1 Mesh
+  - IndustrialManufacturingDecoration05_1x1_LOD1 Mesh
+  - IndustrialManufacturingDecoration05_1x3 Mesh
+  - IndustrialManufacturingDecoration05_1x3_LOD1 Mesh
+  - IndustrialManufacturingDecoration05_1x3_LOD2 Mesh
+  - IndustrialManufacturingDecoration05_2x2 Mesh
+  - IndustrialManufacturingDecoration05_2x2_LOD1 Mesh
+  - IndustrialManufacturingDecoration05_2x2_LOD2 Mesh
+  - IndustrialManufacturingDecoration05_2x4 Mesh
+  - IndustrialManufacturingDecoration05_2x4_LOD1 Mesh
+  - IndustrialManufacturingDecoration05_2x4_LOD2 Mesh
+  - LeisurePier01HeadLargeFence01 Mesh
+  - LeisurePier01HeadLargeFence01_LOD1 Mesh
+  - LeisurePier01HeadLargePavement01 Mesh
+  - LeisurePier01HeadLargePavement01_LOD1 Mesh
+  - LeisurePier01HeadMediumFence01 Mesh
+  - LeisurePier01HeadMediumFence01_LOD1 Mesh
+  - LeisurePier01HeadMediumPavement01 Mesh
+  - LeisurePier01HeadMediumPavement01_LOD1 Mesh
+  - LeisurePier01HeadSmallFence01 Mesh
+  - LeisurePier01HeadSmallFence01_LOD1 Mesh
+  - LeisurePier01HeadSmallPavement01 Mesh
+  - LeisurePier01HeadSmallPavement01_LOD1 Mesh
+  - LifeBuoyStation01 Mesh
+  - LifeBuoyStation01_LOD1 Mesh
+  - LifeBuoyStation01_LOD2 Mesh
+  - MooringBollard01 Mesh
+  - MooringBollard01_LOD1 Mesh
+  - MooringBollard02 Mesh
+  - MooringBollard02_LOD1 Mesh
+  - NA_BasculeBridgeBarrierLeft01 Mesh
+  - NA_BasculeBridgeBarrierLeft01_LOD1 Mesh
+  - NA_BasculeBridgeBarrierLeft01_LOD2 Mesh
+  - NA_BasculeBridgeBarrierRight01 Mesh
+  - NA_BasculeBridgeBarrierRight01_LOD1 Mesh
+  - NA_BasculeBridgeBarrierRight01_LOD2 Mesh
+  - NA_BasculeBridgeSign01 Mesh
+  - NA_BasculeBridgeSign01_LOD1 Mesh
+  - NumberDecal001 Mesh
+  - NumberDecal101 Mesh
+  - NumberDecal201 Mesh
+  - NumberDecal301 Mesh
+  - NumberDecal401 Mesh
+  - NumberDecal501 Mesh
+  - NumberDecal601 Mesh
+  - NumberDecal701 Mesh
+  - NumberDecal801 Mesh
+  - NumberDecal901 Mesh
+  - OilTankLarge01 Mesh
+  - OilTankLarge01_LOD1 Mesh
+  - OilTankLarge01_LOD2 Mesh
+  - OilTankLarge02 Mesh
+  - OilTankLarge02_LOD1 Mesh
+  - OilTankLarge02_LOD2 Mesh
+  - OilTankLarge03 Mesh
+  - OilTankLarge03_LOD1 Mesh
+  - OilTankLarge03_LOD2 Mesh
+  - OilTankLargeRandom01 Mesh
+  - OilTankMedium01 Mesh
+  - OilTankMedium01_LOD1 Mesh
+  - OilTankMedium01_LOD2 Mesh
+  - OilTankMedium02 Mesh
+  - OilTankMedium02_LOD1 Mesh
+  - OilTankMedium02_LOD2 Mesh
+  - OilTankMedium03 Mesh
+  - OilTankMedium03_LOD1 Mesh
+  - OilTankMedium03_LOD2 Mesh
+  - OilTankMediumRandom01 Mesh
+  - OilTankSmall01 Mesh
+  - OilTankSmall01_LOD1 Mesh
+  - OilTankSmall01_LOD2 Mesh
+  - OilTankSmall02 Mesh
+  - OilTankSmall02_LOD1 Mesh
+  - OilTankSmall02_LOD2 Mesh
+  - OilTankSmall03 Mesh
+  - OilTankSmall03_LOD1 Mesh
+  - OilTankSmall03_LOD2 Mesh
+  - OilTankSmallRandom01 Mesh
+  - Pedestrian Hangaround Location Mesh
+  - Pier01Pillar01 Mesh
+  - Pier01Pillar01_LOD1 Mesh
+  - Pier01Pillar02 Mesh
+  - Pier01Pillar02_LOD1 Mesh
+  - Pier01PillarBase01 Mesh
+  - Pier01PillarBase01_LOD1 Mesh
+  - Pier01PillarBase02 Mesh
+  - Pier01PillarBase02_LOD1 Mesh
+  - Pier01PillarTop01 Mesh
+  - Pier01PillarTop01_LOD1 Mesh
+  - Pier01PillarTop02 Mesh
+  - Pier01PillarTop02_LOD1 Mesh
+  - PierBench01 Mesh
+  - PierBench01_LOD1 Mesh
+  - PierBench01_LOD2 Mesh
+  - PierBench02 Mesh
+  - PierBench02_LOD1 Mesh
+  - PierBench02_LOD2 Mesh
+  - PierKiosk01 Mesh
+  - PierKiosk01_LOD1 Mesh
+  - PierKiosk01_LOD2 Mesh
+  - PierKiosk02 Mesh
+  - PierKiosk02_LOD1 Mesh
+  - PierKiosk02_LOD2 Mesh
+  - PosterHuge01 - BowmanBanking Mesh
+  - PosterHuge01 - CrocodilesHook Mesh
+  - PosterHuge01 - InstaLOD Mesh
+  - PosterHuge01 - LifebeltPetroleum Mesh
+  - PosterHuge01 - StArmandsGoblet Mesh
+  - PosterHuge01 - TurttleShell Mesh
+  - PosterHuge02 - BowmanBanking Mesh
+  - PosterHuge02 - CrocodilesHook Mesh
+  - PosterHuge02 - InstaLOD Mesh
+  - PosterHuge02 - LifebeltPetroleum Mesh
+  - PosterHuge02 - StArmandsGoblet Mesh
+  - PosterHuge02 - TurttleShell Mesh
+  - PosterLarge01 - BowmanBanking Mesh
+  - PosterLarge01 - CrocodilesHook Mesh
+  - PosterLarge01 - InstaLOD Mesh
+  - PosterLarge01 - LifebeltPetroleum Mesh
+  - PosterLarge01 - StArmandsGoblet Mesh
+  - PosterLarge01 - TurttleShell Mesh
+  - PosterLarge02 - BowmanBanking Mesh
+  - PosterLarge02 - CrocodilesHook Mesh
+  - PosterLarge02 - InstaLOD Mesh
+  - PosterLarge02 - LifebeltPetroleum Mesh
+  - PosterLarge02 - StArmandsGoblet Mesh
+  - PosterLarge02 - TurttleShell Mesh
+  - PosterMedium01 - BowmanBanking Mesh
+  - PosterMedium01 - CrocodilesHook Mesh
+  - PosterMedium01 - InstaLOD Mesh
+  - PosterMedium01 - LifebeltPetroleum Mesh
+  - PosterMedium01 - StArmandsGoblet Mesh
+  - PosterMedium01 - TurttleShell Mesh
+  - PosterMedium02 - BowmanBanking Mesh
+  - PosterMedium02 - CrocodilesHook Mesh
+  - PosterMedium02 - InstaLOD Mesh
+  - PosterMedium02 - LifebeltPetroleum Mesh
+  - PosterMedium02 - StArmandsGoblet Mesh
+  - PosterMedium02 - TurttleShell Mesh
+  - PosterSmall01 - BowmanBanking Mesh
+  - PosterSmall01 - CrocodilesHook Mesh
+  - PosterSmall01 - InstaLOD Mesh
+  - PosterSmall01 - LifebeltPetroleum Mesh
+  - PosterSmall01 - StArmandsGoblet Mesh
+  - PosterSmall01 - TurttleShell Mesh
+  - PosterSmall02 - BowmanBanking Mesh
+  - PosterSmall02 - CrocodilesHook Mesh
+  - PosterSmall02 - InstaLOD Mesh
+  - PosterSmall02 - LifebeltPetroleum Mesh
+  - PosterSmall02 - StArmandsGoblet Mesh
+  - PosterSmall02 - TurttleShell Mesh
+  - Screen01 - BowmanBanking Mesh
+  - Screen01 - CrocodilesHook Mesh
+  - Screen01 - InstaLOD Mesh
+  - Screen01 - LifebeltPetroleum Mesh
+  - Screen01 - StArmandsGoblet Mesh
+  - Screen01 - TurttleShell Mesh
+  - Screen02 - BowmanBanking Mesh
+  - Screen02 - CrocodilesHook Mesh
+  - Screen02 - InstaLOD Mesh
+  - Screen02 - LifebeltPetroleum Mesh
+  - Screen02 - StArmandsGoblet Mesh
+  - Screen02 - TurttleShell Mesh
+  - ShipCargo02 Mesh
+  - ShipCargo02_LOD1 Mesh
+  - ShipCargo02_LOD2 Mesh
+  - ShipCargo02Containers01 Mesh
+  - ShipCargo02Containers01_LOD1 Mesh
+  - ShipCargo02Containers01_LOD2 Mesh
+  - ShipCargo02Containers02 Mesh
+  - ShipCargo02Containers02_LOD1 Mesh
+  - ShipCargo02Containers02_LOD2 Mesh
+  - ShipCargo02Containers03 Mesh
+  - ShipCargo02Containers03_LOD1 Mesh
+  - ShipCargo02Containers03_LOD2 Mesh
+  - ShipCargo02LoadPlaceholder01 Mesh
+  - ShipwayBuoy01 Mesh
+  - ShipwayBuoy01_LOD1 Mesh
+  - ShipwayBuoy01_LOD2 Mesh
+  - SignFrontwayLarge01 - BowmanBanking Mesh
+  - SignFrontwayLarge01 - CrocodilesHook Mesh
+  - SignFrontwayLarge01 - InstaLOD Mesh
+  - SignFrontwayLarge01 - LifebeltPetroleum Mesh
+  - SignFrontwayLarge01 - StArmandsGoblet Mesh
+  - SignFrontwayLarge01 - TurttleShell Mesh
+  - SignFrontwayLarge02 - BowmanBanking Mesh
+  - SignFrontwayLarge02 - CrocodilesHook Mesh
+  - SignFrontwayLarge02 - InstaLOD Mesh
+  - SignFrontwayLarge02 - LifebeltPetroleum Mesh
+  - SignFrontwayLarge02 - StArmandsGoblet Mesh
+  - SignFrontwayLarge02 - TurttleShell Mesh
+  - SignFrontwayMedium01 - BowmanBanking Mesh
+  - SignFrontwayMedium01 - CrocodilesHook Mesh
+  - SignFrontwayMedium01 - InstaLOD Mesh
+  - SignFrontwayMedium01 - LifebeltPetroleum Mesh
+  - SignFrontwayMedium01 - StArmandsGoblet Mesh
+  - SignFrontwayMedium01 - TurttleShell Mesh
+  - SignFrontwayMedium02 - BowmanBanking Mesh
+  - SignFrontwayMedium02 - CrocodilesHook Mesh
+  - SignFrontwayMedium02 - InstaLOD Mesh
+  - SignFrontwayMedium02 - LifebeltPetroleum Mesh
+  - SignFrontwayMedium02 - StArmandsGoblet Mesh
+  - SignFrontwayMedium02 - TurttleShell Mesh
+  - SignFrontwaySmall01 - BowmanBanking Mesh
+  - SignFrontwaySmall01 - CrocodilesHook Mesh
+  - SignFrontwaySmall01 - InstaLOD Mesh
+  - SignFrontwaySmall01 - LifebeltPetroleum Mesh
+  - SignFrontwaySmall01 - StArmandsGoblet Mesh
+  - SignFrontwaySmall01 - TurttleShell Mesh
+  - SignFrontwaySmall02 - BowmanBanking Mesh
+  - SignFrontwaySmall02 - CrocodilesHook Mesh
+  - SignFrontwaySmall02 - InstaLOD Mesh
+  - SignFrontwaySmall02 - LifebeltPetroleum Mesh
+  - SignFrontwaySmall02 - StArmandsGoblet Mesh
+  - SignFrontwaySmall02 - TurttleShell Mesh
+  - SignNeonLarge01 - BowmanBanking Mesh
+  - SignNeonLarge01 - CrocodilesHook Mesh
+  - SignNeonLarge01 - InstaLOD Mesh
+  - SignNeonLarge01 - LifebeltPetroleum Mesh
+  - SignNeonLarge01 - StArmandsGoblet Mesh
+  - SignNeonLarge01 - TurttleShell Mesh
+  - SignNeonLarge02 - BowmanBanking Mesh
+  - SignNeonLarge02 - CrocodilesHook Mesh
+  - SignNeonLarge02 - InstaLOD Mesh
+  - SignNeonLarge02 - LifebeltPetroleum Mesh
+  - SignNeonLarge02 - StArmandsGoblet Mesh
+  - SignNeonLarge02 - TurttleShell Mesh
+  - SignNeonMedium01 - BowmanBanking Mesh
+  - SignNeonMedium01 - CrocodilesHook Mesh
+  - SignNeonMedium01 - InstaLOD Mesh
+  - SignNeonMedium01 - LifebeltPetroleum Mesh
+  - SignNeonMedium01 - StArmandsGoblet Mesh
+  - SignNeonMedium01 - TurttleShell Mesh
+  - SignNeonMedium02 - BowmanBanking Mesh
+  - SignNeonMedium02 - CrocodilesHook Mesh
+  - SignNeonMedium02 - InstaLOD Mesh
+  - SignNeonMedium02 - LifebeltPetroleum Mesh
+  - SignNeonMedium02 - StArmandsGoblet Mesh
+  - SignNeonMedium02 - TurttleShell Mesh
+  - SignNeonSmall01 - BowmanBanking Mesh
+  - SignNeonSmall01 - CrocodilesHook Mesh
+  - SignNeonSmall01 - InstaLOD Mesh
+  - SignNeonSmall01 - LifebeltPetroleum Mesh
+  - SignNeonSmall01 - StArmandsGoblet Mesh
+  - SignNeonSmall01 - TurttleShell Mesh
+  - SignNeonSmall02 - BowmanBanking Mesh
+  - SignNeonSmall02 - CrocodilesHook Mesh
+  - SignNeonSmall02 - InstaLOD Mesh
+  - SignNeonSmall02 - LifebeltPetroleum Mesh
+  - SignNeonSmall02 - StArmandsGoblet Mesh
+  - SignNeonSmall02 - TurttleShell Mesh
+  - SignRoundLarge01 - BowmanBanking Mesh
+  - SignRoundLarge01 - CrocodilesHook Mesh
+  - SignRoundLarge01 - InstaLOD Mesh
+  - SignRoundLarge01 - LifebeltPetroleum Mesh
+  - SignRoundLarge01 - StArmandsGoblet Mesh
+  - SignRoundLarge01 - TurttleShell Mesh
+  - SignSidewayLarge01 - BowmanBanking Mesh
+  - SignSidewayLarge01 - CrocodilesHook Mesh
+  - SignSidewayLarge01 - InstaLOD Mesh
+  - SignSidewayLarge01 - LifebeltPetroleum Mesh
+  - SignSidewayLarge01 - StArmandsGoblet Mesh
+  - SignSidewayLarge01 - TurttleShell Mesh
+  - SignSidewayLarge02 - BowmanBanking Mesh
+  - SignSidewayLarge02 - CrocodilesHook Mesh
+  - SignSidewayLarge02 - InstaLOD Mesh
+  - SignSidewayLarge02 - LifebeltPetroleum Mesh
+  - SignSidewayLarge02 - StArmandsGoblet Mesh
+  - SignSidewayLarge02 - TurttleShell Mesh
+  - SignSidewayMedium01 - BowmanBanking Mesh
+  - SignSidewayMedium01 - CrocodilesHook Mesh
+  - SignSidewayMedium01 - InstaLOD Mesh
+  - SignSidewayMedium01 - LifebeltPetroleum Mesh
+  - SignSidewayMedium01 - StArmandsGoblet Mesh
+  - SignSidewayMedium01 - TurttleShell Mesh
+  - SignSidewayMedium02 - BowmanBanking Mesh
+  - SignSidewayMedium02 - CrocodilesHook Mesh
+  - SignSidewayMedium02 - InstaLOD Mesh
+  - SignSidewayMedium02 - LifebeltPetroleum Mesh
+  - SignSidewayMedium02 - StArmandsGoblet Mesh
+  - SignSidewayMedium02 - TurttleShell Mesh
+  - SignSidewaySmall01 - BowmanBanking Mesh
+  - SignSidewaySmall01 - CrocodilesHook Mesh
+  - SignSidewaySmall01 - InstaLOD Mesh
+  - SignSidewaySmall01 - LifebeltPetroleum Mesh
+  - SignSidewaySmall01 - StArmandsGoblet Mesh
+  - SignSidewaySmall01 - TurttleShell Mesh
+  - SignSidewaySmall02 - BowmanBanking Mesh
+  - SignSidewaySmall02 - CrocodilesHook Mesh
+  - SignSidewaySmall02 - InstaLOD Mesh
+  - SignSidewaySmall02 - LifebeltPetroleum Mesh
+  - SignSidewaySmall02 - StArmandsGoblet Mesh
+  - SignSidewaySmall02 - TurttleShell Mesh
+  - Stand01 - BowmanBanking Mesh
+  - Stand01 - CrocodilesHook Mesh
+  - Stand01 - InstaLOD Mesh
+  - Stand01 - LifebeltPetroleum Mesh
+  - Stand01 - StArmandsGoblet Mesh
+  - Stand01 - TurttleShell Mesh
+  - Stand02 - BowmanBanking Mesh
+  - Stand02 - CrocodilesHook Mesh
+  - Stand02 - InstaLOD Mesh
+  - Stand02 - LifebeltPetroleum Mesh
+  - Stand02 - StArmandsGoblet Mesh
+  - Stand02 - TurttleShell Mesh
+  - TrafficDividerNarrow01 Mesh
+  - TrafficDividerNarrow01_LOD1 Mesh
+  - TrafficDividerNarrow02 Mesh
+  - TrafficDividerNarrow02_LOD1 Mesh
+  - TrafficDividerNarrow03 Mesh
+  - TrafficDividerNarrow03_LOD1 Mesh
+  - TrafficDividerWide01 Mesh
+  - TrafficDividerWide01_LOD1 Mesh
+  - TrafficDividerWide02 Mesh
+  - TrafficDividerWide02_LOD1 Mesh
+  - TrafficDividerWide03 Mesh
+  - TrafficDividerWide03_LOD1 Mesh
+  - TrussArchBridge01Net_LOD1 Mesh
+  - TrussArchBridge01Net_LOD2 Mesh
+  - TrussArchBridge01NetPillar Mesh
+  - TrussArchBridge01NetPillar_LOD1 Mesh
+  - TrussArchBridge01NetPillar_LOD2 Mesh
+  - TrussArchBridge01NetPillarBase Mesh
+  - TrussArchBridge01NetPillarBase_LOD1 Mesh
+  - TrussArchBridge01NetPillarBase_LOD2 Mesh
+- Changes to RenderPrefab:
+  - [All RenderPrefab with StackProperties (Pillar, Pillar Top, Pillar Base)]
+    - StackProperties: m_ForbidScaling (false)
+  - [All RenderPrefab with ProceduralAnimationProperties] (Buildings, Props, Vehicles)
+    - ProceduralAnimationProperties+BoneInfo[]: m_SourceID (0)
+  - [All vegetations (Trees)], WarningLight01 Mesh, WarningLight02 Mesh
+    - ColorProperties+VariationSet[]: m_Colors (Updated)
+    - ColorProperties: m_VariationRanges (Updated)
+  - CargoHarbor01 Mesh, CargoHarbor01_Ext02 Mesh, CargoHarbor01_Sub01 Mesh, ShipCargo01 Mesh, ShipCargo01_Containers03 Mesh, ShippingContainer01 Mesh, ShippingContainer02 Mesh, ShippingContainer03 Mesh, ShippingContainerPileLargeHigh01 Mesh, ShippingContainerPileLargeLow01 Mesh, ShippingContainerPileLargeMedium01 Mesh, ShippingContainerPileMediumHigh01 Mesh, ShippingContainerPileMediumLow01 Mesh, ShippingContainerPileMediumMedium01 Mesh, ShippingContainerPileSmallHigh01 Mesh, ShippingContainerPileSmallLow01 Mesh, ShippingContainerPileSmallMedium01 Mesh
+    - ColorProperties (Added)
+- New ResourcePrefab:
+  - ResourceFish
+- Changes to ResourceStatistic:
+  - [All ResourceStatistic]
+    - m_Resources (Added Fish)
+- New RoadPrefab:
+  - ExtradosedBridge01
+  - QuayLarge01
+  - QuayMedium01
+- Changes to RoadPrefab:
+  - [All RoadPrefab]
+    - NetSubObjectInfo[]: m_Spacing (0)
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+  - [All RoadPrefab with Bridge]
+    - Bridge: m_ElevationOnWater (5)
+    - Bridge: m_CanCurve (false)
+    - Bridge: m_AllowMinimalLength (false)
+    - Bridge: m_BuildStyle (0)
+  - Grand Bridge
+    - UIObject: m_Priority (8100 > 10000)
+  - Gravel Road, Gravel Road Oneway
+    - m_NodeStates (Changes)
+  - Small Road
+    - Unlockable (Changes)
+- Changes to RouteConfigurationPrefab
+  - Route Configuration
+    - m_MissingRoutePrefab (Missing Route)
+- New RoutePrefab
+  - Missing Route
+- New StaticObjectPrefab
+  - AlphabetDecalA01
+  - AlphabetDecalB01
+  - AlphabetDecalC01
+  - AlphabetDecalD01
+  - AlphabetDecalE01
+  - AlphabetDecalF01
+  - AlphabetDecalG01
+  - AlphabetDecalH01
+  - AlphabetDecalI01
+  - AlphabetDecalJ01
+  - AlphabetDecalK01
+  - AlphabetDecalL01
+  - AlphabetDecalM01
+  - AlphabetDecalN01
+  - AlphabetDecalO01
+  - AlphabetDecalP01
+  - AlphabetDecalQ01
+  - AlphabetDecalR01
+  - AlphabetDecalS01
+  - AlphabetDecalT01
+  - AlphabetDecalU01
+  - AlphabetDecalV01
+  - AlphabetDecalW01
+  - AlphabetDecalX01
+  - AlphabetDecalY01
+  - AlphabetDecalZ01
+  - AStand01 - BowmanBanking
+  - AStand01 - CrocodilesHook
+  - AStand01 - InstaLOD
+  - AStand01 - LifebeltPetroleum
+  - AStand01 - StArmandsGoblet
+  - AStand01 - TurttleShell
+  - AStand02 - BowmanBanking
+  - AStand02 - CrocodilesHook
+  - AStand02 - InstaLOD
+  - AStand02 - LifebeltPetroleum
+  - AStand02 - StArmandsGoblet
+  - AStand02 - TurttleShell
+  - BasculeBridgeBarrier01 Placeholder
+  - BillboardHuge01 - BowmanBanking
+  - BillboardHuge01 - CrocodilesHook
+  - BillboardHuge01 - InstaLOD
+  - BillboardHuge01 - LifebeltPetroleum
+  - BillboardHuge01 - StArmandsGoblet
+  - BillboardHuge01 - TurttleShell
+  - BillboardHuge02 - BowmanBanking
+  - BillboardHuge02 - CrocodilesHook
+  - BillboardHuge02 - InstaLOD
+  - BillboardHuge02 - LifebeltPetroleum
+  - BillboardHuge02 - StArmandsGoblet
+  - BillboardHuge02 - TurttleShell
+  - BillboardLarge01 - BowmanBanking
+  - BillboardLarge01 - CrocodilesHook
+  - BillboardLarge01 - InstaLOD
+  - BillboardLarge01 - LifebeltPetroleum
+  - BillboardLarge01 - StArmandsGoblet
+  - BillboardLarge01 - TurttleShell
+  - BillboardLarge02 - BowmanBanking
+  - BillboardLarge02 - CrocodilesHook
+  - BillboardLarge02 - InstaLOD
+  - BillboardLarge02 - LifebeltPetroleum
+  - BillboardLarge02 - StArmandsGoblet
+  - BillboardLarge02 - TurttleShell
+  - BillboardMedium01 - BowmanBanking
+  - BillboardMedium01 - CrocodilesHook
+  - BillboardMedium01 - InstaLOD
+  - BillboardMedium01 - LifebeltPetroleum
+  - BillboardMedium01 - StArmandsGoblet
+  - BillboardMedium01 - TurttleShell
+  - BillboardMedium02 - BowmanBanking
+  - BillboardMedium02 - CrocodilesHook
+  - BillboardMedium02 - InstaLOD
+  - BillboardMedium02 - LifebeltPetroleum
+  - BillboardMedium02 - StArmandsGoblet
+  - BillboardMedium02 - TurttleShell
+  - BillboardRoundLarge01 - BowmanBanking
+  - BillboardRoundLarge01 - CrocodilesHook
+  - BillboardRoundLarge01 - InstaLOD
+  - BillboardRoundLarge01 - LifebeltPetroleum
+  - BillboardRoundLarge01 - StArmandsGoblet
+  - BillboardRoundLarge01 - TurttleShell
+  - BillboardRoundMedium01 - BowmanBanking
+  - BillboardRoundMedium01 - CrocodilesHook
+  - BillboardRoundMedium01 - InstaLOD
+  - BillboardRoundMedium01 - LifebeltPetroleum
+  - BillboardRoundMedium01 - StArmandsGoblet
+  - BillboardRoundMedium01 - TurttleShell
+  - BillboardRoundSmall01 - BowmanBanking
+  - BillboardRoundSmall01 - CrocodilesHook
+  - BillboardRoundSmall01 - InstaLOD
+  - BillboardRoundSmall01 - LifebeltPetroleum
+  - BillboardRoundSmall01 - StArmandsGoblet
+  - BillboardRoundSmall01 - TurttleShell
+  - BillboardSmall01 - BowmanBanking
+  - BillboardSmall01 - CrocodilesHook
+  - BillboardSmall01 - InstaLOD
+  - BillboardSmall01 - LifebeltPetroleum
+  - BillboardSmall01 - StArmandsGoblet
+  - BillboardSmall01 - TurttleShell
+  - BillboardSmall02 - BowmanBanking
+  - BillboardSmall02 - CrocodilesHook
+  - BillboardSmall02 - InstaLOD
+  - BillboardSmall02 - LifebeltPetroleum
+  - BillboardSmall02 - StArmandsGoblet
+  - BillboardSmall02 - TurttleShell
+  - BillboardWallHuge01 - BowmanBanking
+  - BillboardWallHuge01 - CrocodilesHook
+  - BillboardWallHuge01 - InstaLOD
+  - BillboardWallHuge01 - LifebeltPetroleum
+  - BillboardWallHuge01 - StArmandsGoblet
+  - BillboardWallHuge01 - TurttleShell
+  - BillboardWallHuge02 - BowmanBanking
+  - BillboardWallHuge02 - CrocodilesHook
+  - BillboardWallHuge02 - InstaLOD
+  - BillboardWallHuge02 - LifebeltPetroleum
+  - BillboardWallHuge02 - StArmandsGoblet
+  - BillboardWallHuge02 - TurttleShell
+  - BillboardWallLarge01 - BowmanBanking
+  - BillboardWallLarge01 - CrocodilesHook
+  - BillboardWallLarge01 - InstaLOD
+  - BillboardWallLarge01 - LifebeltPetroleum
+  - BillboardWallLarge01 - StArmandsGoblet
+  - BillboardWallLarge01 - TurttleShell
+  - BillboardWallLarge02 - BowmanBanking
+  - BillboardWallLarge02 - CrocodilesHook
+  - BillboardWallLarge02 - InstaLOD
+  - BillboardWallLarge02 - LifebeltPetroleum
+  - BillboardWallLarge02 - StArmandsGoblet
+  - BillboardWallLarge02 - TurttleShell
+  - BillboardWallLarge03 - BowmanBanking
+  - BillboardWallLarge03 - CrocodilesHook
+  - BillboardWallLarge03 - InstaLOD
+  - BillboardWallLarge03 - LifebeltPetroleum
+  - BillboardWallLarge03 - StArmandsGoblet
+  - BillboardWallLarge03 - TurttleShell
+  - BillboardWallLarge04 - BowmanBanking
+  - BillboardWallLarge04 - CrocodilesHook
+  - BillboardWallLarge04 - InstaLOD
+  - BillboardWallLarge04 - LifebeltPetroleum
+  - BillboardWallLarge04 - StArmandsGoblet
+  - BillboardWallLarge04 - TurttleShell
+  - BillboardWallMedium01 - BowmanBanking
+  - BillboardWallMedium01 - CrocodilesHook
+  - BillboardWallMedium01 - InstaLOD
+  - BillboardWallMedium01 - LifebeltPetroleum
+  - BillboardWallMedium01 - StArmandsGoblet
+  - BillboardWallMedium01 - TurttleShell
+  - BillboardWallMedium02 - BowmanBanking
+  - BillboardWallMedium02 - CrocodilesHook
+  - BillboardWallMedium02 - InstaLOD
+  - BillboardWallMedium02 - LifebeltPetroleum
+  - BillboardWallMedium02 - StArmandsGoblet
+  - BillboardWallMedium02 - TurttleShell
+  - BillboardWallSmall01 - BowmanBanking
+  - BillboardWallSmall01 - CrocodilesHook
+  - BillboardWallSmall01 - InstaLOD
+  - BillboardWallSmall01 - LifebeltPetroleum
+  - BillboardWallSmall01 - StArmandsGoblet
+  - BillboardWallSmall01 - TurttleShell
+  - BillboardWallSmall02 - BowmanBanking
+  - BillboardWallSmall02 - CrocodilesHook
+  - BillboardWallSmall02 - InstaLOD
+  - BillboardWallSmall02 - LifebeltPetroleum
+  - BillboardWallSmall02 - StArmandsGoblet
+  - BillboardWallSmall02 - TurttleShell
+  - BillboardWallSmall03 - BowmanBanking
+  - BillboardWallSmall03 - CrocodilesHook
+  - BillboardWallSmall03 - InstaLOD
+  - BillboardWallSmall03 - LifebeltPetroleum
+  - BillboardWallSmall03 - StArmandsGoblet
+  - BillboardWallSmall03 - TurttleShell
+  - BillboardWallSmall04 - BowmanBanking
+  - BillboardWallSmall04 - CrocodilesHook
+  - BillboardWallSmall04 - InstaLOD
+  - BillboardWallSmall04 - LifebeltPetroleum
+  - BillboardWallSmall04 - StArmandsGoblet
+  - BillboardWallSmall04 - TurttleShell
+  - BoatwayBuoy01
+  - BorderControlBooth01
+  - BorderControlBooth02
+  - BorderControlPylon01
+  - BorderControlRoofHeavy01
+  - BorderControlRoofHeavy02
+  - BorderControlRoofHeavy03
+  - BorderControlRoofLight01
+  - BorderControlRoofLight02
+  - BorderControlRoofLight03
+  - CameraPortalRail01
+  - CameraPortalRail02
+  - CameraPortalRoad01
+  - ContainerGridDecal01
+  - ContainerGridDecal02
+  - EU_BasculeBridgeBarrierLeft01
+  - EU_BasculeBridgeBarrierRight01
+  - EU_BasculeBridgeSign01
+  - ExtradosedBridge01NetPillar
+  - GasStationPylon01 - BowmanBanking
+  - GasStationPylon01 - CrocodilesHook
+  - GasStationPylon01 - InstaLOD
+  - GasStationPylon01 - LifebeltPetroleum
+  - GasStationPylon01 - StArmandsGoblet
+  - GasStationPylon01 - TurttleShell
+  - GasStationPylon02 - BowmanBanking
+  - GasStationPylon02 - CrocodilesHook
+  - GasStationPylon02 - InstaLOD
+  - GasStationPylon02 - LifebeltPetroleum
+  - GasStationPylon02 - StArmandsGoblet
+  - GasStationPylon02 - TurttleShell
+  - GasStationPylon03 - BowmanBanking
+  - GasStationPylon03 - CrocodilesHook
+  - GasStationPylon03 - InstaLOD
+  - GasStationPylon03 - LifebeltPetroleum
+  - GasStationPylon03 - StArmandsGoblet
+  - GasStationPylon03 - TurttleShell
+  - HeightClearanceBar01
+  - IndustrialManufacturingDecoration05_1x1 Aquaculture
+  - IndustrialManufacturingDecoration05_1x3 Aquaculture
+  - IndustrialManufacturingDecoration05_2x2 Aquaculture
+  - IndustrialManufacturingDecoration05_2x4 Aquaculture
+  - LifeBuoyStation01
+  - MooringBollard01
+  - MooringBollard02
+  - NA_BasculeBridgeBarrierLeft01
+  - NA_BasculeBridgeBarrierRight01
+  - NA_BasculeBridgeSign01
+  - NumberDecal001
+  - NumberDecal101
+  - NumberDecal201
+  - NumberDecal301
+  - NumberDecal401
+  - NumberDecal501
+  - NumberDecal601
+  - NumberDecal701
+  - NumberDecal801
+  - NumberDecal901
+  - OilTankLarge01
+  - OilTankLarge02
+  - OilTankLarge03
+  - OilTankLargeRandom01
+  - OilTankMedium01
+  - OilTankMedium02
+  - OilTankMedium03
+  - OilTankMediumRandom01
+  - OilTankSmall01
+  - OilTankSmall02
+  - OilTankSmall03
+  - OilTankSmallRandom01
+  - Pier01Pillar01
+  - Pier01Pillar02
+  - PierBench01
+  - PierBench02
+  - PierKiosk01
+  - PierKiosk02
+  - PosterHuge01 - BowmanBanking
+  - PosterHuge01 - CrocodilesHook
+  - PosterHuge01 - InstaLOD
+  - PosterHuge01 - LifebeltPetroleum
+  - PosterHuge01 - StArmandsGoblet
+  - PosterHuge01 - TurttleShell
+  - PosterHuge02 - BowmanBanking
+  - PosterHuge02 - CrocodilesHook
+  - PosterHuge02 - InstaLOD
+  - PosterHuge02 - LifebeltPetroleum
+  - PosterHuge02 - StArmandsGoblet
+  - PosterHuge02 - TurttleShell
+  - PosterLarge01 - BowmanBanking
+  - PosterLarge01 - CrocodilesHook
+  - PosterLarge01 - InstaLOD
+  - PosterLarge01 - LifebeltPetroleum
+  - PosterLarge01 - StArmandsGoblet
+  - PosterLarge01 - TurttleShell
+  - PosterLarge02 - BowmanBanking
+  - PosterLarge02 - CrocodilesHook
+  - PosterLarge02 - InstaLOD
+  - PosterLarge02 - LifebeltPetroleum
+  - PosterLarge02 - StArmandsGoblet
+  - PosterLarge02 - TurttleShell
+  - PosterMedium01 - BowmanBanking
+  - PosterMedium01 - CrocodilesHook
+  - PosterMedium01 - InstaLOD
+  - PosterMedium01 - LifebeltPetroleum
+  - PosterMedium01 - StArmandsGoblet
+  - PosterMedium01 - TurttleShell
+  - PosterMedium02 - BowmanBanking
+  - PosterMedium02 - CrocodilesHook
+  - PosterMedium02 - InstaLOD
+  - PosterMedium02 - LifebeltPetroleum
+  - PosterMedium02 - StArmandsGoblet
+  - PosterMedium02 - TurttleShell
+  - PosterSmall01 - BowmanBanking
+  - PosterSmall01 - CrocodilesHook
+  - PosterSmall01 - InstaLOD
+  - PosterSmall01 - LifebeltPetroleum
+  - PosterSmall01 - StArmandsGoblet
+  - PosterSmall01 - TurttleShell
+  - PosterSmall02 - BowmanBanking
+  - PosterSmall02 - CrocodilesHook
+  - PosterSmall02 - InstaLOD
+  - PosterSmall02 - LifebeltPetroleum
+  - PosterSmall02 - StArmandsGoblet
+  - PosterSmall02 - TurttleShell
+  - Screen01 - BowmanBanking
+  - Screen01 - CrocodilesHook
+  - Screen01 - InstaLOD
+  - Screen01 - LifebeltPetroleum
+  - Screen01 - StArmandsGoblet
+  - Screen01 - TurttleShell
+  - Screen02 - BowmanBanking
+  - Screen02 - CrocodilesHook
+  - Screen02 - InstaLOD
+  - Screen02 - LifebeltPetroleum
+  - Screen02 - StArmandsGoblet
+  - Screen02 - TurttleShell
+  - ShipCargo02Containers01
+  - ShipCargo02LoadPlaceholder01
+  - ShipwayBuoy01
+  - SignFrontwayLarge01 - BowmanBanking
+  - SignFrontwayLarge01 - CrocodilesHook
+  - SignFrontwayLarge01 - InstaLOD
+  - SignFrontwayLarge01 - LifebeltPetroleum
+  - SignFrontwayLarge01 - StArmandsGoblet
+  - SignFrontwayLarge01 - TurttleShell
+  - SignFrontwayLarge02 - BowmanBanking
+  - SignFrontwayLarge02 - CrocodilesHook
+  - SignFrontwayLarge02 - InstaLOD
+  - SignFrontwayLarge02 - LifebeltPetroleum
+  - SignFrontwayLarge02 - StArmandsGoblet
+  - SignFrontwayLarge02 - TurttleShell
+  - SignFrontwayMedium01 - BowmanBanking
+  - SignFrontwayMedium01 - CrocodilesHook
+  - SignFrontwayMedium01 - InstaLOD
+  - SignFrontwayMedium01 - LifebeltPetroleum
+  - SignFrontwayMedium01 - StArmandsGoblet
+  - SignFrontwayMedium01 - TurttleShell
+  - SignFrontwayMedium02 - BowmanBanking
+  - SignFrontwayMedium02 - CrocodilesHook
+  - SignFrontwayMedium02 - InstaLOD
+  - SignFrontwayMedium02 - LifebeltPetroleum
+  - SignFrontwayMedium02 - StArmandsGoblet
+  - SignFrontwayMedium02 - TurttleShell
+  - SignFrontwaySmall01 - BowmanBanking
+  - SignFrontwaySmall01 - CrocodilesHook
+  - SignFrontwaySmall01 - InstaLOD
+  - SignFrontwaySmall01 - LifebeltPetroleum
+  - SignFrontwaySmall01 - StArmandsGoblet
+  - SignFrontwaySmall01 - TurttleShell
+  - SignFrontwaySmall02 - BowmanBanking
+  - SignFrontwaySmall02 - CrocodilesHook
+  - SignFrontwaySmall02 - InstaLOD
+  - SignFrontwaySmall02 - LifebeltPetroleum
+  - SignFrontwaySmall02 - StArmandsGoblet
+  - SignFrontwaySmall02 - TurttleShell
+  - SignNeonLarge01 - BowmanBanking
+  - SignNeonLarge01 - CrocodilesHook
+  - SignNeonLarge01 - InstaLOD
+  - SignNeonLarge01 - LifebeltPetroleum
+  - SignNeonLarge01 - StArmandsGoblet
+  - SignNeonLarge01 - TurttleShell
+  - SignNeonLarge02 - BowmanBanking
+  - SignNeonLarge02 - CrocodilesHook
+  - SignNeonLarge02 - InstaLOD
+  - SignNeonLarge02 - LifebeltPetroleum
+  - SignNeonLarge02 - StArmandsGoblet
+  - SignNeonLarge02 - TurttleShell
+  - SignNeonMedium01 - BowmanBanking
+  - SignNeonMedium01 - CrocodilesHook
+  - SignNeonMedium01 - InstaLOD
+  - SignNeonMedium01 - LifebeltPetroleum
+  - SignNeonMedium01 - StArmandsGoblet
+  - SignNeonMedium01 - TurttleShell
+  - SignNeonMedium02 - BowmanBanking
+  - SignNeonMedium02 - CrocodilesHook
+  - SignNeonMedium02 - InstaLOD
+  - SignNeonMedium02 - LifebeltPetroleum
+  - SignNeonMedium02 - StArmandsGoblet
+  - SignNeonMedium02 - TurttleShell
+  - SignNeonSmall01 - BowmanBanking
+  - SignNeonSmall01 - CrocodilesHook
+  - SignNeonSmall01 - InstaLOD
+  - SignNeonSmall01 - LifebeltPetroleum
+  - SignNeonSmall01 - StArmandsGoblet
+  - SignNeonSmall01 - TurttleShell
+  - SignNeonSmall02 - BowmanBanking
+  - SignNeonSmall02 - CrocodilesHook
+  - SignNeonSmall02 - InstaLOD
+  - SignNeonSmall02 - LifebeltPetroleum
+  - SignNeonSmall02 - StArmandsGoblet
+  - SignNeonSmall02 - TurttleShell
+  - SignRoundLarge01 - BowmanBanking
+  - SignRoundLarge01 - CrocodilesHook
+  - SignRoundLarge01 - InstaLOD
+  - SignRoundLarge01 - LifebeltPetroleum
+  - SignRoundLarge01 - StArmandsGoblet
+  - SignRoundLarge01 - TurttleShell
+  - SignSidewayLarge01 - BowmanBanking
+  - SignSidewayLarge01 - CrocodilesHook
+  - SignSidewayLarge01 - InstaLOD
+  - SignSidewayLarge01 - LifebeltPetroleum
+  - SignSidewayLarge01 - StArmandsGoblet
+  - SignSidewayLarge01 - TurttleShell
+  - SignSidewayLarge02 - BowmanBanking
+  - SignSidewayLarge02 - CrocodilesHook
+  - SignSidewayLarge02 - InstaLOD
+  - SignSidewayLarge02 - LifebeltPetroleum
+  - SignSidewayLarge02 - StArmandsGoblet
+  - SignSidewayLarge02 - TurttleShell
+  - SignSidewayMedium01 - BowmanBanking
+  - SignSidewayMedium01 - CrocodilesHook
+  - SignSidewayMedium01 - InstaLOD
+  - SignSidewayMedium01 - LifebeltPetroleum
+  - SignSidewayMedium01 - StArmandsGoblet
+  - SignSidewayMedium01 - TurttleShell
+  - SignSidewayMedium02 - BowmanBanking
+  - SignSidewayMedium02 - CrocodilesHook
+  - SignSidewayMedium02 - InstaLOD
+  - SignSidewayMedium02 - LifebeltPetroleum
+  - SignSidewayMedium02 - StArmandsGoblet
+  - SignSidewayMedium02 - TurttleShell
+  - SignSidewaySmall01 - BowmanBanking
+  - SignSidewaySmall01 - CrocodilesHook
+  - SignSidewaySmall01 - InstaLOD
+  - SignSidewaySmall01 - LifebeltPetroleum
+  - SignSidewaySmall01 - StArmandsGoblet
+  - SignSidewaySmall01 - TurttleShell
+  - SignSidewaySmall02 - BowmanBanking
+  - SignSidewaySmall02 - CrocodilesHook
+  - SignSidewaySmall02 - InstaLOD
+  - SignSidewaySmall02 - LifebeltPetroleum
+  - SignSidewaySmall02 - StArmandsGoblet
+  - SignSidewaySmall02 - TurttleShell
+  - Stand01 - BowmanBanking
+  - Stand01 - CrocodilesHook
+  - Stand01 - InstaLOD
+  - Stand01 - LifebeltPetroleum
+  - Stand01 - StArmandsGoblet
+  - Stand01 - TurttleShell
+  - Stand02 - BowmanBanking
+  - Stand02 - CrocodilesHook
+  - Stand02 - InstaLOD
+  - Stand02 - LifebeltPetroleum
+  - Stand02 - StArmandsGoblet
+  - Stand02 - TurttleShell
+  - TrafficDividerNarrow01
+  - TrafficDividerNarrow02
+  - TrafficDividerNarrow03
+  - TrafficDividerWide01
+  - TrafficDividerWide02
+  - TrafficDividerWide03
+  - TrussArchBridge01NetPillar
+- Changes to StaticObjectPrefab:
+  - [All StaticObjectPrefab with StandingObject (Trees, Lights)], ConstructionCrane01, GasHeater02, Parasol01, Parasol02, Parasol03, ParasolRandom01
+    - StandingObject: m_LegGap (0,0)
+  - [All StaticObjectPrefab with NetObject (Roadside Decorations, Stops, Signs Roundabouts, Cul-de-sacs)]
+    - NetObject: m_NodeOffset (0)
+    - NetObject: m_Attached (true)
+- Changes to TaxiwayPrefab:
+  - [All TaxiwayPrefab]
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+- New TrackPrefab:
+  - ExtradosedBridge01 Train Track
+  - TrussArchBridge01
+- Changes to TrackPrefab:
+  - [All TrackPrefab]
+    - NetSubObjectInfo[]: m_Spacing (0)
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+- Changes to TrainCarPrefab:
+  - TrainCargoCar01
+    - CargoTransport: m_TransportedResources (Added Fish)
+  - TrainOreCar01
+    - CargoTransport: m_TransportedResources (Removed Garbage)
+- Changes to TransportLinePrefab:
+  - [All TransportLinePrefab]
+    - m_SizeClass (2)
+  - Cargo Airplane Route
+  - Cargo Ship Route
+    - Unlockable: m_RequireAll (CargoHarbor01 & Cargo Harbor Built Req > TransportationWater)
+  - Cargo Train Route
+    - Unlockable: m_RequireAll (CargoTrainTerminal01 & Cargo Train Terminal Built Req > RailYard01 & Rail Yard Built Req)
+- New TutorialAreaTriggerPrefab:
+  - SpecialIndustryZoneTutorialAreaTrigger (Replaced TutorialObjectPlacementTriggerPrefab:SpecialIndustryZoneTutorialAreaTrigger)
+- Changes to TutorialAreaTriggerPrefab:
+  - DistrictTutorialCreationTrigger, GarbageTutorialLandfillAdjustmentTrigger
+    - m_Prefab to m_Targets: AreaPrefab[]
+- New TutorialBalloonPrefab:
+  - ElectricityFlowTutorialIntro (Replaced ElectricityFlowTutorialSelectInfoView, ElectricityTutorialSources, ElectricityTutorialSourcesIntro)
+  - RoadsTutorialTwoLaneRoadGamepad
+- Changes to TutorialListPref1ab:
+  - TutorialsIntroList
+    - m_Tutorials (Removed 1)
+- Removed TutorialObjectPlacementTriggerPrefab:
+  - SpecialIndustryZoneTutorialAreaTrigger (Replaced with TutorialAreaTriggerPrefab:SpecialIndustryZoneTutorialAreaTrigger)
+- New TutorialPrefab:
+  - ElectricityTutorialOutside
+  - ElectricityTutorialWind
+  - RoadsToolOptionsTutorial
+- Changes to TutorialPrefab:
+  - ElectricityFlowTutorial
+    - Replaced TutorialAutoActivation with TutorialAdvisorActivation
+    - m_Phases (Replaced 1)
+    - m_Mandatory (true > false)
+  - ElectricityTutorial
+    - m_Phases (Removed 13)
+  - NotificationTutorial
+    - m_Mandatory (false > true)
+  - RoadsTutorial
+    - m_Phases (Removed 8, Replaced 1)
+- New TutorialUITriggerPrefab:
+  - RoadsTutorialTwoLaneRoadTriggerGamepad
+- Changes to TutorialUITriggerPrefab:
+  - [All TutorialUITriggerPrefab]
+    - TutorialUITriggerPrefab+UITriggerInfo[]: m_CompleteManually (false)
+  - SewageTutorialIntroTrigger
+  - TrafficAccidentTutorialIntroTrigger
+  - WaterTutorialIntroTrigger
+  - WaterTutorialWaterSourcesTrigger
+  - ZoningTutorialIntroTrigger
+- Removed TutorialUITriggerPrefab:
+  - ElectricityTutorialSourcesTrigger
+- Changes to UIAssetMenuPrefab:
+  - Signatures
+    - ForceUnlockRequirement: m_Prefab (Signature Buildings)
+- Changes to UIProductionLinkPrefab:
+  - [All UIProductionLinkPrefab]
+    - Fix m_Icon to replace `\\` with `/`
+- New UIWhatsNewPanelPrefab:
+  - WhatsNewBridgesPorts
+- New WatercraftPrefab:
+  - ShipCargo02
+- Changes to WatercraftPrefab:
+  - ShipCargo01
+    - CargoTransport: m_TransportedResources (Replace duplicate Stone with Livestock)
+    - CargoTransport: m_TransportedResources (Added Fish)
+    - Changes to Effects
+    - Prop adjustments
+    - VehicleSideEffects (Added)
+  - ShipPassenger01
+    - Changes to Effects
+    - Prop adjustments
+    - VehicleSideEffects (Added)
+- New WaterwayPrefab:
+  - Narrow Boatway
+- Changes to WaterwayPrefab:
+  - [All WaterwayPrefab]
+    - NetSubObjectInfo[]: m_Spacing (0)
+    - NetSectionInfo[]: m_HalfLength (false)
+    - m_StyleType (null)
+    - NetPollution: m_AirPollutionFactor (1 > 2)
+  - Medium Seaway
+    - NetPollution: m_NoisePollutionFactor (1 > 4)
+  - Narrow Seaway
+    - NetPollution: m_NoisePollutionFactor (1 > 2)
+  - Wide Seaway
+    - NetPollution: m_NoisePollutionFactor (1 > 8)
+- New ZonePrefab:
+  - Residential Medium
+- Changes to ZonePrefab:
+  - [All ZonePrefab]
+    - ZoneProperties: m_AllowedInput (none)
+  - NA Residential Medium, NA Residential Medium Row
+    - ObsoleteIdentifiers (Removed)
+
+## 02_UrbanPromenades
+- Changes to ZonePrefab:
+  - UbPr Residential Mixed
+    - ZoneProperties: m_AllowedInput (none)
+
+## 03_FreeUpdate02
+- Changes to BuildingPrefab:
+  - Playground05
+    - DestructibleObject: m_StructuralIntegrity (15000)
+
+## 04_LeisureVenues
+- Changes to BuildingPrefab:
+  - [All commercial/industrial/office zoned/signature/specialized buildings]
+    - BuildingProperties: m_AllowedInput (none)
+
+## 05_MediterraneanHeritage
+- Changes to ZonePrefab:
+  - CCP5 Residential Medium
+    - ZoneProperties: m_AllowedInput (none)
+
+## 06_DragonGate
+- Changes to BuildingPrefab:
+  - CCP6_CommercialHighSignature01
+    - BuildingProperties: m_AllowedInput (none)
+    - Prop adjustments
+  - CCP6_ServiceBuilding01, CCP6_ServiceBuilding02
+    - StandingObject: m_LegGap (0,0)
+    - NetObject: m_NodeOffset (0)
+    - NetObject: m_Attached (true)
+- Changes to ZonePrefab:
+  - CCP6 Commercial Low
+    - ZoneProperties: m_AllowedInput (none)
+    
 ### 1.2.5f1 - 2025-03-18
 **IMPORTANT**: The following applies only to base game contents, items part of FreeUpdate02 and MA/UP DLCs are not tracked for this update. It will be tracked for future updates.
 - Changes to AirplanePrefab:

@@ -1,12 +1,12 @@
-﻿using Colossal.Entities;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Colossal.Entities;
 using Colossal.IO.AssetDatabase;
 using Colossal.PSI.Environment;
 using Game;
 using Game.Prefabs;
 using Game.SceneFlow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Unity.Collections;
 using Unity.Entities;
 
@@ -22,7 +22,7 @@ namespace PrefabDumpMax
         {
             base.OnCreate();
             prefabSystem = World.GetOrCreateSystemManaged<PrefabSystem>();
-            prefabQuery = GetEntityQuery(ComponentType.ReadOnly<PrefabData>());
+            prefabQuery = SystemAPI.QueryBuilder().WithAll<PrefabData>().Build();
 
             RequireForUpdate(prefabQuery);
         }
@@ -30,11 +30,12 @@ namespace PrefabDumpMax
         protected override void OnUpdate()
         {
             var startTime = DateTime.Now;
-            Mod.log.Info($"{nameof(PrefabDump)} created!");
+            string logline = $"{nameof(PrefabDump)} created!";
             NativeArray<Entity> prefabEntities = prefabQuery.ToEntityArray(Allocator.Temp);
             int count_e = prefabEntities.Count();
             int i = 1;
-            Mod.log.Info($"{count_e} items found");
+
+            logline += $"\r\n{count_e} items found";
             string version = Game.Version.current.shortVersion;
             foreach (Entity entity in prefabEntities)
             {
@@ -46,68 +47,106 @@ namespace PrefabDumpMax
                 try
                 {
                     string source = "00_BaseGame";
-                    string prefabtype = (prefabBase.prefab.ToString() ?? "Prefabless").Replace(prefabBase.name, "").Replace(" (", "").Replace(")", "");
-                    Mod.log.Info($"{i} of {count_e} : {prefabtype}/{prefabBase.name ?? "Nameless"}");
-                    // m_Log.Info($"{i} of {count_e} - {prefabBase.GetInstanceID()};{prefabBase.GetPrefabID()}");
+                    string prefabtype = (prefabBase.prefab.ToString() ?? "Prefabless")
+                        .Replace(prefabBase.name, "")
+                        .Replace(" (", "")
+                        .Replace(")", "");
+                    logline +=
+                        $"\r\n{i} of {count_e} : {prefabtype}/{prefabBase.name ?? "Nameless"}";
                     string fileName = $"{prefabBase.name}.Prefab";
 
                     if (prefabBase.asset == null)
                     {
-                        AssetDataPath adp = AssetDataPath.Create($".Dump_{version}/{source}/{prefabtype}/{prefabBase.name}", fileName ?? "", EscapeStrategy.None);
-                        (prefabBase.asset ?? AssetDatabase.user.AddAsset(adp, prefabBase)).Save(ContentType.Text, false, true);
-                        if (sourceLib.ContainsKey(source)) { sourceLib[source] = sourceLib[source] + 1; } else { sourceLib.Add(source, 1); }
+                        AssetDataPath adp = AssetDataPath.Create(
+                            $".Dump_{version}/{source}/{prefabtype}/{prefabBase.name}",
+                            fileName ?? "",
+                            EscapeStrategy.None
+                        );
+                        (prefabBase.asset ?? AssetDatabase.user.AddAsset(adp, prefabBase)).Save(
+                            ContentType.Text,
+                            false,
+                            true
+                        );
+                        if (sourceLib.ContainsKey(source))
+                        {
+                            sourceLib[source] = sourceLib[source] + 1;
+                        }
+                        else
+                        {
+                            sourceLib.Add(source, 1);
+                        }
                     }
-                    else if (prefabBase.asset != null && prefabBase.asset.path != null && prefabBase.asset.path.Contains(EnvPath.kContentPath))
+                    else if (
+                        prefabBase.asset != null
+                        && prefabBase.asset.path != null
+                        && prefabBase.asset.path.Contains(EnvPath.kContentPath)
+                    )
                     {
                         try
                         {
-                            source = prefabBase.asset.path.Replace(EnvPath.kContentPath + "/", "").Split('/')[0];
+                            source = prefabBase
+                                .asset.path.Replace(EnvPath.kContentPath + "/", "")
+                                .Split('/')[0];
                             if (source == "Game")
                             {
-                                source = prefabBase.asset.path.Replace(EnvPath.kContentPath + "/", "").Split('/')[1].Replace("Prefabs_", "").Replace(".cok", "");
+                                source = prefabBase
+                                    .asset.path.Replace(EnvPath.kContentPath + "/", "")
+                                    .Split('/')[1]
+                                    .Replace("Prefabs_", "")
+                                    .Replace(".cok", "");
                             }
                         }
                         catch (IndexOutOfRangeException)
                         {
                             source = $"{prefabBase.asset.subPath}".Split('/')[1];
                         }
-                        catch (Exception)
-                        {
-                        }
+                        catch (Exception) { }
 
                         PrefabAsset prefabAsset = prefabBase.asset;
                         PrefabBase newPrefabBase = prefabBase.Clone(prefabBase.name);
                         source = SourceFormatter(source);
-                        AssetDataPath adp = AssetDataPath.Create($".Dump_{version}/{source}/{prefabtype}/{prefabBase.name}", fileName ?? "", EscapeStrategy.None);
-                        AssetDatabase.user.AddAsset(adp, newPrefabBase).Save(ContentType.Text, false, true);
-                        if (sourceLib.ContainsKey(source)) { sourceLib[source] = sourceLib[source] + 1; } else { sourceLib.Add(source, 1); }
+                        AssetDataPath adp = AssetDataPath.Create(
+                            $".Dump_{version}/{source}/{prefabtype}/{prefabBase.name}",
+                            fileName ?? "",
+                            EscapeStrategy.None
+                        );
+                        AssetDatabase
+                            .user.AddAsset(adp, newPrefabBase)
+                            .Save(ContentType.Text, false, true);
+                        if (sourceLib.ContainsKey(source))
+                        {
+                            sourceLib[source] = sourceLib[source] + 1;
+                        }
+                        else
+                        {
+                            sourceLib.Add(source, 1);
+                        }
                     }
                     else
                     {
-                        Mod.log.Info($"SKIP: Item {i} - {prefabBase.name}");
+                        logline += $"\r\nSKIP: Item {i} - {prefabBase.name}";
                     }
                 }
                 catch (Exception e)
                 {
-                    Mod.log.Info($"ERROR: Item {i} - {e}");
+                    logline += $"\r\nERROR: Item {i} - {e}";
                 }
 
                 i++;
             }
-            prefabEntities.Dispose();
+            Mod.log.Info(logline);
             Enabled = false;
             var loadTime = DateTime.Now - startTime;
-            Mod.log.Info("Dump Time: " + loadTime.TotalSeconds + "s");
-
-
+            logline = $"Dump Time: {loadTime.TotalSeconds}s";
 
             int count = 0;
             foreach (var item in sourceLib)
             {
-                Mod.log.Info($"{item.Key} => {item.Value} items");
+                logline += $"\r\n{item.Key} => {item.Value} items";
                 count += item.Value;
             }
-            Mod.log.Info($"Total => {count} items");
+            logline += $"\r\nTotal => {count} items";
+            Mod.log.Info(logline);
             GameManager.QuitGame();
         }
 
@@ -118,9 +157,9 @@ namespace PrefabDumpMax
                 "ModernArchitecture" => $"01_{source}",
                 "UrbanPromenades" => $"02_{source}",
                 "FreeUpdate02" => $"03_{source}",
-                "DragonGate" => $"04_{source}",
-                "LeisureVenues" => $"05_{source}",
-                "MediterraneanHeritage" => $"06_{source}",
+                "LeisureVenues" => $"04_{source}",
+                "MediterraneanHeritage" => $"05_{source}",
+                "DragonGate" => $"06_{source}",
                 _ => source,
             };
         }
