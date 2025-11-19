@@ -117,12 +117,18 @@ namespace PrefabDumpMax
                                         .asset.path.Replace(EnvPath.kContentPath + "/", "")
                                         .Split('/')[0];
 
-                            if (source == "Game")
-                                source = prefabBase
-                                    .asset.path.Replace(EnvPath.kContentPath + "/", "")
-                                    .Split('/')[1]
+                            if (source == "00_BaseGame")
+                            {
+                                var suff = prefabBase.asset.path.Replace(
+                                    EnvPath.kContentPath + "/",
+                                    ""
+                                );
+                                source = suff.Split('/')[1]
                                     .Replace("Prefabs_", "")
                                     .Replace(".cok", "");
+                                if (source == "Prefabs")
+                                    source = suff.Split('/')[0];
+                            }
                         }
                         catch (IndexOutOfRangeException)
                         {
